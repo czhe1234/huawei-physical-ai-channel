@@ -16,7 +16,7 @@ GPU 和持续实验监控按个人指令及项目实际配置处理。本轮未�
 根目录与 `plus-pro/` 下的 `experiment_records/EXPERIMENT_RECORD.md` 被旧校验器用作哈希或前缀校验输入，故保留原位，不再作为任务日记维护。任务包、模板及必要复现输入也保留。
 
 ## GitHub 代码与结果存档
-仓库：https://github.com/czhe1234/huawei-physical-ai-channel ，私有，所属账号 czhe1234。
+仓库：https://github.com/czhe1234/huawei-physical-ai-channel ，公开，所属账号 czhe1234。用户已明确要求公开。
 源快照已上传并核验：main 分支，提交 63a8da0b63fb84348ed43c938ab1213be9bd045e；2633个文件的GitHub对象哈希与本地提交一致。该提交保留本次代码与结果快照，后续交接元数据更新不改变该源快照。
 本次范围为当前源码、环境与许可文件、固定500点划分索引、V16及四基线的配置和结果、训练修复核验与南侧实测开发记录。原始信道、地图、模型权重、完整预测和大型传播缓存保留在服务器。
 GitHub 根 README 标明源码入口、结果性质和外部依赖；UPLOAD_MANIFEST.json 记录源文件路径及SHA256。SNR仅从已保存的完整精度总体NMSE换算，没有重训、推理或重新评分。

@@ -1,7 +1,7 @@
 {
   "snapshot_date": "2026-11-14",
   "repository": "https://github.com/czhe1234/huawei-physical-ai-channel",
-  "visibility": "private",
+  "visibility": "public",
   "source_project": "transformer:/home/chenzhe/work/hw",
   "files": [
     {
@@ -12,8 +12,8 @@
     },
     {
       "path": "HANDOFF.md",
-      "bytes": 2853,
-      "sha256": "99541f70fb06657bcef87f9572e5f053de1b755add439fd327e9f0e7d6f2602e",
+      "bytes": 2883,
+      "sha256": "3dd6eb10e8c3d39cb17a1f165ff2960e2e410d6c0f47c654218382b37a1d767a",
       "kind": "source"
     },
     {
@@ -15800,7 +15800,7 @@
   "counts": {
     "source_files": 2629,
     "generated_files": 3,
-    "bytes": 68319979
+    "bytes": 68320009
   },
   "derivation": {
     "prediction_snr_source": "analysis/results/round2_paper_four_baselines_v1/freqminibatch_20261112/evaluation/comparison.json",
