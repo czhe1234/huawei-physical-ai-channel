@@ -1,0 +1,56 @@
+{
+  "updates": 2000,
+  "passed": true,
+  "fine": {
+    "pred_energy": 6.521045374638082e-05,
+    "truth_energy": 2.1667868251492588e-07,
+    "squared_error": 6.566544068961914e-05,
+    "nmse": 303.0544579995579,
+    "energy_ratio": 300.9546347130333,
+    "signed_correlation_real": -0.0316987684163526,
+    "per_position": [
+      {
+        "pred_energy": 3.1378126683884517e-05,
+        "truth_energy": 1.8940802393565062e-07,
+        "squared_error": 3.1802343088170875e-05,
+        "nmse": 167.90388510137979,
+        "energy_ratio": 165.66418904483638,
+        "signed_correlation_real": -0.0481582743927739
+      },
+      {
+        "pred_energy": 3.3832327062496305e-05,
+        "truth_energy": 2.7270658579275268e-08,
+        "squared_error": 3.386309760144827e-05,
+        "nmse": 1241.7411007148548,
+        "energy_ratio": 1240.6127620330985,
+        "signed_correlation_real": -0.001821830963296753
+      }
+    ]
+  },
+  "coarse": {
+    "pred_energy": 2.0821096280064985e-07,
+    "truth_energy": 2.1667868251492588e-07,
+    "squared_error": 3.4228618913910823e-09,
+    "nmse": 0.01579694805074006,
+    "energy_ratio": 0.9609203839713548,
+    "signed_correlation_real": 0.9921411624547913,
+    "per_position": [
+      {
+        "pred_energy": 1.8543420779719866e-07,
+        "truth_energy": 1.8940802393565062e-07,
+        "squared_error": 1.1134368227054393e-09,
+        "nmse": 0.005878509260429841,
+        "energy_ratio": 0.9790198110096855,
+        "signed_correlation_real": 0.9970856181572878
+      },
+      {
+        "pred_energy": 2.2776755003451184e-08,
+        "truth_energy": 2.7270658579275268e-08,
+        "squared_error": 2.309425068685643e-09,
+        "nmse": 0.08468534274565426,
+        "energy_ratio": 0.835211035965252,
+        "signed_correlation_real": 0.9577240252105632
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "method": "ngrf",
+  "query_count": 500,
+  "input_identity": "819ab37e745a05962e0166654510b1e385ea160da8254b61e88300bdcaaa0b1c",
+  "manifests": {
+    "artifacts/round2/paper_four_baselines_v1/formal_20261111/ngrf/outer0/prediction/manifest.json": "3910ddf9666a0db50947e322ce81276f71cef4c99a840663c00d8d1c1d191467",
+    "artifacts/round2/paper_four_baselines_v1/formal_20261111/ngrf/outer1/prediction/manifest.json": "665a1535097a96f91c1d42cd3dbfbc9051b450319dd96ee2339672e3a5e52b23",
+    "artifacts/round2/paper_four_baselines_v1/formal_20261111/ngrf/outer2/prediction/manifest.json": "1341e19d74f3d3e9d8536c45c84fba852174de37cc91b1596a30a012109f58e1",
+    "artifacts/round2/paper_four_baselines_v1/formal_20261111/ngrf/outer3/prediction/manifest.json": "c9433b714eb9ae153181335945b5b66d68e4a1c92896e6e1c91b86e7b1886c99",
+    "artifacts/round2/paper_four_baselines_v1/formal_20261111/ngrf/outer4/prediction/manifest.json": "fbb5cf6841b0e1b637d4afe89b757cc588dff7153f28780bcc7e45478cc100b0"
+  },
+  "training_evidence": {
+    "0": {
+      "screen": "986743645429821d7045b19ea2ec6239e32abdbdbdbf2b3751838c80ced4e7d3",
+      "refit": "c0b4ebd9b57479a0316a0497869da655a9c733540a206100ad176a1ae139dd65",
+      "model": "8bb14ea7259c1b3542e24212acf92bc2b47276ec7623691639f991518fc786fe"
+    },
+    "1": {
+      "screen": "5d52917eea9a42a3f267df150dd2bf2e7bda9c8f66873dc836d2c513a1806fab",
+      "refit": "7070295cb63e562676a78c2a33b13dfa205db5b29da63578220d15fe07807141",
+      "model": "7ac3904eafc310cb7227f5a30203e31694d656fded5a76608b6ee8bacb8b1ef4"
+    },
+    "2": {
+      "screen": "84c2fa6543aed6dde2ddb974bddc15da7896e675ac789dc3727f17fde3bb693a",
+      "refit": "d024b0558f2df4bb2a1bb540050d7bbb880f93540ffa234f51b1f778ae9d5fd8",
+      "model": "2c839a882e554eb7e1aff1f57c680484fb30665c830014d8e2a6de459c96ce3c"
+    },
+    "3": {
+      "screen": "27d6c041189fd0b7f0007dcfe1880902ca9024c4e2fe310dfba08cff01e9cfcd",
+      "refit": "f24130ca9a5f1e21631d8c9e34d5d47770738fdf7bfd95c257258869336156dc",
+      "model": "d370950a7472da2ede54bb8240997bb3e262387317c475b12c1ceac4bfb1ec8a"
+    },
+    "4": {
+      "screen": "a6b99f349e87e722070704a122edeafa22eb2beafed4e7c612a415f470d9eb37",
+      "refit": "b7f6df2a3744e9c1eb41aef61eb1c3847702765760737fdc63b67e5ee66df000",
+      "model": "aafa1f59705819f858d1d77390765c564aa2f01a9522402dbeae9ff05a002f41"
+    }
+  },
+  "sealed_before_method_truth_scoring": true,
+  "other_methods_training_frozen": true
+}

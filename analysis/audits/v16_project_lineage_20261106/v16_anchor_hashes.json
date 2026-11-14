@@ -1,0 +1,12 @@
+[
+  {
+    "path": "versions/round2/V16_source_online_0.686754.zip",
+    "bytes": 1024941257,
+    "sha256": "18a7e257ac42a9a88c2c4941b9ed547537084b25b425ad8584b32d79689939a6"
+  },
+  {
+    "path": "final_code/V16_fast_repro_submission/Round2_Test_Channel.npy",
+    "bytes": 786432128,
+    "sha256": "a0ad87f5ca1d1d8bd05d86829a36121a6bca4c309413739da2c53597cd4a2ca9"
+  }
+]

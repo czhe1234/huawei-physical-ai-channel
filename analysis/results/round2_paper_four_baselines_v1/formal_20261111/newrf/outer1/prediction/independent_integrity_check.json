@@ -1,0 +1,38 @@
+{
+  "status": "passed_outer1_71_prediction_integrity",
+  "records": [
+    {
+      "outer": 1,
+      "N": 71,
+      "manifest_sha256": "714dbda86438ff2606c6f2e030c314d61b9be728c211702dcf862e57f34b6d2e",
+      "channels_sha256": "bc4eb343ca5afea8d00d7e9bec78cfa5b1011f96b6f21fe4c9e62a12068eeb59",
+      "role_evidence": {
+        "screen": {
+          "updates": 26000,
+          "elapsed_seconds": 7370.579342980054,
+          "geometry_build_seconds": 24.633498461917043,
+          "peak_cuda_bytes": 11237038592,
+          "GPU": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+          "clamped_batches": 327
+        },
+        "refit": {
+          "updates": 22400,
+          "elapsed_seconds": 5352.255048613064,
+          "geometry_build_seconds": 24.693360434961505,
+          "peak_cuda_bytes": 11237038592,
+          "GPU": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+          "clamped_batches": 252
+        }
+      }
+    }
+  ],
+  "total_optimizer_updates": 48400,
+  "total_role_recorded_seconds": 12772.161250489997,
+  "actual_covered_all_fit_each_field": true,
+  "selected_checkpoint_coverage_verified": true,
+  "no_CSI_labels_read": true,
+  "outer_truth_reads": 0,
+  "quality_scored": false,
+  "no_optimizer_created": true,
+  "CUDA_initialized": false
+}

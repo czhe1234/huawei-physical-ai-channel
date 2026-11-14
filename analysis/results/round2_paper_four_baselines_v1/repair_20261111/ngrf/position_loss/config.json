@@ -1,0 +1,21 @@
+{
+  "parent_global_step": 6000,
+  "additional_updates": 2000,
+  "eval_every": 250,
+  "max_total_seconds": 400,
+  "training_power_floor": 1e-06,
+  "branches": [
+    "loss_global",
+    "loss_position_relative"
+  ],
+  "dropout": "all18 p=0",
+  "complex_weight": 1,
+  "parent": "fixed dropout_off global6000 endpoint model/Adam/RNG",
+  "control": "original batch-global magnitudeNMSE + complexNMSE + original activation-logit L1",
+  "candidate": "mean_i[(mean((abs(pred)-abs(target))^2)+mean(abs(pred-target)^2))/max(P_i,1e-6)] + original activation-logit L1",
+  "fixed_P_i": "parent-FIT-RMS normalized label average power over full256x4x192, computed before training",
+  "floor_scope": "training stability only; not a physical noise estimate; never modifies original metrics",
+  "schedule": "shared seed42 schedule global6001..8000",
+  "selection": "fixed FIT endpoints only; no validation selection",
+  "strict_gate": "Every nonzero point originalNMSE<=0.5 and energy0.5..1.5; zero leakage<=original lambda1 global3000 ceiling; pooled complex<=0.5 and magnitude<=0.05"
+}

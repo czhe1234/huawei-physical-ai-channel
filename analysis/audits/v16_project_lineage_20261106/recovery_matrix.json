@@ -1,0 +1,32 @@
+[
+  {
+    "target": "已验证的官方 Test 提交",
+    "state": "旧预测、部署输入和 31 个权重都在",
+    "can_recover_without_training": "可保留已有输出；固定权重推理所需部署资产在，本轮未运行推理",
+    "same_current_local_split": false
+  },
+  {
+    "target": "旧 fixed500 0.686375 历史链",
+    "state": "原报告和权重在；原完整 H、V11 母信道及部分原始物理缓存缺失",
+    "can_recover_without_training": "现有文件不能直接原样重放；若找回原缓存，可重放历史链，但训练划分仍不合当前口径",
+    "same_current_local_split": false
+  },
+  {
+    "target": "PathState 局部修正版 0.677392",
+    "state": "旧报告、5 个端点、5 个筛选模型在；实际重拟合模型未保留，旧 V11 母信道缺失",
+    "can_recover_without_training": "端点本身可复用，但缺原母信道，且仍未解决上游和缓冲区问题",
+    "same_current_local_split": false
+  },
+  {
+    "target": "已有重新生成几何的 500 点旧权重预测",
+    "state": "完整复数 H 在；按旧 FULL_FOLD 路由，未评分",
+    "can_recover_without_training": "不需恢复文件，文件已经存在；不能继承旧 fixed500 分数",
+    "same_current_local_split": false
+  },
+  {
+    "target": "与四个基线同允许训练池的完整 V16",
+    "state": "未发现完整的现成模型、参数、缓存和预测组合",
+    "can_recover_without_training": "目前不能。先找已完成的同划分备份；若不存在，需要补齐部分拟合链，而不是只换输出路由",
+    "same_current_local_split": false
+  }
+]

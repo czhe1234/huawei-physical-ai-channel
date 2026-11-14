@@ -1,0 +1,55 @@
+{
+  "experiment": "Round2-E216-V16-single-seed-information-ablation",
+  "stage": "identity",
+  "status": "complete",
+  "baseline_zip": "final_code/V16_source_online_0.686754.zip",
+  "baseline_zip_sha256": "18a7e257ac42a9a88c2c4941b9ed547537084b25b425ad8584b32d79689939a6",
+  "baseline_channel": "artifacts/round2/official_sionna_path_calibrator/fixed500_channel.npy",
+  "metrics": {
+    "count": 500,
+    "pas": 0.6769415758539015,
+    "pdp": 0.7803473980573273,
+    "nmse": 0.9331251955178452,
+    "nmse_score": 0.5172970702149067,
+    "score": 0.6863750036074728
+  },
+  "maximum_metric_error": 1.1102230246251565e-16,
+  "minimum_acceptable_score": 0.68,
+  "fold_assignment_match": 124,
+  "fold_assignment_label_access_risk": 376,
+  "variants": {
+    "seed42_both": {
+      "name": "seed42_both",
+      "spectral_seeds": 1,
+      "path_seeds": 1,
+      "physical_view": "both",
+      "token_view": "both",
+      "use_presence": true,
+      "rebuild_e40": true,
+      "rebuild_v9": true,
+      "path_models_changed": true
+    },
+    "seed42_base_only": {
+      "name": "seed42_base_only",
+      "spectral_seeds": 1,
+      "path_seeds": 1,
+      "physical_view": "base",
+      "token_view": "base",
+      "use_presence": true,
+      "rebuild_e40": true,
+      "rebuild_v9": true,
+      "path_models_changed": true
+    },
+    "seed42_scatter_only": {
+      "name": "seed42_scatter_only",
+      "spectral_seeds": 1,
+      "path_seeds": 1,
+      "physical_view": "scatter",
+      "token_view": "scatter",
+      "use_presence": true,
+      "rebuild_e40": true,
+      "rebuild_v9": true,
+      "path_models_changed": true
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "device": {
+    "GPU_UUID": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+    "CUDA_context_UUID": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+    "PCI_bus": "0000:84:00.0",
+    "logical_device": 0,
+    "PID": 3640959,
+    "MPS_servers": [],
+    "NVML_direct_client_visible": true,
+    "mapping_verification": "current CUDA context UUID",
+    "name": "NVIDIA A800 80GB PCIe",
+    "total_bytes": 84974239744
+  },
+  "python": "3.12.7",
+  "torch": "2.5.1+cu121",
+  "cuda": "12.1",
+  "kernel_sum": 357389824.0
+}

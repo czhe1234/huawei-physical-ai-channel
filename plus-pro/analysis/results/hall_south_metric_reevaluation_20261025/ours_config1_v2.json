@@ -1,0 +1,62 @@
+{
+  "name": "ours_config1_v2",
+  "label": "旧版：复数底座设置2",
+  "family": "historical",
+  "status": "ok",
+  "scores": {
+    "pas_cosine": 0.7002295451353978,
+    "relative_pdp_cosine": 0.596321820014146,
+    "receive_energy_TV": 0.3089901924901658,
+    "receive_delay_joint_TV": 0.5904306285429883,
+    "by_panel": {
+      "pas_cosine": [
+        0.7039512160766538,
+        0.6965078741941418
+      ],
+      "relative_pdp_cosine": [
+        0.6794894440955742,
+        0.5131541959327177
+      ],
+      "receive_energy_TV": [
+        0.34186915470928775,
+        0.27611123027104384
+      ],
+      "receive_delay_joint_TV": [
+        0.5540591799755629,
+        0.6268020771104137
+      ]
+    },
+    "reference_valid_pas_cells": 98304,
+    "reference_valid_pdp_links": 3072,
+    "reference_valid_energy_panels": 96,
+    "reference_valid_joint_panels": 96,
+    "invalid_reference_anchors": 0,
+    "failed_prediction_pdp_links": 0,
+    "failed_prediction_energy_panels": 0,
+    "prediction_oracle_alignment": false,
+    "combined_score": null
+  },
+  "auxiliary": {
+    "reference_panels_total": 96,
+    "reference_panels_valid": 96,
+    "zero_prediction_panels": 0,
+    "undefined_reference_panels": 0,
+    "mean_direction_cosine": 0.8531637077611514,
+    "mean_beam_loss_db": 2.048000458697063,
+    "infinite_mean_beam_loss": false,
+    "p90_beam_loss_db": 6.070781487942327,
+    "beam_loss_over3_fraction": 0.3125,
+    "reference_mask_depends_on_prediction": false
+  },
+  "prediction_file": "artifacts/measured/hall_sw_development_v1/models/ours_config1_v2/best_channel.npz",
+  "prediction_sha256": "8a7388bc77519429ee2826c50424da317a6c95918cf36d9ba55deefa8b6dab2b",
+  "explicit_row_ids": false,
+  "row_provenance": "old fixed48-row contract plus reproduced original direction/beam scores",
+  "old_metric_parity": {
+    "direction_cosine_difference": 2.8204318880398205e-09,
+    "beam_loss_difference": 9.297223435567048e-09
+  },
+  "best_epoch": 25,
+  "checkpoint_selection": "unchanged old metric selection; no new epoch search",
+  "regenerated": false
+}

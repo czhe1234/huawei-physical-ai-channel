@@ -1,0 +1,12 @@
+{
+  "method": "ngrf",
+  "outer": 2,
+  "role": "refit",
+  "step": 16551,
+  "total": 17011,
+  "objective_phase": "relative",
+  "batch_objective": 1.6988381770289898,
+  "gradient_norm": 5313.5224609375,
+  "minimum_position_visits": 134,
+  "wall_seconds": 1015.7140988759929
+}

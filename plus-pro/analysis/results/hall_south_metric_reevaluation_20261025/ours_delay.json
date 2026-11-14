@@ -1,0 +1,62 @@
+{
+  "name": "ours_delay",
+  "label": "新版含几何：宽修正范围",
+  "family": "structured",
+  "status": "ok",
+  "scores": {
+    "pas_cosine": 0.708869596244347,
+    "relative_pdp_cosine": 0.479551053241834,
+    "receive_energy_TV": 0.24095913679365172,
+    "receive_delay_joint_TV": 0.6374304307374019,
+    "by_panel": {
+      "pas_cosine": [
+        0.7435113566942789,
+        0.674227835794415
+      ],
+      "relative_pdp_cosine": [
+        0.5639713732683739,
+        0.3951307332152942
+      ],
+      "receive_energy_TV": [
+        0.22661950507007303,
+        0.2552987685172304
+      ],
+      "receive_delay_joint_TV": [
+        0.5821522248323344,
+        0.6927086366424695
+      ]
+    },
+    "reference_valid_pas_cells": 98304,
+    "reference_valid_pdp_links": 3072,
+    "reference_valid_energy_panels": 96,
+    "reference_valid_joint_panels": 96,
+    "invalid_reference_anchors": 0,
+    "failed_prediction_pdp_links": 0,
+    "failed_prediction_energy_panels": 0,
+    "prediction_oracle_alignment": false,
+    "combined_score": null
+  },
+  "auxiliary": {
+    "reference_panels_total": 96,
+    "reference_panels_valid": 96,
+    "zero_prediction_panels": 0,
+    "undefined_reference_panels": 0,
+    "mean_direction_cosine": 0.869428393940019,
+    "mean_beam_loss_db": 1.9960943227390395,
+    "infinite_mean_beam_loss": false,
+    "p90_beam_loss_db": 6.094830899684966,
+    "beam_loss_over3_fraction": 0.28125,
+    "reference_mask_depends_on_prediction": false
+  },
+  "prediction_file": "artifacts/measured/hall_sw_structured_development_v2/models/ours_delay/best_channel.npz",
+  "prediction_sha256": "6d096e80acbb19351bec3fc5d3b2498eb24ee3a0cd6620b3316fa6c006563bc0",
+  "explicit_row_ids": true,
+  "row_provenance": "explicit NPZ IDs",
+  "old_metric_parity": {
+    "direction_cosine_difference": 5.7319688218093745e-08,
+    "beam_loss_difference": 2.330740822564792e-08
+  },
+  "best_epoch": 20,
+  "checkpoint_selection": "unchanged old metric selection; no new epoch search",
+  "regenerated": false
+}

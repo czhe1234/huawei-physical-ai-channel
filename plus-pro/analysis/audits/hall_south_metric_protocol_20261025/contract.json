@@ -1,0 +1,21 @@
+{
+  "scope": "Candidate metric implementation and numerical feasibility only.",
+  "user_request": "Advance the discussion; retain preceding no-training/no-rescoring boundary.",
+  "question": "Are competition-matched PAS, independent common-panel relative PDP and receive-energy/coupling metrics well-defined and numerically stable on declared south FIT?",
+  "acceptance": [
+    "Official operator agreement after physical-layout adaptation",
+    "Common fractional delay/phase invariance without pairwise alignment",
+    "Sensitivity to relative inter-channel delay and energy errors",
+    "Zero/unstable-reference policy tested",
+    "FIT-only conditioning checks",
+    "Old sources/data/results and ledger prefix preserved"
+  ],
+  "fit_only": true,
+  "trained_models_loaded": false,
+  "validation_channels": false,
+  "test": false,
+  "north": false,
+  "new_training": false,
+  "new_algorithm_scores": false,
+  "ledger_item": 844
+}

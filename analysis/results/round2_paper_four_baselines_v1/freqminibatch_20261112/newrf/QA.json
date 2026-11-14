@@ -1,0 +1,135 @@
+{
+  "status": "passed",
+  "source_identity": {
+    "code/round2/baseline_formal_20261111/newrf.py": "8da7d760d2d056adab8824d48bfc763d9aae0d55012bd4bfb72166ed67844272",
+    "analysis/results/round2_paper_four_baselines_v1/freqminibatch_20261112/newrf/draft_config.json": "7e6cbdb75f48a90415de6af581be0eb25a678c2e0f82bb12aa90e2d6c2bc89c5",
+    "code/round2/paper_baseline_training_v1/common.py": "5ad45eb0b8d16f4a9af9462ba747f582d28946caef84747a8c21e1ccd3d1205d",
+    "code/round2/paper_baseline_training_v1/selection.py": "d0e963aca50770424fc2f79ca5d5bf5add1cc14bd371db8d6aec812e3109ae33",
+    "artifacts/round2/simulation_recovery_v1/geometry/full_outer0_all_train/manifest.json": "dddb7f9e826adc7bd8713a8fb9433ced90d52cf6cf443f0292a8932d039b3ead",
+    "code/round2/paper_baseline_adapters_v1/contract.py": "0da0617438cd3ca72d536da566f35305d78c16b3fabeb4d3877e92486bf34b5f",
+    "code/round2/paper_baseline_adapters_v1/newrf.py": "8f1d714b8aeebc4549666dcfc8ef5685898ce2f29cd56192f0770fb98b91036a",
+    "code/round2/simulation_recovery_v1/qualified_newrf.py": "fff2e831073e957e15ccb530c6fca231b3d1ff082e9a2087f738d88468c019ad",
+    "code/round2/simulation_recovery_v1/ray_provider.py": "83c84e440784e87bd8b67830659d4fd673b5ba201a750cafd10a81a9c284b828",
+    "code/round2/paper_baseline_training_v1/newrf_runner.py": "0a49a92ae1c44da58856a0e7edcc3b1473df6f51de8e7dc4459700ec7f8c175b",
+    "code/round2/paper_baseline_training_v1/newrf_native_batch_v4.py": "0ad133e24dfec623dbcd8272a14061d943b50c244fbc40d39895c18a31e12a15",
+    "code/round2/paper_baseline_training_v1/newrf_runtime_cache_v4.py": "84e48f5684a61b2fa86be636e5f3c0db6469e5766b0dbfcce669a0bffc5bb74d",
+    "code/round2/paper_baseline_training_v1/newrf_query.py": "36e4929d2d67953ab8edc8bf470dd526309770710e90a41818f49a957f8ec0f5",
+    "code/round2/paper_baseline_training_v1/newrf_conditioned_v3.py": "967b77635c27c13f12004b6a48985f73060b0e1b852e9cc32dcfc553b4d6730f",
+    "code/round2/paper_baseline_training_v1/newrf_latefreq.py": "121d04c5af426a7f12e6d87890782da7fdd83b0dc49370a0577f042863b63452",
+    "plus-pro/code/third_party/paper_baselines/newrf/models.py": "4557df4726a3c71033ceddd3e90432e0113af5a4f048df8cfb35b5ac1e5bb476",
+    "plus-pro/code/third_party/paper_baselines/newrf/synthesizers.py": "8482dbb4be0f5aa9c1f03b03953b5270c3233dae20a64ab38b4db9d83f478ae5",
+    "code/round2/baseline_freqminibatch_20261112/newrf.py": "482d77f8c693d7509082cab57d8418648b0bedce018a613c9e30623a1b1f50b1",
+    "code/round2/baseline_freqminibatch_20261112/newrf_qa.py": "b50e706a6caf35a48f66d98f97f483781bd5699ea0bbace369b526c60fa4f0fd",
+    "artifacts/round2/paper_four_baselines_v1/freqminibatch_20261112/newrf/immutable_pause_checkpoint.pt": "74a8361a7ecfee31480153d566b728884b960c72af6d94b261dabed9f45c57d7",
+    "analysis/results/round2_paper_four_baselines_v1/freqminibatch_20261112/newrf/pause_manifest.json": "fedbe1cc7e21fded6b0e88af9b8f7f5fea9041f0a92a9f1c321762e2f02ba40b",
+    "analysis/results/round2_paper_four_baselines_v1/freqminibatch_20261112/newrf/parent_method_config.json": "3582f1108c001814e506753785adb38478b821929d9e57b5647fdf987255beb3"
+  },
+  "qa_source_sha256": "b50e706a6caf35a48f66d98f97f483781bd5699ea0bbace369b526c60fa4f0fd",
+  "GPU": {
+    "GPU_UUID": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "CUDA_context_UUID": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "PCI_bus": "0000:32:00.0",
+    "logical_device": 0,
+    "PID": 2522537,
+    "MPS_servers": [],
+    "NVML_direct_client_visible": true,
+    "mapping_verification": "current CUDA context UUID",
+    "name": "NVIDIA H100 80GB HBM3",
+    "total_bytes": 84929347584
+  },
+  "build_seconds": 24.12124022806529,
+  "forward_full192_slice_relative_L2": {
+    "8": {
+      "fine": 0.0,
+      "coarse": 0.0
+    },
+    "16": {
+      "fine": 0.0,
+      "coarse": 0.0
+    }
+  },
+  "frequency_cases": {
+    "8": {
+      "actual_Hz_count": 8,
+      "D_full": 2.4957282846201923e-05,
+      "floor_full": 2.0694653662904152e-12,
+      "masked_unclipped_gradient_relative_L2": 4.667615659859923e-07,
+      "partition_mean_gradient_relative_L2": 6.317716031377206e-07,
+      "median_gradient_only_seconds": 0.06321642105467618,
+      "timings": [
+        0.06321642105467618,
+        0.068898826953955,
+        0.06278680998366326
+      ]
+    },
+    "16": {
+      "actual_Hz_count": 16,
+      "D_full": 2.4957282846201923e-05,
+      "floor_full": 2.0694653662904152e-12,
+      "masked_unclipped_gradient_relative_L2": 1.2160311209381668e-06,
+      "partition_mean_gradient_relative_L2": 8.010675683042748e-07,
+      "median_gradient_only_seconds": 0.07671833399217576,
+      "timings": [
+        0.08020913798827678,
+        0.07671833399217576,
+        0.07328290806617588
+      ]
+    }
+  },
+  "full192_gradient_median_seconds": 0.3342667520046234,
+  "complete_H_shape": [
+    256,
+    4,
+    192
+  ],
+  "complete192_H_relative_L2": 0.0,
+  "floor_CPU_cases": [
+    {
+      "case": "normal",
+      "D_full": 4.145991516032022e-06,
+      "true_energy": 4.145991516032022e-06,
+      "floor": 2.0694653662904152e-12,
+      "partition_gradient_relative_L2": {
+        "8": 7.259025654732122e-08,
+        "16": 7.259025654732122e-08
+      }
+    },
+    {
+      "case": "mixed_zero",
+      "D_full": 2.0976993314575905e-06,
+      "true_energy": 2.0976993314575905e-06,
+      "floor": 2.0694653662904152e-12,
+      "partition_gradient_relative_L2": {
+        "8": 6.941577948292208e-08,
+        "16": 6.941577948292208e-08
+      }
+    },
+    {
+      "case": "all_zero",
+      "D_full": 2.0694653662904152e-12,
+      "true_energy": 0.0,
+      "floor": 2.0694653662904152e-12,
+      "partition_gradient_relative_L2": {
+        "8": 6.629008917834031e-08,
+        "16": 6.629008917834031e-08
+      }
+    },
+    {
+      "case": "subfloor",
+      "D_full": 2.0694653662904152e-12,
+      "true_energy": 4.149548561594861e-16,
+      "floor": 2.0694653662904152e-12,
+      "partition_gradient_relative_L2": {
+        "8": 6.761548922387045e-08,
+        "16": 6.761548922387045e-08
+      }
+    }
+  ],
+  "recommended_K_by_latency_only": 8,
+  "parent_checkpoint_unchanged": true,
+  "formal_resume_started": false,
+  "optimizer_updates": 0,
+  "timings_are_forward_backward_only": true,
+  "no_validation_or_outer_CSI": true,
+  "peak_cuda_bytes": 21775037952
+}

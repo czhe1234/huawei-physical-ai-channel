@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "source_hashes": {
+    "code/round2/baseline_freqminibatch_20261112/dispatch.py": "d31ae71aeeebebfc16efa72ad823c18ef22f27c1538603b1ac55bd16d8cbc167",
+    "code/round2/baseline_freqminibatch_20261112/newrf.py": "482d77f8c693d7509082cab57d8418648b0bedce018a613c9e30623a1b1f50b1",
+    "code/round2/baseline_freqminibatch_20261112/newrf_qa.py": "b50e706a6caf35a48f66d98f97f483781bd5699ea0bbace369b526c60fa4f0fd",
+    "code/round2/baseline_freqminibatch_20261112/coordinate.py": "871fc8a6214d864fc0b14dd0d52b32f444a3a682022373949fa2b9550f548d09",
+    "code/round2/baseline_freqminibatch_20261112/nerf2.py": "e919f90db32cb87774f4b4dd8eafd84db1dc29f20ee4d5ae7c09725cf41f9ab2"
+  },
+  "full_checker_previous_report": "source_path_preflight.json"
+}

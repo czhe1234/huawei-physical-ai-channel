@@ -1,0 +1,64 @@
+{
+  "stage": "warm",
+  "step": 4000,
+  "total_updates": 6000,
+  "fine": {
+    "pred_energy": 2.1684835916029332e-07,
+    "truth_energy": 2.1667868251492588e-07,
+    "squared_error": 7.165821652158021e-09,
+    "nmse": 0.0330711889558605,
+    "energy_ratio": 1.0007830795507802,
+    "signed_correlation_real": 0.9834709535995155,
+    "per_position": [
+      {
+        "pred_energy": 1.9294126847775334e-07,
+        "truth_energy": 1.8940802393565062e-07,
+        "squared_error": 3.0320754662614865e-09,
+        "nmse": 0.01600816799235286,
+        "energy_ratio": 1.0186541439411412,
+        "signed_correlation_real": 0.9921122428831848
+      },
+      {
+        "pred_energy": 2.390709068253997e-08,
+        "truth_energy": 2.7270658579275268e-08,
+        "squared_error": 4.133746185896535e-09,
+        "nmse": 0.1515821913093817,
+        "energy_ratio": 0.8766598215089866,
+        "signed_correlation_real": 0.921219445541211
+      }
+    ]
+  },
+  "coarse": {
+    "pred_energy": 2.0821096280064985e-07,
+    "truth_energy": 2.1667868251492588e-07,
+    "squared_error": 3.4228618913910823e-09,
+    "nmse": 0.01579694805074006,
+    "energy_ratio": 0.9609203839713548,
+    "signed_correlation_real": 0.9921411624547913,
+    "per_position": [
+      {
+        "pred_energy": 1.8543420779719866e-07,
+        "truth_energy": 1.8940802393565062e-07,
+        "squared_error": 1.1134368227054393e-09,
+        "nmse": 0.005878509260429841,
+        "energy_ratio": 0.9790198110096855,
+        "signed_correlation_real": 0.9970856181572878
+      },
+      {
+        "pred_energy": 2.2776755003451184e-08,
+        "truth_energy": 2.7270658579275268e-08,
+        "squared_error": 2.309425068685643e-09,
+        "nmse": 0.08468534274565426,
+        "energy_ratio": 0.835211035965252,
+        "signed_correlation_real": 0.9577240252105632
+      }
+    ]
+  },
+  "gate_now": true,
+  "stable_checks": 1,
+  "learning_rates": [
+    0.0005,
+    0.0005
+  ],
+  "elapsed_seconds": 1092.8083361670142
+}

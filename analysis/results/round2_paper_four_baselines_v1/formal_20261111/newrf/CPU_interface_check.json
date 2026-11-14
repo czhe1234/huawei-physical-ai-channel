@@ -1,0 +1,163 @@
+{
+  "status": "CPU_interface_pass",
+  "source_identity": {
+    "code/round2/baseline_formal_20261111/newrf.py": "8da7d760d2d056adab8824d48bfc763d9aae0d55012bd4bfb72166ed67844272",
+    "analysis/results/round2_paper_four_baselines_v1/formal_20261111/newrf/config.json": "3582f1108c001814e506753785adb38478b821929d9e57b5647fdf987255beb3",
+    "code/round2/paper_baseline_training_v1/common.py": "5ad45eb0b8d16f4a9af9462ba747f582d28946caef84747a8c21e1ccd3d1205d",
+    "code/round2/paper_baseline_training_v1/selection.py": "d0e963aca50770424fc2f79ca5d5bf5add1cc14bd371db8d6aec812e3109ae33",
+    "artifacts/round2/simulation_recovery_v1/geometry/full_outer0_all_train/manifest.json": "dddb7f9e826adc7bd8713a8fb9433ced90d52cf6cf443f0292a8932d039b3ead",
+    "code/round2/paper_baseline_adapters_v1/contract.py": "0da0617438cd3ca72d536da566f35305d78c16b3fabeb4d3877e92486bf34b5f",
+    "code/round2/paper_baseline_adapters_v1/newrf.py": "8f1d714b8aeebc4549666dcfc8ef5685898ce2f29cd56192f0770fb98b91036a",
+    "code/round2/simulation_recovery_v1/qualified_newrf.py": "fff2e831073e957e15ccb530c6fca231b3d1ff082e9a2087f738d88468c019ad",
+    "code/round2/simulation_recovery_v1/ray_provider.py": "83c84e440784e87bd8b67830659d4fd673b5ba201a750cafd10a81a9c284b828",
+    "code/round2/paper_baseline_training_v1/newrf_runner.py": "0a49a92ae1c44da58856a0e7edcc3b1473df6f51de8e7dc4459700ec7f8c175b",
+    "code/round2/paper_baseline_training_v1/newrf_native_batch_v4.py": "0ad133e24dfec623dbcd8272a14061d943b50c244fbc40d39895c18a31e12a15",
+    "code/round2/paper_baseline_training_v1/newrf_runtime_cache_v4.py": "84e48f5684a61b2fa86be636e5f3c0db6469e5766b0dbfcce669a0bffc5bb74d",
+    "code/round2/paper_baseline_training_v1/newrf_query.py": "36e4929d2d67953ab8edc8bf470dd526309770710e90a41818f49a957f8ec0f5",
+    "code/round2/paper_baseline_training_v1/newrf_conditioned_v3.py": "967b77635c27c13f12004b6a48985f73060b0e1b852e9cc32dcfc553b4d6730f",
+    "code/round2/paper_baseline_training_v1/newrf_latefreq.py": "121d04c5af426a7f12e6d87890782da7fdd83b0dc49370a0577f042863b63452",
+    "plus-pro/code/third_party/paper_baselines/newrf/models.py": "4557df4726a3c71033ceddd3e90432e0113af5a4f048df8cfb35b5ac1e5bb476",
+    "plus-pro/code/third_party/paper_baselines/newrf/synthesizers.py": "8482dbb4be0f5aa9c1f03b03953b5270c3233dae20a64ab38b4db9d83f478ae5"
+  },
+  "config": {
+    "schema": "newrf-formal-query-only-full-H-v1",
+    "seed": 42,
+    "batch_positions": 2,
+    "bs_block": 8,
+    "n_samples": 128,
+    "n_importance": 128,
+    "frequency_chunk": 8,
+    "direction_cache_entries": 512,
+    "checkpoint_every": 100,
+    "health_every": 1000,
+    "validation_every": 250,
+    "stage_min_updates": {
+      "coarse": 750,
+      "warm": 1000,
+      "native": 1000
+    },
+    "stage_max_updates": {
+      "coarse": 750,
+      "warm": 1000,
+      "native": 2000
+    },
+    "learning_rates": {
+      "coarse": 0.0005,
+      "warm": 5e-05,
+      "native": 5e-05
+    },
+    "native_patience": 2,
+    "minimum_validation_improvement": 0.001,
+    "training_power_floor_FIT_RMS_squared": 1e-06,
+    "max_role_wall_seconds": 21600,
+    "smoke_updates": 20,
+    "smoke_batch_options": [
+      2,
+      4
+    ],
+    "initialization": "fresh seed42; all8fields coarse->copy fine->warm density-backward detach->native release",
+    "budget_status": "Formal method caps frozen by root after2/4-position20-step smoke; screen min2750/max3750 each field; refit ceil per-stage selected times FIT ratio with at most necessary native first-coverage extension",
+    "selection": "fixed original role-validation16panel/8BS per field/12frequencies; no PAS/PDP selection",
+    "phase_gate": "original numerical nonzero point gates; zero leakage reported; cap failure recorded without blocking subsequent phases",
+    "position_sampling": "per-site without replacement permutations, persistent across stages; each position independently cycles all16 8BS blocks",
+    "validation_selection": "only native>=1000 and after every allowed FIT point enters real gradients; original fixed16positions, 8BS per field and12 frequency validation proxy; min improvement .001, patience2",
+    "no_unbounded_score_tuning": true
+  },
+  "label_shape": [
+    2,
+    8,
+    192
+  ],
+  "all_roles": {
+    "outer0_screen": {
+      "fit": 3820,
+      "validation": 71,
+      "outer": 103,
+      "coverage_steps": 1919,
+      "minimum_stage_budget": 2750,
+      "FIT_RMS": 2.5475131620037768e-05
+    },
+    "outer0_refit": {
+      "fit": 3893,
+      "validation": 71,
+      "outer": 103,
+      "coverage_steps": 1952,
+      "minimum_stage_budget": 2750,
+      "FIT_RMS": 2.5744126370518345e-05
+    },
+    "outer1_screen": {
+      "fit": 3858,
+      "validation": 63,
+      "outer": 71,
+      "coverage_steps": 1937,
+      "minimum_stage_budget": 2750,
+      "FIT_RMS": 2.5446539704352034e-05
+    },
+    "outer1_refit": {
+      "fit": 3927,
+      "validation": 63,
+      "outer": 71,
+      "coverage_steps": 1978,
+      "minimum_stage_budget": 2750,
+      "FIT_RMS": 2.5349098647318193e-05
+    },
+    "outer2_screen": {
+      "fit": 3813,
+      "validation": 110,
+      "outer": 63,
+      "coverage_steps": 1909,
+      "minimum_stage_budget": 2750,
+      "FIT_RMS": 2.495232328317647e-05
+    },
+    "outer2_refit": {
+      "fit": 3931,
+      "validation": 110,
+      "outer": 63,
+      "coverage_steps": 1972,
+      "minimum_stage_budget": 2750,
+      "FIT_RMS": 2.5713769583329242e-05
+    },
+    "outer3_screen": {
+      "fit": 3720,
+      "validation": 153,
+      "outer": 110,
+      "coverage_steps": 1866,
+      "minimum_stage_budget": 2750,
+      "FIT_RMS": 2.5040638928736156e-05
+    },
+    "outer3_refit": {
+      "fit": 3882,
+      "validation": 153,
+      "outer": 110,
+      "coverage_steps": 1950,
+      "minimum_stage_budget": 2750,
+      "FIT_RMS": 2.4860695958720472e-05
+    },
+    "outer4_screen": {
+      "fit": 3731,
+      "validation": 103,
+      "outer": 153,
+      "coverage_steps": 1886,
+      "minimum_stage_budget": 2750,
+      "FIT_RMS": 2.595484715018233e-05
+    },
+    "outer4_refit": {
+      "fit": 3838,
+      "validation": 103,
+      "outer": 153,
+      "coverage_steps": 1934,
+      "minimum_stage_budget": 2750,
+      "FIT_RMS": 2.58149607084871e-05
+    }
+  },
+  "permutation_coverage_steps": 1919,
+  "FIT_positions": 3820,
+  "field_count": 8,
+  "direction_cache_bound_bytes": 100663296,
+  "full_role_allfield_direction_cache_bytes": 6008340480,
+  "geometry_FIT_count": 3820,
+  "outer_truth_reads": 0,
+  "validation_truth_reads": 0,
+  "no_model_forward_or_optimizer": true,
+  "CUDA_initialized": false
+}

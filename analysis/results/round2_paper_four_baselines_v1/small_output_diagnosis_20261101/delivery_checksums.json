@@ -1,0 +1,12 @@
+{
+  "report_zh.md": "d36b1e872096021311f180433c43c9633891ae722be0b4b45b9752d154f96f9e",
+  "diagnosis.json": "423a8ab44fd583278f7ba4957988cc62602e269046282613b307ad229c353d99",
+  "diagnostic_table.csv": "ea6d957c06b285a27919946676d4d07185b643e6a3c616b6a95586140dc95dcb",
+  "nerf2.json": "120b8c8172047d48674f42e9c009d6297173ad899fb6cf7ddc2dd27ed6d5ec2d",
+  "newrf.json": "5dcad9b038ac1cb8b86adad2cf2844828dda20f171da2b8a9f9947f2fc632ba6",
+  "nerf2_recent_training.json": "a912fbd22445134db97dfac9e73dfa0d14e657b45fe7d624aaed7c6586880cc0",
+  "newrf_recent_training.json": "ac9a69e9a183adce30f17fd34e02f89c650a5b0a864596ee6116c5b4c5056abf",
+  "preservation_after.json": "4113e313fb50f95ab7bc62e20e350f25d3a7a3464d28b712b7956a134cafc5dc",
+  "verification.json": "e9fe3d50fc09074259b6ae63ece56b887704e6ab598feb33380717986497d5be",
+  "source_before_lazy_import.py": "7f15aa665dba390cdbc6df5d7e529a13b6d671a61578cc7512dd33d9ac617ad5"
+}

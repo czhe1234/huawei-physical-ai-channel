@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "method": "newrf",
+  "metrics": {
+    "count": 500,
+    "pas": 0.04655987131867856,
+    "pdp": 0.03120405889303317,
+    "nmse": 1.0000000091643075,
+    "nmse_score": 0.4999999977089231,
+    "score": 0.13110557162646932
+  },
+  "max_aggregate_delta": 0.0,
+  "max_point_statistic_deltas": {
+    "pas": 0.0,
+    "pdp": 0.0,
+    "squared_error": 0.0,
+    "truth_energy": 0.0
+  },
+  "zero_truth_count": 31,
+  "result_sha256": "0132a936e62430fdbe98945899154e8673ce5d95aff250dd5078dce00dddcfb2",
+  "five_prediction_manifest_hashes": {
+    "artifacts/round2/paper_four_baselines_v1/formal_20261111/newrf/outer0/prediction/manifest.json": "ddaf626951287d1a071ef29594c3eb35139caef79ee08e653cecefe8772a2bae",
+    "artifacts/round2/paper_four_baselines_v1/formal_20261111/newrf/outer1/prediction/manifest.json": "714dbda86438ff2606c6f2e030c314d61b9be728c211702dcf862e57f34b6d2e",
+    "artifacts/round2/paper_four_baselines_v1/formal_20261111/newrf/outer2/prediction/manifest.json": "ecfc23e90ea8c2fd1a0127f087b4f5975de9cecd35b5d49021131da16e83179b",
+    "artifacts/round2/paper_four_baselines_v1/formal_20261111/newrf/outer3/prediction/manifest.json": "2178860463b28fefad0769566750cd41a579b2e6db57e9fbaece169f4ce80184",
+    "artifacts/round2/paper_four_baselines_v1/freqminibatch_20261112/newrf/outer4/prediction/manifest.json": "6fd5b2e1e2eee37f7cfd7eee5a3952ecd4acb35b9d6b198d5792c5d5d56cb4e9"
+  },
+  "official_metric_sha256": "15aa0cca3b7df17f8c93bd26d22b44f4a49b48d6b13fd8cc7b52325fb74729c3",
+  "verifier_sha256": "75c2021d285f57a7038e91bdde973860e6a4c2ba06b223bdb309d5e4e8360dc4"
+}

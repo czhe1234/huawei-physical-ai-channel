@@ -1,0 +1,250 @@
+{
+  "implementation_checks_passed": true,
+  "operators": {
+    "passed": true,
+    "tests": 15,
+    "failures": 0,
+    "errors": 0
+  },
+  "FIT_numerical_reference_usable": true,
+  "conditioning": {
+    "positions": 96,
+    "panels": 192,
+    "valid_reference_panels": 192,
+    "bandwidth_hz": 50000000.0,
+    "frequency_bins": 1024,
+    "frequency_spacing_hz": 48828.125,
+    "nominal_delay_resolution_ns": 20.0,
+    "delay_period_us": 20.48,
+    "reference_coherence": {
+      "count": 192,
+      "minimum": 0.9962129836205361,
+      "p05": 0.9977622474847925,
+      "median": 0.9989742056376072,
+      "p95": 0.9994971637895029,
+      "maximum": 0.9997271435876534
+    },
+    "reference_coherence_by_panel": [
+      {
+        "count": 96,
+        "minimum": 0.99788586800227,
+        "p05": 0.9984477348089998,
+        "median": 0.9990947502791032,
+        "p95": 0.999560639078963,
+        "maximum": 0.9997271435876534
+      },
+      {
+        "count": 96,
+        "minimum": 0.9962129836205361,
+        "p05": 0.9973455408940278,
+        "median": 0.9988384431192627,
+        "p95": 0.9993453149515661,
+        "maximum": 0.9995260676063062
+      }
+    ],
+    "clock_transformation_joint_L1": {
+      "count": 192,
+      "minimum": 2.5080125130503784e-09,
+      "p05": 2.8264400643063625e-09,
+      "median": 3.5575734299106748e-09,
+      "p95": 5.806861716725733e-09,
+      "maximum": 9.492602605184719e-09
+    },
+    "FP32_FP64_anchor_difference_ns": {
+      "count": 192,
+      "minimum": 3.249169822083786e-09,
+      "p05": 7.687481229368132e-08,
+      "median": 1.6450371731480118e-06,
+      "p95": 1.4859732232253e-05,
+      "maximum": 2.04530067549058e-05
+    },
+    "centered_delay_outer10percent_energy": {
+      "count": 192,
+      "minimum": 2.3477364060960505e-05,
+      "p05": 4.53927690789618e-05,
+      "median": 9.479145896986913e-05,
+      "p95": 0.00020763453271963395,
+      "maximum": 0.00034981145301389083
+    },
+    "receive_energy_data_description": {
+      "maximum_channel_fraction_by_panel": [
+        {
+          "count": 96,
+          "minimum": 0.0484712237916375,
+          "p05": 0.06384423144457961,
+          "median": 0.09116604531365505,
+          "p95": 0.13764396828442488,
+          "maximum": 0.2065123193767233
+        },
+        {
+          "count": 96,
+          "minimum": 0.04144496741185453,
+          "p05": 0.04971073058182729,
+          "median": 0.06707521761015195,
+          "p95": 0.09760199484629623,
+          "maximum": 0.12369213141951163
+        }
+      ],
+      "across_position_channel_fraction_std_by_panel": [
+        {
+          "count": 32,
+          "minimum": 0.014650547605439924,
+          "p05": 0.015741274492064635,
+          "median": 0.021268552426697306,
+          "p95": 0.02841147570532232,
+          "maximum": 0.03375079011618576
+        },
+        {
+          "count": 32,
+          "minimum": 0.008763124755177489,
+          "p05": 0.00984753081456664,
+          "median": 0.013666413716567453,
+          "p95": 0.020337849491565085,
+          "maximum": 0.02198237882915329
+        }
+      ]
+    },
+    "scope": "Only measured FIT descriptions and self-transforms; no trained output or method score."
+  },
+  "criteria": {
+    "clock_joint_L1_max": 5e-05,
+    "FP32_FP64_anchor_difference_ns_max": 0.02,
+    "coherence_numeric_min": 1e-06,
+    "meaning": "Numerical gauge/conditioning criteria only, not a measured-noise or absolute-clock certification."
+  },
+  "access": [
+    {
+      "fold": 0,
+      "role": "fit",
+      "rows": [
+        0,
+        148,
+        524,
+        419,
+        604,
+        508,
+        118,
+        294,
+        418,
+        569,
+        372,
+        623,
+        169,
+        136,
+        212,
+        422,
+        371,
+        544,
+        446,
+        338,
+        602,
+        23,
+        63,
+        380,
+        488,
+        547,
+        358,
+        199,
+        62,
+        573,
+        15,
+        588,
+        406,
+        400,
+        534,
+        269,
+        65,
+        540,
+        32,
+        413,
+        407,
+        149,
+        221,
+        553,
+        376,
+        369,
+        444,
+        404,
+        389,
+        92,
+        160,
+        129,
+        264,
+        172,
+        337,
+        557,
+        285,
+        482,
+        460,
+        511,
+        232,
+        181,
+        543,
+        373,
+        57,
+        415,
+        88,
+        46,
+        168,
+        151,
+        263,
+        131,
+        51,
+        138,
+        243,
+        336,
+        554,
+        47,
+        61,
+        200,
+        257,
+        251,
+        141,
+        99,
+        254,
+        77,
+        390,
+        217,
+        529,
+        613,
+        506,
+        190,
+        364,
+        218,
+        279,
+        293
+      ]
+    }
+  ],
+  "data_identity": {
+    "view": "hall_sw_publisher_v2",
+    "preparation_manifest_sha256": "d4958450a42bbc2b45d8dc2606a9860faa1ecc1541be3e2880bea76cc46130a7",
+    "split_sha256": "a4f8a39fa23bad68ffcbc895a65a90548e1076a254a85a1f0e6998176e3553c5",
+    "selection_sha256": "442a40c4d07be95714eb2752513ec383e5ec80ad15fe42756b13d79b195b1de2",
+    "channels_sha256": "81e7ebcd32115ca1eecff54d2ae4269dfa3eedf6d92f528e7312d6dfed675ed9"
+  },
+  "scope": {
+    "new_training": false,
+    "algorithm_rescoring": false,
+    "trained_checkpoints_loaded": false,
+    "validation_channels": false,
+    "test": false,
+    "north": false
+  },
+  "preservation": {
+    "files": 6035,
+    "changed": [],
+    "missing": [],
+    "old_ledger_prefix": true
+  },
+  "source_sha256": {
+    "stage.py": "0999d09d84c1a472f8cac8e55d314bddeb48423695820d929dcedb574193e839",
+    "check.py": "300670f689f2ba97122aefbacb302b5df896d919fb96299891766528df9244c6",
+    "tests.py": "438f5ec531da0733b4eaf11cbcf0dc3d0d6e7ad229384ee1bd39d90644dfb402",
+    "metrics.py": "54808bcda53dc886d9ec9635aedcb1c5fb8988d3c6c4613ca479f34120253d56",
+    "__init__.py": "bdce2d2bb75873ceebeb25d4132cef6f2ac462db28b354f9d5b63b53e7faa118"
+  },
+  "new_source_path_failures": [],
+  "seconds": 5.190527583472431,
+  "peak_RSS_MiB": 1252.67578125
+}

@@ -1,0 +1,13 @@
+{
+  "first_family": "batch8_bs8",
+  "first_peak_cuda_bytes": 47381359104,
+  "omitted_family": "batch8_bs16",
+  "omitted_reason": "Increasing position-BS links2x exceeds measured headroom; not attempted.",
+  "second_family": "batch4_bs16",
+  "both_smokes_max_actual_updates": 20,
+  "first_source_snapshot": "analysis/results/round2_paper_four_baselines_v1/formal_20261111/nerf2/smoke_batch8_bs8/nerf2_source_snapshot.py",
+  "first_source_sha256": "6883ce894fc37ee2e272fda4f6bfeb4f57ddf7a01023c6cc5399a4667de84045",
+  "timing_only_delta": "Measure time in extra zero/nonzero component VJPs so reported optimizer throughput excludes them.",
+  "formal_source_guards_delta": "Registered formal_frozen flag, preserve resume interrupt reasons, verify full FIT xBS coverage and actual Adam step clocks.",
+  "no_new_tuning_branch": true
+}

@@ -1,0 +1,16 @@
+{
+  "status": "published_complete_pending",
+  "fold": 4,
+  "raw_sha256": "8cf3c1ce1057a00bcaa109d31651bf726e276e5360217efb9cfe3d8bb6860c82",
+  "canonical_sha256": "f88fde6f2ae71029df0edc6789b2cc2c22ec8461425ffa0c3ae7693ad41806c8",
+  "canonical_manifest": "artifacts/round2/paper_four_baselines_v1/freqminibatch_20261112/nerf2/outer4/prediction/manifest.json",
+  "pending_sha256": "4abb5c39c1ce9e929090cdf4e5fbcd95d65c66ef17e64872cc3f52efaf3749ce",
+  "normalized_pending_writer_annotation_consistent": true,
+  "raw_inode_size_mtime_unchanged": true,
+  "source_sha256": "55bbb5ecee7bb35b7d23fd76f254ceb2111d1892e2dcfbf221fc30d0f543e721",
+  "training_updates": 0,
+  "inference_calls": 0,
+  "scoring_calls": 0,
+  "GPU_workers_for_fold": [],
+  "CUDA_initialized": false
+}

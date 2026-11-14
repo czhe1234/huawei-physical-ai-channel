@@ -1,0 +1,464 @@
+{
+  "schema": "paper-baseline-fairness-readonly-evidence-v1",
+  "generated_utc": "2026-11-05T16:25:39.647567+00:00",
+  "scope": {
+    "new_training": false,
+    "model_forward": false,
+    "new_predictions": false,
+    "new_scoring": false,
+    "old_files_edited": false,
+    "writes": "new report and evidence only"
+  },
+  "claim": "Baseline low scores alone are not implementation errors. Existing adapted baseline results are reportable with scope. The V16 historical compatibility row is not a matched-exclusion whole-pipeline comparison.",
+  "report_sha256": "868de2d533eee7458a0df8a5a0c1b97d1141689e59278d5d91a130e7f5c01dca",
+  "sources": [
+    {
+      "path": "analysis/results/round2_paper_four_baselines_v1/comparison.json",
+      "sha256": "1aad3d9fd70e40270d8a36e83400b52741002c82de70eb51b6d1ce21eeb85157"
+    },
+    {
+      "path": "analysis/results/round2_paper_four_baselines_v1/contract.json",
+      "sha256": "867f295cffe6d44e3468ba00f1c2453c9254d39eec00ee99c984f66b0483fc0e"
+    },
+    {
+      "path": "analysis/results/round2_paper_four_baselines_v1/execution_revision.json",
+      "sha256": "a6321adacdc899ffb8d495eae9d7a6a61ca772ca2e5ccf58cc93ad4ff1935749"
+    },
+    {
+      "path": "analysis/results/round2_paper_existing_results_audit_20261101/field_baselines_audit.json",
+      "sha256": "046b5e71c65e310d89466ac92906cde5a5765d2a850be04af9b799114beefcc6"
+    },
+    {
+      "path": "analysis/results/round2_paper_existing_results_audit_20261101/spectrum_baselines_audit.json",
+      "sha256": "77a68708b7cad309d0adeac807a3c10f341fd783b48cd6231b0d00b3f83720b0"
+    },
+    {
+      "path": "analysis/results/round2_paper_existing_results_audit_20261101/metric_provenance_audit.json",
+      "sha256": "81a727ab29858f640e5d137279ebbb33b169045fc148e73cf0330de49bfc8ff3"
+    },
+    {
+      "path": "analysis/results/round2_paper_four_baselines_v1/ngrf/author_train_3765d6f.py",
+      "sha256": "10576431007b240c9fd73990b9e2771d26504f4909c6e7c600c2f23e06754cff"
+    },
+    {
+      "path": "code/round2/train_e190_official_sionna_path_calibrator.py",
+      "sha256": "fe7c5bbf2b3c57ab40f2c3457bc6964a2715e467dd0f23859a3b752c2dfed92a"
+    },
+    {
+      "path": "code/round2/train_surface_interaction_energy_model.py",
+      "sha256": "252511049c2b76c87bbd7a23a7b35d0d2d0e0d9ea697966605e8e8526066d0da"
+    },
+    {
+      "path": "code/round2/analyze_e203_v15_information_contribution.py",
+      "sha256": "bf9a1f7060eaac55e114645de553809a97fc70c70d6e882e48356f5804420014"
+    },
+    {
+      "path": "final_code/experiments/v16_rt_ablation/reports/strict_pathstate/lineage_audit.json",
+      "sha256": "2f9146d0798eb78ca482bce731a4c25205b3f26707f7806a35b3adebfc2498dc"
+    },
+    {
+      "path": "final_code/experiments/v16_rt_ablation/reports/strict_pathstate/dual_score_report.json",
+      "sha256": "aa8f34f876586dfb92d82c9e0be9c7eeb3484ebf96f122178d68b8c6c5b67484"
+    },
+    {
+      "path": "analysis/audits/simulation_recovery_v1/README.md",
+      "sha256": "8a39469df2dbd36c72729589ced4fddadee1c20850caaf6995cfed4f94f21b6a"
+    },
+    {
+      "path": "analysis/audits/simulation_asset_recovery_20261031/report_zh.md",
+      "sha256": "654137033057a5e4b2feb7e60ac68924b14067bc090bf53cb20738f848294a69"
+    },
+    {
+      "path": "analysis/results/round2_paper_four_baselines_v1/small_output_diagnosis_20261101/report_zh.md",
+      "sha256": "d36b1e872096021311f180433c43c9633891ae722be0b4b45b9752d154f96f9e"
+    },
+    {
+      "path": "analysis/results/round2_paper_four_baselines_v1/fit_repair_paper_v2_20261101/fit_health_summary.json",
+      "sha256": "d966f696ef387592ba5b9e0314e9142be5bc8eca4e08c4dfdc60ca376e6871ad"
+    },
+    {
+      "path": "analysis/results/round2_paper_four_baselines_v1/nerf2/v3/formal_source_freeze.json",
+      "sha256": "b3730d39b31469a5caa6cdb88e5fe597c5054b88f28c8848df6f1f6464b90ada"
+    },
+    {
+      "path": "analysis/results/round2_paper_four_baselines_v1/newrf/v4/formal_source_freeze.json",
+      "sha256": "34aa528c7fb45ede868d678e504ae336708ff6a9a3ceaaf2473a13d8b975f037"
+    },
+    {
+      "path": "analysis/results/round2_paper_four_baselines_v1/ngrf/v2/formal_source_freeze.json",
+      "sha256": "a485b0a943c0ea1f569596c6315e8b40169cf245d7ea5dcf42acf42b7d39f9d9"
+    }
+  ],
+  "fresh_frozen_source_checks": [
+    {
+      "method_version": "nerf2/v3",
+      "entries": [
+        {
+          "path": "code/round2/paper_baseline_training_v1/common.py",
+          "saved_sha256": "5ad45eb0b8d16f4a9af9462ba747f582d28946caef84747a8c21e1ccd3d1205d",
+          "current_sha256": "5ad45eb0b8d16f4a9af9462ba747f582d28946caef84747a8c21e1ccd3d1205d",
+          "match": true
+        },
+        {
+          "path": "code/round2/paper_baseline_training_v1/field_runner.py",
+          "saved_sha256": "cdf21f0534b8d616511cebddb09b8b72ca325c3ab7e1e8ef6fb3b28192213ed7",
+          "current_sha256": "cdf21f0534b8d616511cebddb09b8b72ca325c3ab7e1e8ef6fb3b28192213ed7",
+          "match": true
+        },
+        {
+          "path": "code/round2/paper_baseline_training_v1/field_fast.py",
+          "saved_sha256": "4773a34235bcaa7e24f119f333be39f7a986fd8726bbba1a4e66c3f2990e1d9f",
+          "current_sha256": "4773a34235bcaa7e24f119f333be39f7a986fd8726bbba1a4e66c3f2990e1d9f",
+          "match": true
+        },
+        {
+          "path": "code/round2/paper_baseline_training_v1/native_ngrf.py",
+          "saved_sha256": "a84eadc26fe79310a89bcdc21be0cc46d590bd1c3bda2b61402936cf82d8a967",
+          "current_sha256": "a84eadc26fe79310a89bcdc21be0cc46d590bd1c3bda2b61402936cf82d8a967",
+          "match": true
+        },
+        {
+          "path": "code/round2/paper_baseline_training_v1/nerf2_runner_v2.py",
+          "saved_sha256": "9cf207b5eaf420718ed0e11d4e40b7ccc2b25e1198752f03eb7a66653c6f24a0",
+          "current_sha256": "9cf207b5eaf420718ed0e11d4e40b7ccc2b25e1198752f03eb7a66653c6f24a0",
+          "match": true
+        },
+        {
+          "path": "code/round2/paper_baseline_training_v1/nerf2_runner_v3.py",
+          "saved_sha256": "a5e24f56228079b691ed4b5186de52bd5f7851e5603c34956f15e9a1aa8899ca",
+          "current_sha256": "a5e24f56228079b691ed4b5186de52bd5f7851e5603c34956f15e9a1aa8899ca",
+          "match": true
+        },
+        {
+          "path": "code/round2/paper_baseline_training_v1/nerf2_train_main_v3.py",
+          "saved_sha256": "b7eb86e6b58eb443515a9fa48307b7028dd1ee08a2e382583ea22489d3a72664",
+          "current_sha256": "b7eb86e6b58eb443515a9fa48307b7028dd1ee08a2e382583ea22489d3a72664",
+          "match": true
+        },
+        {
+          "path": "analysis/results/round2_paper_four_baselines_v1/nerf2/v3/formal_config.json",
+          "saved_sha256": "9c83e4800c91af17743cde9a9ab5f70c8cf5da80bce389ee7716a2ef9f41b924",
+          "current_sha256": "9c83e4800c91af17743cde9a9ab5f70c8cf5da80bce389ee7716a2ef9f41b924",
+          "match": true
+        }
+      ]
+    },
+    {
+      "method_version": "newrf/v4",
+      "entries": [
+        {
+          "path": "code/round2/paper_baseline_training_v1/newrf_train_v4.py",
+          "saved_sha256": "1172d907bc1535039082cc0da076bbf954f3481ca7db91862e98a7076972dd33",
+          "current_sha256": "1172d907bc1535039082cc0da076bbf954f3481ca7db91862e98a7076972dd33",
+          "match": true
+        },
+        {
+          "path": "code/round2/paper_baseline_training_v1/newrf_runtime_cache_v4.py",
+          "saved_sha256": "84e48f5684a61b2fa86be636e5f3c0db6469e5766b0dbfcce669a0bffc5bb74d",
+          "current_sha256": "84e48f5684a61b2fa86be636e5f3c0db6469e5766b0dbfcce669a0bffc5bb74d",
+          "match": true
+        },
+        {
+          "path": "code/round2/paper_baseline_training_v1/newrf_runner.py",
+          "saved_sha256": "0a49a92ae1c44da58856a0e7edcc3b1473df6f51de8e7dc4459700ec7f8c175b",
+          "current_sha256": "0a49a92ae1c44da58856a0e7edcc3b1473df6f51de8e7dc4459700ec7f8c175b",
+          "match": true
+        },
+        {
+          "path": "code/round2/paper_baseline_training_v1/newrf_precision_probe.py",
+          "saved_sha256": "04df855f7b82ad30e01d7a053a18d68bda57ac1a2fbe13d92ed156785f1a5d9c",
+          "current_sha256": "04df855f7b82ad30e01d7a053a18d68bda57ac1a2fbe13d92ed156785f1a5d9c",
+          "match": true
+        },
+        {
+          "path": "code/round2/paper_baseline_training_v1/newrf_latefreq.py",
+          "saved_sha256": "121d04c5af426a7f12e6d87890782da7fdd83b0dc49370a0577f042863b63452",
+          "current_sha256": "121d04c5af426a7f12e6d87890782da7fdd83b0dc49370a0577f042863b63452",
+          "match": true
+        },
+        {
+          "path": "code/round2/paper_baseline_training_v1/newrf_conditioned_v3.py",
+          "saved_sha256": "967b77635c27c13f12004b6a48985f73060b0e1b852e9cc32dcfc553b4d6730f",
+          "current_sha256": "967b77635c27c13f12004b6a48985f73060b0e1b852e9cc32dcfc553b4d6730f",
+          "match": true
+        },
+        {
+          "path": "code/round2/paper_baseline_training_v1/newrf_v3_health.py",
+          "saved_sha256": "075961a3ff5f2b7fa3237e1ad3668f49b7e2cee05ebac931fc326beee0959cd6",
+          "current_sha256": "075961a3ff5f2b7fa3237e1ad3668f49b7e2cee05ebac931fc326beee0959cd6",
+          "match": true
+        },
+        {
+          "path": "code/round2/paper_baseline_training_v1/newrf_v3_multifit_health.py",
+          "saved_sha256": "463c5f584455c41063cac1861312b384e3c4660ce9bec8e5503c3b9d342d2748",
+          "current_sha256": "463c5f584455c41063cac1861312b384e3c4660ce9bec8e5503c3b9d342d2748",
+          "match": true
+        },
+        {
+          "path": "code/round2/paper_baseline_training_v1/newrf_native_batch_v4.py",
+          "saved_sha256": "0ad133e24dfec623dbcd8272a14061d943b50c244fbc40d39895c18a31e12a15",
+          "current_sha256": "0ad133e24dfec623dbcd8272a14061d943b50c244fbc40d39895c18a31e12a15",
+          "match": true
+        },
+        {
+          "path": "code/round2/paper_baseline_training_v1/newrf_v4_health.py",
+          "saved_sha256": "11823c1de3c816df66647e2fb32b64898e43643a9f1093e711fb4678f49994bb",
+          "current_sha256": "11823c1de3c816df66647e2fb32b64898e43643a9f1093e711fb4678f49994bb",
+          "match": true
+        },
+        {
+          "path": "code/round2/paper_baseline_training_v1/newrf_latefreq_pilot.py",
+          "saved_sha256": "f861a01f2b460e60d7a0cb033a898ac3faefdda46cd8aa4434c2ba395343b8e7",
+          "current_sha256": "f861a01f2b460e60d7a0cb033a898ac3faefdda46cd8aa4434c2ba395343b8e7",
+          "match": true
+        },
+        {
+          "path": "code/round2/paper_baseline_adapters_v1/newrf.py",
+          "saved_sha256": "8f1d714b8aeebc4549666dcfc8ef5685898ce2f29cd56192f0770fb98b91036a",
+          "current_sha256": "8f1d714b8aeebc4549666dcfc8ef5685898ce2f29cd56192f0770fb98b91036a",
+          "match": true
+        },
+        {
+          "path": "code/round2/simulation_recovery_v1/qualified_newrf.py",
+          "saved_sha256": "fff2e831073e957e15ccb530c6fca231b3d1ff082e9a2087f738d88468c019ad",
+          "current_sha256": "fff2e831073e957e15ccb530c6fca231b3d1ff082e9a2087f738d88468c019ad",
+          "match": true
+        },
+        {
+          "path": "code/round2/simulation_recovery_v1/ray_provider.py",
+          "saved_sha256": "83c84e440784e87bd8b67830659d4fd673b5ba201a750cafd10a81a9c284b828",
+          "current_sha256": "83c84e440784e87bd8b67830659d4fd673b5ba201a750cafd10a81a9c284b828",
+          "match": true
+        },
+        {
+          "path": "code/round2/paper_baseline_training_v1/common.py",
+          "saved_sha256": "5ad45eb0b8d16f4a9af9462ba747f582d28946caef84747a8c21e1ccd3d1205d",
+          "current_sha256": "5ad45eb0b8d16f4a9af9462ba747f582d28946caef84747a8c21e1ccd3d1205d",
+          "match": true
+        },
+        {
+          "path": "code/round2/paper_baseline_training_v1/newrf_query.py",
+          "saved_sha256": "36e4929d2d67953ab8edc8bf470dd526309770710e90a41818f49a957f8ec0f5",
+          "current_sha256": "36e4929d2d67953ab8edc8bf470dd526309770710e90a41818f49a957f8ec0f5",
+          "match": true
+        },
+        {
+          "path": "code/round2/paper_baseline_training_v1/selection.py",
+          "saved_sha256": "d0e963aca50770424fc2f79ca5d5bf5add1cc14bd371db8d6aec812e3109ae33",
+          "current_sha256": "d0e963aca50770424fc2f79ca5d5bf5add1cc14bd371db8d6aec812e3109ae33",
+          "match": true
+        },
+        {
+          "path": "analysis/results/round2_paper_four_baselines_v1/newrf/v4/formal_config_v4.json",
+          "saved_sha256": "752c91e1d196991c11d5a0bcce65c4a609769bfbde0d0b88c2431f42b09ef35d",
+          "current_sha256": "752c91e1d196991c11d5a0bcce65c4a609769bfbde0d0b88c2431f42b09ef35d",
+          "match": true
+        },
+        {
+          "path": "plus-pro/code/third_party/paper_baselines/newrf/config/default.yaml",
+          "saved_sha256": "4a92b0a404d4d235c6e53d327c1531a6e77a26b87f2732cee8d82cd4f241a441",
+          "current_sha256": "4a92b0a404d4d235c6e53d327c1531a6e77a26b87f2732cee8d82cd4f241a441",
+          "match": true
+        }
+      ]
+    },
+    {
+      "method_version": "ngrf/v2",
+      "entries": [
+        {
+          "path": "code/round2/paper_baseline_training_v1/common.py",
+          "saved_sha256": "5ad45eb0b8d16f4a9af9462ba747f582d28946caef84747a8c21e1ccd3d1205d",
+          "current_sha256": "5ad45eb0b8d16f4a9af9462ba747f582d28946caef84747a8c21e1ccd3d1205d",
+          "match": true
+        },
+        {
+          "path": "code/round2/paper_baseline_training_v1/field_runner.py",
+          "saved_sha256": "cdf21f0534b8d616511cebddb09b8b72ca325c3ab7e1e8ef6fb3b28192213ed7",
+          "current_sha256": "cdf21f0534b8d616511cebddb09b8b72ca325c3ab7e1e8ef6fb3b28192213ed7",
+          "match": true
+        },
+        {
+          "path": "code/round2/paper_baseline_training_v1/field_fast.py",
+          "saved_sha256": "4773a34235bcaa7e24f119f333be39f7a986fd8726bbba1a4e66c3f2990e1d9f",
+          "current_sha256": "4773a34235bcaa7e24f119f333be39f7a986fd8726bbba1a4e66c3f2990e1d9f",
+          "match": true
+        },
+        {
+          "path": "code/round2/paper_baseline_training_v1/native_ngrf.py",
+          "saved_sha256": "a84eadc26fe79310a89bcdc21be0cc46d590bd1c3bda2b61402936cf82d8a967",
+          "current_sha256": "a84eadc26fe79310a89bcdc21be0cc46d590bd1c3bda2b61402936cf82d8a967",
+          "match": true
+        },
+        {
+          "path": "code/round2/paper_baseline_training_v1/ngrf_native_objective_v2.py",
+          "saved_sha256": "ed7f91ad0db9a9255d591d6488dfea4c0eaaddffb3bf306b53c935c1b7877c6d",
+          "current_sha256": "ed7f91ad0db9a9255d591d6488dfea4c0eaaddffb3bf306b53c935c1b7877c6d",
+          "match": true
+        }
+      ]
+    }
+  ],
+  "archived_lineage_member": {
+    "path": "final_code/V16_ppt_full_context_pack_20260830_071155.zip",
+    "member": "V16_ppt_full_context_pack_20260830_071155/analysis/results/round2_e203_v15_information_contribution/lineage_audit.json",
+    "member_sha256": "a4aa8eda0b3128f6d639239a27cf5dc91e6ce0b63930dd9b5b434e99bd78e63b",
+    "old_report_overlap_field": 376,
+    "interpretation": "candidate refit intersection, not proven actual loss count"
+  },
+  "saved_metrics_verbatim": [
+    {
+      "method": "V16（用户已验证版本）",
+      "key": "v16",
+      "metrics": {
+        "count": 500,
+        "pas": 0.6769415758539015,
+        "pdp": 0.7803473980573273,
+        "nmse": 0.9331251955178452,
+        "nmse_score": 0.5172970702149067,
+        "score": 0.6863750036074728
+      },
+      "status": "accepted_archived_fixed500_summary",
+      "raw_prediction_rescored": false
+    },
+    {
+      "method": "NeRF²（全H适配）",
+      "key": "nerf2",
+      "metrics": {
+        "count": 500,
+        "pas": 0.04295328829063716,
+        "pdp": 0.46884501160405334,
+        "nmse": 1.0000232017321908,
+        "nmse_score": 0.49999419963424163,
+        "score": 0.3047181598847245
+      },
+      "status": "completed",
+      "prediction_count": 500,
+      "raw_prediction_rescored": true,
+      "selected_artifact_root": "artifacts/round2/paper_four_baselines_v1/nerf2/v3"
+    },
+    {
+      "method": "NeWRF（全H适配）",
+      "key": "newrf",
+      "metrics": {
+        "count": 500,
+        "pas": 0.045065016042223446,
+        "pdp": 0.06856087436940117,
+        "nmse": 0.9999999802438484,
+        "nmse_score": 0.500000004939038,
+        "score": 0.14545035715245744
+      },
+      "status": "completed",
+      "prediction_count": 500,
+      "raw_prediction_rescored": true,
+      "selected_artifact_root": "artifacts/round2/paper_four_baselines_v1/newrf/v4"
+    },
+    {
+      "method": "nGRF（全H适配）",
+      "key": "ngrf",
+      "metrics": {
+        "count": 500,
+        "pas": 0.10680143017968657,
+        "pdp": 0.013950433898883624,
+        "nmse": 1.1036185502866709,
+        "nmse_score": 0.4753713546896251,
+        "score": 0.14337501656935311
+      },
+      "status": "completed",
+      "prediction_count": 500,
+      "raw_prediction_rescored": true,
+      "selected_artifact_root": "artifacts/round2/paper_four_baselines_v1/ngrf/v2"
+    },
+    {
+      "method": "WRF-GS+（功率适配）",
+      "key": "wrfgs",
+      "metrics": {
+        "count": 500,
+        "pas": 0.32457563564083103,
+        "pdp": null,
+        "nmse": null,
+        "nmse_score": null,
+        "score": null
+      },
+      "status": "completed",
+      "prediction_count": 500,
+      "raw_prediction_rescored": true,
+      "selected_artifact_root": "artifacts/round2/paper_four_baselines_v1/wrfgs"
+    }
+  ],
+  "old_local_pathstate_correction_verbatim": {
+    "base": {
+      "name": "v11",
+      "path": "artifacts/round2/canonical_500_version_replay/V11_Canonical_500_OOF_Channel.npy",
+      "metrics": {
+        "count": 500,
+        "pas": 0.648047795188201,
+        "pdp": 0.767974654905079,
+        "nmse": 0.9360367600037669,
+        "nmse_score": 0.5165191181587142,
+        "score": 0.6697128036690548
+      }
+    },
+    "historical_reported_v15_with_fold_mismatch": {
+      "count": 500,
+      "pas": 0.6769415758539015,
+      "pdp": 0.7803473980573273,
+      "nmse": 0.9331251955178451,
+      "nmse_score": 0.5172970702149068,
+      "score": 0.6863750036074729
+    },
+    "corrected_strict_full": {
+      "count": 500,
+      "pas": 0.6619228764476327,
+      "pdp": 0.7728861305967144,
+      "nmse": 0.9329502610886328,
+      "nmse_score": 0.5173438862502351,
+      "score": 0.6773923800677858
+    },
+    "historical_v15_minus_strict_full": {
+      "pas": 0.015018699406268765,
+      "pdp": 0.00746126746061293,
+      "nmse_score": -4.681603532830092e-05,
+      "score": 0.008982623539687151
+    },
+    "comparison_note": "Same-base fold-leakage comparison"
+  },
+  "v16_limitations": {
+    "candidate_query_overlap_per_fold": [
+      80,
+      44,
+      53,
+      70,
+      129
+    ],
+    "candidate_query_overlap_total": 376,
+    "actual_loss_overlap": "unverified; labels.valid and power>0 further filter training candidates",
+    "local_correction_extra_guard_candidates_per_fold": [
+      4,
+      2,
+      6,
+      8,
+      9
+    ],
+    "old_corrected_base_H_exists": false,
+    "whole_pipeline_strict_certified": false,
+    "accepted_online_score_preserved_separately": 0.686754,
+    "do_not_relabel_as_online_score_failure": true
+  },
+  "protected_originals_before": {
+    "analysis/results/round2_paper_four_baselines_v1/comparison.json": "1aad3d9fd70e40270d8a36e83400b52741002c82de70eb51b6d1ce21eeb85157",
+    "analysis/results/round2_paper_four_baselines_v1/comparison.csv": "c141a65db5286213bcb7fdae3300366205c9a53966e5fa12efdcff48311206fd",
+    "analysis/results/round2_paper_four_baselines_v1/comparison.md": "1f07992a8e468505d132e066f4fe8c5cb12234edb650c038cbee855574b224e2",
+    "analysis/results/round2_paper_four_baselines_v1/preservation_check.json": "3a7f6b2ca5a589155d4f0307310e30789b792a661329bf9cb604eb4c07936222",
+    "analysis/results/round2_official_sionna_path_calibrator/fixed500_report.json": "23641a6515f28171129dde67b712dbe8b6b468f493c1f842ef36b5ea2b09c0d2",
+    "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/deployment_manifest.json": "b04f76014b7ad056520a83e010f3f822afc88aa70c8eff9c625bb2e1f2f41b95"
+  },
+  "protected_originals_after": {
+    "analysis/results/round2_paper_four_baselines_v1/comparison.json": "1aad3d9fd70e40270d8a36e83400b52741002c82de70eb51b6d1ce21eeb85157",
+    "analysis/results/round2_paper_four_baselines_v1/comparison.csv": "c141a65db5286213bcb7fdae3300366205c9a53966e5fa12efdcff48311206fd",
+    "analysis/results/round2_paper_four_baselines_v1/comparison.md": "1f07992a8e468505d132e066f4fe8c5cb12234edb650c038cbee855574b224e2",
+    "analysis/results/round2_paper_four_baselines_v1/preservation_check.json": "3a7f6b2ca5a589155d4f0307310e30789b792a661329bf9cb604eb4c07936222",
+    "analysis/results/round2_official_sionna_path_calibrator/fixed500_report.json": "23641a6515f28171129dde67b712dbe8b6b468f493c1f842ef36b5ea2b09c0d2",
+    "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/deployment_manifest.json": "b04f76014b7ad056520a83e010f3f822afc88aa70c8eff9c625bb2e1f2f41b95"
+  },
+  "protected_originals_unchanged": true
+}

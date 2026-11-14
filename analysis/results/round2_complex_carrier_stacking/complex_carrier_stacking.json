@@ -1,0 +1,566 @@
+{
+  "experiment": "Round2-E45-complex-carrier-ridge-stacking",
+  "status": "analysis_only",
+  "official_inputs_only": true,
+  "sionna_used": false,
+  "primary_hypothesis": "The historical foundation carriers contain complementary complex phase and array organization; low-dimensional complex ridge stacking can recover a better carrier before the already-validated V4 PAS/PDP projection.",
+  "controls": {
+    "single": [
+      {
+        "name": "radial_idw_k24",
+        "nmse": 1.0145982425925884,
+        "nmse_score": 0.49637688490837717
+      },
+      {
+        "name": "radial_idw_k16",
+        "nmse": 1.0361268278644484,
+        "nmse_score": 0.4911285418545515
+      },
+      {
+        "name": "radial_affine_k16_r1",
+        "nmse": 1.0523427732048773,
+        "nmse_score": 0.4872480430929331
+      },
+      {
+        "name": "affine_k24_steer_axis90_v1p5pi",
+        "nmse": 1.0556053056733963,
+        "nmse_score": 0.48647471245575996
+      },
+      {
+        "name": "affine_k24_steer_axis0_v8pi",
+        "nmse": 1.0565787719455733,
+        "nmse_score": 0.48624444326728894
+      },
+      {
+        "name": "affine_k24_steer_axis0_v1p5pi",
+        "nmse": 1.0573233145667393,
+        "nmse_score": 0.4860684720381903
+      },
+      {
+        "name": "affine_k24_steer_axis90_v8pi",
+        "nmse": 1.0651091720184807,
+        "nmse_score": 0.48423590072120937
+      },
+      {
+        "name": "radial_affine_k32_r0.1",
+        "nmse": 1.071788838516644,
+        "nmse_score": 0.4826746729246684
+      },
+      {
+        "name": "radial_idw_k8",
+        "nmse": 1.1039800808764946,
+        "nmse_score": 0.4752896707954626
+      },
+      {
+        "name": "raw_idw_k24",
+        "nmse": 1.127867759519473,
+        "nmse_score": 0.46995401642150236
+      },
+      {
+        "name": "radial_affine_k24_r0.1",
+        "nmse": 1.1288251155329239,
+        "nmse_score": 0.46974267294364525
+      },
+      {
+        "name": "raw_idw_k16",
+        "nmse": 1.1537184216084742,
+        "nmse_score": 0.4643132500362625
+      },
+      {
+        "name": "radial_idw_k4",
+        "nmse": 1.2254394877059342,
+        "nmse_score": 0.4493494455923568
+      },
+      {
+        "name": "raw_idw_k8",
+        "nmse": 1.2273372245703242,
+        "nmse_score": 0.44896659067551387
+      },
+      {
+        "name": "raw_idw_k4",
+        "nmse": 1.367389309033284,
+        "nmse_score": 0.4224062329690704
+      },
+      {
+        "name": "radial_affine_k8_r0.1",
+        "nmse": 1.4027849826489556,
+        "nmse_score": 0.4161837231467744
+      },
+      {
+        "name": "nearest",
+        "nmse": 1.9070422897246215,
+        "nmse_score": 0.34399224377803184
+      }
+    ],
+    "point_oracle_nmse": 0.8936332266989243,
+    "point_oracle_nmse_score": 0.5280853683282954
+  },
+  "posterior_top20": [
+    {
+      "config": {
+        "name": "site_port8_ridge1_sum0",
+        "scope": "site",
+        "ports": "port8",
+        "ridge": 1.0,
+        "sum_penalty": 0.0
+      },
+      "nmse": 0.922308577537231,
+      "nmse_score": 0.5202078436757286,
+      "fold_nmse": [
+        0.9179471413522116,
+        0.991274529442109,
+        0.5640604163405535,
+        1.0053655990169639,
+        0.6638947174210822
+      ]
+    },
+    {
+      "config": {
+        "name": "site_port8_ridge1_sum0.1",
+        "scope": "site",
+        "ports": "port8",
+        "ridge": 1.0,
+        "sum_penalty": 0.1
+      },
+      "nmse": 0.925289648547344,
+      "nmse_score": 0.5194023666800021,
+      "fold_nmse": [
+        0.9069608519614717,
+        0.9846621928123562,
+        0.5636028309500357,
+        1.0181579918610992,
+        0.6577353310048505
+      ]
+    },
+    {
+      "config": {
+        "name": "site_port8_ridge0.1_sum0",
+        "scope": "site",
+        "ports": "port8",
+        "ridge": 0.1,
+        "sum_penalty": 0.0
+      },
+      "nmse": 0.9318727612077745,
+      "nmse_score": 0.5176324342265776,
+      "fold_nmse": [
+        0.9118104932768807,
+        1.0298703141090504,
+        0.5462889158197897,
+        1.0181404985517926,
+        0.6369761561579812
+      ]
+    },
+    {
+      "config": {
+        "name": "site_port8_ridge0.1_sum0.1",
+        "scope": "site",
+        "ports": "port8",
+        "ridge": 0.1,
+        "sum_penalty": 0.1
+      },
+      "nmse": 0.9359617051790979,
+      "nmse_score": 0.5165391429617606,
+      "fold_nmse": [
+        0.8986386233582792,
+        1.0176734888649306,
+        0.5464232152382505,
+        1.035623169859884,
+        0.6321932124940303
+      ]
+    },
+    {
+      "config": {
+        "name": "site_regime_port8_ridge1_sum0.1",
+        "scope": "site_regime",
+        "ports": "port8",
+        "ridge": 1.0,
+        "sum_penalty": 0.1
+      },
+      "nmse": 0.9406170816994366,
+      "nmse_score": 0.5153000091724846,
+      "fold_nmse": [
+        0.9579117032149044,
+        1.0241874901841614,
+        0.5908128646143348,
+        1.0182512394116077,
+        0.6609106661707417
+      ]
+    },
+    {
+      "config": {
+        "name": "site_shared_ridge1_sum0.1",
+        "scope": "site",
+        "ports": "shared",
+        "ridge": 1.0,
+        "sum_penalty": 0.1
+      },
+      "nmse": 0.9426389871845665,
+      "nmse_score": 0.5147636831119522,
+      "fold_nmse": [
+        0.9105027638234063,
+        0.9970696795576849,
+        0.5814681774447544,
+        1.040225310744671,
+        0.6749173641870317
+      ]
+    },
+    {
+      "config": {
+        "name": "site_shared_ridge1_sum0",
+        "scope": "site",
+        "ports": "shared",
+        "ridge": 1.0,
+        "sum_penalty": 0.0
+      },
+      "nmse": 0.9428340424373888,
+      "nmse_score": 0.5147120022384654,
+      "fold_nmse": [
+        0.9229226912043562,
+        1.020537063984352,
+        0.5823921016584295,
+        1.0261651178916913,
+        0.6804683698956844
+      ]
+    },
+    {
+      "config": {
+        "name": "site_regime_port8_ridge1_sum0",
+        "scope": "site_regime",
+        "ports": "port8",
+        "ridge": 1.0,
+        "sum_penalty": 0.0
+      },
+      "nmse": 0.9428878972016298,
+      "nmse_score": 0.5146977349749899,
+      "fold_nmse": [
+        0.9950536425305765,
+        1.039101397684194,
+        0.5911333454545938,
+        1.0091860597229108,
+        0.6615521502563138
+      ]
+    },
+    {
+      "config": {
+        "name": "site_regime_shared_ridge1_sum0.1",
+        "scope": "site_regime",
+        "ports": "shared",
+        "ridge": 1.0,
+        "sum_penalty": 0.1
+      },
+      "nmse": 0.9435579823201834,
+      "nmse_score": 0.5145202814099833,
+      "fold_nmse": [
+        0.9440353827209096,
+        0.994306326401425,
+        0.5990590144404411,
+        1.0361573865078382,
+        0.6717043519389396
+      ]
+    },
+    {
+      "config": {
+        "name": "global_port8_ridge1_sum0",
+        "scope": "global",
+        "ports": "port8",
+        "ridge": 1.0,
+        "sum_penalty": 0.0
+      },
+      "nmse": 0.9438892247194206,
+      "nmse_score": 0.5144326061812186,
+      "fold_nmse": [
+        0.9160310282300113,
+        0.9974972452721901,
+        0.6264272774308234,
+        1.0150071203318283,
+        0.7510600758108119
+      ]
+    },
+    {
+      "config": {
+        "name": "global_port8_ridge1_sum0.1",
+        "scope": "global",
+        "ports": "port8",
+        "ridge": 1.0,
+        "sum_penalty": 0.1
+      },
+      "nmse": 0.9446995380847331,
+      "nmse_score": 0.514218253471107,
+      "fold_nmse": [
+        0.9061661349562258,
+        1.000014173408633,
+        0.6136578029330574,
+        1.027058351732375,
+        0.721636852571867
+      ]
+    },
+    {
+      "config": {
+        "name": "site_regime_shared_ridge1_sum0",
+        "scope": "site_regime",
+        "ports": "shared",
+        "ridge": 1.0,
+        "sum_penalty": 0.0
+      },
+      "nmse": 0.944934803495444,
+      "nmse_score": 0.5141560520192227,
+      "fold_nmse": [
+        0.9764121125602915,
+        1.013196913814098,
+        0.598936260625884,
+        1.0245700764855081,
+        0.6717982375590326
+      ]
+    },
+    {
+      "config": {
+        "name": "site_port8_ridge0.01_sum0",
+        "scope": "site",
+        "ports": "port8",
+        "ridge": 0.01,
+        "sum_penalty": 0.0
+      },
+      "nmse": 0.9456419516977946,
+      "nmse_score": 0.5139691807772678,
+      "fold_nmse": [
+        0.9170270145139039,
+        1.0623383630803025,
+        0.5454999024804279,
+        1.0281924401392817,
+        0.6455125683798717
+      ]
+    },
+    {
+      "config": {
+        "name": "site_shared_ridge0.1_sum0.1",
+        "scope": "site",
+        "ports": "shared",
+        "ridge": 0.1,
+        "sum_penalty": 0.1
+      },
+      "nmse": 0.946606613000614,
+      "nmse_score": 0.513714477964575,
+      "fold_nmse": [
+        0.9070400474105664,
+        1.0064895925748685,
+        0.5575271742131583,
+        1.0555168689821703,
+        0.6460125085638261
+      ]
+    },
+    {
+      "config": {
+        "name": "site_shared_ridge0.1_sum0",
+        "scope": "site",
+        "ports": "shared",
+        "ridge": 0.1,
+        "sum_penalty": 0.0
+      },
+      "nmse": 0.9475363689863239,
+      "nmse_score": 0.513469230112756,
+      "fold_nmse": [
+        0.9232041976674148,
+        1.0386460808679412,
+        0.556809785585016,
+        1.03930971315046,
+        0.6488769815737232
+      ]
+    },
+    {
+      "config": {
+        "name": "global_port8_ridge0.1_sum0",
+        "scope": "global",
+        "ports": "port8",
+        "ridge": 0.1,
+        "sum_penalty": 0.0
+      },
+      "nmse": 0.9503848479011651,
+      "nmse_score": 0.5127193236125236,
+      "fold_nmse": [
+        0.9150041449833849,
+        1.030285144349429,
+        0.589124299091919,
+        1.0260616418746138,
+        0.7219197804321438
+      ]
+    },
+    {
+      "config": {
+        "name": "site_port8_ridge0.01_sum0.1",
+        "scope": "site",
+        "ports": "port8",
+        "ridge": 0.01,
+        "sum_penalty": 0.1
+      },
+      "nmse": 0.9514204432282399,
+      "nmse_score": 0.5124472296424738,
+      "fold_nmse": [
+        0.9039865226599334,
+        1.0465957948041944,
+        0.5461167780377599,
+        1.050582901488986,
+        0.6408203603504805
+      ]
+    },
+    {
+      "config": {
+        "name": "site_port8_ridge1_sum1",
+        "scope": "site",
+        "ports": "port8",
+        "ridge": 1.0,
+        "sum_penalty": 1.0
+      },
+      "nmse": 0.9524511616119552,
+      "nmse_score": 0.5121767036540847,
+      "fold_nmse": [
+        0.895652336478493,
+        1.002575901321227,
+        0.5651793943091838,
+        1.0688205498276302,
+        0.6513249408548643
+      ]
+    },
+    {
+      "config": {
+        "name": "global_port8_ridge0.1_sum0.1",
+        "scope": "global",
+        "ports": "port8",
+        "ridge": 0.1,
+        "sum_penalty": 0.1
+      },
+      "nmse": 0.9528559480011128,
+      "nmse_score": 0.5120705400844191,
+      "fold_nmse": [
+        0.9043111324939358,
+        1.0311772272392352,
+        0.5820976658616894,
+        1.040920800908955,
+        0.6952942022422788
+      ]
+    },
+    {
+      "config": {
+        "name": "site_port8_ridge0.001_sum0",
+        "scope": "site",
+        "ports": "port8",
+        "ridge": 0.001,
+        "sum_penalty": 0.0
+      },
+      "nmse": 0.9557425204583646,
+      "nmse_score": 0.5113147510673498,
+      "fold_nmse": [
+        0.9258898247561828,
+        1.0750844097775847,
+        0.5465425703594723,
+        1.0370692631038547,
+        0.6601410990428325
+      ]
+    }
+  ],
+  "nested": {
+    "overall": {
+      "nmse": 0.928625588389348,
+      "nmse_score": 0.5185039574400386
+    },
+    "folds": [
+      {
+        "fold": 0,
+        "config": {
+          "name": "site_port8_ridge1_sum0",
+          "scope": "site",
+          "ports": "port8",
+          "ridge": 1.0,
+          "sum_penalty": 0.0
+        },
+        "inner_nmse": 0.923732975778105,
+        "held": {
+          "nmse": 0.9179471413522116,
+          "nmse_score": 0.521390802926388,
+          "error": 0.007385356426146369,
+          "energy": 0.008045513835651944
+        }
+      },
+      {
+        "fold": 1,
+        "config": {
+          "name": "site_port8_ridge1_sum0",
+          "scope": "site",
+          "ports": "port8",
+          "ridge": 1.0,
+          "sum_penalty": 0.0
+        },
+        "inner_nmse": 0.9269792251082325,
+        "held": {
+          "nmse": 0.991274529442109,
+          "nmse_score": 0.5021909260699315,
+          "error": 0.019653624993684445,
+          "energy": 0.019826621596688798
+        }
+      },
+      {
+        "fold": 2,
+        "config": {
+          "name": "site_port8_ridge1_sum0",
+          "scope": "site",
+          "ports": "port8",
+          "ridge": 1.0,
+          "sum_penalty": 0.0
+        },
+        "inner_nmse": 0.9510917023886578,
+        "held": {
+          "nmse": 0.5640604163405535,
+          "nmse_score": 0.6393614911243065,
+          "error": 0.0027982419583661828,
+          "energy": 0.004960890495596724
+        }
+      },
+      {
+        "fold": 3,
+        "config": {
+          "name": "site_port8_ridge1_sum0.1",
+          "scope": "site",
+          "ports": "port8",
+          "ridge": 1.0,
+          "sum_penalty": 0.1
+        },
+        "inner_nmse": 0.84565734031615,
+        "held": {
+          "nmse": 1.0181579918610992,
+          "nmse_score": 0.49550134530241746,
+          "error": 0.04501616243036249,
+          "energy": 0.0442133370166619
+        }
+      },
+      {
+        "fold": 4,
+        "config": {
+          "name": "site_port8_ridge1_sum0",
+          "scope": "site",
+          "ports": "port8",
+          "ridge": 1.0,
+          "sum_penalty": 0.0
+        },
+        "inner_nmse": 0.9689022289147535,
+        "held": {
+          "nmse": 0.6638947174210822,
+          "nmse_score": 0.6009995641731037,
+          "error": 0.00829122523626371,
+          "energy": 0.01248876518926255
+        }
+      }
+    ],
+    "selected_names": [
+      "site_port8_ridge1_sum0",
+      "site_port8_ridge1_sum0",
+      "site_port8_ridge1_sum0",
+      "site_port8_ridge1_sum0.1",
+      "site_port8_ridge1_sum0"
+    ]
+  },
+  "outputs": {
+    "gram": "artifacts/round2/complex_carrier_stacking/oof_port_gram.npz",
+    "selection": "artifacts/round2/complex_carrier_stacking/complex_stack_selection.json",
+    "report": "analysis/results/round2_complex_carrier_stacking/complex_carrier_stacking.json"
+  },
+  "seconds": 33.6215078830719
+}

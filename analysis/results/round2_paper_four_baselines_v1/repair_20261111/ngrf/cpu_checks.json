@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "source_loss_equivalence": true,
+  "mixed_zero_gradients_finite": true,
+  "all_zero_gradients_finite": true,
+  "native_renderer": {
+    "status": "passed",
+    "streaming_max_abs": 0.0,
+    "forward_max_abs": 0.0,
+    "gradient_max_abs": 5.960464477539063e-08,
+    "shape": [
+      2,
+      256,
+      4
+    ],
+    "actual_data": false,
+    "reference": "pinned official render_channel, full1024 native MIMO heads at one physical frequency"
+  },
+  "source_identity": {
+    "code/round2/baseline_repair_20261111/ngrf_repair.py": "b145213ba278e55962468db462f8faac933b317e2b041fd94d0f4b63d36bbf0c",
+    "code/round2/paper_baseline_training_v1/native_ngrf.py": "a84eadc26fe79310a89bcdc21be0cc46d590bd1c3bda2b61402936cf82d8a967",
+    "code/round2/paper_baseline_training_v1/common.py": "5ad45eb0b8d16f4a9af9462ba747f582d28946caef84747a8c21e1ccd3d1205d",
+    "analysis/results/round2_paper_four_baselines_v1/repair_20261111/config.json": "d572d97d0c61d8a3789efb09d56e6feab709a3d2566f8d9f32ec9bcc50e2a258",
+    "code/round2/paper_baseline_training_v1/field_fast.py": "4773a34235bcaa7e24f119f333be39f7a986fd8726bbba1a4e66c3f2990e1d9f",
+    "code/round2/paper_baseline_adapters_v1/field_models.py": "8009d8877a680f232445d277f890796109f982347741593fc4bf8db4a5bc8242"
+  },
+  "GPU_used": false
+}

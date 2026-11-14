@@ -1,0 +1,6 @@
+{
+  "completed_newrf_folds": 4,
+  "newrf_worker_PIDs": [],
+  "free_GPU_MiB": null,
+  "reserved_nerf2_fold": 4
+}

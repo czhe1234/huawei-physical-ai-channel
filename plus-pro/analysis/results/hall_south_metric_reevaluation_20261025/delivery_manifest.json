@@ -1,0 +1,69 @@
+{
+  "files": {
+    "reevaluation_zh.md": {
+      "bytes": 8838,
+      "sha256": "ba9ba265ecb952a7af1c222f8a7e8c2faf1dffea70dc93bc4bb60e4d0c13f976"
+    },
+    "evaluation.json": {
+      "bytes": 46624,
+      "sha256": "c5359ec3b889662a621d2954466059696298af495761389a301cea84c9751942"
+    },
+    "comparison.csv": {
+      "bytes": 2876,
+      "sha256": "e7b8b67f94f564eb165a6c0dc6b276c4a6dd2300077cb30ed45eb8acc4c09ef5"
+    },
+    "per_position_panel.csv": {
+      "bytes": 123477,
+      "sha256": "253f1aa9cb241cf6d033c1c87ece2321467d4b680c53ca9c3ce924eb79d1d32e"
+    },
+    "per_panel.csv": {
+      "bytes": 2549,
+      "sha256": "4089184074c179b7557d1b0308354dbd3fa050d3f5e2993fcea9d3aaa0607b1e"
+    },
+    "metric_contrasts.json": {
+      "bytes": 661,
+      "sha256": "363340136056d8a3a3ac2897e7022a4979beb3669b4b7fa019c576d355d69e35"
+    },
+    "verification.json": {
+      "bytes": 781,
+      "sha256": "4d80cef080c8093fa699de893c60e127c9b9afc7174cec07c169a0761ae9e760"
+    },
+    "figure_checks.json": {
+      "bytes": 400,
+      "sha256": "3d50b58ab2f0f0684308670afe7841bc95bc973905ae7470194c2ac38f2e5ae2"
+    },
+    "source_index.json": {
+      "bytes": 4720,
+      "sha256": "ef57286b1ff7c5e02aba1742064c9958ab6f88c8f673e833a2b3074f6432e5dd"
+    },
+    "contract.json": {
+      "bytes": 3214,
+      "sha256": "1d037d852575ba2b2ea19c241f3445163e08fc29ae8a6ee426036bf9b18a41c4"
+    },
+    "evaluation.log": {
+      "bytes": 2706,
+      "sha256": "6fb97cd751b07c01701002471c1e6bba7516b6081d27db9ea3de5f2a1fc2e6ea"
+    },
+    "new_metric_comparison.png": {
+      "bytes": 202569,
+      "sha256": "1e5845dfd97f46baa7c5ebe1c38aa33d08b5df8d7692cb65b644402c237d8a29"
+    },
+    "new_metric_comparison.pdf": {
+      "bytes": 33999,
+      "sha256": "7bcf5044af216fd386e1545805417c281450a370b429ba8050051d744a4def3d"
+    },
+    "new_metric_comparison.svg": {
+      "bytes": 36935,
+      "sha256": "1466fab891793f7c5a20f985f1a5d5f74d5ad7eb908cd2087f7f6bec424f3db4"
+    },
+    "new_metric_comparison.eps": {
+      "bytes": 96603,
+      "sha256": "a8b7cc63aa8a51c8881ef283643ed7270f632576721e83ec5e3e6dbfe4d854ca"
+    }
+  },
+  "new_training": false,
+  "new_checkpoint_selection": false,
+  "old_scores_preserved": true,
+  "north": false,
+  "test": false
+}

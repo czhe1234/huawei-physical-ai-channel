@@ -1,0 +1,27 @@
+{
+  "immutable_parent": {
+    "sha256": "8b8e9920f41a2b11a9170b83982c3125d9215383f70373bbec0e249215984d61",
+    "tensor_count": 81,
+    "bias_times": [
+      10717
+    ]
+  },
+  "restored_branch": {
+    "sha256": "8b8e9920f41a2b11a9170b83982c3125d9215383f70373bbec0e249215984d61",
+    "tensor_count": 81,
+    "bias_times": [
+      10717
+    ]
+  },
+  "canonical_after_restore": {
+    "sha256": "8b8e9920f41a2b11a9170b83982c3125d9215383f70373bbec0e249215984d61",
+    "tensor_count": 81,
+    "bias_times": [
+      10717
+    ]
+  },
+  "shared_CPU_storage": [],
+  "deepcopy_before_load_state_dict": true,
+  "all_parent_states_verified": true,
+  "initial_model_replay_checked_by_original_runner": true
+}

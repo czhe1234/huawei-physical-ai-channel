@@ -1,0 +1,11 @@
+{
+  "cause": "shared CPU Adam step tensor alias during load_state_dict",
+  "control_initial_bias_time": 10717,
+  "control_actual_optimizer_calls": 2000,
+  "control_final_bias_time": 12717,
+  "invalid_candidate_initial_bias_time": 12717,
+  "invalid_candidate_saved_optimizer_calls": 368,
+  "invalid_candidate_saved_bias_time": 13085,
+  "note": "Bias-correction clock offset is not extra optimizer.step calls. Unsaved calls after final368 checkpoint are not recoverable. Entire affected candidate excluded; valid first control retained.",
+  "immutable_parent_file_unchanged": true
+}

@@ -1,0 +1,5 @@
+{
+  "traceback": "Traceback (most recent call last):\n  File \"/home/chenzhe/work/hw/code/round2/baseline_repair_20261111/newrf_low_lr.py\", line 160, in <module>\n    try:main(args)\n        ^^^^^^^^^^\n  File \"/home/chenzhe/work/hw/code/round2/baseline_repair_20261111/newrf_low_lr.py\", line 142, in main\n    replay=N.full_query(clean,data,rows,deadline());eqclean=N.compare(q,replay)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/chenzhe/work/hw/code/round2/baseline_repair_20261111/newrf_repair.py\", line 79, in full_query\n    if time.monotonic()>deadline:raise TimeoutError(\"Query deadline\")\n                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTimeoutError: Query deadline\n",
+  "formal_test": false,
+  "query_truth_read": false
+}

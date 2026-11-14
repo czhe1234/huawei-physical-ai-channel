@@ -1,0 +1,11 @@
+{
+  "pid": 4002996,
+  "signals": [
+    "SIGTERM",
+    "SIGCONT"
+  ],
+  "exact_argv_verified": true,
+  "UID_verified": true,
+  "process_and_CUDA_client_exited": true,
+  "unrelated_processes_touched": false
+}

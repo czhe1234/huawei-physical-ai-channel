@@ -1,0 +1,55 @@
+{
+  "repository": "muhd-umer/n-grf",
+  "commit": "3765d6f1e46a223914908e38430b1ab9d2a5f4fb",
+  "files": [
+    {
+      "path": "LICENSE",
+      "url": "https://api.github.com/repos/muhd-umer/n-grf/contents/LICENSE?ref=3765d6f1e46a223914908e38430b1ab9d2a5f4fb",
+      "bytes": 1070,
+      "git_blob_sha": "ed5ac702d7ece5ebffaaa982eb854dfc92957822",
+      "sha256": "7e18418c5f3f1ae81bd1707b38d88b3d29fbb4c579184642d7f7380624af6478"
+    },
+    {
+      "path": "models/networks.py",
+      "url": "https://api.github.com/repos/muhd-umer/n-grf/contents/models/networks.py?ref=3765d6f1e46a223914908e38430b1ab9d2a5f4fb",
+      "bytes": 4275,
+      "git_blob_sha": "8927859d864c5e1b153a84faea005c5174b21318",
+      "sha256": "000374ea49b8b5b522acada5dd723554d63079dfcb19157f023b0b6b2f8b1730"
+    },
+    {
+      "path": "models/ngrf_model.py",
+      "url": "https://api.github.com/repos/muhd-umer/n-grf/contents/models/ngrf_model.py?ref=3765d6f1e46a223914908e38430b1ab9d2a5f4fb",
+      "bytes": 19536,
+      "git_blob_sha": "19ae8d204556c1f48c5e261c306bdcee7740dd19",
+      "sha256": "475016eda3add7dba39fa83c730079e830bf03c63a8db3137eb49d01a4ae47dd"
+    },
+    {
+      "path": "utils/pos_encoder.py",
+      "url": "https://api.github.com/repos/muhd-umer/n-grf/contents/utils/pos_encoder.py?ref=3765d6f1e46a223914908e38430b1ab9d2a5f4fb",
+      "bytes": 1727,
+      "git_blob_sha": "36812fefcde6c8f69c98e697bdfc596cb324604b",
+      "sha256": "4b722861a53aff9409bb30f5878babd85499a34177f78cd86bf7261b74f9e484"
+    },
+    {
+      "path": "utils/transform_utils.py",
+      "url": "https://api.github.com/repos/muhd-umer/n-grf/contents/utils/transform_utils.py?ref=3765d6f1e46a223914908e38430b1ab9d2a5f4fb",
+      "bytes": 2614,
+      "git_blob_sha": "9add493317c362700a19423e65a099554c875e94",
+      "sha256": "71b888e5580bb19a8c200d110d75a3049d3752df0d9763edbead9ef6ea6494c1"
+    },
+    {
+      "path": "render/_wrapper.py",
+      "url": "https://api.github.com/repos/muhd-umer/n-grf/contents/render/_wrapper.py?ref=3765d6f1e46a223914908e38430b1ab9d2a5f4fb",
+      "bytes": 15159,
+      "git_blob_sha": "a57f930895487717f35c2d3255d0306cf6351bf3",
+      "sha256": "36b8feece5c61fb85d10d9a7bdde88e61974e9321eb77fe048bea975f76aaf3c"
+    },
+    {
+      "path": "render/_torch_impl/__init__.py",
+      "url": "https://api.github.com/repos/muhd-umer/n-grf/contents/render/_torch_impl/__init__.py?ref=3765d6f1e46a223914908e38430b1ab9d2a5f4fb",
+      "bytes": 3790,
+      "git_blob_sha": "961cbab0cd6c11cc9235d577abe51e7d6b4022a5",
+      "sha256": "d0ab806ed8ba143f5f4b7cc161e9934858dcff29715a51a91db4dc58787ccbed"
+    }
+  ]
+}

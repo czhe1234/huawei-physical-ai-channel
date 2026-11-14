@@ -1,0 +1,7 @@
+{
+  "scope": "scoring timing only",
+  "old_wait_all_methods_requirement": "assistant chosen, superseded",
+  "new_rule": "score each method after all its five folds are sealed; keep other training frozen",
+  "training_unchanged": true,
+  "old_CPU_finalizer_PID": 47817
+}

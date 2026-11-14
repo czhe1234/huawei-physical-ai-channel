@@ -1,0 +1,19 @@
+{
+  "parent": {
+    "sha256": "494f0b3a2dcd5522f0af673a3d65d70fef82ad53d9e12115d1bcd778883df5db",
+    "tensor_count": 81,
+    "bias_times": [
+      12717
+    ]
+  },
+  "branch": {
+    "sha256": "494f0b3a2dcd5522f0af673a3d65d70fef82ad53d9e12115d1bcd778883df5db",
+    "tensor_count": 81,
+    "bias_times": [
+      12717
+    ]
+  },
+  "shared_CPU_storage": [],
+  "deepcopy_before_load": true,
+  "all81_state_tensors_exact": true
+}

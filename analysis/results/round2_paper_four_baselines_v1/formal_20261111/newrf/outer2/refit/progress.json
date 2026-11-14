@@ -1,0 +1,216 @@
+{
+  "stage": "native",
+  "field": 7,
+  "step": 1031,
+  "FIT_fine": {
+    "nmse": 1.0000001918707322,
+    "energy_ratio": 4.936085490066123e-10,
+    "per_position": [
+      {
+        "nmse": 0.9999714449539461,
+        "energy_ratio": 1.0463470079817328e-05,
+        "zero_truth": false,
+        "prediction_power_FIT_RMS_squared": 4.0985126427952826e-10
+      },
+      {
+        "nmse": 0.9999992433205593,
+        "energy_ratio": 5.495039914191519e-08,
+        "zero_truth": false,
+        "prediction_power_FIT_RMS_squared": 4.969511709075055e-10
+      },
+      {
+        "nmse": 1.0000667749549452,
+        "energy_ratio": 1.568999493202341e-06,
+        "zero_truth": false,
+        "prediction_power_FIT_RMS_squared": 1.7111971708164661e-10
+      },
+      {
+        "nmse": 1.0213674100135177,
+        "energy_ratio": 0.022952752089926615,
+        "zero_truth": false,
+        "prediction_power_FIT_RMS_squared": 1.5945437929552933e-10
+      },
+      {
+        "nmse": 1.0000002641905132,
+        "energy_ratio": 1.1234765632167515e-09,
+        "zero_truth": false,
+        "prediction_power_FIT_RMS_squared": 3.2872035422179743e-10
+      },
+      {
+        "nmse": 1.0000002474254226,
+        "energy_ratio": 1.8014770003815165e-11,
+        "zero_truth": false,
+        "prediction_power_FIT_RMS_squared": 7.289509046567022e-11
+      },
+      {
+        "nmse": 1.0000000748492148,
+        "energy_ratio": 1.0307801346242967e-11,
+        "zero_truth": false,
+        "prediction_power_FIT_RMS_squared": 1.011240723051586e-11
+      },
+      {
+        "nmse": 1.0000054789019992,
+        "energy_ratio": 4.6103165525741984e-07,
+        "zero_truth": false,
+        "prediction_power_FIT_RMS_squared": 3.1942307317637515e-10
+      },
+      {
+        "nmse": 0.9999993099112741,
+        "energy_ratio": 3.3496999838711917e-09,
+        "zero_truth": false,
+        "prediction_power_FIT_RMS_squared": 1.0433116215733469e-10
+      },
+      {
+        "nmse": 0.9999956796434288,
+        "energy_ratio": 7.187346644900635e-05,
+        "zero_truth": false,
+        "prediction_power_FIT_RMS_squared": 9.240197842307458e-11
+      },
+      {
+        "nmse": 1.0000010051853365,
+        "energy_ratio": 3.371808048177283e-09,
+        "zero_truth": false,
+        "prediction_power_FIT_RMS_squared": 1.0411056933690564e-10
+      },
+      {
+        "nmse": null,
+        "energy_ratio": null,
+        "zero_truth": true,
+        "prediction_power_FIT_RMS_squared": 9.501654064428893e-11
+      },
+      {
+        "nmse": 1.0000393336617173,
+        "energy_ratio": 1.0761946505692852e-05,
+        "zero_truth": false,
+        "prediction_power_FIT_RMS_squared": 1.802603000884858e-11
+      },
+      {
+        "nmse": 0.9999997659941662,
+        "energy_ratio": 5.448679505529639e-09,
+        "zero_truth": false,
+        "prediction_power_FIT_RMS_squared": 2.284738031250873e-10
+      },
+      {
+        "nmse": 0.9999995044794041,
+        "energy_ratio": 7.945866932168014e-10,
+        "zero_truth": false,
+        "prediction_power_FIT_RMS_squared": 1.299183337388596e-10
+      },
+      {
+        "nmse": 0.9999993810065048,
+        "energy_ratio": 2.5337917008853243e-07,
+        "zero_truth": false,
+        "prediction_power_FIT_RMS_squared": 2.2156951006409175e-11
+      }
+    ]
+  },
+  "FIT_coarse": {
+    "nmse": 0.9999998965693032,
+    "energy_ratio": 9.816137618262047e-11,
+    "per_position": [
+      {
+        "nmse": 1.0000014010644591,
+        "energy_ratio": 3.6003451255826597e-06,
+        "zero_truth": false,
+        "prediction_power_FIT_RMS_squared": 1.4102453491112302e-10
+      },
+      {
+        "nmse": 0.9999999657934501,
+        "energy_ratio": 2.780409542200392e-09,
+        "zero_truth": false,
+        "prediction_power_FIT_RMS_squared": 2.5144999839408426e-11
+      },
+      {
+        "nmse": 1.000018722210509,
+        "energy_ratio": 2.1489240598174835e-07,
+        "zero_truth": false,
+        "prediction_power_FIT_RMS_squared": 2.343680025003609e-11
+      },
+      {
+        "nmse": 1.0056979040284122,
+        "energy_ratio": 0.005746065757686047,
+        "zero_truth": false,
+        "prediction_power_FIT_RMS_squared": 3.991832200310466e-11
+      },
+      {
+        "nmse": 0.9999995354732603,
+        "energy_ratio": 8.083246132826744e-10,
+        "zero_truth": false,
+        "prediction_power_FIT_RMS_squared": 2.3650938693699694e-10
+      },
+      {
+        "nmse": 0.9999999232917882,
+        "energy_ratio": 8.079581653147021e-13,
+        "zero_truth": false,
+        "prediction_power_FIT_RMS_squared": 3.269327531831887e-12
+      },
+      {
+        "nmse": 1.0000000017808093,
+        "energy_ratio": 3.9791655532873786e-13,
+        "zero_truth": false,
+        "prediction_power_FIT_RMS_squared": 3.903736709783353e-13
+      },
+      {
+        "nmse": 0.9999988403059058,
+        "energy_ratio": 5.1113260400904426e-08,
+        "zero_truth": false,
+        "prediction_power_FIT_RMS_squared": 3.541352211098188e-11
+      },
+      {
+        "nmse": 1.0000003492986191,
+        "energy_ratio": 2.037861469185608e-10,
+        "zero_truth": false,
+        "prediction_power_FIT_RMS_squared": 6.347208896901726e-12
+      },
+      {
+        "nmse": 0.9999979855586498,
+        "energy_ratio": 3.4023850739449637e-06,
+        "zero_truth": false,
+        "prediction_power_FIT_RMS_squared": 4.374174889876902e-12
+      },
+      {
+        "nmse": 1.000000100109374,
+        "energy_ratio": 8.155424876982214e-11,
+        "zero_truth": false,
+        "prediction_power_FIT_RMS_squared": 2.5181324529608563e-12
+      },
+      {
+        "nmse": null,
+        "energy_ratio": null,
+        "zero_truth": true,
+        "prediction_power_FIT_RMS_squared": 5.993142541869189e-12
+      },
+      {
+        "nmse": 0.999997982293186,
+        "energy_ratio": 1.4059408814412194e-07,
+        "zero_truth": false,
+        "prediction_power_FIT_RMS_squared": 2.354920878497234e-13
+      },
+      {
+        "nmse": 1.0000001111730508,
+        "energy_ratio": 2.486803424653537e-10,
+        "zero_truth": false,
+        "prediction_power_FIT_RMS_squared": 1.0427653810037338e-11
+      },
+      {
+        "nmse": 0.9999990567841764,
+        "energy_ratio": 8.34420022420306e-11,
+        "zero_truth": false,
+        "prediction_power_FIT_RMS_squared": 1.364312539797461e-11
+      },
+      {
+        "nmse": 1.0000020075246472,
+        "energy_ratio": 9.261880254124282e-09,
+        "zero_truth": false,
+        "prediction_power_FIT_RMS_squared": 8.099127759640099e-13
+      }
+    ]
+  },
+  "gate_passed": false,
+  "stable": 0,
+  "LR": [
+    5e-05,
+    5e-05
+  ],
+  "elapsed_seconds": 5748.300827222993
+}

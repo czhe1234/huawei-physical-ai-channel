@@ -1,0 +1,33 @@
+{
+  "schema": "frequency-minibatch-fold4-dispatch-v1",
+  "gpu_uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+  "module": "round2.baseline_freqminibatch_20261112.nerf2",
+  "folds": [
+    4
+  ],
+  "arguments": [
+    "--config",
+    "analysis/results/round2_paper_four_baselines_v1/freqminibatch_20261112/nerf2/method_config.json",
+    "--gpu-uuid",
+    "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "--folds",
+    "4",
+    "--mode",
+    "run"
+  ],
+  "minimum_free_mib": 20480,
+  "wait_hours": 48,
+  "accepted_hashes": {
+    "code/round2/baseline_freqminibatch_20261112/nerf2.py": "e919f90db32cb87774f4b4dd8eafd84db1dc29f20ee4d5ae7c09725cf41f9ab2",
+    "analysis/results/round2_paper_four_baselines_v1/freqminibatch_20261112/nerf2/method_config.json": "f9b9f94f84c39170e37bae663cdbe2608f8b39db1ac78480d3f7458f03281cf6",
+    "code/round2/baseline_formal_20261111/nerf2_portable.py": "833a986b9212f496fd656c19a4cee2dc7c3e34a013dd8d0e518f255b8485ba40",
+    "code/round2/baseline_formal_20261111/nerf2.py": "d210f6c817141a4055a4a42689cd9b41d316aef5cfcb29dd93a7b1bb10aae626"
+  },
+  "required_newrf_manifests": [
+    "artifacts/round2/paper_four_baselines_v1/formal_20261111/newrf/outer0/prediction/manifest.json",
+    "artifacts/round2/paper_four_baselines_v1/formal_20261111/newrf/outer1/prediction/manifest.json",
+    "artifacts/round2/paper_four_baselines_v1/formal_20261111/newrf/outer2/prediction/manifest.json",
+    "artifacts/round2/paper_four_baselines_v1/formal_20261111/newrf/outer3/prediction/manifest.json",
+    "artifacts/round2/paper_four_baselines_v1/freqminibatch_20261112/newrf/outer4/prediction/manifest.json"
+  ]
+}

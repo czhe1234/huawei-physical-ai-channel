@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "actual_source_expression_executed": true,
+  "source_sha256": "1d89cad834a23261265ab1e04b3f6fd1fd3fcb18ff088274112d63418476d7e0",
+  "checks": [
+    {
+      "position_count": 2,
+      "actual_loss": 1.0,
+      "expected": 1.0,
+      "finite_gradient": true
+    },
+    {
+      "position_count": 3,
+      "actual_loss": 666667.3333333334,
+      "expected": 666667.3333333334,
+      "finite_gradient": true
+    }
+  ]
+}

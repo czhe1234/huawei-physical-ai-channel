@@ -1,0 +1,20 @@
+{
+  "PID": 47817,
+  "argv": [
+    "code/tools/run_in_env.sh",
+    "python",
+    "-m",
+    "round2.baseline_formal_20261111.finalize_when_ready",
+    "--wall-hours",
+    "120"
+  ],
+  "cpu_only": true,
+  "log": "analysis/results/round2_paper_four_baselines_v1/formal_20261111/evaluation/finalization.log",
+  "source_hashes": {
+    "score.py": "c1373ec84e892830ca3693feb4bdbccb64778156572ae865a1636071736bd3bf",
+    "verify.py": "cda21c2c6e62e104802d97bf72963cca2fdf059b3830b9cfd5ddad294f6b2269",
+    "finalize_when_ready.py": "327d94b5771f25b8e092c5b112ffeea73152262766326191fcd9f89f36e3de20"
+  },
+  "start_unix_seconds": 1794349156.2443862,
+  "trigger": "all15 formal manifests; preflight verifies entire set before truth read"
+}

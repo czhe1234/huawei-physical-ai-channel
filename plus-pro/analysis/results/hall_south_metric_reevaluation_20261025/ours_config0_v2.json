@@ -1,0 +1,62 @@
+{
+  "name": "ours_config0_v2",
+  "label": "旧版：复数底座设置1",
+  "family": "historical",
+  "status": "ok",
+  "scores": {
+    "pas_cosine": 0.7008917474362315,
+    "relative_pdp_cosine": 0.595683888535957,
+    "receive_energy_TV": 0.3081721896387445,
+    "receive_delay_joint_TV": 0.590510986197506,
+    "by_panel": {
+      "pas_cosine": [
+        0.7060375389951327,
+        0.6957459558773303
+      ],
+      "relative_pdp_cosine": [
+        0.6790372552811069,
+        0.512330521790807
+      ],
+      "receive_energy_TV": [
+        0.3413183973179969,
+        0.27502598195949207
+      ],
+      "receive_delay_joint_TV": [
+        0.5541515560770626,
+        0.6268704163179494
+      ]
+    },
+    "reference_valid_pas_cells": 98304,
+    "reference_valid_pdp_links": 3072,
+    "reference_valid_energy_panels": 96,
+    "reference_valid_joint_panels": 96,
+    "invalid_reference_anchors": 0,
+    "failed_prediction_pdp_links": 0,
+    "failed_prediction_energy_panels": 0,
+    "prediction_oracle_alignment": false,
+    "combined_score": null
+  },
+  "auxiliary": {
+    "reference_panels_total": 96,
+    "reference_panels_valid": 96,
+    "zero_prediction_panels": 0,
+    "undefined_reference_panels": 0,
+    "mean_direction_cosine": 0.8572239644539335,
+    "mean_beam_loss_db": 1.8095187800624266,
+    "infinite_mean_beam_loss": false,
+    "p90_beam_loss_db": 6.070781487942327,
+    "beam_loss_over3_fraction": 0.28125,
+    "reference_mask_depends_on_prediction": false
+  },
+  "prediction_file": "artifacts/measured/hall_sw_development_v1/models/ours_config0_v2/best_channel.npz",
+  "prediction_sha256": "d01eee804909f37c3c7609941809291f90fcefe3049ea317996d01332868e988",
+  "explicit_row_ids": false,
+  "row_provenance": "old fixed48-row contract plus reproduced original direction/beam scores",
+  "old_metric_parity": {
+    "direction_cosine_difference": 9.617118212901232e-11,
+    "beam_loss_difference": 5.950221204642503e-09
+  },
+  "best_epoch": 5,
+  "checkpoint_selection": "unchanged old metric selection; no new epoch search",
+  "regenerated": false
+}

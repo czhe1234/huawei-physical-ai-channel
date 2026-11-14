@@ -1,0 +1,22 @@
+{
+  "status": "passed_real_resumed_updates",
+  "python_PID": 2537936,
+  "actual_CUDA_UUID": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+  "field": 0,
+  "stage": "native",
+  "phase_step": 500,
+  "total_updates": 2250,
+  "inherited_updates": 1499,
+  "new_actual_minibatch_updates": 751,
+  "coarse_Adam_counts": {
+    "750.0": 20
+  },
+  "fine_Adam_counts": {
+    "1500.0": 18,
+    "500.0": 2
+  },
+  "tone_histogram_sum": 293816,
+  "tone_histogram_min": 1516,
+  "tone_exposure_correct": true,
+  "CUDA_initialized": false
+}

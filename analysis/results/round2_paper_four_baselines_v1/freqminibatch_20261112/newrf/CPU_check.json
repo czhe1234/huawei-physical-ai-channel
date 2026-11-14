@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "position_BS_continuation_exact": true,
+  "CUDA_initialized": false,
+  "source_identity": {
+    "code/round2/baseline_formal_20261111/newrf.py": "8da7d760d2d056adab8824d48bfc763d9aae0d55012bd4bfb72166ed67844272",
+    "analysis/results/round2_paper_four_baselines_v1/freqminibatch_20261112/newrf/draft_config.json": "7e6cbdb75f48a90415de6af581be0eb25a678c2e0f82bb12aa90e2d6c2bc89c5",
+    "code/round2/paper_baseline_training_v1/common.py": "5ad45eb0b8d16f4a9af9462ba747f582d28946caef84747a8c21e1ccd3d1205d",
+    "code/round2/paper_baseline_training_v1/selection.py": "d0e963aca50770424fc2f79ca5d5bf5add1cc14bd371db8d6aec812e3109ae33",
+    "artifacts/round2/simulation_recovery_v1/geometry/full_outer0_all_train/manifest.json": "dddb7f9e826adc7bd8713a8fb9433ced90d52cf6cf443f0292a8932d039b3ead",
+    "code/round2/paper_baseline_adapters_v1/contract.py": "0da0617438cd3ca72d536da566f35305d78c16b3fabeb4d3877e92486bf34b5f",
+    "code/round2/paper_baseline_adapters_v1/newrf.py": "8f1d714b8aeebc4549666dcfc8ef5685898ce2f29cd56192f0770fb98b91036a",
+    "code/round2/simulation_recovery_v1/qualified_newrf.py": "fff2e831073e957e15ccb530c6fca231b3d1ff082e9a2087f738d88468c019ad",
+    "code/round2/simulation_recovery_v1/ray_provider.py": "83c84e440784e87bd8b67830659d4fd673b5ba201a750cafd10a81a9c284b828",
+    "code/round2/paper_baseline_training_v1/newrf_runner.py": "0a49a92ae1c44da58856a0e7edcc3b1473df6f51de8e7dc4459700ec7f8c175b",
+    "code/round2/paper_baseline_training_v1/newrf_native_batch_v4.py": "0ad133e24dfec623dbcd8272a14061d943b50c244fbc40d39895c18a31e12a15",
+    "code/round2/paper_baseline_training_v1/newrf_runtime_cache_v4.py": "84e48f5684a61b2fa86be636e5f3c0db6469e5766b0dbfcce669a0bffc5bb74d",
+    "code/round2/paper_baseline_training_v1/newrf_query.py": "36e4929d2d67953ab8edc8bf470dd526309770710e90a41818f49a957f8ec0f5",
+    "code/round2/paper_baseline_training_v1/newrf_conditioned_v3.py": "967b77635c27c13f12004b6a48985f73060b0e1b852e9cc32dcfc553b4d6730f",
+    "code/round2/paper_baseline_training_v1/newrf_latefreq.py": "121d04c5af426a7f12e6d87890782da7fdd83b0dc49370a0577f042863b63452",
+    "plus-pro/code/third_party/paper_baselines/newrf/models.py": "4557df4726a3c71033ceddd3e90432e0113af5a4f048df8cfb35b5ac1e5bb476",
+    "plus-pro/code/third_party/paper_baselines/newrf/synthesizers.py": "8482dbb4be0f5aa9c1f03b03953b5270c3233dae20a64ab38b4db9d83f478ae5",
+    "code/round2/baseline_freqminibatch_20261112/newrf.py": "47990905f60bed81d8be61275f7faa8e7ef9e480ea9f0496d81b56a7314f1551",
+    "artifacts/round2/paper_four_baselines_v1/freqminibatch_20261112/newrf/immutable_pause_checkpoint.pt": "74a8361a7ecfee31480153d566b728884b960c72af6d94b261dabed9f45c57d7",
+    "analysis/results/round2_paper_four_baselines_v1/freqminibatch_20261112/newrf/pause_manifest.json": "fedbe1cc7e21fded6b0e88af9b8f7f5fea9041f0a92a9f1c321762e2f02ba40b",
+    "analysis/results/round2_paper_four_baselines_v1/freqminibatch_20261112/newrf/parent_method_config.json": "3582f1108c001814e506753785adb38478b821929d9e57b5647fdf987255beb3"
+  }
+}

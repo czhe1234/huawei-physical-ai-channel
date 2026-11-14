@@ -1,0 +1,51 @@
+{
+  "schema": "huawei-canonical500-final-score-v1",
+  "method": "wrfgs",
+  "generated_utc": "2026-11-10T07:35:41.172519+00:00",
+  "input_identity": "819ab37e745a05962e0166654510b1e385ea160da8254b61e88300bdcaaa0b1c",
+  "row_ids_sha256": "f115290de0dc5f80cfe304e1f2143696694e66eec10c418e1b086d0b179ed08b",
+  "metrics": {
+    "count": 500,
+    "pas": 0.32457563564083103,
+    "pdp": null,
+    "nmse": null,
+    "nmse_score": null,
+    "score": null
+  },
+  "raw_prediction_rescored": true,
+  "raw_truth_identity": {
+    "path": "datasets/round2/Round2_Train_Channel.npy",
+    "bytes": 6291456128,
+    "mtime_ns": 1785834848000000000,
+    "inode": 248020994
+  },
+  "prediction_manifests": {
+    "artifacts/round2/paper_four_baselines_v1/wrfgs/outer0/prediction/manifest.json": "738bbab070c17c464645d4a6f8242934fc4c39da1842b879f76c064088410910",
+    "artifacts/round2/paper_four_baselines_v1/wrfgs/outer1/prediction/manifest.json": "89a235f0c8a1412239abe55b0fdaddd79104c59e839a6f6bcda04bba87546157",
+    "artifacts/round2/paper_four_baselines_v1/wrfgs/outer2/prediction/manifest.json": "998d1012ecbfa35870ce0424cf796cde6763ced26dda856e02151e7b969ca396",
+    "artifacts/round2/paper_four_baselines_v1/wrfgs/outer3/prediction/manifest.json": "34b4940ce01b5d3c4bc6586d492e58261dff386fb740580fc4c6e15cf04036f0",
+    "artifacts/round2/paper_four_baselines_v1/wrfgs/outer4/prediction/manifest.json": "3b65beb9676ed1dca716b1c3df956d617e3b894513823ff034bccb9fe1938bc3"
+  },
+  "prediction_files": {
+    "artifacts/round2/paper_four_baselines_v1/wrfgs/outer0/prediction/power.npy": "a8f707d90be439406147353a5124ae0af2967c484b09b0f01e259f098a1209c0",
+    "artifacts/round2/paper_four_baselines_v1/wrfgs/outer1/prediction/power.npy": "600744a95e813d25c09d164fd7c1eb952c91953d496f94f09aaae98da2cfda45",
+    "artifacts/round2/paper_four_baselines_v1/wrfgs/outer2/prediction/power.npy": "27c905d5b5de19a26981b60e10588f907b74d1c7d490367b73ffc63ace26f02f",
+    "artifacts/round2/paper_four_baselines_v1/wrfgs/outer3/prediction/power.npy": "8943b9909175a24f49954abd5cf68a48df4d2cb8153e00d76ce4a48f0c3cf2f8",
+    "artifacts/round2/paper_four_baselines_v1/wrfgs/outer4/prediction/power.npy": "47098890f382e212418c5c8acbe1dd0ab0ccbc3739b492f96444e66ece5760a7"
+  },
+  "point_statistics_sha256": "0a4126f1cc1d73f6db36db065c43cb42eb4d03a6cf4e59945023a23dfde23c18",
+  "all_five_outer_folds_complete": true,
+  "all_zero_truth_rows_retained": true,
+  "zero_truth_row_count": 31,
+  "query_truth_use": "final scoring only after all5 predictions frozen",
+  "phase_delay_amplitude_alignment": false,
+  "scoring_device": "CPU",
+  "fft_workers": 1,
+  "nmse_aggregation": "sum squared error / sum truth energy; linear",
+  "formula": "0.4*PAS+0.4*PDP+0.2/(1+global_NMSE)",
+  "original_paper_exact_reproduction": false,
+  "fixed_configuration": true,
+  "seed": 42,
+  "scorer_sha256": "56fc83f5309ab46d42ee8a744ea0ee54867b1d18e2d62ce5e8a412a2314b3c23",
+  "official_metric_sha256": "15aa0cca3b7df17f8c93bd26d22b44f4a49b48d6b13fd8cc7b52325fb74729c3"
+}

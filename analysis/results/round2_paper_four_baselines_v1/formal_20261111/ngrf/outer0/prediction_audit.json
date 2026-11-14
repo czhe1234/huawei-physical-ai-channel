@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "fold": 0,
+  "positions": 103,
+  "shape": [
+    103,
+    256,
+    4,
+    192
+  ],
+  "dtype": "complex64",
+  "prediction_sha256": "1c493d9bf977c823cff3d05e373df8718f3a8bb8ed7822ca5a8933b31208834c",
+  "screen_selected_steps": 18000,
+  "screen_completed_steps": 22000,
+  "refit_actual_Adam_steps": [
+    18344.0
+  ],
+  "fit_count": 3893,
+  "zero_minimum_visits": 150,
+  "minimum_distinct_tones_per_position": 189,
+  "refit_wall_seconds": 872.7019895230187,
+  "refit_peak_torch_allocated_bytes": 6693941760,
+  "refit_FIT_health": {
+    "count": 3893,
+    "nonzero_count": 3631,
+    "zero_count": 262,
+    "complex_nmse": 1.0487561762401842,
+    "magnitude_nmse": 0.7612596254443299,
+    "worst_nonzero_nmse": 2203.100296210887,
+    "nonzero_energy_range": [
+      2.940057265611478e-09,
+      2202.089260859283
+    ],
+    "nonzero_NMSE_le_half_count": 0,
+    "zero_prediction_mean_power_max": 0.010432783014424747
+  },
+  "outer_truth_read": false,
+  "scoring_performed": false
+}

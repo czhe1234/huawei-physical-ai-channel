@@ -1,0 +1,31 @@
+{
+  "native_updates": 1000,
+  "extra_updates": 229,
+  "metrics": {
+    "pred_energy": 2.1497192110874895e-07,
+    "truth_energy": 2.1667868251492588e-07,
+    "squared_error": 1.1570172533495833e-09,
+    "nmse": 0.005339783498406136,
+    "energy_ratio": 0.9921230765003413,
+    "signed_correlation_real": 0.9973273489808449,
+    "per_position": [
+      {
+        "pred_energy": 1.888971266415622e-07,
+        "truth_energy": 1.8940802393565062e-07,
+        "squared_error": 3.3973065385387767e-10,
+        "nmse": 0.0017936444655021456,
+        "energy_ratio": 0.9973026628784111,
+        "signed_correlation_real": 0.999102878998935
+      },
+      {
+        "pred_energy": 2.6074794467186753e-08,
+        "truth_energy": 2.7270658579275268e-08,
+        "squared_error": 8.172865994957055e-10,
+        "nmse": 0.029969448560249086,
+        "energy_ratio": 0.9561483229819272,
+        "signed_correlation_real": 0.9849268713702511
+      }
+    ]
+  },
+  "elapsed_seconds": 104.53838335094042
+}

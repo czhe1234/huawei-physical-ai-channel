@@ -1,0 +1,98 @@
+{
+  "implementation": {
+    "code/measured/hall_metric_reevaluation_v1/common.py": {
+      "bytes": 4090,
+      "sha256": "052d65e7d5c381e6741eed776ce22e48f93c033ed174668e8d4929c70fecbd29"
+    },
+    "code/measured/hall_metric_reevaluation_v1/__init__.py": {
+      "bytes": 55,
+      "sha256": "ad9854f153c1cf0b985ece888440ed9ed0453672a3c954d632b811219925a80e"
+    },
+    "code/measured/hall_metric_reevaluation_v1/finalize.py": {
+      "bytes": 13432,
+      "sha256": "780394c3cb31e5cbf30035c109bdf7a59d89e51f85d1f6b8dc782d02c599168e"
+    },
+    "code/measured/hall_metric_reevaluation_v1/evaluate.py": {
+      "bytes": 14051,
+      "sha256": "cee14eff86a5575ff1fc7948e2338cd6cdab9cfc66d3b4a52b7ea2497d73eede"
+    }
+  },
+  "frozen_metric_source_sha256": "54808bcda53dc886d9ec9635aedcb1c5fb8988d3c6c4613ca479f34120253d56",
+  "protocol_sha256": "ce338d1ee92b85b40ed8058949b4ae632c7c1c34f66d8d335e982c9cd6e76496",
+  "input_predictions": {
+    "nearest_FIT": {
+      "file": "artifacts/measured/hall_sw_metric_reevaluation_v1/nearest_channel.npz",
+      "sha256": "f77d4c15fdf5b1d3541e0aae4a397eadcf187eedd3b8dbf453fd492194ba8ae5"
+    },
+    "uniform_frequency_experts": {
+      "file": "artifacts/measured/hall_sw_metric_reevaluation_v1/uniform_experts_channel.npz",
+      "sha256": "b52fb40923f67f5bf96a599c0f8bb5f8b2d1ef5bc7e917eaabf3087b664eb3f7"
+    },
+    "frequency_RBF": {
+      "file": "artifacts/measured/hall_sw_structured_development_v2/baselines/rbf_best_channel.npz",
+      "sha256": "c4f2e1c9f697f37f705eb120a73dac52fccffcf65f7f96fde8d9580d9b24a094"
+    },
+    "ours_default": {
+      "file": "artifacts/measured/hall_sw_structured_development_v2/models/ours_default/best_channel.npz",
+      "sha256": "e97fa654a9cdb64f823d2078bc53bcda126dd39677981b054bb2d6fd999013d4"
+    },
+    "ours_delay": {
+      "file": "artifacts/measured/hall_sw_structured_development_v2/models/ours_delay/best_channel.npz",
+      "sha256": "6d096e80acbb19351bec3fc5d3b2498eb24ee3a0cd6620b3316fa6c006563bc0"
+    },
+    "ours_trust": {
+      "file": "artifacts/measured/hall_sw_structured_development_v2/models/ours_trust/best_channel.npz",
+      "sha256": "52a54ba3acd0e21fb46fbcf52320e51b5ec44207a0317b693ac244e94a179361"
+    },
+    "ours_frequency": {
+      "file": "artifacts/measured/hall_sw_structured_development_v2/models/ours_frequency/best_channel.npz",
+      "sha256": "f57f8da4eccd3953d2bde9cb3ddcaa064fa8977ab5dd11eeef9648e7b459f066"
+    },
+    "no_geometry_default": {
+      "file": "artifacts/measured/hall_sw_structured_development_v2/models/no_geometry_default/best_channel.npz",
+      "sha256": "27287140cc13b98a8f926a6baeb1f4f9af87542c61bf1066d574247f03bf3b5c"
+    },
+    "spectral_mlp_w1": {
+      "file": "artifacts/measured/hall_sw_structured_development_v2/models/spectral_mlp_w1/best_channel.npz",
+      "sha256": "f8b35467010948a4cd2704ab917d8d2fdd90604aa2eb6e6f5fa886c4556aff09"
+    },
+    "spectral_mlp_w4": {
+      "file": "artifacts/measured/hall_sw_structured_development_v2/models/spectral_mlp_w4/best_channel.npz",
+      "sha256": "0728aaf9084612314b6e999a0c9d8ab31243c6d1b6a369478e163f60745b6e86"
+    },
+    "ours_phase_safe": {
+      "file": "artifacts/measured/hall_sw_development_v1/models/ours_phase_safe/best_channel.npz",
+      "sha256": "0a5eafb73a8ab3b9af2b8cb87828fad4ec97f4c5f773cad0243f51a4d4a6901b"
+    },
+    "ours_config0_v2": {
+      "file": "artifacts/measured/hall_sw_development_v1/models/ours_config0_v2/best_channel.npz",
+      "sha256": "d01eee804909f37c3c7609941809291f90fcefe3049ea317996d01332868e988"
+    },
+    "ours_config1_v2": {
+      "file": "artifacts/measured/hall_sw_development_v1/models/ours_config1_v2/best_channel.npz",
+      "sha256": "8a7388bc77519429ee2826c50424da317a6c95918cf36d9ba55deefa8b6dab2b"
+    },
+    "wrf_g64": {
+      "file": "artifacts/measured/hall_sw_development_v1/models/wrf_g64/best_power.npz",
+      "sha256": "61e9b7ef1574d761660292651118df0d896a474deb83c5c2b330f425c4367dce"
+    },
+    "wrf_g128": {
+      "file": "artifacts/measured/hall_sw_development_v1/models/wrf_g128/best_power.npz",
+      "sha256": "a88930e2c5aead092830c36fe8fc30c8b0c211cdbea1fc3ab97e06606c0f2526"
+    },
+    "mlp_levels3": {
+      "file": "artifacts/measured/hall_sw_development_v1/models/mlp_levels3/best_power.npz",
+      "sha256": "0393e17e6f7de972501c460f82085acbf63b1ac8a1508bacdc16965c5dc83846"
+    },
+    "mlp_levels6": {
+      "file": "artifacts/measured/hall_sw_development_v1/models/mlp_levels6/best_power.npz",
+      "sha256": "f336e0310c8c8e6483a5a6a9a543b89a1215e1dbc7a92fe7e073673a1c4e4073"
+    }
+  },
+  "regenerated_fixed_formulas": [
+    "nearest_FIT",
+    "uniform_frequency_experts"
+  ],
+  "checkpoints_reselected": false,
+  "ledger_item": 845
+}

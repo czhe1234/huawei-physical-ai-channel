@@ -1,0 +1,6 @@
+{
+  "forward_bitwise_no_jump": true,
+  "warm_override_removed": true,
+  "active_Adam_moments_preserved": 18,
+  "alpha_Adam_states_before_release": 0
+}

@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "sources": [
+    {
+      "path": "code/round2/paper_baseline_training_v1/saved_scale_diagnosis.py",
+      "sha256": "eae81409f47d022475a30676535ef3c0e0662da35fb2f28706c07d1b271d6475",
+      "syntax": true,
+      "path_pattern_hits": []
+    },
+    {
+      "path": "code/round2/paper_baseline_training_v1/saved_recent_label_diagnosis.py",
+      "sha256": "c8b8d1131e7177bde8d4c56b512f033a7c84c6cf7eb9b01ed7899f5b0c7d94a8",
+      "syntax": true,
+      "path_pattern_hits": []
+    }
+  ],
+  "NeRF2_original_diagnostic_source_snapshot_matches": true,
+  "all20_panel_checkpoints_preserved": true,
+  "all10_refit_training_RNG_replays_match": true,
+  "old_scores_and10prediction_checksums_preserved": true,
+  "no_training_or_optimizer": true
+}

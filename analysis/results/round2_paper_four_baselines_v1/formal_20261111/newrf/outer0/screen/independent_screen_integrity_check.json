@@ -1,0 +1,85 @@
+{
+  "status": "passed_all8_screen_fields_integrity",
+  "outer": 0,
+  "fields": [
+    {
+      "field": 0,
+      "actual_updates": 3250,
+      "selected_native_updates": 1000,
+      "all_FIT_gradient_rows": 3820,
+      "actual_position_blocks": 6500,
+      "selected_position_blocks": 5500,
+      "selected_value": 1.0000012262278446
+    },
+    {
+      "field": 1,
+      "actual_updates": 3250,
+      "selected_native_updates": 1000,
+      "all_FIT_gradient_rows": 3820,
+      "actual_position_blocks": 6500,
+      "selected_position_blocks": 5500,
+      "selected_value": 1.0000000012993606
+    },
+    {
+      "field": 2,
+      "actual_updates": 3250,
+      "selected_native_updates": 1000,
+      "all_FIT_gradient_rows": 3820,
+      "actual_position_blocks": 6500,
+      "selected_position_blocks": 5500,
+      "selected_value": 0.9999993339648028
+    },
+    {
+      "field": 3,
+      "actual_updates": 3250,
+      "selected_native_updates": 1000,
+      "all_FIT_gradient_rows": 3820,
+      "actual_position_blocks": 6500,
+      "selected_position_blocks": 5500,
+      "selected_value": 1.000000304661665
+    },
+    {
+      "field": 4,
+      "actual_updates": 3250,
+      "selected_native_updates": 1000,
+      "all_FIT_gradient_rows": 3820,
+      "actual_position_blocks": 6500,
+      "selected_position_blocks": 5500,
+      "selected_value": 1.0000000000048055
+    },
+    {
+      "field": 5,
+      "actual_updates": 3250,
+      "selected_native_updates": 1000,
+      "all_FIT_gradient_rows": 3820,
+      "actual_position_blocks": 6500,
+      "selected_position_blocks": 5500,
+      "selected_value": 0.999999912482189
+    },
+    {
+      "field": 6,
+      "actual_updates": 3250,
+      "selected_native_updates": 1000,
+      "all_FIT_gradient_rows": 3820,
+      "actual_position_blocks": 6500,
+      "selected_position_blocks": 5500,
+      "selected_value": 0.9999999999779198
+    },
+    {
+      "field": 7,
+      "actual_updates": 3250,
+      "selected_native_updates": 1000,
+      "all_FIT_gradient_rows": 3820,
+      "actual_position_blocks": 6500,
+      "selected_position_blocks": 5500,
+      "selected_value": 1.000000000136734
+    }
+  ],
+  "actual_updates": 26000,
+  "all_selected_heads_match_final_model": true,
+  "all_actual_and_selected_gradient_coverage_verified": true,
+  "source_and_model_sha_verified": true,
+  "quality_scored": false,
+  "outer_CSI_labels_read": 0,
+  "CUDA_initialized": false
+}

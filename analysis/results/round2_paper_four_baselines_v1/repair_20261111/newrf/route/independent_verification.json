@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "arrays": {
+    "FIT_prediction.npy": {
+      "original_definition_exact_match": true,
+      "nmse_original": 0.007744018224210092,
+      "nmse_complex128_terms": 0.007744018222047319,
+      "float64_crosscheck_delta": -2.162773432567988e-12,
+      "sha256": "4df0b57161467bc3aa67a4cdebb619c4705eb1a64d18dd237eb0aa999d6a3644"
+    },
+    "query_prediction.npy": {
+      "original_definition_exact_match": true,
+      "nmse_original": 1.6860312407548408,
+      "nmse_complex128_terms": 1.6860312399541348,
+      "float64_crosscheck_delta": -8.007059459913535e-10,
+      "sha256": "7ecd21723fd9b20de8647dc69533b5842ac9845935ceb3cad5f8824bee82586b"
+    }
+  },
+  "unified_query_bitwise_equal": true,
+  "arithmetic_note": "Initial1e-12 comparison against recomputing individual abs-square terms in complex128 was overly strict for float32 metric definition; original float32-terms/float64-sum recomputation matches exactly. Scorer and metric definition unchanged."
+}

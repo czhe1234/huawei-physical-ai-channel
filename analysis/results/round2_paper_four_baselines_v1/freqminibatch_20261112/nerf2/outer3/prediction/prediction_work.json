@@ -1,0 +1,23 @@
+{
+  "completed": 110,
+  "source_identity": {
+    "code/round2/baseline_formal_20261111/nerf2.py": "d210f6c817141a4055a4a42689cd9b41d316aef5cfcb29dd93a7b1bb10aae626",
+    "analysis/results/round2_paper_four_baselines_v1/formal_20261111/nerf2/method_config.json": "c298cb71156e7aa78eec1f374ea8bb36fba47d5ef8a7a54b76dbeee5cf258a35",
+    "code/round2/paper_baseline_training_v1/common.py": "5ad45eb0b8d16f4a9af9462ba747f582d28946caef84747a8c21e1ccd3d1205d",
+    "code/round2/paper_baseline_training_v1/nerf2_runner_v2.py": "9cf207b5eaf420718ed0e11d4e40b7ccc2b25e1198752f03eb7a66653c6f24a0",
+    "code/round2/paper_baseline_training_v1/nerf2_runner_v3.py": "a5e24f56228079b691ed4b5186de52bd5f7851e5603c34956f15e9a1aa8899ca",
+    "code/round2/paper_baseline_training_v1/field_fast.py": "4773a34235bcaa7e24f119f333be39f7a986fd8726bbba1a4e66c3f2990e1d9f",
+    "code/round2/paper_baseline_training_v1/nerf2_native_frequency_heads_v4.py": "f572c341d09a0edce929502836692eb825e65b937c6863c66720a7b49a892270",
+    "code/round2/paper_baseline_training_v1/nerf2_native_heads_joint_v5.py": "1d1387c5d4836c2823d150cdf8a25c725fb7453e2e326d2493b43f03d36ab882",
+    "code/round2/paper_baseline_adapters_v1/contract.py": "0da0617438cd3ca72d536da566f35305d78c16b3fabeb4d3877e92486bf34b5f",
+    "code/round2/paper_baseline_adapters_v1/field_models.py": "8009d8877a680f232445d277f890796109f982347741593fc4bf8db4a5bc8242",
+    "code/round2/paper_baseline_training_v1/field_runner.py": "cdf21f0534b8d616511cebddb09b8b72ca325c3ab7e1e8ef6fb3b28192213ed7",
+    "plus-pro/code/measured/full_h_adapters_v1/nerf2.py": "37704fd408178a4286e0b58a92b21a8f6a02ca635dc712d6194ceca7f488f192",
+    "plus-pro/code/third_party/paper_baselines/nerf2/model.py": "c63fa4246d6255035d03ebc1dbd7b5a1d40391b51e98805ed3d9969bc3546ad1",
+    "plus-pro/code/third_party/paper_baselines/nerf2/renderer.py": "4f5e5b1ab617de27918e8d2bc540182a110d37eb6ac5e743449c34b3a8535c92",
+    "code/round2/baseline_freqminibatch_20261112/nerf2.py": "e919f90db32cb87774f4b4dd8eafd84db1dc29f20ee4d5ae7c09725cf41f9ab2",
+    "code/round2/baseline_formal_20261111/nerf2_portable.py": "833a986b9212f496fd656c19a4cee2dc7c3e34a013dd8d0e518f255b8485ba40",
+    "analysis/results/round2_paper_four_baselines_v1/freqminibatch_20261112/nerf2/method_config.json": "f9b9f94f84c39170e37bae663cdbe2608f8b39db1ac78480d3f7458f03281cf6"
+  },
+  "checkpoint_sha256": "2b5a0e8d802bb589618b347582e3c06ae6a8e4896c4598e1c9775bf74b736dfd"
+}

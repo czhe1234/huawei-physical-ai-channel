@@ -1,0 +1,30 @@
+{
+  "status": "running",
+  "launcher_pid": 2518978,
+  "worker_pid": 2518997,
+  "argv": [
+    "code/tools/run_in_env.sh",
+    "python",
+    "-u",
+    "-m",
+    "round2.baseline_freqminibatch_20261112.nerf2",
+    "--config",
+    "analysis/results/round2_paper_four_baselines_v1/freqminibatch_20261112/nerf2/method_config.json",
+    "--gpu-uuid",
+    "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "--folds",
+    "2,3",
+    "--mode",
+    "run"
+  ],
+  "source_sha256": "e919f90db32cb87774f4b4dd8eafd84db1dc29f20ee4d5ae7c09725cf41f9ab2",
+  "config_sha256": "f9b9f94f84c39170e37bae663cdbe2608f8b39db1ac78480d3f7458f03281cf6",
+  "GPU_UUID": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+  "immutable_migration_parent_sha256": "95c267cbf0f1b255f3aba7f93379cfd1928f0a3b673edcb5f0f509da9f12e7d2",
+  "inherited_actual_updates": 43293,
+  "training_K": 16,
+  "full_H_evaluation_tones": 192,
+  "old_roots_readonly": true,
+  "log": "analysis/results/round2_paper_four_baselines_v1/freqminibatch_20261112/nerf2/run_2_3.log",
+  "CPU_and_GPU_QA_optimizer_updates": 0
+}

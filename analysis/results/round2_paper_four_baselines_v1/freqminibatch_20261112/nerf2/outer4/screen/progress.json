@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-12T01:25:23Z",
+  "event": "stage_complete",
+  "fold": 4,
+  "role": "screen",
+  "actual_updates": 45312,
+  "seconds": 8500.42058359494,
+  "checkpoint": "artifacts/round2/paper_four_baselines_v1/freqminibatch_20261112/nerf2/outer4/screen/best.pt"
+}

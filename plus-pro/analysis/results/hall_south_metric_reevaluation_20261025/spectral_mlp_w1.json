@@ -1,0 +1,62 @@
+{
+  "name": "spectral_mlp_w1",
+  "label": "位置MLP：标准损失",
+  "family": "full",
+  "status": "ok",
+  "scores": {
+    "pas_cosine": 0.6109479905488617,
+    "relative_pdp_cosine": 0.5029559278091259,
+    "receive_energy_TV": 0.23647078451296127,
+    "receive_delay_joint_TV": 0.6416691359763766,
+    "by_panel": {
+      "pas_cosine": [
+        0.595344846235224,
+        0.6265511348624996
+      ],
+      "relative_pdp_cosine": [
+        0.557363967307108,
+        0.4485478883111438
+      ],
+      "receive_energy_TV": [
+        0.23054081838562843,
+        0.2424007506402941
+      ],
+      "receive_delay_joint_TV": [
+        0.6206205075592082,
+        0.662717764393545
+      ]
+    },
+    "reference_valid_pas_cells": 98304,
+    "reference_valid_pdp_links": 3072,
+    "reference_valid_energy_panels": 96,
+    "reference_valid_joint_panels": 96,
+    "invalid_reference_anchors": 0,
+    "failed_prediction_pdp_links": 0,
+    "failed_prediction_energy_panels": 0,
+    "prediction_oracle_alignment": false,
+    "combined_score": null
+  },
+  "auxiliary": {
+    "reference_panels_total": 96,
+    "reference_panels_valid": 96,
+    "zero_prediction_panels": 0,
+    "undefined_reference_panels": 0,
+    "mean_direction_cosine": 0.8434308431456342,
+    "mean_beam_loss_db": 2.172635350918745,
+    "infinite_mean_beam_loss": false,
+    "p90_beam_loss_db": 6.087079948228622,
+    "beam_loss_over3_fraction": 0.3645833333333333,
+    "reference_mask_depends_on_prediction": false
+  },
+  "prediction_file": "artifacts/measured/hall_sw_structured_development_v2/models/spectral_mlp_w1/best_channel.npz",
+  "prediction_sha256": "f8b35467010948a4cd2704ab917d8d2fdd90604aa2eb6e6f5fa886c4556aff09",
+  "explicit_row_ids": true,
+  "row_provenance": "explicit NPZ IDs",
+  "old_metric_parity": {
+    "direction_cosine_difference": 8.562305120474178e-08,
+    "beam_loss_difference": 3.4069989940377354e-08
+  },
+  "best_epoch": 25,
+  "checkpoint_selection": "unchanged old metric selection; no new epoch search",
+  "regenerated": false
+}

@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "scope": "prediction and training lineage only; no scoring",
+  "fold": 0,
+  "shape": [
+    103,
+    256,
+    4,
+    192
+  ],
+  "prediction_sha256": "1c493d9bf977c823cff3d05e373df8718f3a8bb8ed7822ca5a8933b31208834c",
+  "manifest_sha256": "3910ddf9666a0db50947e322ce81276f71cef4c99a840663c00d8d1c1d191467",
+  "role_reports_and_checkpoint": {
+    "screen": "986743645429821d7045b19ea2ec6239e32abdbdbdbf2b3751838c80ced4e7d3",
+    "refit": "c0b4ebd9b57479a0316a0497869da655a9c733540a206100ad176a1ae139dd65",
+    "model": "8bb14ea7259c1b3542e24212acf92bc2b47276ec7623691639f991518fc786fe"
+  },
+  "refit_count": 3893,
+  "query_count": 103,
+  "outer_truth_read": false
+}

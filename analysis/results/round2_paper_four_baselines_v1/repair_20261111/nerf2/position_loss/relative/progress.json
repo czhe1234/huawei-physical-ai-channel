@@ -1,0 +1,12 @@
+{
+  "stage": "training",
+  "additional_updates": 368,
+  "loss": 0.08904353994876146,
+  "position_losses": [
+    0.009925280697643757,
+    0.0791182592511177
+  ],
+  "gradient_norm": 8.741788864135742,
+  "elapsed_seconds": 66.535873646033,
+  "prior_completed_arm_seconds": 352.07888042507693
+}

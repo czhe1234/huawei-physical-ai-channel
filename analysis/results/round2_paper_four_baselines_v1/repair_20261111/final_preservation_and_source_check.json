@@ -1,0 +1,4203 @@
+{
+  "status": "passed",
+  "old_hashed_files": {
+    "code/round2/paper_baseline_training_v1/newrf_query_check.py": {
+      "expected": "7ca5551a99aaef96ca14c22e3dbe323dd75f86be5d7707c20c47a6257abccd05",
+      "actual": "7ca5551a99aaef96ca14c22e3dbe323dd75f86be5d7707c20c47a6257abccd05",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_minimal_fullH_v2.py": {
+      "expected": "7c6b7084f1ebbdbe0345e72a5277d1ad32dc38211e2c9e4e65f834fb81ed1127",
+      "actual": "7c6b7084f1ebbdbe0345e72a5277d1ad32dc38211e2c9e4e65f834fb81ed1127",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/selection.py": {
+      "expected": "d0e963aca50770424fc2f79ca5d5bf5add1cc14bd371db8d6aec812e3109ae33",
+      "actual": "d0e963aca50770424fc2f79ca5d5bf5add1cc14bd371db8d6aec812e3109ae33",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_query.py": {
+      "expected": "36e4929d2d67953ab8edc8bf470dd526309770710e90a41818f49a957f8ec0f5",
+      "actual": "36e4929d2d67953ab8edc8bf470dd526309770710e90a41818f49a957f8ec0f5",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_query_route_h1003_v11c.py": {
+      "expected": "ec3bd5cce300ba9177150b1b16a2edc86f578f1fe77f038d9d84b53ab141a39f",
+      "actual": "ec3bd5cce300ba9177150b1b16a2edc86f578f1fe77f038d9d84b53ab141a39f",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/wrfgs_checks.py": {
+      "expected": "8c20aa5eb6bdc7d8e0912f8adcf4884cc6e954cf99010156ea799f76caef4851",
+      "actual": "8c20aa5eb6bdc7d8e0912f8adcf4884cc6e954cf99010156ea799f76caef4851",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_staged_two_positions_v7.py": {
+      "expected": "b03738b32e0c7a77e21645abb4967c65502d092f6601f70ddec9d40bbc2805c6",
+      "actual": "b03738b32e0c7a77e21645abb4967c65502d092f6601f70ddec9d40bbc2805c6",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_v4_health.py": {
+      "expected": "11823c1de3c816df66647e2fb32b64898e43643a9f1093e711fb4678f49994bb",
+      "actual": "11823c1de3c816df66647e2fb32b64898e43643a9f1093e711fb4678f49994bb",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_precision_probe.py": {
+      "expected": "04df855f7b82ad30e01d7a053a18d68bda57ac1a2fbe13d92ed156785f1a5d9c",
+      "actual": "04df855f7b82ad30e01d7a053a18d68bda57ac1a2fbe13d92ed156785f1a5d9c",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/wrfgs_model.py": {
+      "expected": "f8a5391d57f41ea72181c14e46c751d4d0035c87e4d129703208963700f6397a",
+      "actual": "f8a5391d57f41ea72181c14e46c751d4d0035c87e4d129703208963700f6397a",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_paired_initialization_v8.py": {
+      "expected": "ac73734bd0bfc40a34c93df0256287283a8028d1a5174e1c3fdcd3f211e8b363",
+      "actual": "ac73734bd0bfc40a34c93df0256287283a8028d1a5174e1c3fdcd3f211e8b363",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_staged_joint_v6.py": {
+      "expected": "21d8bed3fd230ffef8ea5d194ca43ec7428652440230705e199f4984ff68029d",
+      "actual": "21d8bed3fd230ffef8ea5d194ca43ec7428652440230705e199f4984ff68029d",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/nerf2_label_subset_check.py": {
+      "expected": "d7bc9c2bb430ce8da7d2f48e847747c13bf205343676a5e70379b80f806e010a",
+      "actual": "d7bc9c2bb430ce8da7d2f48e847747c13bf205343676a5e70379b80f806e010a",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/ngrf_refit_fit_check.py": {
+      "expected": "8f4daef95df53f9627efdb25db6c749690a1948806a4c6c674da8c85c5c04ce4",
+      "actual": "8f4daef95df53f9627efdb25db6c749690a1948806a4c6c674da8c85c5c04ce4",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/nerf2_static_frequency_basis_capacity_v2.py": {
+      "expected": "09bff397caecfe3bdf3b3556df02a8f4bb425f98e26e58cd601e44b06dcea4a3",
+      "actual": "09bff397caecfe3bdf3b3556df02a8f4bb425f98e26e58cd601e44b06dcea4a3",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/common.py": {
+      "expected": "5ad45eb0b8d16f4a9af9462ba747f582d28946caef84747a8c21e1ccd3d1205d",
+      "actual": "5ad45eb0b8d16f4a9af9462ba747f582d28946caef84747a8c21e1ccd3d1205d",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/field_fast.py": {
+      "expected": "4773a34235bcaa7e24f119f333be39f7a986fd8726bbba1a4e66c3f2990e1d9f",
+      "actual": "4773a34235bcaa7e24f119f333be39f7a986fd8726bbba1a4e66c3f2990e1d9f",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/saved_scale_diagnosis.py": {
+      "expected": "eae81409f47d022475a30676535ef3c0e0662da35fb2f28706c07d1b271d6475",
+      "actual": "eae81409f47d022475a30676535ef3c0e0662da35fb2f28706c07d1b271d6475",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_signal_gradient_warm_v9.py": {
+      "expected": "07021d9997f2dbe53572e0b4a57989b7896b3cd2e1a3495b923b23f98353a498",
+      "actual": "07021d9997f2dbe53572e0b4a57989b7896b3cd2e1a3495b923b23f98353a498",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_runner.py": {
+      "expected": "0a49a92ae1c44da58856a0e7edcc3b1473df6f51de8e7dc4459700ec7f8c175b",
+      "actual": "0a49a92ae1c44da58856a0e7edcc3b1473df6f51de8e7dc4459700ec7f8c175b",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_runtime_cache_v4.py": {
+      "expected": "84e48f5684a61b2fa86be636e5f3c0db6469e5766b0dbfcce669a0bffc5bb74d",
+      "actual": "84e48f5684a61b2fa86be636e5f3c0db6469e5766b0dbfcce669a0bffc5bb74d",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_train_v4.py": {
+      "expected": "1172d907bc1535039082cc0da076bbf954f3481ca7db91862e98a7076972dd33",
+      "actual": "1172d907bc1535039082cc0da076bbf954f3481ca7db91862e98a7076972dd33",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/verify_finished.py": {
+      "expected": "ae31159a38df765f81cee401082a4c69217ab579063133704628aeda12d9855e",
+      "actual": "ae31159a38df765f81cee401082a4c69217ab579063133704628aeda12d9855e",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/ngrf_native_objective_v2.py": {
+      "expected": "ed7f91ad0db9a9255d591d6488dfea4c0eaaddffb3bf306b53c935c1b7877c6d",
+      "actual": "ed7f91ad0db9a9255d591d6488dfea4c0eaaddffb3bf306b53c935c1b7877c6d",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/nerf2_cost_v2.py": {
+      "expected": "7e6c8d8022394f96f4b94143af1617a536d7690b9369e347e4429f8be8642367",
+      "actual": "7e6c8d8022394f96f4b94143af1617a536d7690b9369e347e4429f8be8642367",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_train.py": {
+      "expected": "c1736d29555d35daa26b364fde6aee3700bb80254b2624a0aae24d4865e205c5",
+      "actual": "c1736d29555d35daa26b364fde6aee3700bb80254b2624a0aae24d4865e205c5",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_native_batch_v4.py": {
+      "expected": "0ad133e24dfec623dbcd8272a14061d943b50c244fbc40d39895c18a31e12a15",
+      "actual": "0ad133e24dfec623dbcd8272a14061d943b50c244fbc40d39895c18a31e12a15",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/nerf2_train_main_v3.py": {
+      "expected": "b7eb86e6b58eb443515a9fa48307b7028dd1ee08a2e382583ea22489d3a72664",
+      "actual": "b7eb86e6b58eb443515a9fa48307b7028dd1ee08a2e382583ea22489d3a72664",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/wrfgs_runner.py": {
+      "expected": "e2f35f3a5b3647d9cf7ccaddc17cae2c9a73ce8bfcdadeff75e1b1ef653af6b5",
+      "actual": "e2f35f3a5b3647d9cf7ccaddc17cae2c9a73ce8bfcdadeff75e1b1ef653af6b5",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_balanced_dev_v1.py": {
+      "expected": "41a84eaca80b532fc5abc4500d9b5e63658e91a5b4fb525d03140d769a24a5a3",
+      "actual": "41a84eaca80b532fc5abc4500d9b5e63658e91a5b4fb525d03140d769a24a5a3",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/ngrf_phase_health_check.py": {
+      "expected": "c526a4dcb1750a4ce5d250f5a1582d07ee12e5904c714cc9b655a1dd0691e964",
+      "actual": "c526a4dcb1750a4ce5d250f5a1582d07ee12e5904c714cc9b655a1dd0691e964",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_conditioning_check.py": {
+      "expected": "b44cd5a9264b6ec0e32b870c3344ab2a291a58b8f3b66788bde767068caaad43",
+      "actual": "b44cd5a9264b6ec0e32b870c3344ab2a291a58b8f3b66788bde767068caaad43",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_staged_native_v5.py": {
+      "expected": "0676a36c32494fcf8dee985bee4afbc4e3ed2efaae446b8d3464952141c14327",
+      "actual": "0676a36c32494fcf8dee985bee4afbc4e3ed2efaae446b8d3464952141c14327",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_v3_exact_fit_health.py": {
+      "expected": "5d548159ea2553de09a0a376b2efe8a292395ed42e38e93a220b69a0bc5f38a8",
+      "actual": "5d548159ea2553de09a0a376b2efe8a292395ed42e38e93a220b69a0bc5f38a8",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_query_route_v11.py": {
+      "expected": "dd52641c80736634def78d754deb6ca51ced008c981154cc5051590ff955e2d7",
+      "actual": "dd52641c80736634def78d754deb6ca51ced008c981154cc5051590ff955e2d7",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/nerf2_runner_v2.py": {
+      "expected": "9cf207b5eaf420718ed0e11d4e40b7ccc2b25e1198752f03eb7a66653c6f24a0",
+      "actual": "9cf207b5eaf420718ed0e11d4e40b7ccc2b25e1198752f03eb7a66653c6f24a0",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_fixed_sampling_v3.py": {
+      "expected": "59bdc8f9072fbff82e8f460febb8b3b75983c890824601ed857701eac62d7d82",
+      "actual": "59bdc8f9072fbff82e8f460febb8b3b75983c890824601ed857701eac62d7d82",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/native_ngrf.py": {
+      "expected": "a84eadc26fe79310a89bcdc21be0cc46d590bd1c3bda2b61402936cf82d8a967",
+      "actual": "a84eadc26fe79310a89bcdc21be0cc46d590bd1c3bda2b61402936cf82d8a967",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_latefreq_pilot.py": {
+      "expected": "f861a01f2b460e60d7a0cb033a898ac3faefdda46cd8aa4434c2ba395343b8e7",
+      "actual": "f861a01f2b460e60d7a0cb033a898ac3faefdda46cd8aa4434c2ba395343b8e7",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_coarse_init_signal_warm_v10.py": {
+      "expected": "ccae3faaf4cdcf6d9832083d838c81b460db8d3be951d7bd8b43a5368ced6176",
+      "actual": "ccae3faaf4cdcf6d9832083d838c81b460db8d3be951d7bd8b43a5368ced6176",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_fit_health.py": {
+      "expected": "1e52146cc41361b74e8aa4d4493c2aca144371ecb1142391bee4da4af7f3cf85",
+      "actual": "1e52146cc41361b74e8aa4d4493c2aca144371ecb1142391bee4da4af7f3cf85",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/__init__.py": {
+      "expected": "1644c8597029a8b0a9f29fd0e1441f97a827101742175f4400c6f1a1ac18ff9e",
+      "actual": "1644c8597029a8b0a9f29fd0e1441f97a827101742175f4400c6f1a1ac18ff9e",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/verify_balanced_dev_v1.py": {
+      "expected": "9225476c3ae49d631da24cb6aef25fbb7317e1ba560df1252062e3402a1ab354",
+      "actual": "9225476c3ae49d631da24cb6aef25fbb7317e1ba560df1252062e3402a1ab354",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/fit_health_report_v1.py": {
+      "expected": "4b6fcb5600d125f234f5854fc6246f2f97a1ce7d0c6f02244dd8b1eeabcc7316",
+      "actual": "4b6fcb5600d125f234f5854fc6246f2f97a1ce7d0c6f02244dd8b1eeabcc7316",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_query_route_h1003_v11b.py": {
+      "expected": "bb4d17934677d40157f8cdfce694de0e57bb104d67358233c0535a1098391c2c",
+      "actual": "bb4d17934677d40157f8cdfce694de0e57bb104d67358233c0535a1098391c2c",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_query_route_cpu_v11d.py": {
+      "expected": "305950630e31f163f95e550369187d42a7ebe4f379b6e0315af9512090e210dd",
+      "actual": "305950630e31f163f95e550369187d42a7ebe4f379b6e0315af9512090e210dd",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/ngrf_health_v2.py": {
+      "expected": "7c9fc5359098daffe051697d36d217e9185e6a90cb440f501652264329645936",
+      "actual": "7c9fc5359098daffe051697d36d217e9185e6a90cb440f501652264329645936",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/durable_run.py": {
+      "expected": "06ef17b1c84633d8d64dfcc1e4047f326153919261f5e4d924e0c23abe8d9e68",
+      "actual": "06ef17b1c84633d8d64dfcc1e4047f326153919261f5e4d924e0c23abe8d9e68",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_train_v3.py": {
+      "expected": "a72ec1a0695d399e6df9abd4fffab6e37daf53ad80589b0db53a40eb490609da",
+      "actual": "a72ec1a0695d399e6df9abd4fffab6e37daf53ad80589b0db53a40eb490609da",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/wrfgs_fast_ops.py": {
+      "expected": "4bb979456b6b2a6bad57dd842b17f07b2b4ee91f7554fe09705d3b56029e8816",
+      "actual": "4bb979456b6b2a6bad57dd842b17f07b2b4ee91f7554fe09705d3b56029e8816",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/saved_recent_label_diagnosis.py": {
+      "expected": "c8b8d1131e7177bde8d4c56b512f033a7c84c6cf7eb9b01ed7899f5b0c7d94a8",
+      "actual": "c8b8d1131e7177bde8d4c56b512f033a7c84c6cf7eb9b01ed7899f5b0c7d94a8",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/nerf2_balanced_dev_v1.py": {
+      "expected": "e2cc32c0329d2c7e9f7377243e40365f65f12248ece7f438bfcd21d0c00b089d",
+      "actual": "e2cc32c0329d2c7e9f7377243e40365f65f12248ece7f438bfcd21d0c00b089d",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/nerf2_runner_v3.py": {
+      "expected": "a5e24f56228079b691ed4b5186de52bd5f7851e5603c34956f15e9a1aa8899ca",
+      "actual": "a5e24f56228079b691ed4b5186de52bd5f7851e5603c34956f15e9a1aa8899ca",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_staged_two_positions_v7a.py": {
+      "expected": "4d7b419076c464585066fa1aed3e74378059033a04e6bf3761fd7c1a58f1172b",
+      "actual": "4d7b419076c464585066fa1aed3e74378059033a04e6bf3761fd7c1a58f1172b",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_conditioned_v3.py": {
+      "expected": "967b77635c27c13f12004b6a48985f73060b0e1b852e9cc32dcfc553b4d6730f",
+      "actual": "967b77635c27c13f12004b6a48985f73060b0e1b852e9cc32dcfc553b4d6730f",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_fixed_density_v4.py": {
+      "expected": "2555cdf55f83b61368bfc0fc42874fd145e42aea8f81ddd18890db4a82417342",
+      "actual": "2555cdf55f83b61368bfc0fc42874fd145e42aea8f81ddd18890db4a82417342",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_conditioning_pilot.py": {
+      "expected": "509ee819d70174fa0d3b9f97a451ee6c8d30b5636918478765b094d2322904f5",
+      "actual": "509ee819d70174fa0d3b9f97a451ee6c8d30b5636918478765b094d2322904f5",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/field_runner.py": {
+      "expected": "cdf21f0534b8d616511cebddb09b8b72ca325c3ab7e1e8ef6fb3b28192213ed7",
+      "actual": "cdf21f0534b8d616511cebddb09b8b72ca325c3ab7e1e8ef6fb3b28192213ed7",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/nerf2_minimal_fullH_v2.py": {
+      "expected": "3cc7ed172724af3109f281e6bfba640b5da87c408d5baa2e72753e9fd6477ca2",
+      "actual": "3cc7ed172724af3109f281e6bfba640b5da87c408d5baa2e72753e9fd6477ca2",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/nerf2_two_position_field_v8.py": {
+      "expected": "6b795f0e3cbbbedf4b49e9ffef6b436cfbe3a582d65ec04da4bd4c1c9bf79a7a",
+      "actual": "6b795f0e3cbbbedf4b49e9ffef6b436cfbe3a582d65ec04da4bd4c1c9bf79a7a",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/nerf2_native_heads_joint_v5.py": {
+      "expected": "1d1387c5d4836c2823d150cdf8a25c725fb7453e2e326d2493b43f03d36ab882",
+      "actual": "1d1387c5d4836c2823d150cdf8a25c725fb7453e2e326d2493b43f03d36ab882",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_v3_health.py": {
+      "expected": "075961a3ff5f2b7fa3237e1ad3668f49b7e2cee05ebac931fc326beee0959cd6",
+      "actual": "075961a3ff5f2b7fa3237e1ad3668f49b7e2cee05ebac931fc326beee0959cd6",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_v3_multifit_health.py": {
+      "expected": "463c5f584455c41063cac1861312b384e3c4660ce9bec8e5503c3b9d342d2748",
+      "actual": "463c5f584455c41063cac1861312b384e3c4660ce9bec8e5503c3b9d342d2748",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/newrf_latefreq.py": {
+      "expected": "121d04c5af426a7f12e6d87890782da7fdd83b0dc49370a0577f042863b63452",
+      "actual": "121d04c5af426a7f12e6d87890782da7fdd83b0dc49370a0577f042863b63452",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/existing_paper_comparison_v1.py": {
+      "expected": "544df30fce671fc96d3529caadf711a0193ffdeebb8da49e4417461d110ff37d",
+      "actual": "544df30fce671fc96d3529caadf711a0193ffdeebb8da49e4417461d110ff37d",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/wrfgs_train_main.py": {
+      "expected": "3196850c8cfe7527d80f67fe7d1e34cbe0096de08a4f5f77c2dbef8a7ea13ecd",
+      "actual": "3196850c8cfe7527d80f67fe7d1e34cbe0096de08a4f5f77c2dbef8a7ea13ecd",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/nerf2_fixed_nn_frequency_v3.py": {
+      "expected": "4957871697645c0cdfd0d296f3948d71e19300fcc6bfb9ba1b0249ea21dae0b1",
+      "actual": "4957871697645c0cdfd0d296f3948d71e19300fcc6bfb9ba1b0249ea21dae0b1",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/nerf2_native_heads_continuation_v4.py": {
+      "expected": "28fd7c43c7dbd23fe8b517ec47c47311a91a88b6a97512d510dd111e8efcb8af",
+      "actual": "28fd7c43c7dbd23fe8b517ec47c47311a91a88b6a97512d510dd111e8efcb8af",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/nerf2_native_frequency_heads_v4.py": {
+      "expected": "f572c341d09a0edce929502836692eb825e65b937c6863c66720a7b49a892270",
+      "actual": "f572c341d09a0edce929502836692eb825e65b937c6863c66720a7b49a892270",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/nerf2_native_heads_ue01_continue_v6.py": {
+      "expected": "40d5fbe8b2ce8defca29783f8152665753564492774602eda60034f4a3acd777",
+      "actual": "40d5fbe8b2ce8defca29783f8152665753564492774602eda60034f4a3acd777",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/final_score.py": {
+      "expected": "56fc83f5309ab46d42ee8a744ea0ee54867b1d18e2d62ce5e8a412a2314b3c23",
+      "actual": "56fc83f5309ab46d42ee8a744ea0ee54867b1d18e2d62ce5e8a412a2314b3c23",
+      "match": true
+    },
+    "code/round2/paper_baseline_training_v1/nerf2_low_lr_ue01_v7.py": {
+      "expected": "9d2abd972ff482ebf785bb52c8b477047839cc2dec7253c6f8ed894887bd5200",
+      "actual": "9d2abd972ff482ebf785bb52c8b477047839cc2dec7253c6f8ed894887bd5200",
+      "match": true
+    },
+    "analysis/results/round2_paper_four_baselines_v1/comparison.json": {
+      "expected": "1aad3d9fd70e40270d8a36e83400b52741002c82de70eb51b6d1ce21eeb85157",
+      "actual": "1aad3d9fd70e40270d8a36e83400b52741002c82de70eb51b6d1ce21eeb85157",
+      "match": true
+    },
+    "analysis/results/round2_paper_four_baselines_v1/comparison.md": {
+      "expected": "1f07992a8e468505d132e066f4fe8c5cb12234edb650c038cbee855574b224e2",
+      "actual": "1f07992a8e468505d132e066f4fe8c5cb12234edb650c038cbee855574b224e2",
+      "match": true
+    },
+    "analysis/results/round2_paper_four_baselines_v1/comparison.csv": {
+      "expected": "c141a65db5286213bcb7fdae3300366205c9a53966e5fa12efdcff48311206fd",
+      "actual": "c141a65db5286213bcb7fdae3300366205c9a53966e5fa12efdcff48311206fd",
+      "match": true
+    },
+    "analysis/results/round2_paper_four_baselines_v1/completed_result_verification.json": {
+      "expected": "dbb386f2c1952efc0ba934fc1c8d3207267a6542fd77e6327d34cd7e6e297c37",
+      "actual": "dbb386f2c1952efc0ba934fc1c8d3207267a6542fd77e6327d34cd7e6e297c37",
+      "match": true
+    },
+    "analysis/results/round2_paper_four_baselines_v1/wrfgs_full_h_v1_20261110/evaluation/comparison.json": {
+      "expected": "4d8d7ef6e2841c80723404e3761320012419d8ae969521c0e9ab702ee97829fb",
+      "actual": "4d8d7ef6e2841c80723404e3761320012419d8ae969521c0e9ab702ee97829fb",
+      "match": true
+    }
+  },
+  "old_model_stat_checks": [
+    {
+      "path": "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/base_field/donor_weight_model.pt",
+      "expected": {
+        "size": 744124,
+        "mtime_ns": 1786765013000000000,
+        "inode": 247698817
+      },
+      "actual": {
+        "size": 744124,
+        "mtime_ns": 1786765013000000000,
+        "inode": 247698817
+      },
+      "match": true
+    },
+    {
+      "path": "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/path_calibrator/fold_1.pt",
+      "expected": {
+        "size": 35993730,
+        "mtime_ns": 1786763272000000000,
+        "inode": 247698855
+      },
+      "actual": {
+        "size": 35993730,
+        "mtime_ns": 1786763272000000000,
+        "inode": 247698855
+      },
+      "match": true
+    },
+    {
+      "path": "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/path_calibrator/fold_2.pt",
+      "expected": {
+        "size": 35993730,
+        "mtime_ns": 1786763272000000000,
+        "inode": 247698856
+      },
+      "actual": {
+        "size": 35993730,
+        "mtime_ns": 1786763272000000000,
+        "inode": 247698856
+      },
+      "match": true
+    },
+    {
+      "path": "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/path_calibrator/fold_0.pt",
+      "expected": {
+        "size": 35993730,
+        "mtime_ns": 1786763271000000000,
+        "inode": 247698857
+      },
+      "actual": {
+        "size": 35993730,
+        "mtime_ns": 1786763271000000000,
+        "inode": 247698857
+      },
+      "match": true
+    },
+    {
+      "path": "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/path_calibrator/fold_4.pt",
+      "expected": {
+        "size": 35993730,
+        "mtime_ns": 1786763272000000000,
+        "inode": 247698858
+      },
+      "actual": {
+        "size": 35993730,
+        "mtime_ns": 1786763272000000000,
+        "inode": 247698858
+      },
+      "match": true
+    },
+    {
+      "path": "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/path_calibrator/fold_3.pt",
+      "expected": {
+        "size": 35993730,
+        "mtime_ns": 1786763272000000000,
+        "inode": 247698859
+      },
+      "actual": {
+        "size": 35993730,
+        "mtime_ns": 1786763272000000000,
+        "inode": 247698859
+      },
+      "match": true
+    },
+    {
+      "path": "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/base_field/joint/pas_fold_4.pt",
+      "expected": {
+        "size": 4254885,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698822
+      },
+      "actual": {
+        "size": 4254885,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698822
+      },
+      "match": true
+    },
+    {
+      "path": "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/base_field/joint/pdp_fold_3.pt",
+      "expected": {
+        "size": 1952933,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698823
+      },
+      "actual": {
+        "size": 1952933,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698823
+      },
+      "match": true
+    },
+    {
+      "path": "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/base_field/joint/pas_fold_2.pt",
+      "expected": {
+        "size": 4254885,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698824
+      },
+      "actual": {
+        "size": 4254885,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698824
+      },
+      "match": true
+    },
+    {
+      "path": "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/base_field/joint/pas_fold_3.pt",
+      "expected": {
+        "size": 4254885,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698825
+      },
+      "actual": {
+        "size": 4254885,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698825
+      },
+      "match": true
+    },
+    {
+      "path": "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/base_field/joint/pas_fold_0.pt",
+      "expected": {
+        "size": 4254885,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698826
+      },
+      "actual": {
+        "size": 4254885,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698826
+      },
+      "match": true
+    },
+    {
+      "path": "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/base_field/joint/pdp_fold_1.pt",
+      "expected": {
+        "size": 1952933,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698827
+      },
+      "actual": {
+        "size": 1952933,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698827
+      },
+      "match": true
+    },
+    {
+      "path": "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/base_field/joint/pas_fold_1.pt",
+      "expected": {
+        "size": 4254885,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698830
+      },
+      "actual": {
+        "size": 4254885,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698830
+      },
+      "match": true
+    },
+    {
+      "path": "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/base_field/joint/pdp_fold_4.pt",
+      "expected": {
+        "size": 1952933,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698831
+      },
+      "actual": {
+        "size": 1952933,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698831
+      },
+      "match": true
+    },
+    {
+      "path": "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/base_field/joint/pdp_fold_0.pt",
+      "expected": {
+        "size": 1952933,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698832
+      },
+      "actual": {
+        "size": 1952933,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698832
+      },
+      "match": true
+    },
+    {
+      "path": "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/base_field/joint/pdp_fold_2.pt",
+      "expected": {
+        "size": 1952933,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698833
+      },
+      "actual": {
+        "size": 1952933,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698833
+      },
+      "match": true
+    },
+    {
+      "path": "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/base_field/path_link/fold_1.pt",
+      "expected": {
+        "size": 952430,
+        "mtime_ns": 1786765013000000000,
+        "inode": 247698835
+      },
+      "actual": {
+        "size": 952430,
+        "mtime_ns": 1786765013000000000,
+        "inode": 247698835
+      },
+      "match": true
+    },
+    {
+      "path": "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/base_field/path_link/fold_2.pt",
+      "expected": {
+        "size": 952430,
+        "mtime_ns": 1786765013000000000,
+        "inode": 247698836
+      },
+      "actual": {
+        "size": 952430,
+        "mtime_ns": 1786765013000000000,
+        "inode": 247698836
+      },
+      "match": true
+    },
+    {
+      "path": "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/base_field/path_link/fold_0.pt",
+      "expected": {
+        "size": 952366,
+        "mtime_ns": 1786765013000000000,
+        "inode": 247698837
+      },
+      "actual": {
+        "size": 952366,
+        "mtime_ns": 1786765013000000000,
+        "inode": 247698837
+      },
+      "match": true
+    },
+    {
+      "path": "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/base_field/path_link/fold_4.pt",
+      "expected": {
+        "size": 952366,
+        "mtime_ns": 1786765013000000000,
+        "inode": 247698838
+      },
+      "actual": {
+        "size": 952366,
+        "mtime_ns": 1786765013000000000,
+        "inode": 247698838
+      },
+      "match": true
+    },
+    {
+      "path": "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/base_field/path_link/fold_3.pt",
+      "expected": {
+        "size": 952366,
+        "mtime_ns": 1786765013000000000,
+        "inode": 247698839
+      },
+      "actual": {
+        "size": 952366,
+        "mtime_ns": 1786765013000000000,
+        "inode": 247698839
+      },
+      "match": true
+    },
+    {
+      "path": "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/base_field/spectral/pas_fold_4.pt",
+      "expected": {
+        "size": 1602381,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698843
+      },
+      "actual": {
+        "size": 1602381,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698843
+      },
+      "match": true
+    },
+    {
+      "path": "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/base_field/spectral/pdp_fold_3.pt",
+      "expected": {
+        "size": 756301,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698844
+      },
+      "actual": {
+        "size": 756301,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698844
+      },
+      "match": true
+    },
+    {
+      "path": "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/base_field/spectral/pas_fold_2.pt",
+      "expected": {
+        "size": 1602381,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698845
+      },
+      "actual": {
+        "size": 1602381,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698845
+      },
+      "match": true
+    },
+    {
+      "path": "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/base_field/spectral/pas_fold_3.pt",
+      "expected": {
+        "size": 1602381,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698846
+      },
+      "actual": {
+        "size": 1602381,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698846
+      },
+      "match": true
+    },
+    {
+      "path": "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/base_field/spectral/pas_fold_0.pt",
+      "expected": {
+        "size": 1602381,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698847
+      },
+      "actual": {
+        "size": 1602381,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698847
+      },
+      "match": true
+    },
+    {
+      "path": "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/base_field/spectral/pdp_fold_1.pt",
+      "expected": {
+        "size": 756301,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698848
+      },
+      "actual": {
+        "size": 756301,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698848
+      },
+      "match": true
+    },
+    {
+      "path": "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/base_field/spectral/pas_fold_1.pt",
+      "expected": {
+        "size": 1602381,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698849
+      },
+      "actual": {
+        "size": 1602381,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698849
+      },
+      "match": true
+    },
+    {
+      "path": "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/base_field/spectral/pdp_fold_4.pt",
+      "expected": {
+        "size": 756301,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698850
+      },
+      "actual": {
+        "size": 756301,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698850
+      },
+      "match": true
+    },
+    {
+      "path": "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/base_field/spectral/pdp_fold_0.pt",
+      "expected": {
+        "size": 756301,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698851
+      },
+      "actual": {
+        "size": 756301,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698851
+      },
+      "match": true
+    },
+    {
+      "path": "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/base_field/spectral/pdp_fold_2.pt",
+      "expected": {
+        "size": 756301,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698852
+      },
+      "actual": {
+        "size": 756301,
+        "mtime_ns": 1786781938000000000,
+        "inode": 247698852
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/newrf/outer0/screen/last.pt",
+      "expected": {
+        "size": 28018310,
+        "mtime_ns": 1793469354292846205,
+        "inode": 285543374
+      },
+      "actual": {
+        "size": 28018310,
+        "mtime_ns": 1793469354292846205,
+        "inode": 285543374
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/newrf/outer0/screen/best.pt",
+      "expected": {
+        "size": 27879750,
+        "mtime_ns": 1793469181983279685,
+        "inode": 285543377
+      },
+      "actual": {
+        "size": 27879750,
+        "mtime_ns": 1793469181983279685,
+        "inode": 285543377
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/newrf/v4/outer0/screen/last.pt",
+      "expected": {
+        "size": 28086086,
+        "mtime_ns": 1793476835005900365,
+        "inode": 286753781
+      },
+      "actual": {
+        "size": 28086086,
+        "mtime_ns": 1793476835005900365,
+        "inode": 286753781
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/newrf/v4/outer0/screen/best.pt",
+      "expected": {
+        "size": 27884614,
+        "mtime_ns": 1793476253875685108,
+        "inode": 286753700
+      },
+      "actual": {
+        "size": 27884614,
+        "mtime_ns": 1793476253875685108,
+        "inode": 286753700
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/newrf/v4/outer0/refit/final.pt",
+      "expected": {
+        "size": 27892942,
+        "mtime_ns": 1793477339971263921,
+        "inode": 286753802
+      },
+      "actual": {
+        "size": 27892942,
+        "mtime_ns": 1793477339971263921,
+        "inode": 286753802
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/newrf/v4/outer0/refit/last.pt",
+      "expected": {
+        "size": 27947846,
+        "mtime_ns": 1793477339835266581,
+        "inode": 286753796
+      },
+      "actual": {
+        "size": 27947846,
+        "mtime_ns": 1793477339835266581,
+        "inode": 286753796
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/newrf/v4/outer1/screen/last.pt",
+      "expected": {
+        "size": 28086086,
+        "mtime_ns": 1793478948763104572,
+        "inode": 286753861
+      },
+      "actual": {
+        "size": 28086086,
+        "mtime_ns": 1793478948763104572,
+        "inode": 286753861
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/newrf/v4/outer1/screen/best.pt",
+      "expected": {
+        "size": 27884742,
+        "mtime_ns": 1793478393342781434,
+        "inode": 286753858
+      },
+      "actual": {
+        "size": 27884742,
+        "mtime_ns": 1793478393342781434,
+        "inode": 286753858
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/newrf/v4/outer1/refit/final.pt",
+      "expected": {
+        "size": 27893006,
+        "mtime_ns": 1793479445030537527,
+        "inode": 286753868
+      },
+      "actual": {
+        "size": 27893006,
+        "mtime_ns": 1793479445030537527,
+        "inode": 286753868
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/newrf/v4/outer1/refit/last.pt",
+      "expected": {
+        "size": 27947718,
+        "mtime_ns": 1793479444906534985,
+        "inode": 286753886
+      },
+      "actual": {
+        "size": 27947718,
+        "mtime_ns": 1793479444906534985,
+        "inode": 286753886
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/newrf/v4/outer4/screen/last.pt",
+      "expected": {
+        "size": 28086086,
+        "mtime_ns": 1793484855377017124,
+        "inode": 286754013
+      },
+      "actual": {
+        "size": 28086086,
+        "mtime_ns": 1793484855377017124,
+        "inode": 286754013
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/newrf/v4/outer4/screen/best.pt",
+      "expected": {
+        "size": 27884358,
+        "mtime_ns": 1793484275834011922,
+        "inode": 286754012
+      },
+      "actual": {
+        "size": 27884358,
+        "mtime_ns": 1793484275834011922,
+        "inode": 286754012
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/newrf/v4/outer4/refit/final.pt",
+      "expected": {
+        "size": 27892878,
+        "mtime_ns": 1793485364974075304,
+        "inode": 286754021
+      },
+      "actual": {
+        "size": 27892878,
+        "mtime_ns": 1793485364974075304,
+        "inode": 286754021
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/newrf/v4/outer4/refit/last.pt",
+      "expected": {
+        "size": 27948678,
+        "mtime_ns": 1793485364862079029,
+        "inode": 286754025
+      },
+      "actual": {
+        "size": 27948678,
+        "mtime_ns": 1793485364862079029,
+        "inode": 286754025
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/newrf/v4/outer3/screen/last.pt",
+      "expected": {
+        "size": 28086086,
+        "mtime_ns": 1793482711541623565,
+        "inode": 286753990
+      },
+      "actual": {
+        "size": 28086086,
+        "mtime_ns": 1793482711541623565,
+        "inode": 286753990
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/newrf/v4/outer3/screen/best.pt",
+      "expected": {
+        "size": 27884294,
+        "mtime_ns": 1793482156957961522,
+        "inode": 286753989
+      },
+      "actual": {
+        "size": 27884294,
+        "mtime_ns": 1793482156957961522,
+        "inode": 286753989
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/newrf/v4/outer3/refit/final.pt",
+      "expected": {
+        "size": 27893134,
+        "mtime_ns": 1793483215621794032,
+        "inode": 286754000
+      },
+      "actual": {
+        "size": 27893134,
+        "mtime_ns": 1793483215621794032,
+        "inode": 286754000
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/newrf/v4/outer3/refit/last.pt",
+      "expected": {
+        "size": 27950022,
+        "mtime_ns": 1793483215485789655,
+        "inode": 286753996
+      },
+      "actual": {
+        "size": 27950022,
+        "mtime_ns": 1793483215485789655,
+        "inode": 286753996
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/newrf/v4/outer2/screen/last.pt",
+      "expected": {
+        "size": 28086086,
+        "mtime_ns": 1793480855252211019,
+        "inode": 286753952
+      },
+      "actual": {
+        "size": 28086086,
+        "mtime_ns": 1793480855252211019,
+        "inode": 286753952
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/newrf/v4/outer2/screen/best.pt",
+      "expected": {
+        "size": 27884614,
+        "mtime_ns": 1793480296605245822,
+        "inode": 286753925
+      },
+      "actual": {
+        "size": 27884614,
+        "mtime_ns": 1793480296605245822,
+        "inode": 286753925
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/newrf/v4/outer2/refit/final.pt",
+      "expected": {
+        "size": 27893134,
+        "mtime_ns": 1793481357447982052,
+        "inode": 286753975
+      },
+      "actual": {
+        "size": 27893134,
+        "mtime_ns": 1793481357447982052,
+        "inode": 286753975
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/newrf/v4/outer2/refit/last.pt",
+      "expected": {
+        "size": 27948870,
+        "mtime_ns": 1793481357283987011,
+        "inode": 286753976
+      },
+      "actual": {
+        "size": 27948870,
+        "mtime_ns": 1793481357283987011,
+        "inode": 286753976
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/newrf/v3/outer0/screen/last.pt",
+      "expected": {
+        "size": 28038406,
+        "mtime_ns": 1793471132462029331,
+        "inode": 285543516
+      },
+      "actual": {
+        "size": 28038406,
+        "mtime_ns": 1793471132462029331,
+        "inode": 285543516
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/newrf/v3/outer0/screen/best.pt",
+      "expected": {
+        "size": 27881798,
+        "mtime_ns": 1793470908221235606,
+        "inode": 285543494
+      },
+      "actual": {
+        "size": 27881798,
+        "mtime_ns": 1793470908221235606,
+        "inode": 285543494
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v9_signal_gradient_warm_20261101/newrf/final.pt",
+      "expected": {
+        "size": 10504892,
+        "mtime_ns": 1793518768975467525,
+        "inode": 286754393
+      },
+      "actual": {
+        "size": 10504892,
+        "mtime_ns": 1793518768975467525,
+        "inode": 286754393
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v9_signal_gradient_warm_20261101/newrf/last.pt",
+      "expected": {
+        "size": 10503934,
+        "mtime_ns": 1793518765407433203,
+        "inode": 286754387
+      },
+      "actual": {
+        "size": 10503934,
+        "mtime_ns": 1793518765407433203,
+        "inode": 286754387
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v9_signal_gradient_warm_20261101/newrf/initial.pt",
+      "expected": {
+        "size": 9279746,
+        "mtime_ns": 1793518673654494440,
+        "inode": 286754363
+      },
+      "actual": {
+        "size": 9279746,
+        "mtime_ns": 1793518673654494440,
+        "inode": 286754363
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v9_signal_gradient_warm_20261101/newrf/warm/final.pt",
+      "expected": {
+        "size": 10504892,
+        "mtime_ns": 1793518767147449960,
+        "inode": 286754390
+      },
+      "actual": {
+        "size": 10504892,
+        "mtime_ns": 1793518767147449960,
+        "inode": 286754390
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_dev_20261101/newrf/best_field2.pt",
+      "expected": {
+        "size": 3921582,
+        "mtime_ns": 1793512130941860551,
+        "inode": 286754060
+      },
+      "actual": {
+        "size": 3921582,
+        "mtime_ns": 1793512130941860551,
+        "inode": 286754060
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_dev_20261101/newrf/selected.pt",
+      "expected": {
+        "size": 9273862,
+        "mtime_ns": 1793513271269532007,
+        "inode": 286754057
+      },
+      "actual": {
+        "size": 9273862,
+        "mtime_ns": 1793513271269532007,
+        "inode": 286754057
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_dev_20261101/newrf/best_field1.pt",
+      "expected": {
+        "size": 3921582,
+        "mtime_ns": 1793512700330750325,
+        "inode": 286754058
+      },
+      "actual": {
+        "size": 3921582,
+        "mtime_ns": 1793512700330750325,
+        "inode": 286754058
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_dev_20261101/newrf/last.pt",
+      "expected": {
+        "size": 31584774,
+        "mtime_ns": 1793513271157534164,
+        "inode": 286754067
+      },
+      "actual": {
+        "size": 31584774,
+        "mtime_ns": 1793513271157534164,
+        "inode": 286754067
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_dev_20261101/newrf/best_field4.pt",
+      "expected": {
+        "size": 3921582,
+        "mtime_ns": 1793513116168640946,
+        "inode": 286754068
+      },
+      "actual": {
+        "size": 3921582,
+        "mtime_ns": 1793513116168640946,
+        "inode": 286754068
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_dev_20261101/newrf/best_field5.pt",
+      "expected": {
+        "size": 3921582,
+        "mtime_ns": 1793512700870734791,
+        "inode": 286754062
+      },
+      "actual": {
+        "size": 3921582,
+        "mtime_ns": 1793512700870734791,
+        "inode": 286754062
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_dev_20261101/newrf/best_field3.pt",
+      "expected": {
+        "size": 3921582,
+        "mtime_ns": 1793513270349549735,
+        "inode": 286754069
+      },
+      "actual": {
+        "size": 3921582,
+        "mtime_ns": 1793513270349549735,
+        "inode": 286754069
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_dev_20261101/newrf/best_monitor.pt",
+      "expected": {
+        "size": 31511686,
+        "mtime_ns": 1793512701246723982,
+        "inode": 286754061
+      },
+      "actual": {
+        "size": 31511686,
+        "mtime_ns": 1793512701246723982,
+        "inode": 286754061
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_dev_20261101/newrf/best_field6.pt",
+      "expected": {
+        "size": 3921582,
+        "mtime_ns": 1793511976819854238,
+        "inode": 286754065
+      },
+      "actual": {
+        "size": 3921582,
+        "mtime_ns": 1793511976819854238,
+        "inode": 286754065
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_dev_20261101/newrf/best_field7.pt",
+      "expected": {
+        "size": 3921582,
+        "mtime_ns": 1793512285317868148,
+        "inode": 286754063
+      },
+      "actual": {
+        "size": 3921582,
+        "mtime_ns": 1793512285317868148,
+        "inode": 286754063
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_dev_20261101/newrf/best_field0.pt",
+      "expected": {
+        "size": 3921582,
+        "mtime_ns": 1793512854234619243,
+        "inode": 286754064
+      },
+      "actual": {
+        "size": 3921582,
+        "mtime_ns": 1793512854234619243,
+        "inode": 286754064
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_dev_20261101/nerf2/final.pt",
+      "expected": {
+        "size": 67767270,
+        "mtime_ns": 1793513359427866758,
+        "inode": 286754075
+      },
+      "actual": {
+        "size": 67767270,
+        "mtime_ns": 1793513359427866758,
+        "inode": 286754075
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_dev_20261101/nerf2/last.pt",
+      "expected": {
+        "size": 67766162,
+        "mtime_ns": 1793513182179286529,
+        "inode": 286754059
+      },
+      "actual": {
+        "size": 67766162,
+        "mtime_ns": 1793513182179286529,
+        "inode": 286754059
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_dev_20261101/nerf2/best_numerical_FIT.pt",
+      "expected": {
+        "size": 67769962,
+        "mtime_ns": 1793513007958980238,
+        "inode": 286754066
+      },
+      "actual": {
+        "size": 67769962,
+        "mtime_ns": 1793513007958980238,
+        "inode": 286754066
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v4_native_frequency_heads_20261101/nerf2/B_native192_continuation/final.pt",
+      "expected": {
+        "size": 30015431,
+        "mtime_ns": 1793517298252064731,
+        "inode": 286754276
+      },
+      "actual": {
+        "size": 30015431,
+        "mtime_ns": 1793517298252064731,
+        "inode": 286754276
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v4_native_frequency_heads_20261101/nerf2/B_native192_continuation/initial_restored.pt",
+      "expected": {
+        "size": 30017720,
+        "mtime_ns": 1793517246608247069,
+        "inode": 286754271
+      },
+      "actual": {
+        "size": 30017720,
+        "mtime_ns": 1793517246608247069,
+        "inode": 286754271
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v4_native_frequency_heads_20261101/nerf2/B_native192_continuation/last.pt",
+      "expected": {
+        "size": 30014740,
+        "mtime_ns": 1793517298144065117,
+        "inode": 286754270
+      },
+      "actual": {
+        "size": 30014740,
+        "mtime_ns": 1793517298144065117,
+        "inode": 286754270
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v4_native_frequency_heads_20261101/nerf2/B_native192/final.pt",
+      "expected": {
+        "size": 30015496,
+        "mtime_ns": 1793516859909445080,
+        "inode": 286754254
+      },
+      "actual": {
+        "size": 30015496,
+        "mtime_ns": 1793516859909445080,
+        "inode": 286754254
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v4_native_frequency_heads_20261101/nerf2/B_native192/last.pt",
+      "expected": {
+        "size": 30014806,
+        "mtime_ns": 1793516859781445412,
+        "inode": 286754245
+      },
+      "actual": {
+        "size": 30014806,
+        "mtime_ns": 1793516859781445412,
+        "inode": 286754245
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v4_native_frequency_heads_20261101/nerf2/B_native192/initial.pt",
+      "expected": {
+        "size": 23199195,
+        "mtime_ns": 1793516763389678794,
+        "inode": 286754251
+      },
+      "actual": {
+        "size": 23199195,
+        "mtime_ns": 1793516763389678794,
+        "inode": 286754251
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v4_native_frequency_heads_20261101/nerf2/A_shared2/final.pt",
+      "expected": {
+        "size": 28246024,
+        "mtime_ns": 1793516763349678883,
+        "inode": 286754249
+      },
+      "actual": {
+        "size": 28246024,
+        "mtime_ns": 1793516763349678883,
+        "inode": 286754249
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v4_native_frequency_heads_20261101/nerf2/A_shared2/last.pt",
+      "expected": {
+        "size": 28245334,
+        "mtime_ns": 1793516763177679269,
+        "inode": 286754247
+      },
+      "actual": {
+        "size": 28245334,
+        "mtime_ns": 1793516763177679269,
+        "inode": 286754247
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v4_native_frequency_heads_20261101/nerf2/A_shared2/initial.pt",
+      "expected": {
+        "size": 22609371,
+        "mtime_ns": 1793516719457773212,
+        "inode": 286754246
+      },
+      "actual": {
+        "size": 22609371,
+        "mtime_ns": 1793516719457773212,
+        "inode": 286754246
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v2_20261101/nerf2/final.pt",
+      "expected": {
+        "size": 31066157,
+        "mtime_ns": 1793515049565889458,
+        "inode": 286754092
+      },
+      "actual": {
+        "size": 31066157,
+        "mtime_ns": 1793515049565889458,
+        "inode": 286754092
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v2_20261101/nerf2/stage2_BS_only.pt",
+      "expected": {
+        "size": 31069154,
+        "mtime_ns": 1793515047925891592,
+        "inode": 286754087
+      },
+      "actual": {
+        "size": 31069154,
+        "mtime_ns": 1793515047925891592,
+        "inode": 286754087
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v2_20261101/nerf2/last.pt",
+      "expected": {
+        "size": 31065440,
+        "mtime_ns": 1793515047781891777,
+        "inode": 286754086
+      },
+      "actual": {
+        "size": 31065440,
+        "mtime_ns": 1793515047781891777,
+        "inode": 286754086
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v2_20261101/nerf2/stage1_F_only.pt",
+      "expected": {
+        "size": 31067733,
+        "mtime_ns": 1793515045401894823,
+        "inode": 286754084
+      },
+      "actual": {
+        "size": 31067733,
+        "mtime_ns": 1793515045401894823,
+        "inode": 286754084
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v2_20261101/nerf2/stage0_scalar.pt",
+      "expected": {
+        "size": 31058773,
+        "mtime_ns": 1793515018185925750,
+        "inode": 286754085
+      },
+      "actual": {
+        "size": 31058773,
+        "mtime_ns": 1793515018185925750,
+        "inode": 286754085
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v2_20261101/newrf/scalar/final.pt",
+      "expected": {
+        "size": 11597306,
+        "mtime_ns": 1793515082509841326,
+        "inode": 286754100
+      },
+      "actual": {
+        "size": 11597306,
+        "mtime_ns": 1793515082509841326,
+        "inode": 286754100
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v2_20261101/newrf/scalar/last.pt",
+      "expected": {
+        "size": 11596282,
+        "mtime_ns": 1793515081637842727,
+        "inode": 286754096
+      },
+      "actual": {
+        "size": 11596282,
+        "mtime_ns": 1793515081637842727,
+        "inode": 286754096
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v2_20261101/newrf/frequency_only/final.pt",
+      "expected": {
+        "size": 11599802,
+        "mtime_ns": 1793515112701788731,
+        "inode": 286754106
+      },
+      "actual": {
+        "size": 11599802,
+        "mtime_ns": 1793515112701788731,
+        "inode": 286754106
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v2_20261101/newrf/frequency_only/last.pt",
+      "expected": {
+        "size": 11598778,
+        "mtime_ns": 1793515111777790457,
+        "inode": 286754103
+      },
+      "actual": {
+        "size": 11598778,
+        "mtime_ns": 1793515111777790457,
+        "inode": 286754103
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v2_20261101/newrf/BS_only/final.pt",
+      "expected": {
+        "size": 11599162,
+        "mtime_ns": 1793515116053782414,
+        "inode": 286754112
+      },
+      "actual": {
+        "size": 11599162,
+        "mtime_ns": 1793515116053782414,
+        "inode": 286754112
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v2_20261101/newrf/BS_only/last.pt",
+      "expected": {
+        "size": 11598138,
+        "mtime_ns": 1793515115089784241,
+        "inode": 286754109
+      },
+      "actual": {
+        "size": 11598138,
+        "mtime_ns": 1793515115089784241,
+        "inode": 286754109
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v6_native_heads_ue01_20261101/nerf2/final.pt",
+      "expected": {
+        "size": 30472455,
+        "mtime_ns": 1793518958149091949,
+        "inode": 286754405
+      },
+      "actual": {
+        "size": 30472455,
+        "mtime_ns": 1793518958149091949,
+        "inode": 286754405
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v6_native_heads_ue01_20261101/nerf2/initial_restored.pt",
+      "expected": {
+        "size": 30416696,
+        "mtime_ns": 1793518744103225032,
+        "inode": 286754378
+      },
+      "actual": {
+        "size": 30416696,
+        "mtime_ns": 1793518744103225032,
+        "inode": 286754378
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v6_native_heads_ue01_20261101/nerf2/last.pt",
+      "expected": {
+        "size": 30471764,
+        "mtime_ns": 1793518957693088440,
+        "inode": 286754394
+      },
+      "actual": {
+        "size": 30471764,
+        "mtime_ns": 1793518957693088440,
+        "inode": 286754394
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v6_staged_joint_20261101/newrf/final.pt",
+      "expected": {
+        "size": 11604346,
+        "mtime_ns": 1793516607333974189,
+        "inode": 286754236
+      },
+      "actual": {
+        "size": 11604346,
+        "mtime_ns": 1793516607333974189,
+        "inode": 286754236
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v6_staged_joint_20261101/newrf/unfrozen/final.pt",
+      "expected": {
+        "size": 11604346,
+        "mtime_ns": 1793516606369975641,
+        "inode": 286754233
+      },
+      "actual": {
+        "size": 11604346,
+        "mtime_ns": 1793516606369975641,
+        "inode": 286754233
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v6_staged_joint_20261101/newrf/coarse/final.pt",
+      "expected": {
+        "size": 11604218,
+        "mtime_ns": 1793516556198044002,
+        "inode": 286754212
+      },
+      "actual": {
+        "size": 11604218,
+        "mtime_ns": 1793516556198044002,
+        "inode": 286754212
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v6_staged_joint_20261101/newrf/warm/final.pt",
+      "expected": {
+        "size": 11604218,
+        "mtime_ns": 1793516568742028271,
+        "inode": 286754216
+      },
+      "actual": {
+        "size": 11604218,
+        "mtime_ns": 1793516568742028271,
+        "inode": 286754216
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/nerf2/outer0/pilot_native/pilot.pt",
+      "expected": {
+        "size": 67673964,
+        "mtime_ns": 1793465384012458438,
+        "inode": 285411628
+      },
+      "actual": {
+        "size": 67673964,
+        "mtime_ns": 1793465384012458438,
+        "inode": 285411628
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/nerf2/outer0/pilot_conditioned_v2/pilot.pt",
+      "expected": {
+        "size": 67693608,
+        "mtime_ns": 1793466297649446239,
+        "inode": 285411638
+      },
+      "actual": {
+        "size": 67693608,
+        "mtime_ns": 1793466297649446239,
+        "inode": 285411638
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/nerf2/outer0/health_city810_v2/single_position.pt",
+      "expected": {
+        "size": 22604433,
+        "mtime_ns": 1793470294105335421,
+        "inode": 285543406
+      },
+      "actual": {
+        "size": 22604433,
+        "mtime_ns": 1793470294105335421,
+        "inode": 285543406
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/nerf2/outer0/health_city810_v2/full_FIT.pt",
+      "expected": {
+        "size": 22604152,
+        "mtime_ns": 1793470503149930899,
+        "inode": 285543407
+      },
+      "actual": {
+        "size": 22604152,
+        "mtime_ns": 1793470503149930899,
+        "inode": 285543407
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer0/screen/last.pt",
+      "expected": {
+        "size": 67657362,
+        "mtime_ns": 1793477986378359553,
+        "inode": 286753832
+      },
+      "actual": {
+        "size": 67657362,
+        "mtime_ns": 1793477986378359553,
+        "inode": 286753832
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer0/screen/best.pt",
+      "expected": {
+        "size": 22587900,
+        "mtime_ns": 1793476797503528309,
+        "inode": 286753780
+      },
+      "actual": {
+        "size": 22587900,
+        "mtime_ns": 1793476797503528309,
+        "inode": 286753780
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer0/health/health.pt",
+      "expected": {
+        "size": 22611962,
+        "mtime_ns": 1793471681867617587,
+        "inode": 285543557
+      },
+      "actual": {
+        "size": 22611962,
+        "mtime_ns": 1793471681867617587,
+        "inode": 285543557
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer0/health_10000_fresh/last.pt",
+      "expected": {
+        "size": 67666450,
+        "mtime_ns": 1793476440348013808,
+        "inode": 286753733
+      },
+      "actual": {
+        "size": 67666450,
+        "mtime_ns": 1793476440348013808,
+        "inode": 286753733
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer0/health_10000_fresh/before_runtime_resume_fix.pt",
+      "expected": {
+        "size": 67658834,
+        "mtime_ns": 1793476037171080153,
+        "inode": 286753699
+      },
+      "actual": {
+        "size": 67658834,
+        "mtime_ns": 1793476037171080153,
+        "inode": 286753699
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer0/refit/final.pt",
+      "expected": {
+        "size": 67657254,
+        "mtime_ns": 1793478490630028469,
+        "inode": 286753854
+      },
+      "actual": {
+        "size": 67657254,
+        "mtime_ns": 1793478490630028469,
+        "inode": 286753854
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer0/refit/last.pt",
+      "expected": {
+        "size": 67653394,
+        "mtime_ns": 1793478490370030444,
+        "inode": 286753859
+      },
+      "actual": {
+        "size": 67653394,
+        "mtime_ns": 1793478490370030444,
+        "inode": 286753859
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer1/screen/last.pt",
+      "expected": {
+        "size": 67654354,
+        "mtime_ns": 1793480897777217833,
+        "inode": 286753960
+      },
+      "actual": {
+        "size": 67654354,
+        "mtime_ns": 1793480897777217833,
+        "inode": 286753960
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer1/screen/best.pt",
+      "expected": {
+        "size": 22587900,
+        "mtime_ns": 1793480085507413728,
+        "inode": 286753941
+      },
+      "actual": {
+        "size": 22587900,
+        "mtime_ns": 1793480085507413728,
+        "inode": 286753941
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer1/refit/final.pt",
+      "expected": {
+        "size": 67657190,
+        "mtime_ns": 1793481511607861243,
+        "inode": 286753978
+      },
+      "actual": {
+        "size": 67657190,
+        "mtime_ns": 1793481511607861243,
+        "inode": 286753978
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer1/refit/last.pt",
+      "expected": {
+        "size": 67653330,
+        "mtime_ns": 1793481511323867934,
+        "inode": 286753980
+      },
+      "actual": {
+        "size": 67653330,
+        "mtime_ns": 1793481511323867934,
+        "inode": 286753980
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer4/screen/last.pt",
+      "expected": {
+        "size": 67654354,
+        "mtime_ns": 1793489314999912774,
+        "inode": 286754042
+      },
+      "actual": {
+        "size": 67654354,
+        "mtime_ns": 1793489314999912774,
+        "inode": 286754042
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer4/screen/best.pt",
+      "expected": {
+        "size": 22587900,
+        "mtime_ns": 1793489038697712719,
+        "inode": 286754043
+      },
+      "actual": {
+        "size": 22587900,
+        "mtime_ns": 1793489038697712719,
+        "inode": 286754043
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer4/refit/final.pt",
+      "expected": {
+        "size": 67657190,
+        "mtime_ns": 1793490359768341346,
+        "inode": 286754045
+      },
+      "actual": {
+        "size": 67657190,
+        "mtime_ns": 1793490359768341346,
+        "inode": 286754045
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer4/refit/last.pt",
+      "expected": {
+        "size": 67653394,
+        "mtime_ns": 1793490359548340683,
+        "inode": 286754046
+      },
+      "actual": {
+        "size": 67653394,
+        "mtime_ns": 1793490359548340683,
+        "inode": 286754046
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer3/screen/last.pt",
+      "expected": {
+        "size": 67654354,
+        "mtime_ns": 1793486184396967006,
+        "inode": 286754028
+      },
+      "actual": {
+        "size": 67654354,
+        "mtime_ns": 1793486184396967006,
+        "inode": 286754028
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer3/screen/best.pt",
+      "expected": {
+        "size": 22587900,
+        "mtime_ns": 1793485629858704051,
+        "inode": 286754023
+      },
+      "actual": {
+        "size": 22587900,
+        "mtime_ns": 1793485629858704051,
+        "inode": 286754023
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer3/refit/final.pt",
+      "expected": {
+        "size": 67657190,
+        "mtime_ns": 1793486961569992068,
+        "inode": 286754034
+      },
+      "actual": {
+        "size": 67657190,
+        "mtime_ns": 1793486961569992068,
+        "inode": 286754034
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer3/refit/last.pt",
+      "expected": {
+        "size": 67653330,
+        "mtime_ns": 1793486961249968027,
+        "inode": 286754033
+      },
+      "actual": {
+        "size": 67653330,
+        "mtime_ns": 1793486961249968027,
+        "inode": 286754033
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer2/screen/last.pt",
+      "expected": {
+        "size": 67654354,
+        "mtime_ns": 1793483444051853743,
+        "inode": 286754003
+      },
+      "actual": {
+        "size": 67654354,
+        "mtime_ns": 1793483444051853743,
+        "inode": 286754003
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer2/screen/best.pt",
+      "expected": {
+        "size": 22587900,
+        "mtime_ns": 1793483023294405186,
+        "inode": 286753999
+      },
+      "actual": {
+        "size": 22587900,
+        "mtime_ns": 1793483023294405186,
+        "inode": 286753999
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer2/refit/final.pt",
+      "expected": {
+        "size": 67657190,
+        "mtime_ns": 1793484353902511101,
+        "inode": 286754011
+      },
+      "actual": {
+        "size": 67657190,
+        "mtime_ns": 1793484353902511101,
+        "inode": 286754011
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer2/refit/last.pt",
+      "expected": {
+        "size": 67653330,
+        "mtime_ns": 1793484353638509479,
+        "inode": 286754004
+      },
+      "actual": {
+        "size": 67653330,
+        "mtime_ns": 1793484353638509479,
+        "inode": 286754004
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs_full_h_v1/pilot/checkpoint.pt",
+      "expected": {
+        "size": 13282523,
+        "mtime_ns": 1794296475828352838,
+        "inode": 287935271
+      },
+      "actual": {
+        "size": 13282523,
+        "mtime_ns": 1794296475828352838,
+        "inode": 287935271
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs_full_h_v1/outer0/screen/latest.pt",
+      "expected": {
+        "size": 39716090,
+        "mtime_ns": 1794298167105852763,
+        "inode": 287935292
+      },
+      "actual": {
+        "size": 39716090,
+        "mtime_ns": 1794298167105852763,
+        "inode": 287935292
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs_full_h_v1/outer0/screen/best.pt",
+      "expected": {
+        "size": 13306537,
+        "mtime_ns": 1794298117782600400,
+        "inode": 287935290
+      },
+      "actual": {
+        "size": 13306537,
+        "mtime_ns": 1794298117782600400,
+        "inode": 287935290
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs_full_h_v1/outer0/refit/final.pt",
+      "expected": {
+        "size": 13307324,
+        "mtime_ns": 1794299655643146060,
+        "inode": 287935294
+      },
+      "actual": {
+        "size": 13307324,
+        "mtime_ns": 1794299655643146060,
+        "inode": 287935294
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs_full_h_v1/outer0/refit/latest.pt",
+      "expected": {
+        "size": 39716154,
+        "mtime_ns": 1794299655575146128,
+        "inode": 287935295
+      },
+      "actual": {
+        "size": 39716154,
+        "mtime_ns": 1794299655575146128,
+        "inode": 287935295
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs_full_h_v1/outer1/screen/latest.pt",
+      "expected": {
+        "size": 39716858,
+        "mtime_ns": 1794300951232103795,
+        "inode": 287935303
+      },
+      "actual": {
+        "size": 39716858,
+        "mtime_ns": 1794300951232103795,
+        "inode": 287935303
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs_full_h_v1/outer1/screen/best.pt",
+      "expected": {
+        "size": 13306665,
+        "mtime_ns": 1794300893435659576,
+        "inode": 287935302
+      },
+      "actual": {
+        "size": 13306665,
+        "mtime_ns": 1794300893435659576,
+        "inode": 287935302
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs_full_h_v1/outer1/refit/final.pt",
+      "expected": {
+        "size": 13307388,
+        "mtime_ns": 1794301773993542348,
+        "inode": 287935316
+      },
+      "actual": {
+        "size": 13307388,
+        "mtime_ns": 1794301773993542348,
+        "inode": 287935316
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs_full_h_v1/outer1/refit/latest.pt",
+      "expected": {
+        "size": 39716730,
+        "mtime_ns": 1794301773917542454,
+        "inode": 287935309
+      },
+      "actual": {
+        "size": 39716730,
+        "mtime_ns": 1794301773917542454,
+        "inode": 287935309
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs_full_h_v1/outer4/screen/latest.pt",
+      "expected": {
+        "size": 39714362,
+        "mtime_ns": 1794302517151763483,
+        "inode": 287935314
+      },
+      "actual": {
+        "size": 39714362,
+        "mtime_ns": 1794302517151763483,
+        "inode": 287935314
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs_full_h_v1/outer4/screen/best.pt",
+      "expected": {
+        "size": 13306281,
+        "mtime_ns": 1794302148088791020,
+        "inode": 287935321
+      },
+      "actual": {
+        "size": 13306281,
+        "mtime_ns": 1794302148088791020,
+        "inode": 287935321
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs_full_h_v1/outer4/refit/final.pt",
+      "expected": {
+        "size": 13307260,
+        "mtime_ns": 1794303114226521751,
+        "inode": 287935327
+      },
+      "actual": {
+        "size": 13307260,
+        "mtime_ns": 1794303114226521751,
+        "inode": 287935327
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs_full_h_v1/outer4/refit/latest.pt",
+      "expected": {
+        "size": 39714938,
+        "mtime_ns": 1794303114130521978,
+        "inode": 287935328
+      },
+      "actual": {
+        "size": 39714938,
+        "mtime_ns": 1794303114130521978,
+        "inode": 287935328
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs_full_h_v1/outer3/screen/latest.pt",
+      "expected": {
+        "size": 39712570,
+        "mtime_ns": 1794301419229703784,
+        "inode": 287935312
+      },
+      "actual": {
+        "size": 39712570,
+        "mtime_ns": 1794301419229703784,
+        "inode": 287935312
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs_full_h_v1/outer3/screen/best.pt",
+      "expected": {
+        "size": 13306217,
+        "mtime_ns": 1794301191309287414,
+        "inode": 287935305
+      },
+      "actual": {
+        "size": 13306217,
+        "mtime_ns": 1794301191309287414,
+        "inode": 287935305
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs_full_h_v1/outer3/refit/final.pt",
+      "expected": {
+        "size": 13307516,
+        "mtime_ns": 1794301552429732984,
+        "inode": 287935308
+      },
+      "actual": {
+        "size": 13307516,
+        "mtime_ns": 1794301552429732984,
+        "inode": 287935308
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs_full_h_v1/outer3/refit/latest.pt",
+      "expected": {
+        "size": 39715130,
+        "mtime_ns": 1794301552325733010,
+        "inode": 287935315
+      },
+      "actual": {
+        "size": 39715130,
+        "mtime_ns": 1794301552325733010,
+        "inode": 287935315
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs_full_h_v1/outer2/screen/latest.pt",
+      "expected": {
+        "size": 39714042,
+        "mtime_ns": 1794297122956375776,
+        "inode": 287935280
+      },
+      "actual": {
+        "size": 39714042,
+        "mtime_ns": 1794297122956375776,
+        "inode": 287935280
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs_full_h_v1/outer2/screen/best.pt",
+      "expected": {
+        "size": 13306537,
+        "mtime_ns": 1794296761024413164,
+        "inode": 287935276
+      },
+      "actual": {
+        "size": 13306537,
+        "mtime_ns": 1794296761024413164,
+        "inode": 287935276
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs_full_h_v1/outer2/refit/final.pt",
+      "expected": {
+        "size": 13307516,
+        "mtime_ns": 1794297220217235721,
+        "inode": 287935281
+      },
+      "actual": {
+        "size": 13307516,
+        "mtime_ns": 1794297220217235721,
+        "inode": 287935281
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs_full_h_v1/outer2/refit/latest.pt",
+      "expected": {
+        "size": 39715834,
+        "mtime_ns": 1794297220097239371,
+        "inode": 287935282
+      },
+      "actual": {
+        "size": 39715834,
+        "mtime_ns": 1794297220097239371,
+        "inode": 287935282
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v5_staged_native_20261101/newrf/final.pt",
+      "expected": {
+        "size": 10440566,
+        "mtime_ns": 1793516229962041078,
+        "inode": 286754183
+      },
+      "actual": {
+        "size": 10440566,
+        "mtime_ns": 1793516229962041078,
+        "inode": 286754183
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v5_staged_native_20261101/newrf/unfrozen/final.pt",
+      "expected": {
+        "size": 10440566,
+        "mtime_ns": 1793516229850040907,
+        "inode": 286754180
+      },
+      "actual": {
+        "size": 10440566,
+        "mtime_ns": 1793516229850040907,
+        "inode": 286754180
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v5_staged_native_20261101/newrf/warm/final.pt",
+      "expected": {
+        "size": 9508128,
+        "mtime_ns": 1793516196793984140,
+        "inode": 286754176
+      },
+      "actual": {
+        "size": 9508128,
+        "mtime_ns": 1793516196793984140,
+        "inode": 286754176
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v8_two_position_field_20261101/nerf2/final.pt",
+      "expected": {
+        "size": 31050311,
+        "mtime_ns": 1793520373804777820,
+        "inode": 286754445
+      },
+      "actual": {
+        "size": 31050311,
+        "mtime_ns": 1793520373804777820,
+        "inode": 286754445
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v8_two_position_field_20261101/nerf2/prepared_initial.pt",
+      "expected": {
+        "size": 30812344,
+        "mtime_ns": 1793519931451699879,
+        "inode": 286754441
+      },
+      "actual": {
+        "size": 30812344,
+        "mtime_ns": 1793519931451699879,
+        "inode": 286754441
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v8_two_position_field_20261101/nerf2/last.pt",
+      "expected": {
+        "size": 31049620,
+        "mtime_ns": 1793520372948786259,
+        "inode": 286754443
+      },
+      "actual": {
+        "size": 31049620,
+        "mtime_ns": 1793520372948786259,
+        "inode": 286754443
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs/outer0/pilot_v1/pilot_model.pt",
+      "expected": {
+        "size": 10048710,
+        "mtime_ns": 1793465511178244244,
+        "inode": 285411629
+      },
+      "actual": {
+        "size": 10048710,
+        "mtime_ns": 1793465511178244244,
+        "inode": 285411629
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs/outer0/screen/latest.pt",
+      "expected": {
+        "size": 30071162,
+        "mtime_ns": 1793467582949552886,
+        "inode": 285411649
+      },
+      "actual": {
+        "size": 30071162,
+        "mtime_ns": 1793467582949552886,
+        "inode": 285411649
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs/outer0/screen/best.pt",
+      "expected": {
+        "size": 10048855,
+        "mtime_ns": 1793467282844617582,
+        "inode": 285411648
+      },
+      "actual": {
+        "size": 10048855,
+        "mtime_ns": 1793467282844617582,
+        "inode": 285411648
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs/outer0/refit/final.pt",
+      "expected": {
+        "size": 10049584,
+        "mtime_ns": 1793467662180950481,
+        "inode": 285543307
+      },
+      "actual": {
+        "size": 10049584,
+        "mtime_ns": 1793467662180950481,
+        "inode": 285543307
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs/outer0/refit/latest.pt",
+      "expected": {
+        "size": 30069818,
+        "mtime_ns": 1793467662148950710,
+        "inode": 285543305
+      },
+      "actual": {
+        "size": 30069818,
+        "mtime_ns": 1793467662148950710,
+        "inode": 285543305
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs/outer0/screen/resume_smoke/latest.pt",
+      "expected": {
+        "size": 30058170,
+        "mtime_ns": 1793466469083887859,
+        "inode": 285411644
+      },
+      "actual": {
+        "size": 30058170,
+        "mtime_ns": 1793466469083887859,
+        "inode": 285411644
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs/outer0/screen/resume_smoke/best.pt",
+      "expected": {
+        "size": 10037591,
+        "mtime_ns": 1793466469035890502,
+        "inode": 285411643
+      },
+      "actual": {
+        "size": 10037591,
+        "mtime_ns": 1793466469035890502,
+        "inode": 285411643
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs/outer1/screen/latest.pt",
+      "expected": {
+        "size": 30073530,
+        "mtime_ns": 1793468332397664600,
+        "inode": 285543345
+      },
+      "actual": {
+        "size": 30073530,
+        "mtime_ns": 1793468332397664600,
+        "inode": 285543345
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs/outer1/screen/best.pt",
+      "expected": {
+        "size": 10049303,
+        "mtime_ns": 1793468168266267005,
+        "inode": 285543336
+      },
+      "actual": {
+        "size": 10049303,
+        "mtime_ns": 1793468168266267005,
+        "inode": 285543336
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs/outer1/refit/final.pt",
+      "expected": {
+        "size": 10050032,
+        "mtime_ns": 1793468955832460280,
+        "inode": 285543360
+      },
+      "actual": {
+        "size": 10050032,
+        "mtime_ns": 1793468955832460280,
+        "inode": 285543360
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs/outer1/refit/latest.pt",
+      "expected": {
+        "size": 30071994,
+        "mtime_ns": 1793468955744458966,
+        "inode": 285543359
+      },
+      "actual": {
+        "size": 30071994,
+        "mtime_ns": 1793468955744458966,
+        "inode": 285543359
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs/outer4/screen/latest.pt",
+      "expected": {
+        "size": 30071674,
+        "mtime_ns": 1793472473855752242,
+        "inode": 285543601
+      },
+      "actual": {
+        "size": 30071674,
+        "mtime_ns": 1793472473855752242,
+        "inode": 285543601
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs/outer4/screen/best.pt",
+      "expected": {
+        "size": 10048919,
+        "mtime_ns": 1793472253261567396,
+        "inode": 285543602
+      },
+      "actual": {
+        "size": 10048919,
+        "mtime_ns": 1793472253261567396,
+        "inode": 285543602
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs/outer4/refit/final.pt",
+      "expected": {
+        "size": 10049904,
+        "mtime_ns": 1793472767636593622,
+        "inode": 286753605
+      },
+      "actual": {
+        "size": 10049904,
+        "mtime_ns": 1793472767636593622,
+        "inode": 286753605
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs/outer4/refit/latest.pt",
+      "expected": {
+        "size": 30070906,
+        "mtime_ns": 1793472767552594660,
+        "inode": 286753607
+      },
+      "actual": {
+        "size": 30070906,
+        "mtime_ns": 1793472767552594660,
+        "inode": 286753607
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs/outer3/screen/latest.pt",
+      "expected": {
+        "size": 30074554,
+        "mtime_ns": 1793470957167438225,
+        "inode": 285543513
+      },
+      "actual": {
+        "size": 30074554,
+        "mtime_ns": 1793470957167438225,
+        "inode": 285543513
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs/outer3/screen/best.pt",
+      "expected": {
+        "size": 10048855,
+        "mtime_ns": 1793470738996697633,
+        "inode": 285543471
+      },
+      "actual": {
+        "size": 10048855,
+        "mtime_ns": 1793470738996697633,
+        "inode": 285543471
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs/outer3/refit/final.pt",
+      "expected": {
+        "size": 10050160,
+        "mtime_ns": 1793471909856876301,
+        "inode": 285543594
+      },
+      "actual": {
+        "size": 10050160,
+        "mtime_ns": 1793471909856876301,
+        "inode": 285543594
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs/outer3/refit/latest.pt",
+      "expected": {
+        "size": 30073146,
+        "mtime_ns": 1793471909816876735,
+        "inode": 285543581
+      },
+      "actual": {
+        "size": 30073146,
+        "mtime_ns": 1793471909816876735,
+        "inode": 285543581
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs/outer2/screen/latest.pt",
+      "expected": {
+        "size": 30071930,
+        "mtime_ns": 1793469473385720323,
+        "inode": 285543376
+      },
+      "actual": {
+        "size": 30071930,
+        "mtime_ns": 1793469473385720323,
+        "inode": 285543376
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs/outer2/screen/best.pt",
+      "expected": {
+        "size": 10049111,
+        "mtime_ns": 1793469267112104414,
+        "inode": 285543379
+      },
+      "actual": {
+        "size": 10049111,
+        "mtime_ns": 1793469267112104414,
+        "inode": 285543379
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs/outer2/refit/final.pt",
+      "expected": {
+        "size": 10050224,
+        "mtime_ns": 1793469792211491478,
+        "inode": 285543386
+      },
+      "actual": {
+        "size": 10050224,
+        "mtime_ns": 1793469792211491478,
+        "inode": 285543386
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/wrfgs/outer2/refit/latest.pt",
+      "expected": {
+        "size": 30071226,
+        "mtime_ns": 1793469792163491258,
+        "inode": 285543385
+      },
+      "actual": {
+        "size": 30071226,
+        "mtime_ns": 1793469792163491258,
+        "inode": 285543385
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/outer0/pilot_logit_l1_v2/health.pt",
+      "expected": {
+        "size": 2731878,
+        "mtime_ns": 1793468465057232671,
+        "inode": 285543349
+      },
+      "actual": {
+        "size": 2731878,
+        "mtime_ns": 1793468465057232671,
+        "inode": 285543349
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/outer0/screen/last.pt",
+      "expected": {
+        "size": 8213514,
+        "mtime_ns": 1793468798585767076,
+        "inode": 285543351
+      },
+      "actual": {
+        "size": 8213514,
+        "mtime_ns": 1793468798585767076,
+        "inode": 285543351
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/outer0/screen/complete.pt",
+      "expected": {
+        "size": 2755038,
+        "mtime_ns": 1793468799169778495,
+        "inode": 285543356
+      },
+      "actual": {
+        "size": 2755038,
+        "mtime_ns": 1793468799169778495,
+        "inode": 285543356
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/outer0/screen/best.pt",
+      "expected": {
+        "size": 2753774,
+        "mtime_ns": 1793468697867611845,
+        "inode": 285543354
+      },
+      "actual": {
+        "size": 2753774,
+        "mtime_ns": 1793468697867611845,
+        "inode": 285543354
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/outer0/refit/last.pt",
+      "expected": {
+        "size": 8209482,
+        "mtime_ns": 1793468975184744608,
+        "inode": 285543355
+      },
+      "actual": {
+        "size": 8209482,
+        "mtime_ns": 1793468975184744608,
+        "inode": 285543355
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/outer0/refit/complete.pt",
+      "expected": {
+        "size": 2779614,
+        "mtime_ns": 1793468975848754201,
+        "inode": 285543371
+      },
+      "actual": {
+        "size": 2779614,
+        "mtime_ns": 1793468975848754201,
+        "inode": 285543371
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/outer1/screen/last.pt",
+      "expected": {
+        "size": 8224970,
+        "mtime_ns": 1793469588302440068,
+        "inode": 285543381
+      },
+      "actual": {
+        "size": 8224970,
+        "mtime_ns": 1793469588302440068,
+        "inode": 285543381
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/outer1/screen/complete.pt",
+      "expected": {
+        "size": 2755102,
+        "mtime_ns": 1793469588510441277,
+        "inode": 285543383
+      },
+      "actual": {
+        "size": 2755102,
+        "mtime_ns": 1793469588510441277,
+        "inode": 285543383
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/outer1/screen/best.pt",
+      "expected": {
+        "size": 2753902,
+        "mtime_ns": 1793469528398078367,
+        "inode": 285543382
+      },
+      "actual": {
+        "size": 2753902,
+        "mtime_ns": 1793469528398078367,
+        "inode": 285543382
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/outer1/refit/last.pt",
+      "expected": {
+        "size": 8220234,
+        "mtime_ns": 1793470152448887817,
+        "inode": 285543394
+      },
+      "actual": {
+        "size": 8220234,
+        "mtime_ns": 1793470152448887817,
+        "inode": 285543394
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/outer1/refit/complete.pt",
+      "expected": {
+        "size": 2779678,
+        "mtime_ns": 1793470152920889383,
+        "inode": 285543402
+      },
+      "actual": {
+        "size": 2779678,
+        "mtime_ns": 1793470152920889383,
+        "inode": 285543402
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/v2/outer0/health_pure_magnitude/health.pt",
+      "expected": {
+        "size": 2736102,
+        "mtime_ns": 1793471006181774218,
+        "inode": 285543515
+      },
+      "actual": {
+        "size": 2736102,
+        "mtime_ns": 1793471006181774218,
+        "inode": 285543515
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/v2/outer0/screen/last.pt",
+      "expected": {
+        "size": 8212938,
+        "mtime_ns": 1793472201294023671,
+        "inode": 285738627
+      },
+      "actual": {
+        "size": 8212938,
+        "mtime_ns": 1793472201294023671,
+        "inode": 285738627
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/v2/outer0/screen/complete.pt",
+      "expected": {
+        "size": 2756126,
+        "mtime_ns": 1793472201966017687,
+        "inode": 285738612
+      },
+      "actual": {
+        "size": 2756126,
+        "mtime_ns": 1793472201966017687,
+        "inode": 285738612
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/v2/outer0/screen/best.pt",
+      "expected": {
+        "size": 2754926,
+        "mtime_ns": 1793472037951552123,
+        "inode": 285738611
+      },
+      "actual": {
+        "size": 2754926,
+        "mtime_ns": 1793472037951552123,
+        "inode": 285738611
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/v2/outer0/health/health.pt",
+      "expected": {
+        "size": 2736742,
+        "mtime_ns": 1793471356172884704,
+        "inode": 285543497
+      },
+      "actual": {
+        "size": 2736742,
+        "mtime_ns": 1793471356172884704,
+        "inode": 285543497
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/v2/outer0/refit/last.pt",
+      "expected": {
+        "size": 8206218,
+        "mtime_ns": 1793472242021665011,
+        "inode": 285738649
+      },
+      "actual": {
+        "size": 8206218,
+        "mtime_ns": 1793472242021665011,
+        "inode": 285738649
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/v2/outer0/refit/complete.pt",
+      "expected": {
+        "size": 2780702,
+        "mtime_ns": 1793472242797658254,
+        "inode": 285738653
+      },
+      "actual": {
+        "size": 2780702,
+        "mtime_ns": 1793472242797658254,
+        "inode": 285738653
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/v2/outer1/screen/last.pt",
+      "expected": {
+        "size": 8213066,
+        "mtime_ns": 1793472435072059146,
+        "inode": 285738678
+      },
+      "actual": {
+        "size": 8213066,
+        "mtime_ns": 1793472435072059146,
+        "inode": 285738678
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/v2/outer1/screen/complete.pt",
+      "expected": {
+        "size": 2756190,
+        "mtime_ns": 1793472435284057456,
+        "inode": 285738681
+      },
+      "actual": {
+        "size": 2756190,
+        "mtime_ns": 1793472435284057456,
+        "inode": 285738681
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/v2/outer1/screen/best.pt",
+      "expected": {
+        "size": 2754990,
+        "mtime_ns": 1793472278289352055,
+        "inode": 285738656
+      },
+      "actual": {
+        "size": 2754990,
+        "mtime_ns": 1793472278289352055,
+        "inode": 285738656
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/v2/outer1/refit/last.pt",
+      "expected": {
+        "size": 8206282,
+        "mtime_ns": 1793472465771815839,
+        "inode": 286753584
+      },
+      "actual": {
+        "size": 8206282,
+        "mtime_ns": 1793472465771815839,
+        "inode": 286753584
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/v2/outer1/refit/complete.pt",
+      "expected": {
+        "size": 2780766,
+        "mtime_ns": 1793472466247812089,
+        "inode": 286753588
+      },
+      "actual": {
+        "size": 2780766,
+        "mtime_ns": 1793472466247812089,
+        "inode": 286753588
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/v2/outer4/screen/last.pt",
+      "expected": {
+        "size": 8212682,
+        "mtime_ns": 1793473077129141991,
+        "inode": 286753622
+      },
+      "actual": {
+        "size": 8212682,
+        "mtime_ns": 1793473077129141991,
+        "inode": 286753622
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/v2/outer4/screen/complete.pt",
+      "expected": {
+        "size": 2755934,
+        "mtime_ns": 1793473077445138774,
+        "inode": 286753623
+      },
+      "actual": {
+        "size": 2755934,
+        "mtime_ns": 1793473077445138774,
+        "inode": 286753623
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/v2/outer4/screen/best.pt",
+      "expected": {
+        "size": 2754606,
+        "mtime_ns": 1793472949790483258,
+        "inode": 286753624
+      },
+      "actual": {
+        "size": 2754606,
+        "mtime_ns": 1793472949790483258,
+        "inode": 286753624
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/v2/outer4/refit/last.pt",
+      "expected": {
+        "size": 8206986,
+        "mtime_ns": 1793473131424596422,
+        "inode": 286753626
+      },
+      "actual": {
+        "size": 8206986,
+        "mtime_ns": 1793473131424596422,
+        "inode": 286753626
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/v2/outer4/refit/complete.pt",
+      "expected": {
+        "size": 2780702,
+        "mtime_ns": 1793473132420586546,
+        "inode": 286753631
+      },
+      "actual": {
+        "size": 2780702,
+        "mtime_ns": 1793473132420586546,
+        "inode": 286753631
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/v2/outer3/screen/last.pt",
+      "expected": {
+        "size": 8212618,
+        "mtime_ns": 1793472857727517488,
+        "inode": 286753608
+      },
+      "actual": {
+        "size": 8212618,
+        "mtime_ns": 1793472857727517488,
+        "inode": 286753608
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/v2/outer3/screen/complete.pt",
+      "expected": {
+        "size": 2755998,
+        "mtime_ns": 1793472858395509759,
+        "inode": 286753612
+      },
+      "actual": {
+        "size": 2755998,
+        "mtime_ns": 1793472858395509759,
+        "inode": 286753612
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/v2/outer3/screen/best.pt",
+      "expected": {
+        "size": 2754542,
+        "mtime_ns": 1793472709853322810,
+        "inode": 286753597
+      },
+      "actual": {
+        "size": 2754542,
+        "mtime_ns": 1793472709853322810,
+        "inode": 286753597
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/v2/outer3/refit/last.pt",
+      "expected": {
+        "size": 8206410,
+        "mtime_ns": 1793472891971125683,
+        "inode": 286753615
+      },
+      "actual": {
+        "size": 8206410,
+        "mtime_ns": 1793472891971125683,
+        "inode": 286753615
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/v2/outer3/refit/complete.pt",
+      "expected": {
+        "size": 2781150,
+        "mtime_ns": 1793472892687117584,
+        "inode": 286753619
+      },
+      "actual": {
+        "size": 2781150,
+        "mtime_ns": 1793472892687117584,
+        "inode": 286753619
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/v2/outer2/screen/last.pt",
+      "expected": {
+        "size": 8212874,
+        "mtime_ns": 1793472645234179665,
+        "inode": 286753595
+      },
+      "actual": {
+        "size": 8212874,
+        "mtime_ns": 1793472645234179665,
+        "inode": 286753595
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/v2/outer2/screen/complete.pt",
+      "expected": {
+        "size": 2756190,
+        "mtime_ns": 1793472645634174215,
+        "inode": 286753593
+      },
+      "actual": {
+        "size": 2756190,
+        "mtime_ns": 1793472645634174215,
+        "inode": 286753593
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/v2/outer2/screen/best.pt",
+      "expected": {
+        "size": 2754862,
+        "mtime_ns": 1793472496119578067,
+        "inode": 286753592
+      },
+      "actual": {
+        "size": 2754862,
+        "mtime_ns": 1793472496119578067,
+        "inode": 286753592
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/v2/outer2/refit/last.pt",
+      "expected": {
+        "size": 8206410,
+        "mtime_ns": 1793472678281735667,
+        "inode": 286753598
+      },
+      "actual": {
+        "size": 8206410,
+        "mtime_ns": 1793472678281735667,
+        "inode": 286753598
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/v2/outer2/refit/complete.pt",
+      "expected": {
+        "size": 2781022,
+        "mtime_ns": 1793472678705730051,
+        "inode": 286753602
+      },
+      "actual": {
+        "size": 2781022,
+        "mtime_ns": 1793472678705730051,
+        "inode": 286753602
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/diagnostic_wrong_activation_penalty/outer0/pilot_native_rx_v2/pilot.pt",
+      "expected": {
+        "size": 8217442,
+        "mtime_ns": 1793466940154591396,
+        "inode": 285540383
+      },
+      "actual": {
+        "size": 8217442,
+        "mtime_ns": 1793466940154591396,
+        "inode": 285540383
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/diagnostic_wrong_activation_penalty/outer0/pilot_native/pilot.pt",
+      "expected": {
+        "size": 6898716,
+        "mtime_ns": 1793465935678692244,
+        "inode": 285411635
+      },
+      "actual": {
+        "size": 6898716,
+        "mtime_ns": 1793465935678692244,
+        "inode": 285411635
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/diagnostic_wrong_activation_penalty/outer0/screen/last.pt",
+      "expected": {
+        "size": 8210122,
+        "mtime_ns": 1793468143238366985,
+        "inode": 285543332
+      },
+      "actual": {
+        "size": 8210122,
+        "mtime_ns": 1793468143238366985,
+        "inode": 285543332
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/diagnostic_wrong_activation_penalty/outer0/screen/complete.pt",
+      "expected": {
+        "size": 2755038,
+        "mtime_ns": 1793468143846364528,
+        "inode": 285540387
+      },
+      "actual": {
+        "size": 2755038,
+        "mtime_ns": 1793468143846364528,
+        "inode": 285540387
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/diagnostic_wrong_activation_penalty/outer0/screen/best.pt",
+      "expected": {
+        "size": 2753774,
+        "mtime_ns": 1793467997139003943,
+        "inode": 285543330
+      },
+      "actual": {
+        "size": 2753774,
+        "mtime_ns": 1793467997139003943,
+        "inode": 285543330
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/diagnostic_wrong_activation_penalty/outer0/refit/last.pt",
+      "expected": {
+        "size": 8205642,
+        "mtime_ns": 1793468176802233448,
+        "inode": 285543337
+      },
+      "actual": {
+        "size": 8205642,
+        "mtime_ns": 1793468176802233448,
+        "inode": 285543337
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/diagnostic_wrong_activation_penalty/outer0/refit/complete.pt",
+      "expected": {
+        "size": 2779614,
+        "mtime_ns": 1793468177462230865,
+        "inode": 285543341
+      },
+      "actual": {
+        "size": 2779614,
+        "mtime_ns": 1793468177462230865,
+        "inode": 285543341
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/diagnostic_wrong_activation_penalty/outer1/screen/last.pt",
+      "expected": {
+        "size": 8209610,
+        "mtime_ns": 1793468334701656724,
+        "inode": 285543344
+      },
+      "actual": {
+        "size": 8209610,
+        "mtime_ns": 1793468334701656724,
+        "inode": 285543344
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/diagnostic_wrong_activation_penalty/outer1/screen/best.pt",
+      "expected": {
+        "size": 2753902,
+        "mtime_ns": 1793468210626103074,
+        "inode": 285543333
+      },
+      "actual": {
+        "size": 2753902,
+        "mtime_ns": 1793468210626103074,
+        "inode": 285543333
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/outer3/screen/last.pt",
+      "expected": {
+        "size": 8211850,
+        "mtime_ns": 1793470950859661970,
+        "inode": 285543509
+      },
+      "actual": {
+        "size": 8211850,
+        "mtime_ns": 1793470950859661970,
+        "inode": 285543509
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/outer3/screen/best.pt",
+      "expected": {
+        "size": 2753454,
+        "mtime_ns": 1793470866562882344,
+        "inode": 285543414
+      },
+      "actual": {
+        "size": 2753454,
+        "mtime_ns": 1793470866562882344,
+        "inode": 285543414
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/outer2/screen/last.pt",
+      "expected": {
+        "size": 8212106,
+        "mtime_ns": 1793470515041962942,
+        "inode": 285543412
+      },
+      "actual": {
+        "size": 8212106,
+        "mtime_ns": 1793470515041962942,
+        "inode": 285543412
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/outer2/screen/complete.pt",
+      "expected": {
+        "size": 2755102,
+        "mtime_ns": 1793470515381963855,
+        "inode": 285543405
+      },
+      "actual": {
+        "size": 2755102,
+        "mtime_ns": 1793470515381963855,
+        "inode": 285543405
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/outer2/screen/best.pt",
+      "expected": {
+        "size": 2753774,
+        "mtime_ns": 1793470363453540409,
+        "inode": 285543411
+      },
+      "actual": {
+        "size": 2753774,
+        "mtime_ns": 1793470363453540409,
+        "inode": 285543411
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/outer2/refit/last.pt",
+      "expected": {
+        "size": 8209226,
+        "mtime_ns": 1793470671804307449,
+        "inode": 285543410
+      },
+      "actual": {
+        "size": 8209226,
+        "mtime_ns": 1793470671804307449,
+        "inode": 285543410
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/ngrf/outer2/refit/complete.pt",
+      "expected": {
+        "size": 2779934,
+        "mtime_ns": 1793470672228283334,
+        "inode": 285543454
+      },
+      "actual": {
+        "size": 2779934,
+        "mtime_ns": 1793470672228283334,
+        "inode": 285543454
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v10_coarse_init_signal_warm_20261101/newrf/final.pt",
+      "expected": {
+        "size": 10510710,
+        "mtime_ns": 1793519076609949242,
+        "inode": 286754420
+      },
+      "actual": {
+        "size": 10510710,
+        "mtime_ns": 1793519076609949242,
+        "inode": 286754420
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v10_coarse_init_signal_warm_20261101/newrf/last.pt",
+      "expected": {
+        "size": 10509746,
+        "mtime_ns": 1793519073041924888,
+        "inode": 286754406
+      },
+      "actual": {
+        "size": 10509746,
+        "mtime_ns": 1793519073041924888,
+        "inode": 286754406
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v10_coarse_init_signal_warm_20261101/newrf/initial.pt",
+      "expected": {
+        "size": 9279938,
+        "mtime_ns": 1793518970957189813,
+        "inode": 286754391
+      },
+      "actual": {
+        "size": 9279938,
+        "mtime_ns": 1793518970957189813,
+        "inode": 286754391
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v10_coarse_init_signal_warm_20261101/newrf/unfrozen/final.pt",
+      "expected": {
+        "size": 10510710,
+        "mtime_ns": 1793519074761936639,
+        "inode": 286754417
+      },
+      "actual": {
+        "size": 10510710,
+        "mtime_ns": 1793519074761936639,
+        "inode": 286754417
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v10_coarse_init_signal_warm_20261101/newrf/warm/final.pt",
+      "expected": {
+        "size": 10474492,
+        "mtime_ns": 1793519023017574241,
+        "inode": 286754411
+      },
+      "actual": {
+        "size": 10474492,
+        "mtime_ns": 1793519023017574241,
+        "inode": 286754411
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v4_fixed_density_20261101/newrf/final.pt",
+      "expected": {
+        "size": 11601274,
+        "mtime_ns": 1793515871948562901,
+        "inode": 286754151
+      },
+      "actual": {
+        "size": 11601274,
+        "mtime_ns": 1793515871948562901,
+        "inode": 286754151
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v7a_staged_two_positions_20261101/newrf/final.pt",
+      "expected": {
+        "size": 11609146,
+        "mtime_ns": 1793517399699695951,
+        "inode": 286754287
+      },
+      "actual": {
+        "size": 11609146,
+        "mtime_ns": 1793517399699695951,
+        "inode": 286754287
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v7a_staged_two_positions_20261101/newrf/coarse/final.pt",
+      "expected": {
+        "size": 11608506,
+        "mtime_ns": 1793517315936001412,
+        "inode": 286754280
+      },
+      "actual": {
+        "size": 11608506,
+        "mtime_ns": 1793517315936001412,
+        "inode": 286754280
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v7a_staged_two_positions_20261101/newrf/warm/final.pt",
+      "expected": {
+        "size": 11609146,
+        "mtime_ns": 1793517397603703700,
+        "inode": 286754284
+      },
+      "actual": {
+        "size": 11609146,
+        "mtime_ns": 1793517397603703700,
+        "inode": 286754284
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v5_native_heads_joint_20261101/nerf2/final.pt",
+      "expected": {
+        "size": 30496391,
+        "mtime_ns": 1793518448671624002,
+        "inode": 286754362
+      },
+      "actual": {
+        "size": 30496391,
+        "mtime_ns": 1793518448671624002,
+        "inode": 286754362
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v5_native_heads_joint_20261101/nerf2/last.pt",
+      "expected": {
+        "size": 30495700,
+        "mtime_ns": 1793518448167616462,
+        "inode": 286754358
+      },
+      "actual": {
+        "size": 30495700,
+        "mtime_ns": 1793518448167616462,
+        "inode": 286754358
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v5_native_heads_joint_20261101/nerf2/UE0_passed.pt",
+      "expected": {
+        "size": 30293574,
+        "mtime_ns": 1793518418035154971,
+        "inode": 286754359
+      },
+      "actual": {
+        "size": 30293574,
+        "mtime_ns": 1793518418035154971,
+        "inode": 286754359
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v8_paired_initialization_20261101/newrf/B_transfer_coarse/final.pt",
+      "expected": {
+        "size": 9575008,
+        "mtime_ns": 1793518186538778467,
+        "inode": 286754341
+      },
+      "actual": {
+        "size": 9575008,
+        "mtime_ns": 1793518186538778467,
+        "inode": 286754341
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v8_paired_initialization_20261101/newrf/B_transfer_coarse/initial.pt",
+      "expected": {
+        "size": 9279362,
+        "mtime_ns": 1793518106632840640,
+        "inode": 286754323
+      },
+      "actual": {
+        "size": 9279362,
+        "mtime_ns": 1793518106632840640,
+        "inode": 286754323
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v8_paired_initialization_20261101/newrf/A_reset_old_fine/final.pt",
+      "expected": {
+        "size": 9575008,
+        "mtime_ns": 1793518073343952934,
+        "inode": 286754325
+      },
+      "actual": {
+        "size": 9575008,
+        "mtime_ns": 1793518073343952934,
+        "inode": 286754325
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v8_paired_initialization_20261101/newrf/A_reset_old_fine/initial.pt",
+      "expected": {
+        "size": 9279362,
+        "mtime_ns": 1793517992621577474,
+        "inode": 286754309
+      },
+      "actual": {
+        "size": 9279362,
+        "mtime_ns": 1793517992621577474,
+        "inode": 286754309
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v8_paired_initialization_20261101/newrf/B_transfer_coarse/warm/final.pt",
+      "expected": {
+        "size": 9575008,
+        "mtime_ns": 1793518184566733692,
+        "inode": 286754338
+      },
+      "actual": {
+        "size": 9575008,
+        "mtime_ns": 1793518184566733692,
+        "inode": 286754338
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v8_paired_initialization_20261101/newrf/A_reset_old_fine/warm/final.pt",
+      "expected": {
+        "size": 9575008,
+        "mtime_ns": 1793518071407899738,
+        "inode": 286754322
+      },
+      "actual": {
+        "size": 9575008,
+        "mtime_ns": 1793518071407899738,
+        "inode": 286754322
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v3_fixed_nn_frequency_20261101/nerf2/final.pt",
+      "expected": {
+        "size": 31064557,
+        "mtime_ns": 1793516125313814901,
+        "inode": 286754168
+      },
+      "actual": {
+        "size": 31064557,
+        "mtime_ns": 1793516125313814901,
+        "inode": 286754168
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v3_fixed_nn_frequency_20261101/nerf2/F_only_fixed_NN_frequency.pt",
+      "expected": {
+        "size": 31071281,
+        "mtime_ns": 1793516122081805638,
+        "inode": 286754162
+      },
+      "actual": {
+        "size": 31071281,
+        "mtime_ns": 1793516122081805638,
+        "inode": 286754162
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v3_fixed_nn_frequency_20261101/nerf2/last.pt",
+      "expected": {
+        "size": 31063840,
+        "mtime_ns": 1793516121557804121,
+        "inode": 286754161
+      },
+      "actual": {
+        "size": 31063840,
+        "mtime_ns": 1793516121557804121,
+        "inode": 286754161
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v7_low_lr_ue01_20261101/nerf2/final.pt",
+      "expected": {
+        "size": 30425671,
+        "mtime_ns": 1793519308455375771,
+        "inode": 286754431
+      },
+      "actual": {
+        "size": 30425671,
+        "mtime_ns": 1793519308455375771,
+        "inode": 286754431
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v7_low_lr_ue01_20261101/nerf2/initial_restored.pt",
+      "expected": {
+        "size": 30416952,
+        "mtime_ns": 1793519263879122555,
+        "inode": 286754427
+      },
+      "actual": {
+        "size": 30416952,
+        "mtime_ns": 1793519263879122555,
+        "inode": 286754427
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v7_low_lr_ue01_20261101/nerf2/last.pt",
+      "expected": {
+        "size": 30424980,
+        "mtime_ns": 1793519307963373022,
+        "inode": 286754429
+      },
+      "actual": {
+        "size": 30424980,
+        "mtime_ns": 1793519307963373022,
+        "inode": 286754429
+      },
+      "match": true
+    },
+    {
+      "path": "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v3_fixed_sampling_20261101/newrf/final.pt",
+      "expected": {
+        "size": 11601082,
+        "mtime_ns": 1793515520112484457,
+        "inode": 286754127
+      },
+      "actual": {
+        "size": 11601082,
+        "mtime_ns": 1793515520112484457,
+        "inode": 286754127
+      },
+      "match": true
+    }
+  ],
+  "raw_dataset_stat_checks": [
+    {
+      "path": "datasets/round2/Round2_Test_Pos.npy",
+      "expected": {
+        "size": 12128,
+        "mtime_ns": 1785834846000000000,
+        "inode": 248021799
+      },
+      "actual": {
+        "size": 12128,
+        "mtime_ns": 1785834846000000000,
+        "inode": 248021799
+      },
+      "match": true
+    },
+    {
+      "path": "datasets/round2/Round2_Train_Channel.npy",
+      "expected": {
+        "size": 6291456128,
+        "mtime_ns": 1785834848000000000,
+        "inode": 248020994
+      },
+      "actual": {
+        "size": 6291456128,
+        "mtime_ns": 1785834848000000000,
+        "inode": 248020994
+      },
+      "match": true
+    },
+    {
+      "path": "datasets/round2/Round2_Train_Pos.npy",
+      "expected": {
+        "size": 96128,
+        "mtime_ns": 1785834993000000000,
+        "inode": 248021803
+      },
+      "actual": {
+        "size": 96128,
+        "mtime_ns": 1785834993000000000,
+        "inode": 248021803
+      },
+      "match": true
+    }
+  ],
+  "record_prefix": {
+    "bytes": 4165242,
+    "sha256": "dcd9c1ccbf5484e553eca3a6d780ac328263689494720b3c5f237f26bd161dff",
+    "match": true
+  },
+  "new_sources": {
+    "code/round2/baseline_repair_20261111/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "AST": true,
+      "machine_absolute_literal_lines": [],
+      "repository_pattern_hits": []
+    },
+    "code/round2/baseline_repair_20261111/compile_results.py": {
+      "sha256": "8982f79f07df1e72f2feb4fa0aa1136059e43a3daf05942e572a28c1bc1388ec",
+      "AST": true,
+      "machine_absolute_literal_lines": [],
+      "repository_pattern_hits": []
+    },
+    "code/round2/baseline_repair_20261111/final_preservation_check.py": {
+      "sha256": "43ad436549738225defc0006b6d8e2961878bf6ed342b02c46faa3ba3e800e54",
+      "AST": true,
+      "machine_absolute_literal_lines": [],
+      "repository_pattern_hits": []
+    },
+    "code/round2/baseline_repair_20261111/nerf2_diagnose.py": {
+      "sha256": "fcef28254d51443f654b737c3fafd1c15e6ceee8207ae5c7045fdb72b8876d10",
+      "AST": true,
+      "machine_absolute_literal_lines": [],
+      "repository_pattern_hits": []
+    },
+    "code/round2/baseline_repair_20261111/nerf2_low_lr.py": {
+      "sha256": "0050c20b57832513869b5f928c916322b1ed6ad6cc48f6459dc2d733f7289c41",
+      "AST": true,
+      "machine_absolute_literal_lines": [],
+      "repository_pattern_hits": []
+    },
+    "code/round2/baseline_repair_20261111/nerf2_position_loss.py": {
+      "sha256": "0a98b95dd2e0e5c93130afbfde0556f24e79e8c99ff76a62ad865d552ae4385b",
+      "AST": true,
+      "machine_absolute_literal_lines": [],
+      "repository_pattern_hits": []
+    },
+    "code/round2/baseline_repair_20261111/nerf2_position_loss_v2.py": {
+      "sha256": "505bfb48631b824c694c9bf45d7260f608f1b4180bb878aff77394f9fa14b5ed",
+      "AST": true,
+      "machine_absolute_literal_lines": [],
+      "repository_pattern_hits": []
+    },
+    "code/round2/baseline_repair_20261111/nerf2_repair.py": {
+      "sha256": "c4e2c60ad92872a17c54a19ea39f87814123c7d552a4fcaa72805946ce2b7780",
+      "AST": true,
+      "machine_absolute_literal_lines": [],
+      "repository_pattern_hits": []
+    },
+    "code/round2/baseline_repair_20261111/nerf2_stability.py": {
+      "sha256": "9fc0bcbf25a6a3d35fdc6c342c92632d10cd8c7b0d9f2bab4c83c203755b2acc",
+      "AST": true,
+      "machine_absolute_literal_lines": [],
+      "repository_pattern_hits": []
+    },
+    "code/round2/baseline_repair_20261111/newrf_direction_audit.py": {
+      "sha256": "998c8b0dfcbc4dcd3a4a444fcf2412b787be0ecaa6ca4ab6390701fdcb51db85",
+      "AST": true,
+      "machine_absolute_literal_lines": [],
+      "repository_pattern_hits": []
+    },
+    "code/round2/baseline_repair_20261111/newrf_low_lr.py": {
+      "sha256": "f9ae7068c23cab144ae19d1a4a79a768087854d5bc1908f19b663de9594f01e4",
+      "AST": true,
+      "machine_absolute_literal_lines": [],
+      "repository_pattern_hits": []
+    },
+    "code/round2/baseline_repair_20261111/newrf_native_finish.py": {
+      "sha256": "994eac1e15e1e84b0da0ad0061eff43573eb861bfb7aa1504e51b81be7a7155c",
+      "AST": true,
+      "machine_absolute_literal_lines": [],
+      "repository_pattern_hits": []
+    },
+    "code/round2/baseline_repair_20261111/newrf_repair.py": {
+      "sha256": "c7d78ea18fb66f10bad27ba7c68b10515a3cc9161440a460a64e4a064d8cc4e3",
+      "AST": true,
+      "machine_absolute_literal_lines": [],
+      "repository_pattern_hits": []
+    },
+    "code/round2/baseline_repair_20261111/newrf_verify.py": {
+      "sha256": "0561ed36836b8f6b8d2425f04df1e4034e7c6f4f23659848fcdb73010070f1a2",
+      "AST": true,
+      "machine_absolute_literal_lines": [],
+      "repository_pattern_hits": []
+    },
+    "code/round2/baseline_repair_20261111/ngrf_continuation_eval.py": {
+      "sha256": "c8c93d2ee22eaa45929161cf70cd19f3164b0546fbfb4c8f45c5c69eb51b8a75",
+      "AST": true,
+      "machine_absolute_literal_lines": [],
+      "repository_pattern_hits": []
+    },
+    "code/round2/baseline_repair_20261111/ngrf_continue_dropout.py": {
+      "sha256": "5dfc0fa43c45195aab4a5b75fdd8a6f232ab02cb3ccc8a83226af8361864d0a3",
+      "AST": true,
+      "machine_absolute_literal_lines": [],
+      "repository_pattern_hits": []
+    },
+    "code/round2/baseline_repair_20261111/ngrf_dropout_adam_v2.py": {
+      "sha256": "dfc0ddad07a35b89d13e0ad4645111e7926680cfe0bb6c834fa37dc33c255a4f",
+      "AST": true,
+      "machine_absolute_literal_lines": [],
+      "repository_pattern_hits": []
+    },
+    "code/round2/baseline_repair_20261111/ngrf_dropout_diagnostic.py": {
+      "sha256": "4637de9aa05fd0333ccbb8f59cb2d8b8a25b76cc1a415f2addd9d17199487361",
+      "AST": true,
+      "machine_absolute_literal_lines": [],
+      "repository_pattern_hits": []
+    },
+    "code/round2/baseline_repair_20261111/ngrf_dropout_eval_adam_v2.py": {
+      "sha256": "b06c5743528a9dae9227382129a31e45894d255cef9669c43a495c22876a3cef",
+      "AST": true,
+      "machine_absolute_literal_lines": [],
+      "repository_pattern_hits": []
+    },
+    "code/round2/baseline_repair_20261111/ngrf_gradient_diagnostic.py": {
+      "sha256": "8e03b426c09ac92b9db56ce988e599d3382378cce986af12afb098af6278423d",
+      "AST": true,
+      "machine_absolute_literal_lines": [],
+      "repository_pattern_hits": []
+    },
+    "code/round2/baseline_repair_20261111/ngrf_position_adam_v2.py": {
+      "sha256": "030f2ce8936bda3b58ce92fe3386b2ee2eb13bab9e067eff7f50fdefbdde1da2",
+      "AST": true,
+      "machine_absolute_literal_lines": [],
+      "repository_pattern_hits": []
+    },
+    "code/round2/baseline_repair_20261111/ngrf_position_eval.py": {
+      "sha256": "6e16d3cc9f3d2de8a47e0024f47086e0d4e32fe2d8f07af612aa0dfe26fa0acb",
+      "AST": true,
+      "machine_absolute_literal_lines": [],
+      "repository_pattern_hits": []
+    },
+    "code/round2/baseline_repair_20261111/ngrf_position_eval_adam_v2.py": {
+      "sha256": "25a9b71f6d580c059d5c8adb882426b2f0bdff7cf0d6015071cad333af262d9b",
+      "AST": true,
+      "machine_absolute_literal_lines": [],
+      "repository_pattern_hits": []
+    },
+    "code/round2/baseline_repair_20261111/ngrf_position_loss.py": {
+      "sha256": "1d89cad834a23261265ab1e04b3f6fd1fd3fcb18ff088274112d63418476d7e0",
+      "AST": true,
+      "machine_absolute_literal_lines": [],
+      "repository_pattern_hits": []
+    },
+    "code/round2/baseline_repair_20261111/ngrf_repair.py": {
+      "sha256": "b145213ba278e55962468db462f8faac933b317e2b041fd94d0f4b63d36bbf0c",
+      "AST": true,
+      "machine_absolute_literal_lines": [],
+      "repository_pattern_hits": []
+    },
+    "code/round2/baseline_repair_20261111/ngrf_spatial_diagnostic.py": {
+      "sha256": "99bf3a74875bfe38a782a540895689d29185c58f87d5378d9aae7a393a3009cc",
+      "AST": true,
+      "machine_absolute_literal_lines": [],
+      "repository_pattern_hits": []
+    },
+    "code/round2/baseline_repair_20261111/ngrf_verify_adam_v2.py": {
+      "sha256": "15b4a70b897422a887faf6c5d1f301fd4b79e2f50a871571fcd57ebfbef43bef",
+      "AST": true,
+      "machine_absolute_literal_lines": [],
+      "repository_pattern_hits": []
+    },
+    "code/round2/baseline_repair_20261111/optimizer_copy_guard.py": {
+      "sha256": "d5cbe8fdb055f825fe24854f65af4c7f94dc34f5f66f3e128d16d56c95a8a68c",
+      "AST": true,
+      "machine_absolute_literal_lines": [],
+      "repository_pattern_hits": []
+    }
+  },
+  "frozen_root_config_sha256": "d572d97d0c61d8a3789efb09d56e6feab709a3d2566f8d9f32ec9bcc50e2a258",
+  "errors": [],
+  "limits": [
+    "256 old model files and 3 raw arrays checked by stat, not full content hash.",
+    "New source AST and machine absolute literal scan do not substitute for numerical method audits."
+  ],
+  "formal_test_rerun": false,
+  "V16_retrained": false
+}

@@ -1,0 +1,423 @@
+{
+  "status": "complete",
+  "corrected_v2": true,
+  "task": "finite nGRF training health repair; formal500 not run",
+  "FIT_panel_count": 16,
+  "FIT_nonzero_count": 15,
+  "FIT_zero_count": 1,
+  "FIT_shape": [
+    16,
+    256,
+    4,
+    192
+  ],
+  "groups_definition": "Each site max true energy: strong >=-20dB; medium [-40,-20)dB; weak <-40dB; exact-zero separate",
+  "FIT": {
+    "lambda_pair": [
+      {
+        "branch": "lambda_0.1",
+        "pooled": {
+          "count": 16,
+          "complex_nmse": 0.499507100024978,
+          "magnitude_nmse": 0.019591469186004497,
+          "prediction_to_truth_energy": 1.0087132179693763,
+          "signed_complex_correlation_real": 0.7513368772893924,
+          "prediction_mean_power_FIT_RMS_squared": 0.31848954883625835
+        },
+        "worst_nonzero_nmse": 2.7795581889397853,
+        "nonzero_energy_range": [
+          0.5694131658161384,
+          1.8370332292377674
+        ],
+        "zero": [
+          {
+            "row_id": 2877,
+            "power_FIT_RMS_squared": 0.0001773369301604546,
+            "ceiling": 3.157025873640034e-05,
+            "passed": false
+          }
+        ],
+        "failed_nonzero_ids": [
+          2,
+          1120,
+          1717,
+          2295,
+          3998,
+          0,
+          558,
+          1124,
+          1693,
+          2286,
+          2846,
+          3999
+        ],
+        "nonzero_pass_count": 3,
+        "strict_all_point_health": false,
+        "actual_Adam_steps": [
+          3000.0
+        ],
+        "raw_prediction": "artifacts/round2/paper_four_baselines_v1/repair_20261111/ngrf/paired/weight_0p1/FIT_raw_H.npy",
+        "raw_prediction_sha256": "36cbbfcb48f0d5abac8ecdd3073cd644f75524c4f19bfe4bd3ed0b4ceb33645c",
+        "checkpoint": "artifacts/round2/paper_four_baselines_v1/repair_20261111/ngrf/paired/weight_0p1/final.pt",
+        "checkpoint_sha256": "91eb5f72a5571bdd967f4d498b463866c9c07c6a6db3ee8c16e741d4b0e82b9e"
+      },
+      {
+        "branch": "lambda_1.0",
+        "pooled": {
+          "count": 16,
+          "complex_nmse": 0.03020631652593258,
+          "magnitude_nmse": 0.01109546614263545,
+          "prediction_to_truth_energy": 1.1033586157891813,
+          "signed_complex_correlation_real": 0.9868311883408233,
+          "prediction_mean_power_FIT_RMS_squared": 0.348372740127971
+        },
+        "worst_nonzero_nmse": 1.7820854877480148,
+        "nonzero_energy_range": [
+          0.2774137641570731,
+          1.249679760113594
+        ],
+        "zero": [
+          {
+            "row_id": 2877,
+            "power_FIT_RMS_squared": 3.1570260003818616e-05,
+            "ceiling": 3.157025873640034e-05,
+            "passed": true
+          }
+        ],
+        "failed_nonzero_ids": [
+          2,
+          2295,
+          558,
+          1124,
+          1693,
+          2846
+        ],
+        "nonzero_pass_count": 9,
+        "strict_all_point_health": false,
+        "actual_Adam_steps": [
+          3000.0
+        ],
+        "raw_prediction": "artifacts/round2/paper_four_baselines_v1/repair_20261111/ngrf/paired/weight_1p0/FIT_raw_H.npy",
+        "raw_prediction_sha256": "ca63d2f379f510e4aed6db57e824cabcd223f7c576865df0c39e0606fa883fe3",
+        "checkpoint": "artifacts/round2/paper_four_baselines_v1/repair_20261111/ngrf/paired/weight_1p0/final.pt",
+        "checkpoint_sha256": "da581d3b32e8e5b998c77542739877d318ff1f789185db82211fb07501165b9c"
+      }
+    ],
+    "dropout_fixed": [
+      {
+        "branch": "dropout_on",
+        "pooled": {
+          "count": 16,
+          "complex_nmse": 0.007525443929258426,
+          "magnitude_nmse": 0.003717405311351338,
+          "prediction_to_truth_energy": 1.0554865324302651,
+          "signed_complex_correlation_real": 0.9967020624621521,
+          "prediction_mean_power_FIT_RMS_squared": 0.33325768268723877
+        },
+        "worst_nonzero_nmse": 1.218214813809055,
+        "nonzero_energy_range": [
+          0.13665095274242778,
+          1.3299491546339854
+        ],
+        "zero": [
+          {
+            "row_id": 2877,
+            "power_FIT_RMS_squared": 1.6632864919241066e-05,
+            "ceiling": 3.157025873640034e-05,
+            "passed": true
+          }
+        ],
+        "failed_nonzero_ids": [
+          2,
+          558,
+          1124,
+          1693
+        ],
+        "nonzero_pass_count": 11,
+        "strict_all_point_health": false,
+        "actual_Adam_steps": [
+          6000.0
+        ],
+        "raw_prediction": "artifacts/round2/paper_four_baselines_v1/repair_20261111/ngrf/dropout_continuation/dropout_on/FIT_raw_H.npy",
+        "raw_prediction_sha256": "f74802f9f525a8405e5772ef274f86c46404ee76cb4705245d7f3908d4d9c394",
+        "checkpoint": "artifacts/round2/paper_four_baselines_v1/repair_20261111/ngrf/dropout_continuation/dropout_on/final.pt",
+        "checkpoint_sha256": "64824ffd40f8739c5cd284c984b1418a536c21dd06373d90265adf1f64619d75"
+      },
+      {
+        "branch": "dropout_off",
+        "pooled": {
+          "count": 16,
+          "complex_nmse": 0.002093977702428175,
+          "magnitude_nmse": 0.0007893485681336518,
+          "prediction_to_truth_energy": 0.9922332015151737,
+          "signed_complex_correlation_real": 0.9989565208237166,
+          "prediction_mean_power_FIT_RMS_squared": 0.31328617397032843
+        },
+        "worst_nonzero_nmse": 1.3876341736838596,
+        "nonzero_energy_range": [
+          0.19282087568251247,
+          1.0083134528245754
+        ],
+        "zero": [
+          {
+            "row_id": 2877,
+            "power_FIT_RMS_squared": 5.179685296249586e-05,
+            "ceiling": 3.157025873640034e-05,
+            "passed": false
+          }
+        ],
+        "failed_nonzero_ids": [
+          2,
+          558,
+          1124,
+          1693
+        ],
+        "nonzero_pass_count": 11,
+        "strict_all_point_health": false,
+        "actual_Adam_steps": [
+          6000.0
+        ],
+        "raw_prediction": "artifacts/round2/paper_four_baselines_v1/repair_20261111/ngrf/adam_copy_fix_v2/dropout/dropout_off/FIT_raw_H.npy",
+        "raw_prediction_sha256": "e20e53ed392b107144d2de4bb3829cf64fd8987f498a6f99c8ce59bcccab2d42",
+        "checkpoint": "artifacts/round2/paper_four_baselines_v1/repair_20261111/ngrf/adam_copy_fix_v2/dropout/dropout_off/final.pt",
+        "checkpoint_sha256": "fa7f4f9e624dd8f7f68dda58f2c7caa69521205a476a1ed9b169631a6bda6cd8"
+      }
+    ],
+    "position_fixed": [
+      {
+        "branch": "loss_global",
+        "pooled": {
+          "count": 16,
+          "complex_nmse": 0.0011491807860675638,
+          "magnitude_nmse": 0.00044812493282847754,
+          "prediction_to_truth_energy": 1.0004465130924467,
+          "signed_complex_correlation_real": 0.9994255627557093,
+          "prediction_mean_power_FIT_RMS_squared": 0.3158794322444326
+        },
+        "worst_nonzero_nmse": 1.1903072560782737,
+        "nonzero_energy_range": [
+          0.2083079578136851,
+          1.0064944214554548
+        ],
+        "zero": [
+          {
+            "row_id": 2877,
+            "power_FIT_RMS_squared": 2.5204149266950017e-06,
+            "ceiling": 3.157025873640034e-05,
+            "passed": true
+          }
+        ],
+        "failed_nonzero_ids": [
+          2,
+          1124,
+          1693
+        ],
+        "nonzero_pass_count": 12,
+        "strict_all_point_health": false,
+        "actual_Adam_steps": [
+          8000.0
+        ],
+        "raw_prediction": "artifacts/round2/paper_four_baselines_v1/repair_20261111/ngrf/adam_copy_fix_v2/position_loss/loss_global/FIT_raw_H.npy",
+        "raw_prediction_sha256": "6566aa21921ba2bdf62b5d16b3914dfb03e91a5ddfd71abc6c57da47c7493d5a",
+        "checkpoint": "artifacts/round2/paper_four_baselines_v1/repair_20261111/ngrf/adam_copy_fix_v2/position_loss/loss_global/final.pt",
+        "checkpoint_sha256": "bcc73b85006d9a7940297456e12f36697cd3b26fae4d0f403ab0d979872a8e42"
+      },
+      {
+        "branch": "loss_position_relative",
+        "pooled": {
+          "count": 16,
+          "complex_nmse": 0.0015747533732711424,
+          "magnitude_nmse": 0.000570209866254468,
+          "prediction_to_truth_energy": 1.000930776395478,
+          "signed_complex_correlation_real": 0.9992130976859559,
+          "prediction_mean_power_FIT_RMS_squared": 0.31603233278955567
+        },
+        "worst_nonzero_nmse": 0.021588151872699093,
+        "nonzero_energy_range": [
+          0.9851210934811112,
+          1.0080007335470198
+        ],
+        "zero": [
+          {
+            "row_id": 2877,
+            "power_FIT_RMS_squared": 1.1695035185016506e-10,
+            "ceiling": 3.157025873640034e-05,
+            "passed": true
+          }
+        ],
+        "failed_nonzero_ids": [],
+        "nonzero_pass_count": 15,
+        "strict_all_point_health": true,
+        "actual_Adam_steps": [
+          8000.0
+        ],
+        "raw_prediction": "artifacts/round2/paper_four_baselines_v1/repair_20261111/ngrf/adam_copy_fix_v2/position_loss/loss_position_relative/FIT_raw_H.npy",
+        "raw_prediction_sha256": "c5451eb8cd165a0ea149d88e6f82b638f61f2fee1c280268525ed2f083baed48",
+        "checkpoint": "artifacts/round2/paper_four_baselines_v1/repair_20261111/ngrf/adam_copy_fix_v2/position_loss/loss_position_relative/final.pt",
+        "checkpoint_sha256": "ec13299a592fdb12c9eafabc47c4fc9aa6fdfc71cb8266089fa955ba54c3b832"
+      }
+    ]
+  },
+  "validation": {
+    "dropout": {
+      "role": "fixed original16 development validation, not outer500",
+      "variants": [
+        {
+          "branch": "dropout_on",
+          "metrics_cpu": {
+            "count": 16,
+            "pas": 0.07385383556375302,
+            "pdp": 0.36049084897742745,
+            "nmse": 1.011762069437749,
+            "nmse_score": 0.4970766748174559,
+            "score": 0.27315320877996335
+          },
+          "GPU_absolute_difference": {
+            "pas": 2.3183586994601768e-10,
+            "pdp": 8.465903533760866e-10,
+            "nmse": 1.0135536854249949e-10,
+            "score": 4.263618347266629e-10
+          },
+          "reused": true,
+          "raw_prediction": "artifacts/round2/paper_four_baselines_v1/repair_20261111/ngrf/dropout_continuation/dropout_on/validation_raw_H.npy",
+          "raw_prediction_sha256": "73c33457ff1b6cd5ac955a8b17471018a940ee3cd1667568542abf12a469834b"
+        },
+        {
+          "branch": "dropout_off",
+          "metrics_cpu": {
+            "count": 16,
+            "pas": 0.07532505285603008,
+            "pdp": 0.364490707759078,
+            "nmse": 1.0084600802000834,
+            "nmse_score": 0.4978938888844531,
+            "score": 0.2755050820229339
+          },
+          "GPU_absolute_difference": {
+            "pas": 3.3637093110883143e-10,
+            "pdp": 5.497238220186773e-10,
+            "nmse": 1.557176609878752e-11,
+            "score": 3.552099170356371e-10
+          },
+          "reused": false,
+          "raw_prediction": "artifacts/round2/paper_four_baselines_v1/repair_20261111/ngrf/adam_copy_fix_v2/dropout/dropout_off/validation_raw_H.npy",
+          "raw_prediction_sha256": "ae0d38b939bc57755cc89d500e2ab6e0303ceca7fa49da35c6b799373b292476"
+        }
+      ]
+    },
+    "position_loss": {
+      "role": "fixed original16 development validation, not outer500",
+      "variants": [
+        {
+          "branch": "loss_global",
+          "metrics_cpu": {
+            "count": 16,
+            "pas": 0.0744378814483421,
+            "pdp": 0.36322782378525176,
+            "nmse": 1.0092975205455448,
+            "nmse_score": 0.497686375349973,
+            "score": 0.27460355716343215
+          },
+          "GPU_absolute_difference": {
+            "pas": 3.065755149744831e-10,
+            "pdp": 1.238131375203011e-09,
+            "nmse": 4.1882941559379105e-11,
+            "score": 6.158079601803479e-10
+          },
+          "reused": false,
+          "raw_prediction": "artifacts/round2/paper_four_baselines_v1/repair_20261111/ngrf/adam_copy_fix_v2/position_loss/loss_global/validation_raw_H.npy",
+          "raw_prediction_sha256": "3281dda37b5434d383d646c336513f2a222462d912bf45b05c4042bac8bb2bfd"
+        },
+        {
+          "branch": "loss_position_relative",
+          "metrics_cpu": {
+            "count": 16,
+            "pas": 0.07466675161996268,
+            "pdp": 0.362911552620111,
+            "nmse": 1.0094687993706661,
+            "nmse_score": 0.4976439546178493,
+            "score": 0.27456011261959934
+          },
+          "GPU_absolute_difference": {
+            "pas": 2.490641720642728e-10,
+            "pdp": 1.372426616796929e-09,
+            "nmse": 1.8720447414466435e-10,
+            "score": 6.57868537423667e-10
+          },
+          "reused": false,
+          "raw_prediction": "artifacts/round2/paper_four_baselines_v1/repair_20261111/ngrf/adam_copy_fix_v2/position_loss/loss_position_relative/validation_raw_H.npy",
+          "raw_prediction_sha256": "b0966307681c878252a00127660b90d519f6fa9d547da0648fc474d21d343db7"
+        }
+      ]
+    }
+  },
+  "training_cost": {
+    "final_candidate_path_updates": 8000,
+    "all_valid_controls_updates": 16000,
+    "discarded_bug_updates": 7000,
+    "discarded_smoke_updates": 20,
+    "total_observed_optimizer_step_calls": 23020,
+    "stages": [
+      {
+        "stage": "smoke_discarded",
+        "updates": 20,
+        "wall_seconds": 7.285023259930313
+      },
+      {
+        "stage": "lambda_pair_valid",
+        "updates": 6000,
+        "wall_seconds": 340.07526550698094
+      },
+      {
+        "stage": "v1_dropout_on_valid_reused",
+        "updates": 3000,
+        "wall_seconds": 225.31862739508506
+      },
+      {
+        "stage": "v1_dropout_off_invalid_bias_time",
+        "updates": 3000,
+        "wall_seconds": 215.27627649891656
+      },
+      {
+        "stage": "v1_position_both_invalid_parent_and_bias_time",
+        "updates": 4000,
+        "wall_seconds": 293.1326677030884
+      },
+      {
+        "stage": "v2_dropout_off_corrected",
+        "updates": 3000,
+        "wall_seconds": 215.73789060907438
+      },
+      {
+        "stage": "v2_position_both_corrected",
+        "updates": 4000,
+        "wall_seconds": 286.34633331606165
+      }
+    ],
+    "note": "Training stage wall includes stage checks/checkpointing; excludes separate read-only diagnosis, fixed validation, SSH and independent audit. v1 arm2 wall is difference of cumulative process wall.",
+    "all_training_stage_wall_seconds": 1583.1720842891373,
+    "successful_controls_stage_wall_seconds": 1067.478116827202,
+    "invalid_bug_stage_wall_seconds": 508.40894420200493,
+    "peak_torch_allocated_bytes": 595788288,
+    "peak_is_not_whole_device_usage": true,
+    "separate_readonly_evaluator_process_wall_seconds": {
+      "dropout_fixed16_evaluator_process_wall_seconds": 7.08,
+      "position_fixed16_evaluator_process_wall_seconds": 7.7
+    },
+    "independent_cpu_verifier_wall_seconds": 2.4147316539892927,
+    "peak_torch_allocated_bytes_scope": "Observed nGRF method torch max_memory_allocated, including valid controls; not whole-device memory peak"
+  },
+  "invalid_saved_bias_time_steps": {
+    "dropout_off": 9000,
+    "position_global": 11000,
+    "position_relative": 13000
+  },
+  "correction": "CPU Adam step shallow sharing in v1; all state loads deepcopy with exact optimizer fingerprint, disjoint storage and immutable parent guards; valid first ON reused",
+  "limitation": "Old ON initial moments were not separately snapshotted; valid reuse is established by first-arm source order, unchanged disk parent, device copy semantics, initial model/RNG/schedule and finite saved moments, not counters alone",
+  "artifact_audit": "analysis/results/round2_paper_four_baselines_v1/repair_20261111/ngrf/adam_copy_fix_v2/independent_verification.json",
+  "artifact_audit_sha256": "8668ea24296b340118e9bafd2d7ffdeba5ca0fdd9e1810345a453997a33f106f",
+  "points": "analysis/results/round2_paper_four_baselines_v1/repair_20261111/ngrf/adam_copy_fix_v2/points.csv",
+  "points_sha256": "6d7925023a31487d47168cc3f85d8086f77664a32cb1dc15582503e0281f11fd",
+  "all_old_results_preserved": true,
+  "V16_retrained": false,
+  "outer500_truth_read": false
+}

@@ -1,0 +1,12 @@
+{
+  "wrapper_PID": 2537845,
+  "GPU_UUID": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+  "launch_UTC": "2026-11-11T20:46:23.233339+00:00",
+  "exact_command": "env PATH=/opt/anaconda3/bin:$PATH PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 OMP_NUM_THREADS=4 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=4 HW_SKIP_ENV_CHECK=1 CUDA_VISIBLE_DEVICES=GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009 code/tools/run_in_env.sh python -m round2.baseline_freqminibatch_20261112.newrf --mode run --gpu-uuid GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009 --config analysis/results/round2_paper_four_baselines_v1/freqminibatch_20261112/newrf/method_config.json",
+  "source_sha256": "482d77f8c693d7509082cab57d8418648b0bedce018a613c9e30623a1b1f50b1",
+  "method_config_sha256": "7e6cbdb75f48a90415de6af581be0eb25a678c2e0f82bb12aa90e2d6c2bc89c5",
+  "parent_used_updates": 1499,
+  "parent_field": 0,
+  "parent_stage": "warm",
+  "parent_phase_step": 749
+}

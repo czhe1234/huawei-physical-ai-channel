@@ -1,0 +1,46 @@
+{
+  "new_source": {
+    "code/measured/hall_metric_protocol_v1/stage.py": {
+      "bytes": 2754,
+      "sha256": "0999d09d84c1a472f8cac8e55d314bddeb48423695820d929dcedb574193e839"
+    },
+    "code/measured/hall_metric_protocol_v1/check.py": {
+      "bytes": 5930,
+      "sha256": "300670f689f2ba97122aefbacb302b5df896d919fb96299891766528df9244c6"
+    },
+    "code/measured/hall_metric_protocol_v1/tests.py": {
+      "bytes": 6158,
+      "sha256": "438f5ec531da0733b4eaf11cbcf0dc3d0d6e7ad229384ee1bd39d90644dfb402"
+    },
+    "code/measured/hall_metric_protocol_v1/describe_fit.py": {
+      "bytes": 1561,
+      "sha256": "9c1eb53e98763c8386b2f3cda8ca60e76ef2bd168d344c61a43daa79504b4dcd"
+    },
+    "code/measured/hall_metric_protocol_v1/metrics.py": {
+      "bytes": 4693,
+      "sha256": "54808bcda53dc886d9ec9635aedcb1c5fb8988d3c6c4613ca479f34120253d56"
+    },
+    "code/measured/hall_metric_protocol_v1/__init__.py": {
+      "bytes": 77,
+      "sha256": "bdce2d2bb75873ceebeb25d4132cef6f2ac462db28b354f9d5b63b53e7faa118"
+    }
+  },
+  "data_identity": {
+    "view": "hall_sw_publisher_v2",
+    "preparation_manifest_sha256": "d4958450a42bbc2b45d8dc2606a9860faa1ecc1541be3e2880bea76cc46130a7",
+    "split_sha256": "a4f8a39fa23bad68ffcbc895a65a90548e1076a254a85a1f0e6998176e3553c5",
+    "selection_sha256": "442a40c4d07be95714eb2752513ec383e5ec80ad15fe42756b13d79b195b1de2",
+    "channels_sha256": "81e7ebcd32115ca1eecff54d2ae4269dfa3eedf6d92f528e7312d6dfed675ed9"
+  },
+  "ledger_item": 844,
+  "preserved_files": 6035,
+  "source_and_result_preservation": true,
+  "scope": {
+    "new_training": false,
+    "algorithm_rescoring": false,
+    "trained_checkpoints_loaded": false,
+    "validation_channels": false,
+    "test": false,
+    "north": false
+  }
+}

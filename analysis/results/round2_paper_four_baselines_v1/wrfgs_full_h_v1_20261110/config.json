@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "gaussians": 1024,
+  "width": 64,
+  "height": 32,
+  "batch_positions": 8,
+  "min_steps": 4000,
+  "max_steps": 12000,
+  "validation_interval": 800,
+  "patience": 4,
+  "min_delta": 0.0001,
+  "prediction_batch": 2,
+  "training_objective": "0.4*(1-PAS cosine)+0.4*(1-PDP cosine)+0.2*complex MSE on FIT RMS normalized H",
+  "selection": "highest official composite score on fixed16 inner validation positions; full inner validation diagnostic only",
+  "refit": "fresh initialization on outerFIT, selected_updates*n_refit/n_screen; no outer truth",
+  "position_encoding": "centered physical meters, PE9 position / source PE10 Gaussian",
+  "frequency_model": "192 parallel signed complex signal heads, geometry shared within band",
+  "cosine_training_numerics": "float64 products and sums; zero denominator replaced before sqrt; zero rows retained"
+}

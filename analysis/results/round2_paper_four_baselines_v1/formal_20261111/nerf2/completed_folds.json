@@ -1,0 +1,15 @@
+{
+  "status": "running",
+  "completed": [
+    {
+      "outer": 0,
+      "manifest": "artifacts/round2/paper_four_baselines_v1/formal_20261111/nerf2/outer0/prediction/manifest.json",
+      "sha256": "b09fd9e68fffa5f85a30671b491fbd6b72477af1ed1b2a3df98d833eadbb836e"
+    },
+    {
+      "outer": 1,
+      "manifest": "artifacts/round2/paper_four_baselines_v1/formal_20261111/nerf2/outer1/prediction/manifest.json",
+      "sha256": "70a72a7703b003d2365dc4acccffcc9e0e757a77c25dcaed2f6f95a8978bcdb7"
+    }
+  ]
+}

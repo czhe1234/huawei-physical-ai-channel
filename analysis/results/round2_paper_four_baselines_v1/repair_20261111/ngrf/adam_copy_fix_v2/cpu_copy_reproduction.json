@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "torch_version": "2.5.1+cu121",
+  "old_load_shares_and_mutates_CPU_state": true,
+  "old_parent_steps_before": [
+    3.0
+  ],
+  "old_parent_steps_after": [
+    4.0
+  ],
+  "deepcopy_parent_preserved": true,
+  "fixed_parent_steps": [
+    3.0
+  ],
+  "fixed_live_steps": [
+    4.0
+  ],
+  "evidence": {
+    "parent_optimizer_fingerprint": "57d2d694d3f5b5883b880d42cf4f53ddfff35842b0bdc9b031da41c054b3eb97",
+    "loaded_optimizer_fingerprint": "57d2d694d3f5b5883b880d42cf4f53ddfff35842b0bdc9b031da41c054b3eb97",
+    "CPU_step_and_all_moment_storages_disjoint": true,
+    "actual_step_values": [
+      3.0
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "folds": {
+    "3": {
+      "worker_pids": [],
+      "pending": true,
+      "canonical": false
+    }
+  },
+  "completed": [
+    3,
+    4
+  ]
+}

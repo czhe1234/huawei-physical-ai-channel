@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "role": "fresh_joint",
+      "actual_total_optimizer_step": 7717,
+      "Adam_parameter_state_count": 27,
+      "source_and_model_bound": true,
+      "full_field_shape": [
+        2,
+        128,
+        2,
+        192
+      ],
+      "finite": true,
+      "CPU_raw_FIT_nmse": 0.10248123678203516,
+      "GPU_normalized_vs_CPU_raw_delta": -4.086894406230002e-09,
+      "BS_draws": 61736,
+      "fit_passed": false,
+      "clean_reload_max_abs": 0.0
+    },
+    {
+      "role": "low_lr",
+      "actual_total_optimizer_step": 10717,
+      "Adam_parameter_state_count": 27,
+      "source_and_model_bound": true,
+      "full_field_shape": [
+        2,
+        128,
+        2,
+        192
+      ],
+      "finite": true,
+      "CPU_raw_FIT_nmse": 0.06964642984672692,
+      "GPU_normalized_vs_CPU_raw_delta": -1.372523525389191e-09,
+      "BS_draws": 85736,
+      "fit_passed": false,
+      "clean_reload_max_abs": 0.0
+    }
+  ],
+  "cumulative_joint_updates": 10717,
+  "cumulative_training_stage_seconds": 1671.0990608290303,
+  "scope": "two FIT positions; one of8fields; full128BSx2UEx192F; no canonical500 test",
+  "lowLR_QA20_counted_inside3000": true,
+  "initial_smoke20_discarded": true,
+  "parent_file_unchanged": true,
+  "old_result_files_modified": false,
+  "both_preregistered_FIT_gates_unmet": true
+}

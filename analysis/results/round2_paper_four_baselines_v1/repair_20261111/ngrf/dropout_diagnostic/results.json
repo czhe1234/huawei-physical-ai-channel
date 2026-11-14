@@ -1,0 +1,1570 @@
+{
+  "status": "complete",
+  "kind": "fixed-lambda1-checkpoint dropout-only no-update probe",
+  "checkpoint": "artifacts/round2/paper_four_baselines_v1/repair_20261111/ngrf/paired/weight_1p0/final.pt",
+  "checkpoint_sha256": "da581d3b32e8e5b998c77542739877d318ff1f789185db82211fb07501165b9c",
+  "source_sha256": "4637de9aa05fd0333ccbb8f59cb2d8b8a25b76cc1a415f2addd9d17199487361",
+  "training_source_identity": {
+    "code/round2/baseline_repair_20261111/ngrf_repair.py": "b145213ba278e55962468db462f8faac933b317e2b041fd94d0f4b63d36bbf0c",
+    "code/round2/paper_baseline_training_v1/native_ngrf.py": "a84eadc26fe79310a89bcdc21be0cc46d590bd1c3bda2b61402936cf82d8a967",
+    "code/round2/paper_baseline_training_v1/common.py": "5ad45eb0b8d16f4a9af9462ba747f582d28946caef84747a8c21e1ccd3d1205d",
+    "analysis/results/round2_paper_four_baselines_v1/repair_20261111/config.json": "d572d97d0c61d8a3789efb09d56e6feab709a3d2566f8d9f32ec9bcc50e2a258",
+    "code/round2/paper_baseline_training_v1/field_fast.py": "4773a34235bcaa7e24f119f333be39f7a986fd8726bbba1a4e66c3f2990e1d9f",
+    "code/round2/paper_baseline_adapters_v1/field_models.py": "8009d8877a680f232445d277f890796109f982347741593fc4bf8db4a5bc8242"
+  },
+  "full_H_shape": [
+    16,
+    256,
+    4,
+    192
+  ],
+  "draws": 8,
+  "diagnostic_seed": 217,
+  "dropout_modules": [
+    {
+      "module": "fields.0.native.attribute_network.network.network.2",
+      "class_name": "Dropout",
+      "p": 0.14651508945335504,
+      "inplace": false
+    },
+    {
+      "module": "fields.0.native.attribute_network.network.network.5",
+      "class_name": "Dropout",
+      "p": 0.14651508945335504,
+      "inplace": false
+    },
+    {
+      "module": "fields.0.native.attribute_network.network.network.8",
+      "class_name": "Dropout",
+      "p": 0.14651508945335504,
+      "inplace": false
+    },
+    {
+      "module": "fields.0.native.attribute_network.network.network.11",
+      "class_name": "Dropout",
+      "p": 0.14651508945335504,
+      "inplace": false
+    },
+    {
+      "module": "fields.0.native.attribute_network.network.network.14",
+      "class_name": "Dropout",
+      "p": 0.14651508945335504,
+      "inplace": false
+    },
+    {
+      "module": "fields.0.native.attribute_network.network.network.17",
+      "class_name": "Dropout",
+      "p": 0.14651508945335504,
+      "inplace": false
+    },
+    {
+      "module": "fields.0.native.attribute_network.network.network.20",
+      "class_name": "Dropout",
+      "p": 0.14651508945335504,
+      "inplace": false
+    },
+    {
+      "module": "fields.0.native.contribution_decoder.network.2",
+      "class_name": "Dropout",
+      "p": 0.22766411069474934,
+      "inplace": false
+    },
+    {
+      "module": "fields.0.native.contribution_decoder.network.5",
+      "class_name": "Dropout",
+      "p": 0.22766411069474934,
+      "inplace": false
+    },
+    {
+      "module": "fields.1.native.attribute_network.network.network.2",
+      "class_name": "Dropout",
+      "p": 0.14651508945335504,
+      "inplace": false
+    },
+    {
+      "module": "fields.1.native.attribute_network.network.network.5",
+      "class_name": "Dropout",
+      "p": 0.14651508945335504,
+      "inplace": false
+    },
+    {
+      "module": "fields.1.native.attribute_network.network.network.8",
+      "class_name": "Dropout",
+      "p": 0.14651508945335504,
+      "inplace": false
+    },
+    {
+      "module": "fields.1.native.attribute_network.network.network.11",
+      "class_name": "Dropout",
+      "p": 0.14651508945335504,
+      "inplace": false
+    },
+    {
+      "module": "fields.1.native.attribute_network.network.network.14",
+      "class_name": "Dropout",
+      "p": 0.14651508945335504,
+      "inplace": false
+    },
+    {
+      "module": "fields.1.native.attribute_network.network.network.17",
+      "class_name": "Dropout",
+      "p": 0.14651508945335504,
+      "inplace": false
+    },
+    {
+      "module": "fields.1.native.attribute_network.network.network.20",
+      "class_name": "Dropout",
+      "p": 0.14651508945335504,
+      "inplace": false
+    },
+    {
+      "module": "fields.1.native.contribution_decoder.network.2",
+      "class_name": "Dropout",
+      "p": 0.22766411069474934,
+      "inplace": false
+    },
+    {
+      "module": "fields.1.native.contribution_decoder.network.5",
+      "class_name": "Dropout",
+      "p": 0.22766411069474934,
+      "inplace": false
+    }
+  ],
+  "exact_training_batch_semantics": false,
+  "scope": "8 train-mode full192-tone forwards, same16FIT/full256x4ports; actual training drew8tones/step. Attribute masks shared across all positions at same site, decoder masks vary by Gaussian/frequency chunk.",
+  "eval_pooled": {
+    "complex_nmse": 0.0302063177937549,
+    "prediction_to_truth_energy": 1.1033586366547106,
+    "signed_complex_correlation": 0.9868311883384894,
+    "weighted_phase_cosine": 0.9838697110944103,
+    "defined_phase_target_energy_fraction": 1.0
+  },
+  "stochastic_mean_pooled": {
+    "complex_nmse": 0.023466338020329543,
+    "prediction_to_truth_energy": 1.0023156185343391,
+    "signed_complex_correlation": 0.988281060926664,
+    "weighted_phase_cosine": 0.9846253520357978,
+    "defined_phase_target_energy_fraction": 1.0
+  },
+  "pooled_mean_train_draw_NMSE": 0.030732124744917693,
+  "pooled_variance_to_truth_energy": 0.007265786724588147,
+  "pooled_stochastic_deviation_from_eval_to_truth_energy": 0.015044954217233859,
+  "points": [
+    {
+      "row_id": 2,
+      "site": 0,
+      "target_raw_energy": 2.2333539112098404e-08,
+      "eval_metrics": {
+        "complex_nmse": 1.62541588648158,
+        "prediction_to_truth_energy": 0.6621059746471716,
+        "signed_complex_correlation": 0.02254524744563893,
+        "weighted_phase_cosine": 0.032641603874916006,
+        "defined_phase_target_energy_fraction": 1.0
+      },
+      "stochastic_mean_metrics": {
+        "complex_nmse": 2.117863514878641,
+        "prediction_to_truth_energy": 1.145030403982156,
+        "signed_complex_correlation": 0.012694085085443943,
+        "weighted_phase_cosine": 0.033621200528833724,
+        "defined_phase_target_energy_fraction": 1.0
+      },
+      "training_draw_metrics": [
+        {
+          "complex_nmse": 4.727993841775199,
+          "prediction_to_truth_energy": 3.7612203349754747,
+          "signed_complex_correlation": 0.008566237752174114,
+          "weighted_phase_cosine": 0.018907397877505595,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 2.661108818847907,
+          "prediction_to_truth_energy": 1.681415574421146,
+          "signed_complex_correlation": 0.007830202844727706,
+          "weighted_phase_cosine": 0.024094020590390026,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.8220596178795117,
+          "prediction_to_truth_energy": 0.8819476870168018,
+          "signed_complex_correlation": 0.03188518217644683,
+          "weighted_phase_cosine": 0.03444733487261629,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 2.5941269237383184,
+          "prediction_to_truth_energy": 1.6548888984530346,
+          "signed_complex_correlation": 0.02361660482762424,
+          "weighted_phase_cosine": 0.03377413828214949,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 4.019248412289837,
+          "prediction_to_truth_energy": 3.031609823940402,
+          "signed_complex_correlation": 0.003549779856911032,
+          "weighted_phase_cosine": 0.018886625533845423,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.995736930856345,
+          "prediction_to_truth_energy": 1.013336287159045,
+          "signed_complex_correlation": 0.00874158109174744,
+          "weighted_phase_cosine": 0.014437572099565317,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 4.225113490048569,
+          "prediction_to_truth_energy": 3.2105810814401035,
+          "signed_complex_correlation": -0.004055232731927575,
+          "weighted_phase_cosine": 0.0009164131757988122,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 2.312412208361993,
+          "prediction_to_truth_energy": 1.3401356692197923,
+          "signed_complex_correlation": 0.011974105093544489,
+          "weighted_phase_cosine": 0.0185382507582413,
+          "defined_phase_target_energy_fraction": 1.0
+        }
+      ],
+      "stochastic_NMSE_mean": 3.04472503047471,
+      "variance_to_truth_energy": 0.9268615155960687,
+      "unbiased_variance_to_truth_energy": 1.0592703035383644,
+      "stochastic_deviation_from_eval_to_truth_energy": 1.1620752769971203,
+      "stochastic_mean_bias_from_eval_to_truth_energy": 0.23521376140105124,
+      "variance_mean_power_raw": 1.0528614252758588e-13,
+      "stochastic_deviation_from_eval_mean_power_raw": 1.3200507431039311e-13,
+      "variance_mean_power_FIT_RMS_squared": 0.0001622326795182597
+    },
+    {
+      "row_id": 565,
+      "site": 0,
+      "target_raw_energy": 0.00018570696852703575,
+      "eval_metrics": {
+        "complex_nmse": 0.008721995358853027,
+        "prediction_to_truth_energy": 1.1377304208070154,
+        "signed_complex_correlation": 0.9979934690554866,
+        "weighted_phase_cosine": 0.9987374801129427,
+        "defined_phase_target_energy_fraction": 1.0
+      },
+      "stochastic_mean_metrics": {
+        "complex_nmse": 0.004104590938818484,
+        "prediction_to_truth_energy": 1.0434956746808406,
+        "signed_complex_correlation": 0.998217533603728,
+        "weighted_phase_cosine": 0.9989091057782928,
+        "defined_phase_target_energy_fraction": 1.0
+      },
+      "training_draw_metrics": [
+        {
+          "complex_nmse": 0.012773307119700542,
+          "prediction_to_truth_energy": 1.0473196539311396,
+          "signed_complex_correlation": 0.9940265058161425,
+          "weighted_phase_cosine": 0.9968411187158144,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.011139588430446821,
+          "prediction_to_truth_energy": 1.049114046375552,
+          "signed_complex_correlation": 0.9948495094350052,
+          "weighted_phase_cosine": 0.997258401923797,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.013084399745534844,
+          "prediction_to_truth_energy": 1.071893405847802,
+          "signed_complex_correlation": 0.994283572544763,
+          "weighted_phase_cosine": 0.9971969093488657,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.011361414927273956,
+          "prediction_to_truth_energy": 1.0440292188080669,
+          "signed_complex_correlation": 0.9946724426302993,
+          "weighted_phase_cosine": 0.9970752483791832,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.010442478144532665,
+          "prediction_to_truth_energy": 1.0293728937635496,
+          "signed_complex_correlation": 0.9949585564436196,
+          "weighted_phase_cosine": 0.997558036172259,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.010304653306894807,
+          "prediction_to_truth_energy": 1.0484703845053809,
+          "signed_complex_correlation": 0.9952482342857125,
+          "weighted_phase_cosine": 0.9974506976268104,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.0112554651453941,
+          "prediction_to_truth_energy": 1.0403547026204372,
+          "signed_complex_correlation": 0.9946781425549506,
+          "weighted_phase_cosine": 0.9971310190201803,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.012029444303353233,
+          "prediction_to_truth_energy": 1.076965115207379,
+          "signed_complex_correlation": 0.9948914828759099,
+          "weighted_phase_cosine": 0.9973055796082743,
+          "defined_phase_target_energy_fraction": 1.0
+        }
+      ],
+      "stochastic_NMSE_mean": 0.011548843890391371,
+      "variance_to_truth_energy": 0.007444252951572889,
+      "unbiased_variance_to_truth_energy": 0.008507717658940444,
+      "stochastic_deviation_from_eval_to_truth_energy": 0.01198124860786923,
+      "stochastic_mean_bias_from_eval_to_truth_energy": 0.0045369956562963405,
+      "variance_mean_power_raw": 7.031502525762123e-12,
+      "stochastic_deviation_from_eval_mean_power_raw": 1.1316942129191905e-11,
+      "variance_mean_power_FIT_RMS_squared": 0.010834659418687663
+    },
+    {
+      "row_id": 1120,
+      "site": 0,
+      "target_raw_energy": 6.735259812692191e-05,
+      "eval_metrics": {
+        "complex_nmse": 0.026568289328952787,
+        "prediction_to_truth_energy": 1.1983825247701654,
+        "signed_complex_correlation": 0.9919617956616653,
+        "weighted_phase_cosine": 0.9944353576219811,
+        "defined_phase_target_energy_fraction": 1.0
+      },
+      "stochastic_mean_metrics": {
+        "complex_nmse": 0.010846711544653014,
+        "prediction_to_truth_energy": 1.0179055726123587,
+        "signed_complex_correlation": 0.9946639263618874,
+        "weighted_phase_cosine": 0.9964970991879079,
+        "defined_phase_target_energy_fraction": 1.0
+      },
+      "training_draw_metrics": [
+        {
+          "complex_nmse": 0.02110271257524952,
+          "prediction_to_truth_energy": 1.0378746071861802,
+          "signed_complex_correlation": 0.9898157077588549,
+          "weighted_phase_cosine": 0.9938502078578766,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.020585089923637147,
+          "prediction_to_truth_energy": 1.0271436792672917,
+          "signed_complex_correlation": 0.9899340224866713,
+          "weighted_phase_cosine": 0.9937269054986082,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.020601234424587524,
+          "prediction_to_truth_energy": 1.043448788014506,
+          "signed_complex_correlation": 0.9901422429587676,
+          "weighted_phase_cosine": 0.9944039987390999,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.018149653440008,
+          "prediction_to_truth_energy": 1.0106100013052086,
+          "signed_complex_correlation": 0.9909868591956195,
+          "weighted_phase_cosine": 0.994661760510412,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.02126798477740535,
+          "prediction_to_truth_energy": 1.021266079324334,
+          "signed_complex_correlation": 0.9895326592875151,
+          "weighted_phase_cosine": 0.9939233431695677,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.022287564340441313,
+          "prediction_to_truth_energy": 1.0598529223501574,
+          "signed_complex_correlation": 0.9895978699026903,
+          "weighted_phase_cosine": 0.993809836179066,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.019370030618367413,
+          "prediction_to_truth_energy": 1.018189984695542,
+          "signed_complex_correlation": 0.990442505791569,
+          "weighted_phase_cosine": 0.9940233683852212,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.018491611997285138,
+          "prediction_to_truth_energy": 0.999940708495406,
+          "signed_complex_correlation": 0.990753920329755,
+          "weighted_phase_cosine": 0.9945344318544652,
+          "defined_phase_target_energy_fraction": 1.0
+        }
+      ],
+      "stochastic_NMSE_mean": 0.020231985262122675,
+      "variance_to_truth_energy": 0.009385273717469661,
+      "unbiased_variance_to_truth_energy": 0.010726027105679612,
+      "stochastic_deviation_from_eval_to_truth_energy": 0.0253418854271378,
+      "stochastic_mean_bias_from_eval_to_truth_energy": 0.01595661170966814,
+      "variance_mean_power_raw": 3.215141647358686e-12,
+      "stochastic_deviation_from_eval_mean_power_raw": 8.681446456667639e-12,
+      "variance_mean_power_FIT_RMS_squared": 0.004954128168814687
+    },
+    {
+      "row_id": 1717,
+      "site": 0,
+      "target_raw_energy": 5.525966018384778e-05,
+      "eval_metrics": {
+        "complex_nmse": 0.03667592729797756,
+        "prediction_to_truth_energy": 1.0683355331623996,
+        "signed_complex_correlation": 0.9828044484061152,
+        "weighted_phase_cosine": 0.9870760961966076,
+        "defined_phase_target_energy_fraction": 1.0
+      },
+      "stochastic_mean_metrics": {
+        "complex_nmse": 0.02543707621816209,
+        "prediction_to_truth_energy": 0.9548365118997759,
+        "signed_complex_correlation": 0.9872511372810787,
+        "weighted_phase_cosine": 0.9902796544430444,
+        "defined_phase_target_energy_fraction": 1.0
+      },
+      "training_draw_metrics": [
+        {
+          "complex_nmse": 0.03295927102472109,
+          "prediction_to_truth_energy": 0.9650571441929316,
+          "signed_complex_correlation": 0.9833828085967188,
+          "weighted_phase_cosine": 0.9881860157933701,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.03287168463034789,
+          "prediction_to_truth_energy": 1.0035435975363447,
+          "signed_complex_correlation": 0.9835947656146913,
+          "weighted_phase_cosine": 0.9883779668089873,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.03381145224953663,
+          "prediction_to_truth_energy": 0.9679183552452653,
+          "signed_complex_correlation": 0.9829492970664087,
+          "weighted_phase_cosine": 0.988188890765645,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.03325440254319884,
+          "prediction_to_truth_energy": 0.9578808063313367,
+          "signed_complex_correlation": 0.9832426493250136,
+          "weighted_phase_cosine": 0.9882894274592425,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.03420268496585007,
+          "prediction_to_truth_energy": 0.9466704690428536,
+          "signed_complex_correlation": 0.9827990264181987,
+          "weighted_phase_cosine": 0.9877146139547909,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.03291192717978718,
+          "prediction_to_truth_energy": 0.9415964416724394,
+          "signed_complex_correlation": 0.9834940798683165,
+          "weighted_phase_cosine": 0.9884025110016766,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.032435735014448526,
+          "prediction_to_truth_energy": 0.9694857720396598,
+          "signed_complex_correlation": 0.983648929794307,
+          "weighted_phase_cosine": 0.9884302050117987,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.03224531717144873,
+          "prediction_to_truth_energy": 0.9477353741714187,
+          "signed_complex_correlation": 0.9837989638880223,
+          "weighted_phase_cosine": 0.9884777228798113,
+          "defined_phase_target_energy_fraction": 1.0
+        }
+      ],
+      "stochastic_NMSE_mean": 0.03308655934741737,
+      "variance_to_truth_energy": 0.007649483129255278,
+      "unbiased_variance_to_truth_energy": 0.008742266433434603,
+      "stochastic_deviation_from_eval_to_truth_energy": 0.024214507064552807,
+      "stochastic_mean_bias_from_eval_to_truth_energy": 0.01656502393529752,
+      "variance_mean_power_raw": 2.1500032465857096e-12,
+      "stochastic_deviation_from_eval_mean_power_raw": 6.805854451022184e-12,
+      "variance_mean_power_FIT_RMS_squared": 0.003312884101297267
+    },
+    {
+      "row_id": 2295,
+      "site": 0,
+      "target_raw_energy": 7.973049585915889e-06,
+      "eval_metrics": {
+        "complex_nmse": 1.179248959609173,
+        "prediction_to_truth_energy": 0.29548964584856263,
+        "signed_complex_correlation": 0.10691952871329259,
+        "weighted_phase_cosine": 0.08636625699759358,
+        "defined_phase_target_energy_fraction": 1.0
+      },
+      "stochastic_mean_metrics": {
+        "complex_nmse": 1.1301691463198495,
+        "prediction_to_truth_energy": 0.22902087842911403,
+        "signed_complex_correlation": 0.10328012379865908,
+        "weighted_phase_cosine": 0.0857834607387536,
+        "defined_phase_target_energy_fraction": 1.0
+      },
+      "training_draw_metrics": [
+        {
+          "complex_nmse": 1.1450792801560885,
+          "prediction_to_truth_energy": 0.24634116872009712,
+          "signed_complex_correlation": 0.10201112296559237,
+          "weighted_phase_cosine": 0.08563876829600309,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.1338628541225817,
+          "prediction_to_truth_energy": 0.2361908234350429,
+          "signed_complex_correlation": 0.10527684224384502,
+          "weighted_phase_cosine": 0.09090793729115391,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.1263731043383876,
+          "prediction_to_truth_energy": 0.22909984971544767,
+          "signed_complex_correlation": 0.10731023132290549,
+          "weighted_phase_cosine": 0.09064749231986717,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.212395626108833,
+          "prediction_to_truth_energy": 0.2989550163156839,
+          "signed_complex_correlation": 0.07915553162652729,
+          "weighted_phase_cosine": 0.07000900003876943,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.1485366996579087,
+          "prediction_to_truth_energy": 0.25066741511843094,
+          "signed_complex_correlation": 0.1019946606480054,
+          "weighted_phase_cosine": 0.09237309734396423,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.132876547946352,
+          "prediction_to_truth_energy": 0.23688385322730454,
+          "signed_complex_correlation": 0.10684793159702559,
+          "weighted_phase_cosine": 0.09234158129042722,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.1669078992043358,
+          "prediction_to_truth_energy": 0.25546831300606254,
+          "signed_complex_correlation": 0.08760746653036475,
+          "weighted_phase_cosine": 0.07526971105326283,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.1395869752144419,
+          "prediction_to_truth_energy": 0.24282640408497289,
+          "signed_complex_correlation": 0.10475328313917422,
+          "weighted_phase_cosine": 0.08776240068334461,
+          "defined_phase_target_energy_fraction": 1.0
+        }
+      ],
+      "stochastic_NMSE_mean": 1.1507023733436161,
+      "variance_to_truth_energy": 0.020533227023766285,
+      "unbiased_variance_to_truth_energy": 0.023466545170018612,
+      "stochastic_deviation_from_eval_to_truth_energy": 0.03343899567498331,
+      "stochastic_mean_bias_from_eval_to_truth_energy": 0.012905768651217025,
+      "variance_mean_power_raw": 8.326845154793126e-13,
+      "stochastic_deviation_from_eval_mean_power_raw": 1.3560525035597173e-12,
+      "variance_mean_power_FIT_RMS_squared": 0.001283061919608065
+    },
+    {
+      "row_id": 2877,
+      "site": 0,
+      "target_raw_energy": 0.0,
+      "eval_metrics": {
+        "complex_nmse": null,
+        "signed_complex_correlation": null,
+        "weighted_phase_cosine": null,
+        "defined_phase_target_energy_fraction": null,
+        "prediction_mean_power_raw": 2.0488540525964284e-14
+      },
+      "stochastic_mean_metrics": {
+        "complex_nmse": null,
+        "signed_complex_correlation": null,
+        "weighted_phase_cosine": null,
+        "defined_phase_target_energy_fraction": null,
+        "prediction_mean_power_raw": 6.682370330095092e-14
+      },
+      "training_draw_metrics": [
+        {
+          "complex_nmse": null,
+          "signed_complex_correlation": null,
+          "weighted_phase_cosine": null,
+          "defined_phase_target_energy_fraction": null,
+          "prediction_mean_power_raw": 1.1547465476228113e-13
+        },
+        {
+          "complex_nmse": null,
+          "signed_complex_correlation": null,
+          "weighted_phase_cosine": null,
+          "defined_phase_target_energy_fraction": null,
+          "prediction_mean_power_raw": 2.6703312922814926e-14
+        },
+        {
+          "complex_nmse": null,
+          "signed_complex_correlation": null,
+          "weighted_phase_cosine": null,
+          "defined_phase_target_energy_fraction": null,
+          "prediction_mean_power_raw": 3.8825376988398005e-14
+        },
+        {
+          "complex_nmse": null,
+          "signed_complex_correlation": null,
+          "weighted_phase_cosine": null,
+          "defined_phase_target_energy_fraction": null,
+          "prediction_mean_power_raw": 3.25173332701635e-13
+        },
+        {
+          "complex_nmse": null,
+          "signed_complex_correlation": null,
+          "weighted_phase_cosine": null,
+          "defined_phase_target_energy_fraction": null,
+          "prediction_mean_power_raw": 1.1998977463838618e-13
+        },
+        {
+          "complex_nmse": null,
+          "signed_complex_correlation": null,
+          "weighted_phase_cosine": null,
+          "defined_phase_target_energy_fraction": null,
+          "prediction_mean_power_raw": 5.939341074617729e-14
+        },
+        {
+          "complex_nmse": null,
+          "signed_complex_correlation": null,
+          "weighted_phase_cosine": null,
+          "defined_phase_target_energy_fraction": null,
+          "prediction_mean_power_raw": 8.622470468961536e-14
+        },
+        {
+          "complex_nmse": null,
+          "signed_complex_correlation": null,
+          "weighted_phase_cosine": null,
+          "defined_phase_target_energy_fraction": null,
+          "prediction_mean_power_raw": 5.381404110342748e-13
+        }
+      ],
+      "stochastic_NMSE_mean": null,
+      "variance_to_truth_energy": null,
+      "unbiased_variance_to_truth_energy": null,
+      "stochastic_deviation_from_eval_to_truth_energy": null,
+      "stochastic_mean_bias_from_eval_to_truth_energy": null,
+      "variance_mean_power_raw": 9.69169190094969e-14,
+      "stochastic_deviation_from_eval_mean_power_raw": 1.3791419688970882e-13,
+      "variance_mean_power_FIT_RMS_squared": 0.00014933676060403916
+    },
+    {
+      "row_id": 3447,
+      "site": 0,
+      "target_raw_energy": 0.00023962749798726125,
+      "eval_metrics": {
+        "complex_nmse": 0.004626475079098219,
+        "prediction_to_truth_energy": 1.0847698189095918,
+        "signed_complex_correlation": 0.9986066896336367,
+        "weighted_phase_cosine": 0.9991800531601129,
+        "defined_phase_target_energy_fraction": 1.0
+      },
+      "stochastic_mean_metrics": {
+        "complex_nmse": 0.002473664325130625,
+        "prediction_to_truth_energy": 1.0087205658451042,
+        "signed_complex_correlation": 0.9987779495657276,
+        "weighted_phase_cosine": 0.9993194401839516,
+        "defined_phase_target_energy_fraction": 1.0
+      },
+      "training_draw_metrics": [
+        {
+          "complex_nmse": 0.007407406529005413,
+          "prediction_to_truth_energy": 1.0287655534970024,
+          "signed_complex_correlation": 0.996448978889756,
+          "weighted_phase_cosine": 0.9980988355482892,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.0075584948815050484,
+          "prediction_to_truth_energy": 1.0308469090476087,
+          "signed_complex_correlation": 0.9963931024690579,
+          "weighted_phase_cosine": 0.9981889734945233,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.006812721970106683,
+          "prediction_to_truth_energy": 1.0161607646027329,
+          "signed_complex_correlation": 0.9966529611037599,
+          "weighted_phase_cosine": 0.9982125089787617,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.006845468222310106,
+          "prediction_to_truth_energy": 1.0015427892909063,
+          "signed_complex_correlation": 0.9965802001829824,
+          "weighted_phase_cosine": 0.9983495828502573,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.007096339155490423,
+          "prediction_to_truth_energy": 1.0288967286894537,
+          "signed_complex_correlation": 0.9966034517249893,
+          "weighted_phase_cosine": 0.9982477596517959,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.006782330630698607,
+          "prediction_to_truth_energy": 0.9942524058446133,
+          "signed_complex_correlation": 0.9966032001687261,
+          "weighted_phase_cosine": 0.9983099081893078,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.007055888780158874,
+          "prediction_to_truth_energy": 1.0247468349187485,
+          "signed_complex_correlation": 0.9965896137923493,
+          "weighted_phase_cosine": 0.9982762716846728,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.007368971345762386,
+          "prediction_to_truth_energy": 0.981690847783761,
+          "signed_complex_correlation": 0.9963239978067767,
+          "weighted_phase_cosine": 0.9981043305656775,
+          "defined_phase_target_energy_fraction": 1.0
+        }
+      ],
+      "stochastic_NMSE_mean": 0.007115952689379692,
+      "variance_to_truth_energy": 0.004642288364249065,
+      "unbiased_variance_to_truth_energy": 0.005305472416284646,
+      "stochastic_deviation_from_eval_to_truth_energy": 0.007718985919707381,
+      "stochastic_mean_bias_from_eval_to_truth_energy": 0.0030766975554583145,
+      "variance_mean_power_raw": 5.658060433249813e-12,
+      "stochastic_deviation_from_eval_mean_power_raw": 9.407965509737032e-12,
+      "variance_mean_power_FIT_RMS_squared": 0.008718358208648956
+    },
+    {
+      "row_id": 3998,
+      "site": 0,
+      "target_raw_energy": 5.810699470034585e-05,
+      "eval_metrics": {
+        "complex_nmse": 0.01987265097611497,
+        "prediction_to_truth_energy": 1.1379066165437053,
+        "signed_complex_correlation": 0.9927722135797938,
+        "weighted_phase_cosine": 0.9955129067267038,
+        "defined_phase_target_energy_fraction": 1.0
+      },
+      "stochastic_mean_metrics": {
+        "complex_nmse": 0.010312345308340284,
+        "prediction_to_truth_energy": 1.0020556977603812,
+        "signed_complex_correlation": 0.994849646107907,
+        "weighted_phase_cosine": 0.9965667544697822,
+        "defined_phase_target_energy_fraction": 1.0
+      },
+      "training_draw_metrics": [
+        {
+          "complex_nmse": 0.022194238161814553,
+          "prediction_to_truth_energy": 1.0135928025686156,
+          "signed_complex_correlation": 0.9890003266713709,
+          "weighted_phase_cosine": 0.9937372743727526,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.021897405514648582,
+          "prediction_to_truth_energy": 1.0300992159326876,
+          "signed_complex_correlation": 0.9893223724743637,
+          "weighted_phase_cosine": 0.993662041617289,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.021372501475142136,
+          "prediction_to_truth_energy": 1.01644809622858,
+          "signed_complex_correlation": 0.9894338337036563,
+          "weighted_phase_cosine": 0.9940455862674583,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.022694940973384724,
+          "prediction_to_truth_energy": 1.0337951391384481,
+          "signed_complex_correlation": 0.9889776344898796,
+          "weighted_phase_cosine": 0.9935417340849069,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.021763648101060504,
+          "prediction_to_truth_energy": 1.009240954247098,
+          "signed_complex_correlation": 0.9891786859695759,
+          "weighted_phase_cosine": 0.9937158437395668,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.021076237487644037,
+          "prediction_to_truth_energy": 1.016381739446834,
+          "signed_complex_correlation": 0.989580155335482,
+          "weighted_phase_cosine": 0.994060858211536,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.021042664438908683,
+          "prediction_to_truth_energy": 0.9966836607218725,
+          "signed_complex_correlation": 0.989462557450279,
+          "weighted_phase_cosine": 0.9938640350736875,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.020299638525789216,
+          "prediction_to_truth_energy": 0.9900464860105854,
+          "signed_complex_correlation": 0.9898117957910338,
+          "weighted_phase_cosine": 0.9942221102166062,
+          "defined_phase_target_energy_fraction": 1.0
+        }
+      ],
+      "stochastic_NMSE_mean": 0.021542659334799055,
+      "variance_to_truth_energy": 0.011230314026458767,
+      "unbiased_variance_to_truth_energy": 0.012834644601667163,
+      "stochastic_deviation_from_eval_to_truth_energy": 0.02650128468599756,
+      "stochastic_mean_bias_from_eval_to_truth_energy": 0.01527097065953879,
+      "variance_mean_power_raw": 3.3190907675102707e-12,
+      "stochastic_deviation_from_eval_mean_power_raw": 7.832387333178796e-12,
+      "variance_mean_power_FIT_RMS_squared": 0.005114300665317146
+    },
+    {
+      "row_id": 0,
+      "site": 1,
+      "target_raw_energy": 1.8605821253214662e-06,
+      "eval_metrics": {
+        "complex_nmse": 0.1432915955263464,
+        "prediction_to_truth_energy": 1.2496797470154082,
+        "signed_complex_correlation": 0.9421261139569718,
+        "weighted_phase_cosine": 0.9585637832637445,
+        "defined_phase_target_energy_fraction": 1.0
+      },
+      "stochastic_mean_metrics": {
+        "complex_nmse": 0.10719179614069496,
+        "prediction_to_truth_energy": 0.9007706853920516,
+        "signed_complex_correlation": 0.9448945974082464,
+        "weighted_phase_cosine": 0.9604035250009877,
+        "defined_phase_target_energy_fraction": 1.0
+      },
+      "training_draw_metrics": [
+        {
+          "complex_nmse": 0.12579700664235777,
+          "prediction_to_truth_energy": 0.9588074835421034,
+          "signed_complex_correlation": 0.9359857655769723,
+          "weighted_phase_cosine": 0.955419113703819,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.12553872757201243,
+          "prediction_to_truth_energy": 0.9110611203896893,
+          "signed_complex_correlation": 0.9353228596253076,
+          "weighted_phase_cosine": 0.9551510138703843,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.12780874628787725,
+          "prediction_to_truth_energy": 0.9108578546505395,
+          "signed_complex_correlation": 0.9341314737682076,
+          "weighted_phase_cosine": 0.9549017938766464,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.12421450988503854,
+          "prediction_to_truth_energy": 0.9279494628316547,
+          "signed_complex_correlation": 0.936225709762335,
+          "weighted_phase_cosine": 0.9557759041182146,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.12395890234300228,
+          "prediction_to_truth_energy": 0.9054130900497739,
+          "signed_complex_correlation": 0.9360979156543673,
+          "weighted_phase_cosine": 0.955634015208144,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.12577164610592131,
+          "prediction_to_truth_energy": 0.8965384170115688,
+          "signed_complex_correlation": 0.9350760121704431,
+          "weighted_phase_cosine": 0.9548824605161604,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.12803909733377788,
+          "prediction_to_truth_energy": 0.9113811356782032,
+          "signed_complex_correlation": 0.9340166841998442,
+          "weighted_phase_cosine": 0.9543197719621251,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.1263507847588439,
+          "prediction_to_truth_energy": 0.9341019707861512,
+          "signed_complex_correlation": 0.9352151106696953,
+          "weighted_phase_cosine": 0.9550456470927335,
+          "defined_phase_target_energy_fraction": 1.0
+        }
+      ],
+      "stochastic_NMSE_mean": 0.12593492761610392,
+      "variance_to_truth_energy": 0.018743131475408972,
+      "unbiased_variance_to_truth_energy": 0.02142072168618168,
+      "stochastic_deviation_from_eval_to_truth_energy": 0.07649973183917286,
+      "stochastic_mean_bias_from_eval_to_truth_energy": 0.05775660036376387,
+      "variance_mean_power_raw": 1.7737393898364307e-13,
+      "stochastic_deviation_from_eval_mean_power_raw": 7.239483319694544e-13,
+      "variance_mean_power_FIT_RMS_squared": 0.00027331089075169785
+    },
+    {
+      "row_id": 558,
+      "site": 1,
+      "target_raw_energy": 2.0103984904172547e-07,
+      "eval_metrics": {
+        "complex_nmse": 1.2321322256003184,
+        "prediction_to_truth_energy": 0.2774137632338668,
+        "signed_complex_correlation": 0.04298601325766969,
+        "weighted_phase_cosine": 0.0358870261791494,
+        "defined_phase_target_energy_fraction": 1.0
+      },
+      "stochastic_mean_metrics": {
+        "complex_nmse": 1.1386684507812732,
+        "prediction_to_truth_energy": 0.17440745300603946,
+        "signed_complex_correlation": 0.04278878039087217,
+        "weighted_phase_cosine": 0.037512197025843026,
+        "defined_phase_target_energy_fraction": 1.0
+      },
+      "training_draw_metrics": [
+        {
+          "complex_nmse": 1.2013706041394516,
+          "prediction_to_truth_energy": 0.2393626385255701,
+          "signed_complex_correlation": 0.038827047965704665,
+          "weighted_phase_cosine": 0.03365003478412944,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.173599653167671,
+          "prediction_to_truth_energy": 0.21184233336993283,
+          "signed_complex_correlation": 0.041544348279601274,
+          "weighted_phase_cosine": 0.03885270255353793,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.1719471775043528,
+          "prediction_to_truth_energy": 0.2104707856086878,
+          "signed_complex_correlation": 0.04198566627716833,
+          "weighted_phase_cosine": 0.03711480088698478,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.1721604152173521,
+          "prediction_to_truth_energy": 0.21059650647209252,
+          "signed_complex_correlation": 0.04187777882685101,
+          "weighted_phase_cosine": 0.03550788172099376,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.2417507322400454,
+          "prediction_to_truth_energy": 0.2749777882429126,
+          "signed_complex_correlation": 0.031682034354705006,
+          "weighted_phase_cosine": 0.028660998077926998,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.151358123964762,
+          "prediction_to_truth_energy": 0.18543179120925804,
+          "signed_complex_correlation": 0.039563689559565705,
+          "weighted_phase_cosine": 0.03570222166691624,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.1724578680896025,
+          "prediction_to_truth_energy": 0.20195613547918226,
+          "signed_complex_correlation": 0.03281995539666066,
+          "weighted_phase_cosine": 0.031664796391723954,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.1602867320073158,
+          "prediction_to_truth_energy": 0.19620534522104605,
+          "signed_complex_correlation": 0.04054470525268847,
+          "weighted_phase_cosine": 0.03872959600461479,
+          "defined_phase_target_energy_fraction": 1.0
+        }
+      ],
+      "stochastic_NMSE_mean": 1.180616413291319,
+      "variance_to_truth_energy": 0.0419479625100458,
+      "unbiased_variance_to_truth_energy": 0.04794052858290949,
+      "stochastic_deviation_from_eval_to_truth_energy": 0.0742051352245688,
+      "stochastic_mean_bias_from_eval_to_truth_energy": 0.032257172714523,
+      "variance_mean_power_raw": 4.289353459995304e-14,
+      "stochastic_deviation_from_eval_mean_power_raw": 7.587783398268705e-14,
+      "variance_mean_power_FIT_RMS_squared": 6.609353220758674e-05
+    },
+    {
+      "row_id": 1124,
+      "site": 1,
+      "target_raw_energy": 7.116861026725043e-08,
+      "eval_metrics": {
+        "complex_nmse": 1.3485961669050335,
+        "prediction_to_truth_energy": 0.34921102095143186,
+        "signed_complex_correlation": 0.000520233205742527,
+        "weighted_phase_cosine": -0.0030160903163840252,
+        "defined_phase_target_energy_fraction": 1.0
+      },
+      "stochastic_mean_metrics": {
+        "complex_nmse": 1.2982470086597875,
+        "prediction_to_truth_energy": 0.29952414633187036,
+        "signed_complex_correlation": 0.0011667875875620967,
+        "weighted_phase_cosine": -0.004331250025348342,
+        "defined_phase_target_energy_fraction": 1.0
+      },
+      "training_draw_metrics": [
+        {
+          "complex_nmse": 1.3462819896226867,
+          "prediction_to_truth_energy": 0.35015446199436506,
+          "signed_complex_correlation": 0.0032721145561141994,
+          "weighted_phase_cosine": -0.001829405531206892,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.3557690246839793,
+          "prediction_to_truth_energy": 0.3612055039948646,
+          "signed_complex_correlation": 0.004522833124892215,
+          "weighted_phase_cosine": 0.00032609603236869784,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.3867211932736152,
+          "prediction_to_truth_energy": 0.38253947745353606,
+          "signed_complex_correlation": -0.0033805424204082944,
+          "weighted_phase_cosine": -0.008197415892263528,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.394125319635722,
+          "prediction_to_truth_energy": 0.39441736615857215,
+          "signed_complex_correlation": 0.0002325112815248094,
+          "weighted_phase_cosine": -0.005030790645955995,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.326952537832691,
+          "prediction_to_truth_energy": 0.32350516118877104,
+          "signed_complex_correlation": -0.0030305268237964507,
+          "weighted_phase_cosine": -0.00592184880394641,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.4592767333596242,
+          "prediction_to_truth_energy": 0.4588714916903283,
+          "signed_complex_correlation": -0.00029911525406558283,
+          "weighted_phase_cosine": -0.004337282027028996,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.3390063425934398,
+          "prediction_to_truth_energy": 0.34675000421943647,
+          "signed_complex_correlation": 0.006575187385009458,
+          "weighted_phase_cosine": 0.00334176440137254,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.3882137589862946,
+          "prediction_to_truth_energy": 0.389120534664841,
+          "signed_complex_correlation": 0.0007268215447123402,
+          "weighted_phase_cosine": -0.0033443001955325825,
+          "defined_phase_target_energy_fraction": 1.0
+        }
+      ],
+      "stochastic_NMSE_mean": 1.3745433624985066,
+      "variance_to_truth_energy": 0.07629635383871906,
+      "unbiased_variance_to_truth_energy": 0.08719583295853607,
+      "stochastic_deviation_from_eval_to_truth_energy": 0.12760757432826966,
+      "stochastic_mean_bias_from_eval_to_truth_energy": 0.051311220489550634,
+      "variance_mean_power_raw": 2.7617927404581872e-14,
+      "stochastic_deviation_from_eval_mean_power_raw": 4.619167950702828e-14,
+      "variance_mean_power_FIT_RMS_squared": 4.255574625513661e-05
+    },
+    {
+      "row_id": 1693,
+      "site": 1,
+      "target_raw_energy": 2.590237171093531e-08,
+      "eval_metrics": {
+        "complex_nmse": 1.7820854843390777,
+        "prediction_to_truth_energy": 0.7923068344521303,
+        "signed_complex_correlation": 0.005741581947465225,
+        "weighted_phase_cosine": 0.002286033991421662,
+        "defined_phase_target_energy_fraction": 1.0
+      },
+      "stochastic_mean_metrics": {
+        "complex_nmse": 1.5383443160729906,
+        "prediction_to_truth_energy": 0.5379055793215839,
+        "signed_complex_correlation": -0.00029910315569377986,
+        "weighted_phase_cosine": -0.00938935594406733,
+        "defined_phase_target_energy_fraction": 1.0
+      },
+      "training_draw_metrics": [
+        {
+          "complex_nmse": 1.836281759384863,
+          "prediction_to_truth_energy": 0.8410730360972714,
+          "signed_complex_correlation": 0.0026121878361618626,
+          "weighted_phase_cosine": -0.003776442969050349,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.842106317664033,
+          "prediction_to_truth_energy": 0.8425073123589036,
+          "signed_complex_correlation": 0.00021843478116890454,
+          "weighted_phase_cosine": -0.006867303707391366,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.8422526491554223,
+          "prediction_to_truth_energy": 0.8298559643635701,
+          "signed_complex_correlation": -0.006804155074159159,
+          "weighted_phase_cosine": -0.013731780099966352,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.8113528606363862,
+          "prediction_to_truth_energy": 0.8125938017242309,
+          "signed_complex_correlation": 0.0006883105339458947,
+          "weighted_phase_cosine": -0.006095822781908706,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.8944738675409476,
+          "prediction_to_truth_energy": 0.897941244256296,
+          "signed_complex_correlation": 0.0018295617528759527,
+          "weighted_phase_cosine": -0.0024433907929805178,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.817205621624632,
+          "prediction_to_truth_energy": 0.8207285011061228,
+          "signed_complex_correlation": 0.0019443212952786556,
+          "weighted_phase_cosine": -0.004600215234476063,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.824944123326283,
+          "prediction_to_truth_energy": 0.8270016771518631,
+          "signed_complex_correlation": 0.0011312745430614626,
+          "weighted_phase_cosine": -0.005175399446331864,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.7796122032043034,
+          "prediction_to_truth_energy": 0.773017971467359,
+          "signed_complex_correlation": -0.00375007034291768,
+          "weighted_phase_cosine": -0.00861991162768179,
+          "defined_phase_target_energy_fraction": 1.0
+        }
+      ],
+      "stochastic_NMSE_mean": 1.8310286753171088,
+      "variance_to_truth_energy": 0.2926843592441182,
+      "unbiased_variance_to_truth_energy": 0.33449641056470647,
+      "stochastic_deviation_from_eval_to_truth_energy": 0.5246375162150959,
+      "stochastic_mean_bias_from_eval_to_truth_energy": 0.2319531569709778,
+      "variance_mean_power_raw": 3.856007419391924e-14,
+      "stochastic_deviation_from_eval_mean_power_raw": 6.911903868868646e-14,
+      "variance_mean_power_FIT_RMS_squared": 5.941621574048424e-05
+    },
+    {
+      "row_id": 2286,
+      "site": 1,
+      "target_raw_energy": 9.866837185696635e-06,
+      "eval_metrics": {
+        "complex_nmse": 0.017906886630845966,
+        "prediction_to_truth_energy": 1.111317668909291,
+        "signed_complex_correlation": 0.992899635818919,
+        "weighted_phase_cosine": 0.9960737745712765,
+        "defined_phase_target_energy_fraction": 1.0
+      },
+      "stochastic_mean_metrics": {
+        "complex_nmse": 0.008531745693544946,
+        "prediction_to_truth_energy": 1.017472186628191,
+        "signed_complex_correlation": 0.9958084165435513,
+        "weighted_phase_cosine": 0.9976316159927021,
+        "defined_phase_target_energy_fraction": 1.0
+      },
+      "training_draw_metrics": [
+        {
+          "complex_nmse": 0.017648828784881533,
+          "prediction_to_truth_energy": 1.008253043925259,
+          "signed_complex_correlation": 0.9912202202548887,
+          "weighted_phase_cosine": 0.9954536300956747,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.01686718830363087,
+          "prediction_to_truth_energy": 1.0357527310729353,
+          "signed_complex_correlation": 0.9918674969066305,
+          "weighted_phase_cosine": 0.995595565114778,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.017606703684135746,
+          "prediction_to_truth_energy": 1.026890360387346,
+          "signed_complex_correlation": 0.9914006916462029,
+          "weighted_phase_cosine": 0.9953866859032573,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.017080419028851525,
+          "prediction_to_truth_energy": 1.0324247726665543,
+          "signed_complex_correlation": 0.9917222542312415,
+          "weighted_phase_cosine": 0.9956598646878765,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.017286959142612673,
+          "prediction_to_truth_energy": 1.02791217523933,
+          "signed_complex_correlation": 0.9915694189140434,
+          "weighted_phase_cosine": 0.995578123756665,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.017515619777270144,
+          "prediction_to_truth_energy": 1.0340321495743057,
+          "signed_complex_correlation": 0.9915275135289244,
+          "weighted_phase_cosine": 0.9955918683750657,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.016791739617454664,
+          "prediction_to_truth_energy": 1.0181660182600847,
+          "signed_complex_correlation": 0.9917198801528933,
+          "weighted_phase_cosine": 0.9956116977461194,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.016791306705714062,
+          "prediction_to_truth_energy": 1.0256810413959052,
+          "signed_complex_correlation": 0.9917904904015675,
+          "weighted_phase_cosine": 0.9956518198607172,
+          "defined_phase_target_energy_fraction": 1.0
+        }
+      ],
+      "stochastic_NMSE_mean": 0.0171985956305689,
+      "variance_to_truth_energy": 0.00866684993702396,
+      "unbiased_variance_to_truth_energy": 0.009904971356598812,
+      "stochastic_deviation_from_eval_to_truth_energy": 0.021406888030134023,
+      "stochastic_mean_bias_from_eval_to_truth_energy": 0.012740038093110063,
+      "variance_mean_power_raw": 4.349487164381945e-13,
+      "stochastic_deviation_from_eval_mean_power_raw": 1.0743117210173064e-12,
+      "variance_mean_power_FIT_RMS_squared": 0.0006702011682335872
+    },
+    {
+      "row_id": 2846,
+      "site": 1,
+      "target_raw_energy": 1.143937619948694e-06,
+      "eval_metrics": {
+        "complex_nmse": 1.081058464278284,
+        "prediction_to_truth_energy": 0.37129357705817095,
+        "signed_complex_correlation": 0.23815584157358735,
+        "weighted_phase_cosine": 0.27085287366900535,
+        "defined_phase_target_energy_fraction": 1.0
+      },
+      "stochastic_mean_metrics": {
+        "complex_nmse": 1.033742267660745,
+        "prediction_to_truth_energy": 0.2923766414155028,
+        "signed_complex_correlation": 0.2391579995368361,
+        "weighted_phase_cosine": 0.27173543210612533,
+        "defined_phase_target_energy_fraction": 1.0
+      },
+      "training_draw_metrics": [
+        {
+          "complex_nmse": 1.037682431139408,
+          "prediction_to_truth_energy": 0.2926218921871949,
+          "signed_complex_correlation": 0.2356425211137162,
+          "weighted_phase_cosine": 0.2703573231393576,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.0435313495056873,
+          "prediction_to_truth_energy": 0.29627005041475796,
+          "signed_complex_correlation": 0.23216560363033023,
+          "weighted_phase_cosine": 0.2678424373749736,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.0447568342733538,
+          "prediction_to_truth_energy": 0.30491908575435056,
+          "signed_complex_correlation": 0.2355710850058864,
+          "weighted_phase_cosine": 0.26883960387759676,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.0433690049700457,
+          "prediction_to_truth_energy": 0.2984692109099994,
+          "signed_complex_correlation": 0.23346997932179658,
+          "weighted_phase_cosine": 0.2683257833632995,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.046402836470084,
+          "prediction_to_truth_energy": 0.3083471864991578,
+          "signed_complex_correlation": 0.23586257996623095,
+          "weighted_phase_cosine": 0.27111580547409925,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.0458256130911239,
+          "prediction_to_truth_energy": 0.31008788672007737,
+          "signed_complex_correlation": 0.2372808945055686,
+          "weighted_phase_cosine": 0.27129611983761115,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.0466477308055393,
+          "prediction_to_truth_energy": 0.30675291445374825,
+          "signed_complex_correlation": 0.23481436558978344,
+          "weighted_phase_cosine": 0.270572301590954,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 1.0461907009282487,
+          "prediction_to_truth_energy": 0.30601326428226555,
+          "signed_complex_correlation": 0.2348425252405602,
+          "weighted_phase_cosine": 0.27010852265751856,
+          "defined_phase_target_energy_fraction": 1.0
+        }
+      ],
+      "stochastic_NMSE_mean": 1.0443008126479363,
+      "variance_to_truth_energy": 0.010558544987191163,
+      "unbiased_variance_to_truth_energy": 0.0120669085567899,
+      "stochastic_deviation_from_eval_to_truth_energy": 0.02806697082904931,
+      "stochastic_mean_bias_from_eval_to_truth_energy": 0.01750842584185815,
+      "variance_mean_power_raw": 6.143349620955746e-14,
+      "stochastic_deviation_from_eval_mean_power_raw": 1.6330395410843957e-13,
+      "variance_mean_power_FIT_RMS_squared": 9.466127700176727e-05
+    },
+    {
+      "row_id": 3415,
+      "site": 1,
+      "target_raw_energy": 1.5085339904886725e-05,
+      "eval_metrics": {
+        "complex_nmse": 0.007988346150160645,
+        "prediction_to_truth_energy": 1.0296953457169522,
+        "signed_complex_correlation": 0.9961708843060519,
+        "weighted_phase_cosine": 0.9980361140078752,
+        "defined_phase_target_energy_fraction": 1.0
+      },
+      "stochastic_mean_metrics": {
+        "complex_nmse": 0.0049433244967294915,
+        "prediction_to_truth_energy": 0.9902236449793723,
+        "signed_complex_correlation": 0.997528231531516,
+        "weighted_phase_cosine": 0.9986645853555444,
+        "defined_phase_target_energy_fraction": 1.0
+      },
+      "training_draw_metrics": [
+        {
+          "complex_nmse": 0.009965711461070616,
+          "prediction_to_truth_energy": 0.973085015398262,
+          "signed_complex_correlation": 0.995041755148981,
+          "weighted_phase_cosine": 0.9975589946775865,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.010150757790584549,
+          "prediction_to_truth_energy": 0.9859721880243602,
+          "signed_complex_correlation": 0.9949135910025736,
+          "weighted_phase_cosine": 0.9974785371787964,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.010399510008117605,
+          "prediction_to_truth_energy": 1.0122170577522818,
+          "signed_complex_correlation": 0.9948501514540667,
+          "weighted_phase_cosine": 0.9974013898791693,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.011141436416689132,
+          "prediction_to_truth_energy": 1.0471637114066255,
+          "signed_complex_correlation": 0.9948216716219231,
+          "weighted_phase_cosine": 0.9973529855461887,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.010043140167618748,
+          "prediction_to_truth_energy": 0.9794745219535598,
+          "signed_complex_correlation": 0.994979851721385,
+          "weighted_phase_cosine": 0.997381595084547,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.009806591638836223,
+          "prediction_to_truth_energy": 0.9920226945644609,
+          "signed_complex_correlation": 0.9950850474509316,
+          "weighted_phase_cosine": 0.99743924796109,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.009853828932303507,
+          "prediction_to_truth_energy": 0.9785207861478871,
+          "signed_complex_correlation": 0.9950782381894349,
+          "weighted_phase_cosine": 0.9975262229140928,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.010388802214866492,
+          "prediction_to_truth_energy": 0.9955363672437912,
+          "signed_complex_correlation": 0.9947964686537455,
+          "weighted_phase_cosine": 0.9974095385233256,
+          "defined_phase_target_energy_fraction": 1.0
+        }
+      ],
+      "stochastic_NMSE_mean": 0.010218722328760858,
+      "variance_to_truth_energy": 0.005275397832031365,
+      "unbiased_variance_to_truth_energy": 0.006029026093750132,
+      "stochastic_deviation_from_eval_to_truth_energy": 0.010614817477454552,
+      "stochastic_mean_bias_from_eval_to_truth_energy": 0.005339419645423189,
+      "variance_mean_power_raw": 4.047707592249332e-13,
+      "stochastic_deviation_from_eval_mean_power_raw": 8.144537845648916e-13,
+      "variance_mean_power_FIT_RMS_squared": 0.0006237007386085581
+    },
+    {
+      "row_id": 3999,
+      "site": 1,
+      "target_raw_energy": 2.2830487935691577e-06,
+      "eval_metrics": {
+        "complex_nmse": 0.06066620554431834,
+        "prediction_to_truth_energy": 1.0471942369186131,
+        "signed_complex_correlation": 0.9706241220615378,
+        "weighted_phase_cosine": 0.9824465778881668,
+        "defined_phase_target_energy_fraction": 1.0
+      },
+      "stochastic_mean_metrics": {
+        "complex_nmse": 0.02735316931596983,
+        "prediction_to_truth_energy": 0.9226576179592649,
+        "signed_complex_correlation": 0.9865718065420986,
+        "weighted_phase_cosine": 0.9912444451690664,
+        "defined_phase_target_energy_fraction": 1.0
+      },
+      "training_draw_metrics": [
+        {
+          "complex_nmse": 0.04629544323944751,
+          "prediction_to_truth_energy": 0.976120825824171,
+          "signed_complex_correlation": 0.976643871726325,
+          "weighted_phase_cosine": 0.9859130666446008,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.04804098992895269,
+          "prediction_to_truth_energy": 0.9265923018999164,
+          "signed_complex_correlation": 0.9757728331909518,
+          "weighted_phase_cosine": 0.9855464834193417,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.044310616232297324,
+          "prediction_to_truth_energy": 0.9587785422795848,
+          "signed_complex_correlation": 0.9775949427364997,
+          "weighted_phase_cosine": 0.986394338748284,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.04710098426800109,
+          "prediction_to_truth_energy": 0.9320894169936873,
+          "signed_complex_correlation": 0.9762249552362096,
+          "weighted_phase_cosine": 0.9858452816904862,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.04512191607161282,
+          "prediction_to_truth_energy": 0.9512426984287892,
+          "signed_complex_correlation": 0.9771804118415947,
+          "weighted_phase_cosine": 0.9862483480766313,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.048866798551289004,
+          "prediction_to_truth_energy": 0.9043726139289519,
+          "signed_complex_correlation": 0.9755704180184749,
+          "weighted_phase_cosine": 0.985321369121655,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.044625933231880306,
+          "prediction_to_truth_energy": 0.9783024752198572,
+          "signed_complex_correlation": 0.9775011046821197,
+          "weighted_phase_cosine": 0.986453516329133,
+          "defined_phase_target_energy_fraction": 1.0
+        },
+        {
+          "complex_nmse": 0.04938897709994686,
+          "prediction_to_truth_energy": 0.9086883731948315,
+          "signed_complex_correlation": 0.9752407660958009,
+          "weighted_phase_cosine": 0.9851951755378294,
+          "defined_phase_target_energy_fraction": 1.0
+        }
+      ],
+      "stochastic_NMSE_mean": 0.046718957327928454,
+      "variance_to_truth_energy": 0.01936578801195861,
+      "unbiased_variance_to_truth_energy": 0.022132329156524126,
+      "stochastic_deviation_from_eval_to_truth_energy": 0.059221607069226107,
+      "stochastic_mean_bias_from_eval_to_truth_energy": 0.0398558190572675,
+      "variance_mean_power_raw": 2.248791450867623e-13,
+      "stochastic_deviation_from_eval_mean_power_raw": 6.876923552074349e-13,
+      "variance_mean_power_FIT_RMS_squared": 0.00034651042767230394
+    }
+  ],
+  "model_state_hash_before": "4f40021002a16285bc8147af61160172742aed147a8057059d492e7e78e74238",
+  "model_state_hash_after": "4f40021002a16285bc8147af61160172742aed147a8057059d492e7e78e74238",
+  "RNG_hash_before": {
+    "python": "7ae2b78a4276a461a66a4eb8767d2f2b847b17808e54a34c407a184eab4bf4fc",
+    "numpy": "ac161003b265b197cb17311364fe2ce5fbf68d38b7b8c0b610fc2b954ded8df8",
+    "cpu": "76dea30d13296cb9b9dafd6ec22bd7c3f548249aaf5189aed13931dd4031670c",
+    "cuda": [
+      "c8c928694b3dabdd0d98891a33e1145c02c3a8347a3dc8880506007ad8568906"
+    ]
+  },
+  "RNG_hash_after": {
+    "python": "7ae2b78a4276a461a66a4eb8767d2f2b847b17808e54a34c407a184eab4bf4fc",
+    "numpy": "ac161003b265b197cb17311364fe2ce5fbf68d38b7b8c0b610fc2b954ded8df8",
+    "cpu": "76dea30d13296cb9b9dafd6ec22bd7c3f548249aaf5189aed13931dd4031670c",
+    "cuda": [
+      "c8c928694b3dabdd0d98891a33e1145c02c3a8347a3dc8880506007ad8568906"
+    ]
+  },
+  "protected_file_hashes_before": {
+    "artifacts/round2/paper_four_baselines_v1/repair_20261111/ngrf/paired/weight_1p0/final.pt": "da581d3b32e8e5b998c77542739877d318ff1f789185db82211fb07501165b9c",
+    "artifacts/round2/paper_four_baselines_v1/repair_20261111/ngrf/paired/initial.pt": "0604c01b46e6a1ec2a9e372ed0fd933c97e80b023d7910b0f42a063db1af3f51",
+    "artifacts/round2/paper_four_baselines_v1/repair_20261111/ngrf/paired/weight_0p1/latest.pt": "b0caf397b46ae2f80a35494045ff1c54a2ef4affbea1a38fcff3aa06a2403b2e",
+    "artifacts/round2/paper_four_baselines_v1/repair_20261111/ngrf/paired/weight_1p0/latest.pt": "b62c290a77492ce55452e91d16479cc55340cf11f0afea26566649a6966ba3f9",
+    "code/round2/baseline_repair_20261111/ngrf_repair.py": "b145213ba278e55962468db462f8faac933b317e2b041fd94d0f4b63d36bbf0c"
+  },
+  "protected_file_hashes_after": {
+    "artifacts/round2/paper_four_baselines_v1/repair_20261111/ngrf/paired/weight_1p0/final.pt": "da581d3b32e8e5b998c77542739877d318ff1f789185db82211fb07501165b9c",
+    "artifacts/round2/paper_four_baselines_v1/repair_20261111/ngrf/paired/initial.pt": "0604c01b46e6a1ec2a9e372ed0fd933c97e80b023d7910b0f42a063db1af3f51",
+    "artifacts/round2/paper_four_baselines_v1/repair_20261111/ngrf/paired/weight_0p1/latest.pt": "b0caf397b46ae2f80a35494045ff1c54a2ef4affbea1a38fcff3aa06a2403b2e",
+    "artifacts/round2/paper_four_baselines_v1/repair_20261111/ngrf/paired/weight_1p0/latest.pt": "b62c290a77492ce55452e91d16479cc55340cf11f0afea26566649a6966ba3f9",
+    "code/round2/baseline_repair_20261111/ngrf_repair.py": "b145213ba278e55962468db462f8faac933b317e2b041fd94d0f4b63d36bbf0c"
+  },
+  "restored_training_mode": "eval",
+  "optimizer_created": false,
+  "backward_called": false,
+  "parameter_updates": false,
+  "full_batch_eval_replay_relative_L2": 8.24876309479805e-08,
+  "validation_labels_read": false,
+  "outer_truth_read": false,
+  "elapsed_seconds": 11.590297781047411,
+  "device": {
+    "GPU_UUID": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+    "CUDA_context_UUID": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+    "PCI_bus": "0000:84:00.0",
+    "logical_device": 0,
+    "PID": 3767485,
+    "MPS_servers": [],
+    "NVML_direct_client_visible": true,
+    "mapping_verification": "current CUDA context UUID",
+    "name": "NVIDIA A800 80GB PCIe",
+    "total_bytes": 84974239744
+  },
+  "peak_cuda_bytes": 381720576,
+  "sample_predictions": "artifacts/round2/paper_four_baselines_v1/repair_20261111/ngrf/dropout_diagnostic/train_raw_H_draws.npy",
+  "sample_predictions_sha256": "902834701680a66795f807e1b24ce5776b64226df656c39a3c268eb0626682a4",
+  "interpretation_limit": "Eight Monte Carlo draws estimate stochastic variance; no convergence, generalization, or training intervention is claimed."
+}

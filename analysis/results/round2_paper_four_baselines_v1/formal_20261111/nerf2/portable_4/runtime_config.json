@@ -1,0 +1,15 @@
+{
+  "schema": "nerf2-execution-only-portable-v1",
+  "gpu_uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+  "folds": [
+    4
+  ],
+  "method_config": "analysis/results/round2_paper_four_baselines_v1/formal_20261111/nerf2/method_config.json",
+  "method_config_sha256": "c298cb71156e7aa78eec1f374ea8bb36fba47d5ef8a7a54b76dbeee5cf258a35",
+  "frozen_base_sha256": "d210f6c817141a4055a4a42689cd9b41d316aef5cfcb29dd93a7b1bb10aae626",
+  "frozen_legacy_sha256": "cdf21f0534b8d616511cebddb09b8b72ca325c3ab7e1e8ef6fb3b28192213ed7",
+  "execution_only": true,
+  "frozen": true,
+  "qa_min_free_GiB": 24,
+  "note": "Scheduling binding only. No formal run until root dispatch and actual base worker excludes fold4. Lightweight QA uses4FIT points,0updates; prior probe scaling plus8GiB margin gives conservative24GiB guard."
+}

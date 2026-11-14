@@ -1,0 +1,79 @@
+{
+  "status": "passed",
+  "source_identity": {
+    "code/round2/baseline_formal_20261111/nerf2.py": "d210f6c817141a4055a4a42689cd9b41d316aef5cfcb29dd93a7b1bb10aae626",
+    "analysis/results/round2_paper_four_baselines_v1/formal_20261111/nerf2/draft_batch4_bs16.json": "b17b88fc2a097adb71a13c3611d061e1130d8031d77f6dd7b25f1feefd84a750",
+    "code/round2/paper_baseline_training_v1/common.py": "5ad45eb0b8d16f4a9af9462ba747f582d28946caef84747a8c21e1ccd3d1205d",
+    "code/round2/paper_baseline_training_v1/nerf2_runner_v2.py": "9cf207b5eaf420718ed0e11d4e40b7ccc2b25e1198752f03eb7a66653c6f24a0",
+    "code/round2/paper_baseline_training_v1/nerf2_runner_v3.py": "a5e24f56228079b691ed4b5186de52bd5f7851e5603c34956f15e9a1aa8899ca",
+    "code/round2/paper_baseline_training_v1/field_fast.py": "4773a34235bcaa7e24f119f333be39f7a986fd8726bbba1a4e66c3f2990e1d9f",
+    "code/round2/paper_baseline_training_v1/nerf2_native_frequency_heads_v4.py": "f572c341d09a0edce929502836692eb825e65b937c6863c66720a7b49a892270",
+    "code/round2/paper_baseline_training_v1/nerf2_native_heads_joint_v5.py": "1d1387c5d4836c2823d150cdf8a25c725fb7453e2e326d2493b43f03d36ab882",
+    "code/round2/paper_baseline_adapters_v1/contract.py": "0da0617438cd3ca72d536da566f35305d78c16b3fabeb4d3877e92486bf34b5f",
+    "code/round2/paper_baseline_adapters_v1/field_models.py": "8009d8877a680f232445d277f890796109f982347741593fc4bf8db4a5bc8242",
+    "code/round2/paper_baseline_training_v1/field_runner.py": "cdf21f0534b8d616511cebddb09b8b72ca325c3ab7e1e8ef6fb3b28192213ed7",
+    "plus-pro/code/measured/full_h_adapters_v1/nerf2.py": "37704fd408178a4286e0b58a92b21a8f6a02ca635dc712d6194ceca7f488f192",
+    "plus-pro/code/third_party/paper_baselines/nerf2/model.py": "c63fa4246d6255035d03ebc1dbd7b5a1d40391b51e98805ed3d9969bc3546ad1",
+    "plus-pro/code/third_party/paper_baselines/nerf2/renderer.py": "4f5e5b1ab617de27918e8d2bc540182a110d37eb6ac5e743449c34b3a8535c92"
+  },
+  "config": {
+    "schema": "nerf2-formal192-eightfields-v1",
+    "seed": 42,
+    "position_batch": 4,
+    "BS_batch": 16,
+    "inference_BS_chunk": 8,
+    "power_floor": 1e-06,
+    "initial_lrs": [
+      0.0001,
+      0.001
+    ],
+    "low_lr_factor": 0.2,
+    "min_coverage_epochs": 1.0,
+    "max_coverage_epochs": 2.0,
+    "validation_coverage_interval": 0.25,
+    "validation_selection": "global complex NMSE on original fixed16 development locations; all256BS x4UE x192F",
+    "min_delta": 0.001,
+    "patience": 6,
+    "checkpoint_seconds": 300,
+    "stage_wall_cap_seconds": 172800,
+    "min_free_GiB": 48,
+    "initialization": "fresh same-seed all8native192; no old field/model stitching",
+    "training_loss": "first .5 coverage epoch native .5*MSE, then .5*mean_i[MSE_i/max(FIT_field_mean_power_i,1e-6)]",
+    "sampling": "round-robin8fields; withinfield complete shuffled position x128BS coverage sweeps",
+    "refit": "fresh initialization; fixed selected screen per-field update budget times refit/screen FIT count ratio",
+    "LR": "cosine initial_lrs to factor.2 during first .5 coverage native warmup; fixed factor.2 for relative loss thereafter",
+    "outer_truth_use": "none; root scoring only after all5 predictions frozen",
+    "smoke_family": "batch4_bs16",
+    "draft_not_formal_frozen": true,
+    "native_warmup_coverage_epochs": 0.5,
+    "training_family_reason": "Same 64 position-BS links/update as measured batch8_bs8; fewer positions in medium computation; avoid unsafe batch8_bs16 predicted VRAM.",
+    "_config_rel": "analysis/results/round2_paper_four_baselines_v1/formal_20261111/nerf2/draft_batch4_bs16.json"
+  },
+  "sampler_restored": true,
+  "full_optimizer_roundtrip": true,
+  "parent_state_immutable": true,
+  "all_fields": [
+    "s0_b0_u0",
+    "s0_b0_u1",
+    "s0_b1_u0",
+    "s0_b1_u1",
+    "s1_b0_u0",
+    "s1_b0_u1",
+    "s1_b1_u0",
+    "s1_b1_u1"
+  ],
+  "step_bounds_per_field": [
+    3840,
+    7680,
+    960
+  ],
+  "canonical_outer_counts": [
+    103,
+    71,
+    63,
+    110,
+    153
+  ],
+  "CUDA_initialized": false,
+  "no_training_data_labels_read": true
+}

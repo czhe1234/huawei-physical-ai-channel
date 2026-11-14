@@ -1,0 +1,23 @@
+{
+  "status": "passed_first_field_validation_selection_coverage",
+  "selected_model_sha256": "39d2f808c517f0e318a49d59a6974751c01efa7ace28bc4b672855d7eaa94d1b",
+  "selected_native_updates": 1000,
+  "selected_validation_proxy": 1.0000012262278446,
+  "actual_unique_FIT_gradient_rows": 3820,
+  "total_position_blocks": 5500,
+  "minimum_blocks_per_FIT_position": 1,
+  "maximum_blocks_per_FIT_position": 2,
+  "no_validation_or_outer_rows_in_gradients": true,
+  "latest_native_step": 1000,
+  "Adam_state_counters": {
+    "2000": 18,
+    "1000": 2
+  },
+  "native_release_check": {
+    "forward_bitwise_no_jump": true,
+    "alpha_states_before": 0,
+    "active_Adam_states_preserved": 18
+  },
+  "outer_truth_reads": 0,
+  "CUDA_initialized": false
+}

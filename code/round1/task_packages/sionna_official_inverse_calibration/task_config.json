@@ -1,0 +1,90 @@
+{
+  "task_name": "sionna_official_inverse_calibration",
+  "status": "analysis_only_no_submission",
+  "fixed": {
+    "scene": "artifacts/external/restored_sionna_official_etoile/etoile.xml",
+    "materials": "scene_xml_official_etoile_itu_materials",
+    "bs_position_m": [50.0, 0.0, 25.0],
+    "tx_array": {
+      "rows": 8,
+      "cols": 16,
+      "vertical_spacing_wavelength": 0.5,
+      "horizontal_spacing_wavelength": 0.5,
+      "pattern": "tr38901",
+      "polarization": "VH"
+    },
+    "rx_array": {
+      "rows": 2,
+      "cols": 1,
+      "vertical_spacing_wavelength": 0.5,
+      "horizontal_spacing_wavelength": 0.5,
+      "pattern": "dipole",
+      "polarization": "cross"
+    },
+    "num_subcarriers": 192,
+    "subcarrier_spacing_hz": 30000.0,
+    "normalize_delays": false,
+    "normalize_cfr": false,
+    "specular_reflection": true
+  },
+  "known_evidence": {
+    "tx_azimuth_center_deg": -30.0,
+    "rx_orientation": "track_bs",
+    "frequency_phase_range_ghz": [6.692, 6.694],
+    "max_depth_plateau": [12, 16],
+    "preferred_clean_solver": {
+      "los": true,
+      "specular_reflection": true,
+      "refraction": true,
+      "diffuse_reflection": false,
+      "diffraction": false,
+      "edge_diffraction": false
+    },
+    "relative_noise_power_law_slope_prior": 0.951384184679674
+  },
+  "scan": {
+    "max_depth": [3, 6, 8, 10, 12, 14, 16, 20],
+    "tx_azimuth_deg": [-31.0, -30.5, -30.0, -29.5, -29.0, -28.5],
+    "tx_tilt_deg": [-12.0, -9.53, -7.5, -5.0, -2.5, 0.0],
+    "frequency_ghz": [6.0, 6.5, 6.69, 6.692, 6.693, 6.694, 6.696],
+    "paired_path_budget": [200000, 1000000, 3000000],
+    "development_seeds": [42, 206, 420],
+    "audit_seeds": [42, 206, 420, 1337, 2026],
+    "synthetic_array": [true, false],
+    "rx_orientation": ["track_bs", "fixed"],
+    "solver_modes": {
+      "specular_only": [true, true, false, false, false, false],
+      "default": [true, true, false, true, false, false],
+      "plus_diffraction": [true, true, false, true, true, false],
+      "plus_diffuse": [true, true, true, true, false, false],
+      "all_no_edge": [true, true, true, true, true, false]
+    }
+  },
+  "solver_mode_field_order": [
+    "los",
+    "specular_reflection",
+    "diffuse_reflection",
+    "refraction",
+    "diffraction",
+    "edge_diffraction"
+  ],
+  "split_codes": {
+    "0": "calibration",
+    "1": "validation",
+    "2": "audit"
+  },
+  "metrics": {
+    "legacy_weights": {
+      "leaked_full": 0.45,
+      "pdp": 0.45,
+      "power_rank": 0.1
+    },
+    "online_informed_weights": {
+      "pdp": 0.6,
+      "leaked_full": 0.25,
+      "power_rank": 0.1,
+      "coverage": 0.05
+    }
+  },
+  "required_result_archive": "sionna_inverse_calibration_results.zip"
+}

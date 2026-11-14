@@ -1,0 +1,137 @@
+{
+  "canonical500_count": 500,
+  "two_power_caches_zero_masks_equal": true,
+  "power_cache_nonzero_count": 3738,
+  "query_zero_count": 31,
+  "folds": [
+    {
+      "fold": 0,
+      "query_count": 103,
+      "candidate_overlap_count": 80,
+      "zero_power_overlap_count": 0,
+      "nonzero_candidate_overlap_count": 80,
+      "global_nonzero_count_reported": 3738,
+      "global_valid_label_count_reported": 3656,
+      "global_nonzero_invalid_label_count": 82,
+      "actual_gradient_overlap_lower_bound": 0,
+      "actual_gradient_overlap_upper_bound": 80,
+      "completed_refit_epochs": 48,
+      "zero_row_ids": [],
+      "basis": "old code visits every eligible row each epoch; global invalid count supplies conservative bound; no per-point valid mask recovered"
+    },
+    {
+      "fold": 1,
+      "query_count": 71,
+      "candidate_overlap_count": 44,
+      "zero_power_overlap_count": 1,
+      "nonzero_candidate_overlap_count": 43,
+      "global_nonzero_count_reported": 3738,
+      "global_valid_label_count_reported": 3654,
+      "global_nonzero_invalid_label_count": 84,
+      "actual_gradient_overlap_lower_bound": 0,
+      "actual_gradient_overlap_upper_bound": 43,
+      "completed_refit_epochs": 48,
+      "zero_row_ids": [
+        3909
+      ],
+      "basis": "old code visits every eligible row each epoch; global invalid count supplies conservative bound; no per-point valid mask recovered"
+    },
+    {
+      "fold": 2,
+      "query_count": 63,
+      "candidate_overlap_count": 53,
+      "zero_power_overlap_count": 4,
+      "nonzero_candidate_overlap_count": 49,
+      "global_nonzero_count_reported": 3738,
+      "global_valid_label_count_reported": 3654,
+      "global_nonzero_invalid_label_count": 84,
+      "actual_gradient_overlap_lower_bound": 0,
+      "actual_gradient_overlap_upper_bound": 49,
+      "completed_refit_epochs": 36,
+      "zero_row_ids": [
+        1030,
+        1859,
+        2711,
+        3620
+      ],
+      "basis": "old code visits every eligible row each epoch; global invalid count supplies conservative bound; no per-point valid mask recovered"
+    },
+    {
+      "fold": 3,
+      "query_count": 110,
+      "candidate_overlap_count": 70,
+      "zero_power_overlap_count": 23,
+      "nonzero_candidate_overlap_count": 47,
+      "global_nonzero_count_reported": 3738,
+      "global_valid_label_count_reported": 3656,
+      "global_nonzero_invalid_label_count": 82,
+      "actual_gradient_overlap_lower_bound": 0,
+      "actual_gradient_overlap_upper_bound": 47,
+      "completed_refit_epochs": 48,
+      "zero_row_ids": [
+        596,
+        606,
+        906,
+        1117,
+        1209,
+        1273,
+        1358,
+        1367,
+        1464,
+        1689,
+        1918,
+        2156,
+        2364,
+        2558,
+        2590,
+        2614,
+        2836,
+        3516,
+        3593,
+        3608,
+        3788,
+        3799,
+        3959
+      ],
+      "basis": "old code visits every eligible row each epoch; global invalid count supplies conservative bound; no per-point valid mask recovered"
+    },
+    {
+      "fold": 4,
+      "query_count": 153,
+      "candidate_overlap_count": 129,
+      "zero_power_overlap_count": 0,
+      "nonzero_candidate_overlap_count": 129,
+      "global_nonzero_count_reported": 3738,
+      "global_valid_label_count_reported": 3655,
+      "global_nonzero_invalid_label_count": 83,
+      "actual_gradient_overlap_lower_bound": 46,
+      "actual_gradient_overlap_upper_bound": 129,
+      "completed_refit_epochs": 44,
+      "zero_row_ids": [],
+      "basis": "old code visits every eligible row each epoch; global invalid count supplies conservative bound; no per-point valid mask recovered"
+    }
+  ],
+  "total_candidate_overlap": 376,
+  "total_zero_power_overlap": 28,
+  "actual_loss_overlap_lower_bound": 46,
+  "actual_loss_overlap_upper_bound": 348,
+  "bound_is_not_exact_recovered_count": true,
+  "inputs": [
+    {
+      "path": "artifacts/round2/pre_sionna/round2_pre_sionna_oof_foundation_meta.npz",
+      "sha256": "cc9acb0b18cf19ef930d9d4b2135149a61864c746ac2344dda327845a0302681"
+    },
+    {
+      "path": "artifacts/round2/full_path_pdp_link_gate/train_fold_id.npy",
+      "sha256": "5b717a5033d4938c1913fa1ebd127d7e38a9986667279edcc04c00766c170b7b"
+    },
+    {
+      "path": "artifacts/round2/foundation/round2_train_point_power.npy",
+      "sha256": "09529f72a65a6ef7701475406f95600a6b6091238783cd3e9a6810c0e3179362"
+    },
+    {
+      "path": "artifacts/round2/e217_angle_delay_support_only/official_train_power_f64.npy",
+      "sha256": "ff6de8c962856d2f88bd27622487524419261953f2c70c203efd993fa6ac0240"
+    }
+  ]
+}

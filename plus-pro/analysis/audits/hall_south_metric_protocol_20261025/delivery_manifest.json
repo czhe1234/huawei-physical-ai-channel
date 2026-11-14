@@ -1,0 +1,48 @@
+{
+  "files": {
+    "metric_protocol_zh.md": {
+      "bytes": 6342,
+      "sha256": "164f58dca539cae916da3473200d6a2ac53fa8969f21ed6ba414fbfa2b047899"
+    },
+    "metric_protocol.json": {
+      "bytes": 5702,
+      "sha256": "ce338d1ee92b85b40ed8058949b4ae632c7c1c34f66d8d335e982c9cd6e76496"
+    },
+    "feasibility.json": {
+      "bytes": 6057,
+      "sha256": "785959602a66f666861977324ed13af3e492e48a25527f1dd4beec28a8a20575"
+    },
+    "delay_shape_description.json": {
+      "bytes": 3513,
+      "sha256": "c2c49c2fdd070429c7bfb216326f76d9d3cbadea7356a8a255e2f3ca02b0c782"
+    },
+    "operator_checks.log": {
+      "bytes": 2178,
+      "sha256": "44afe5cc9e693acc7ff2b5922fa3b29c90cd77e33652eb80f7e47126dfad0919"
+    },
+    "mechanism_correspondence.json": {
+      "bytes": 938,
+      "sha256": "58ff56661cd2fe219ecf4bc6f4561240e2c96cbe4261103c6ef20b3daa9f2bcf"
+    },
+    "path_checks.json": {
+      "bytes": 198,
+      "sha256": "f1997118614f83c829e5f1bc7c1c57f1a7115ff0dceee2c8b02ad01c26de42ed"
+    },
+    "source_index.json": {
+      "bytes": 1755,
+      "sha256": "a2b120df808f2b51226e6baff44a28ff18fcd4eddf97f6620c62735c33ccbb59"
+    },
+    "contract.json": {
+      "bytes": 933,
+      "sha256": "cca9eb761051adfed7455f098e4df3d3aea53051c2f605c986cf3cc3b313da1b"
+    },
+    "numerical_criteria.json": {
+      "bytes": 228,
+      "sha256": "4f597a83a3be8f6ef9f76df6bd6ce347ca6aaae07c13e39ab4db14b980988875"
+    }
+  },
+  "new_training": false,
+  "algorithm_rescoring": false,
+  "north": false,
+  "test": false
+}

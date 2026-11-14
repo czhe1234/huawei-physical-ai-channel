@@ -1,0 +1,103 @@
+{
+  "status": "passed",
+  "source_identity": {
+    "code/round2/baseline_formal_20261111/ngrf.py": "dc5a3d334276590a24c50865856a2a6eaac0be04551613cb6eeb4aac231a2245",
+    "code/round2/paper_baseline_training_v1/common.py": "5ad45eb0b8d16f4a9af9462ba747f582d28946caef84747a8c21e1ccd3d1205d",
+    "code/round2/paper_baseline_training_v1/native_ngrf.py": "a84eadc26fe79310a89bcdc21be0cc46d590bd1c3bda2b61402936cf82d8a967",
+    "code/round2/paper_baseline_adapters_v1/contract.py": "0da0617438cd3ca72d536da566f35305d78c16b3fabeb4d3877e92486bf34b5f",
+    "code/round2/baseline_repair_20261111/optimizer_copy_guard.py": "d5cbe8fdb055f825fe24854f65af4c7f94dc34f5f66f3e128d16d56c95a8a68c",
+    "code/common/official_metrics.py": "15aa0cca3b7df17f8c93bd26d22b44f4a49b48d6b13fd8cc7b52325fb74729c3",
+    "code/round2/paper_baseline_training_v1/field_fast.py": "4773a34235bcaa7e24f119f333be39f7a986fd8726bbba1a4e66c3f2990e1d9f",
+    "code/round2/paper_baseline_adapters_v1/field_models.py": "8009d8877a680f232445d277f890796109f982347741593fc4bf8db4a5bc8242",
+    "analysis/results/round2_paper_four_baselines_v1/formal_20261111/ngrf/method_config_draft.json": "05a6244fece3a6df419b832326ff0d73c721042d5ebdd18bb9515eb4f1edbd3c"
+  },
+  "loss_loop_equivalence": true,
+  "mixed_zero_gradient_finite": true,
+  "split_and_sampling": [
+    {
+      "outer": 0,
+      "role": "screen",
+      "FIT_count": 3820,
+      "outer_count": 103,
+      "all_FIT_covered_within_500_updates": true
+    },
+    {
+      "outer": 0,
+      "role": "refit",
+      "FIT_count": 3893,
+      "outer_count": 103,
+      "all_FIT_covered_within_500_updates": true
+    },
+    {
+      "outer": 1,
+      "role": "screen",
+      "FIT_count": 3858,
+      "outer_count": 71,
+      "all_FIT_covered_within_500_updates": true
+    },
+    {
+      "outer": 1,
+      "role": "refit",
+      "FIT_count": 3927,
+      "outer_count": 71,
+      "all_FIT_covered_within_500_updates": true
+    },
+    {
+      "outer": 2,
+      "role": "screen",
+      "FIT_count": 3813,
+      "outer_count": 63,
+      "all_FIT_covered_within_500_updates": true
+    },
+    {
+      "outer": 2,
+      "role": "refit",
+      "FIT_count": 3931,
+      "outer_count": 63,
+      "all_FIT_covered_within_500_updates": true
+    },
+    {
+      "outer": 3,
+      "role": "screen",
+      "FIT_count": 3720,
+      "outer_count": 110,
+      "all_FIT_covered_within_500_updates": true
+    },
+    {
+      "outer": 3,
+      "role": "refit",
+      "FIT_count": 3882,
+      "outer_count": 110,
+      "all_FIT_covered_within_500_updates": true
+    },
+    {
+      "outer": 4,
+      "role": "screen",
+      "FIT_count": 3731,
+      "outer_count": 153,
+      "all_FIT_covered_within_500_updates": true
+    },
+    {
+      "outer": 4,
+      "role": "refit",
+      "FIT_count": 3838,
+      "outer_count": 153,
+      "all_FIT_covered_within_500_updates": true
+    }
+  ],
+  "native_renderer": {
+    "status": "passed",
+    "streaming_max_abs": 0.0,
+    "forward_max_abs": 0.0,
+    "gradient_max_abs": 5.960464477539063e-08,
+    "shape": [
+      2,
+      256,
+      4
+    ],
+    "actual_data": false,
+    "reference": "pinned official render_channel, full1024 native MIMO heads at one physical frequency"
+  },
+  "GPU_used": false,
+  "outer_labels_read": false
+}

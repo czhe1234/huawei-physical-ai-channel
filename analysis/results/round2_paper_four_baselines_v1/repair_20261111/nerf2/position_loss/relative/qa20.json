@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "updates": 20,
+  "counted_in_fixed2000": true,
+  "discarded_or_repeated": false,
+  "finite_gradients": true,
+  "last_training_batch": {
+    "loss": 0.1365072764456272,
+    "position_losses": [
+      0.008724141865968704,
+      0.1277831345796585
+    ],
+    "gradient_norm": 9.65822982788086
+  },
+  "elapsed_seconds": 6.281320870970376,
+  "source_identity": {
+    "code/round2/baseline_repair_20261111/nerf2_repair.py": "c4e2c60ad92872a17c54a19ea39f87814123c7d552a4fcaa72805946ce2b7780",
+    "analysis/results/round2_paper_four_baselines_v1/repair_20261111/config.json": "d572d97d0c61d8a3789efb09d56e6feab709a3d2566f8d9f32ec9bcc50e2a258",
+    "code/round2/paper_baseline_training_v1/common.py": "5ad45eb0b8d16f4a9af9462ba747f582d28946caef84747a8c21e1ccd3d1205d",
+    "code/round2/paper_baseline_training_v1/nerf2_runner_v2.py": "9cf207b5eaf420718ed0e11d4e40b7ccc2b25e1198752f03eb7a66653c6f24a0",
+    "code/round2/paper_baseline_training_v1/nerf2_runner_v3.py": "a5e24f56228079b691ed4b5186de52bd5f7851e5603c34956f15e9a1aa8899ca",
+    "code/round2/paper_baseline_training_v1/nerf2_native_frequency_heads_v4.py": "f572c341d09a0edce929502836692eb825e65b937c6863c66720a7b49a892270",
+    "code/round2/paper_baseline_training_v1/nerf2_native_heads_joint_v5.py": "1d1387c5d4836c2823d150cdf8a25c725fb7453e2e326d2493b43f03d36ab882",
+    "code/round2/paper_baseline_training_v1/field_fast.py": "4773a34235bcaa7e24f119f333be39f7a986fd8726bbba1a4e66c3f2990e1d9f",
+    "code/round2/paper_baseline_training_v1/field_runner.py": "cdf21f0534b8d616511cebddb09b8b72ca325c3ab7e1e8ef6fb3b28192213ed7",
+    "code/round2/paper_baseline_adapters_v1/field_models.py": "8009d8877a680f232445d277f890796109f982347741593fc4bf8db4a5bc8242",
+    "plus-pro/code/measured/full_h_adapters_v1/nerf2.py": "37704fd408178a4286e0b58a92b21a8f6a02ca635dc712d6194ceca7f488f192",
+    "plus-pro/code/third_party/paper_baselines/nerf2/model.py": "c63fa4246d6255035d03ebc1dbd7b5a1d40391b51e98805ed3d9969bc3546ad1",
+    "plus-pro/code/third_party/paper_baselines/nerf2/renderer.py": "4f5e5b1ab617de27918e8d2bc540182a110d37eb6ac5e743449c34b3a8535c92",
+    "code/round2/baseline_repair_20261111/nerf2_low_lr.py": "0050c20b57832513869b5f928c916322b1ed6ad6cc48f6459dc2d733f7289c41",
+    "analysis/results/round2_paper_four_baselines_v1/repair_20261111/nerf2/low_lr_config.json": "f5fe4b67b10e874da06e475573b6f9ce065efb0ebd87e512579775b4cfc3fd17",
+    "artifacts/round2/paper_four_baselines_v1/repair_20261111/nerf2/final.pt": "2d8906b1c8163883a756515c37b20afefed47e9eea97c9dbb28eb99083d2ccf7",
+    "analysis/results/round2_paper_four_baselines_v1/repair_20261111/nerf2/result.json": "ec33c1ec3ebc867a06d1009987c7ac568acc5d882421fedbfe9983008520971a",
+    "artifacts/round2/paper_four_baselines_v1/repair_20261111/nerf2/raw_prediction.npy": "a7aa36a3307e08df334c2752ae22fea1c59d1b58edea5bf82302b34346caa156",
+    "code/round2/paper_baseline_training_v1/nerf2_native_heads_continuation_v4.py": "28fd7c43c7dbd23fe8b517ec47c47311a91a88b6a97512d510dd111e8efcb8af",
+    "code/round2/baseline_repair_20261111/nerf2_position_loss.py": "0a98b95dd2e0e5c93130afbfde0556f24e79e8c99ff76a62ad865d552ae4385b",
+    "analysis/results/round2_paper_four_baselines_v1/repair_20261111/nerf2/position_loss/config.json": "3b3ac1f4334064e84a0eea89d1b1fb8a76ab63f24e9ead866240a58f4d0a1ccb",
+    "artifacts/round2/paper_four_baselines_v1/repair_20261111/nerf2/low_lr/final.pt": "341821d5806c38db01c0760a0e53cad8441779bd41144cfcab6b1c56a515e471",
+    "analysis/results/round2_paper_four_baselines_v1/repair_20261111/nerf2/low_lr/result.json": "40e9c1a18ba1daf31695ecd53f42548fc1fb82c32684bd76b31664cf515b0708",
+    "artifacts/round2/paper_four_baselines_v1/repair_20261111/nerf2/low_lr/raw_prediction.npy": "4ebb66b8ea8f3d48d93cb2265e50e21ad980890cd8b2cc551fe6eec70f27ed7b"
+  }
+}

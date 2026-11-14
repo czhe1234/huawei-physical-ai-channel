@@ -1,0 +1,26 @@
+{
+  "experiment": "Round2-E212-V16-single-seed-ablation",
+  "stage": "spectra",
+  "status": "complete",
+  "configuration": "primary_d16_base_v4lambda_1m",
+  "seed": 42,
+  "source": "/home/chenzhe/work/hw/artifacts/round2/sionna_multiseed/primary_d16_base_v4lambda_1m/full/paths/train_seed42.h5",
+  "source_size": 811686224,
+  "coefficient_mode": "full",
+  "row_count": 4000,
+  "task_count": 250,
+  "path_count_processed": 100721,
+  "reference_expansion_identity": {
+    "dot_real": 0.001377487330774516,
+    "dot_imag": 1.2647263091322745e-08,
+    "expanded_norm2": 0.0013774873295832758,
+    "full_norm2": 0.0013774873322109377,
+    "diff_norm2": 2.451826992103432e-13,
+    "maximum_absolute_error": 3.937303302512877e-09,
+    "coefficient_count": 103138304,
+    "complex_cosine": 0.9999999999531533,
+    "relative_l2": 1.3341390747096908e-05
+  },
+  "output": "/home/chenzhe/work/hw/artifacts/round2/e216_v16_rt_information_ablation/shared_seed42_spectra/primary_d16_base_v4lambda_1m/full",
+  "seconds": 448.1894941329956
+}

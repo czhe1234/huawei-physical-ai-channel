@@ -1,0 +1,114 @@
+{
+  "experiment": "Round2-E190-official-sionna-path-calibrator-test",
+  "status": "test_candidate_generated",
+  "data_lineage": {
+    "official_train_h_used_to_train_checkpoints": true,
+    "official_test_positions_used": true,
+    "same_position_test_sionna_paths_used": true,
+    "hidden_official_test_h_used": false,
+    "absolute_sionna_phase_used": false,
+    "v11_complex_carrier_preserved": true
+  },
+  "local_validation": {
+    "complete_fixed500_score": 0.6863750036074728,
+    "v12_complete_fixed500_score": 0.6775208074756943,
+    "delta": 0.008854196131778513,
+    "original_deployment_gate_passed": false,
+    "user_authorized_failed_gate_deployment": true
+  },
+  "deployment_policy": {
+    "models": "mean of five strict E190 refit checkpoints",
+    "mass": "arithmetic mean then normalize",
+    "port": "arithmetic mean then normalize",
+    "coordinate": "per-candidate mass-weighted circular mean",
+    "pas_beta": 0.2,
+    "pdp_beta": 0.2,
+    "mode": "sqrt",
+    "order": "pas_pdp",
+    "cycles": 4
+  },
+  "folds": [
+    {
+      "outer": 0,
+      "best_epoch": 48,
+      "checkpoint": "artifacts/round2/official_sionna_path_calibrator/outer0_refit_model.pt"
+    },
+    {
+      "outer": 1,
+      "best_epoch": 48,
+      "checkpoint": "artifacts/round2/official_sionna_path_calibrator/outer1_refit_model.pt"
+    },
+    {
+      "outer": 2,
+      "best_epoch": 36,
+      "checkpoint": "artifacts/round2/official_sionna_path_calibrator/outer2_refit_model.pt"
+    },
+    {
+      "outer": 3,
+      "best_epoch": 48,
+      "checkpoint": "artifacts/round2/official_sionna_path_calibrator/outer3_refit_model.pt"
+    },
+    {
+      "outer": 4,
+      "best_epoch": 44,
+      "checkpoint": "artifacts/round2/official_sionna_path_calibrator/outer4_refit_model.pt"
+    },
+    {
+      "ensemble_agreement": {
+        "mass_fold_std_mean": 0.004466077778488398,
+        "port_fold_std_mean": 0.036927465349435806,
+        "coordinate_circular_resultant_mean": 0.9984681606292725
+      }
+    }
+  ],
+  "identity": {
+    "v12_test_projection_max_abs_error": 2.423474310120355e-09
+  },
+  "output": {
+    "path": "artifacts/round2/official_sionna_path_calibrator/Round2_E190_Official_Sionna_Path_Calibrator_Test_Channel.npy",
+    "shape": [
+      500,
+      256,
+      4,
+      192
+    ],
+    "dtype": "complex64",
+    "finite": true,
+    "bytes": 786432128,
+    "power_ratio_mean": 0.9999999296915157,
+    "power_ratio_max_abs_error": 2.9797718437141185e-07
+  },
+  "endpoint": {
+    "path": "artifacts/round2/official_sionna_path_calibrator/test_fivefold_official_path_calibrator_endpoint.npz",
+    "mass_shape": [
+      500,
+      128
+    ],
+    "coordinate_shape": [
+      500,
+      128,
+      3
+    ],
+    "port_shape": [
+      500,
+      128,
+      2,
+      4
+    ],
+    "finite": true
+  },
+  "performance": {
+    "device": "NVIDIA H100 80GB HBM3",
+    "peak_torch_memory_gib": 7.36555290222168,
+    "peak_rss_gib": 4.225311279296875,
+    "timing_seconds": {
+      "load_test_inputs": 3.598078727722168,
+      "v12_test_identity": 2.568289279937744,
+      "fivefold_inference": 1.478653907775879,
+      "endpoint_render": 0.5829510688781738,
+      "projection_and_save": 3.3713290691375732
+    },
+    "measured_bottleneck": "load_test_inputs"
+  },
+  "seconds": 11.805489540100098
+}

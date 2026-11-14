@@ -1,0 +1,12 @@
+{
+  "status": "paused_and_immutable_copied",
+  "worker_pid": 2374949,
+  "old_checkpoint": "artifacts/round2/paper_four_baselines_v1/formal_20261111/nerf2/outer2/screen/last.pt",
+  "immutable_checkpoint": "artifacts/round2/paper_four_baselines_v1/freqminibatch_20261112/nerf2/migration/outer2_screen_immutable.pt",
+  "checkpoint_sha256": "95c267cbf0f1b255f3aba7f93379cfd1928f0a3b673edcb5f0f509da9f12e7d2",
+  "old_role": "screen",
+  "old_mtime_ns": 1794428252460405399,
+  "immutable_mode": "0o444",
+  "finished_unix": 1794428276.4874492,
+  "NewRF_or_dispatch_touched": false
+}

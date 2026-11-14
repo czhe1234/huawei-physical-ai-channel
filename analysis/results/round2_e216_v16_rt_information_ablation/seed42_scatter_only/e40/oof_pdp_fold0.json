@@ -1,0 +1,141 @@
+{
+  "experiment": "Round2-E40-shared-Sionna-spectral-calibrator",
+  "phase": "oof",
+  "status": "complete",
+  "hypothesis": "A shared scorer-aligned network can use multi-seed mean, variance, valid count, and base-scatter disagreement to calibrate Sionna spectra into official PAS/PDP targets across complete spatial holes.",
+  "domains": [
+    "pdp"
+  ],
+  "modes": [
+    "mean"
+  ],
+  "folds": [
+    0
+  ],
+  "config": {
+    "epochs": 16,
+    "steps_per_epoch": 400,
+    "pas_batch_size": 1024,
+    "pdp_batch_size": 2048,
+    "validation_batch_size": 4096,
+    "hidden": 64,
+    "context_channels": 24,
+    "blocks": 5,
+    "residual_scale": 6.0,
+    "learning_rate": 0.0015,
+    "weight_decay": 2e-05,
+    "hellinger_weight": 0.05,
+    "residual_weight": 0.0001,
+    "seed": 20260806
+  },
+  "results": {
+    "pdp": {
+      "mean": {
+        "folds": [
+          {
+            "fold": 0,
+            "fit_count": 3893,
+            "nested_fit_count": 3820,
+            "validation_count": 71,
+            "held_count": 103,
+            "held_nonzero_count": 103,
+            "best_epoch": 13,
+            "validation_cosine": 0.7659637331962585,
+            "held_cosine": 0.8292514681816101,
+            "checkpoint": "artifacts/round2/e216_v16_rt_information_ablation/variants/seed42_scatter_only/sionna_official_calibration/calibrator_pdp_mean_fold0.pt",
+            "history": [
+              {
+                "epoch": 0.0,
+                "loss": NaN,
+                "validation_cosine": 0.688552737236023
+              },
+              {
+                "epoch": 1.0,
+                "loss": 0.2110067131370306,
+                "validation_cosine": 0.728838324546814
+              },
+              {
+                "epoch": 2.0,
+                "loss": 0.13226866936311127,
+                "validation_cosine": 0.7350260615348816
+              },
+              {
+                "epoch": 3.0,
+                "loss": 0.1089992555603385,
+                "validation_cosine": 0.7219686508178711
+              },
+              {
+                "epoch": 4.0,
+                "loss": 0.09955732645466923,
+                "validation_cosine": 0.7243080735206604
+              },
+              {
+                "epoch": 5.0,
+                "loss": 0.09453313942998648,
+                "validation_cosine": 0.7307251691818237
+              },
+              {
+                "epoch": 6.0,
+                "loss": 0.09160710787400603,
+                "validation_cosine": 0.7341084480285645
+              },
+              {
+                "epoch": 7.0,
+                "loss": 0.08906631449237466,
+                "validation_cosine": 0.7328938841819763
+              },
+              {
+                "epoch": 8.0,
+                "loss": 0.08626265684142709,
+                "validation_cosine": 0.7466837763786316
+              },
+              {
+                "epoch": 9.0,
+                "loss": 0.08376386864110827,
+                "validation_cosine": 0.7516846656799316
+              },
+              {
+                "epoch": 10.0,
+                "loss": 0.07370022064074874,
+                "validation_cosine": 0.7516815066337585
+              },
+              {
+                "epoch": 11.0,
+                "loss": 0.06552875965833664,
+                "validation_cosine": 0.7555661201477051
+              },
+              {
+                "epoch": 12.0,
+                "loss": 0.06182812393642962,
+                "validation_cosine": 0.7438279390335083
+              },
+              {
+                "epoch": 13.0,
+                "loss": 0.058656619684770706,
+                "validation_cosine": 0.7659637331962585
+              },
+              {
+                "epoch": 14.0,
+                "loss": 0.056656692391261455,
+                "validation_cosine": 0.7320386171340942
+              },
+              {
+                "epoch": 15.0,
+                "loss": 0.05586150960996747,
+                "validation_cosine": 0.7410503625869751
+              },
+              {
+                "epoch": 16.0,
+                "loss": 0.05413966469466686,
+                "validation_cosine": 0.7435613870620728
+              }
+            ]
+          }
+        ],
+        "mean_held_cosine": 0.8292514681816101,
+        "output": "artifacts/round2/e216_v16_rt_information_ablation/variants/seed42_scatter_only/sionna_official_calibration/oof_pdp_mean_f16.npy"
+      }
+    }
+  },
+  "seconds": 436.31239581108093
+}

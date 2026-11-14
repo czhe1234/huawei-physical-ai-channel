@@ -1,0 +1,971 @@
+{
+  "experiment": "Round2-E47-local-complex-carrier-stacking",
+  "status": "analysis_only",
+  "official_inputs_only": true,
+  "sionna_used": false,
+  "primary_hypothesis": "Carrier reliability varies with location and propagation state; locally fitted complex stacks should retain the bank's pointwise complementarity better than one site-wide coefficient vector.",
+  "global_site_reference_nmse": 0.9223085540567044,
+  "ranking": [
+    {
+      "config": {
+        "name": "geometry_k64_ridge1_sum0",
+        "mode": "geometry",
+        "neighbors": 64,
+        "ridge": 1.0,
+        "sum_penalty": 0.0
+      },
+      "nmse": 0.9200905513449329,
+      "nmse_score": 0.5208087708673672,
+      "fold_nmse": [
+        0.9038403846099824,
+        0.9905489443728475,
+        0.5623953296655657,
+        1.0058183638957443,
+        0.657291407610527
+      ],
+      "distance_max_mean": 1.3076228760797426,
+      "weight_norm_mean": 0.23005591008951887
+    },
+    {
+      "config": {
+        "name": "combined_k128_ridge1_sum0",
+        "mode": "combined",
+        "neighbors": 128,
+        "ridge": 1.0,
+        "sum_penalty": 0.0
+      },
+      "nmse": 0.9209631075374782,
+      "nmse_score": 0.5205722046801411,
+      "fold_nmse": [
+        0.9168108743663085,
+        0.991281850280876,
+        0.5660115551629038,
+        1.004541412665246,
+        0.6571118625595581
+      ],
+      "distance_max_mean": 1.602387441665258,
+      "weight_norm_mean": 0.2004233134314418
+    },
+    {
+      "config": {
+        "name": "geometry_k128_ridge1_sum0",
+        "mode": "geometry",
+        "neighbors": 128,
+        "ridge": 1.0,
+        "sum_penalty": 0.0
+      },
+      "nmse": 0.9212358441481349,
+      "nmse_score": 0.5204983047999474,
+      "fold_nmse": [
+        0.9165225206851477,
+        0.9910071701613459,
+        0.5589133810130423,
+        1.005360887531384,
+        0.6596074644444447
+      ],
+      "distance_max_mean": 1.6255720316427409,
+      "weight_norm_mean": 0.21023884727712722
+    },
+    {
+      "config": {
+        "name": "xy_k128_ridge1_sum0",
+        "mode": "xy",
+        "neighbors": 128,
+        "ridge": 1.0,
+        "sum_penalty": 0.0
+      },
+      "nmse": 0.921618000865426,
+      "nmse_score": 0.5203947920708678,
+      "fold_nmse": [
+        0.9158255857561022,
+        0.9904265057613196,
+        0.5809505430365016,
+        1.0049001749570026,
+        0.6565953136717291
+      ],
+      "distance_max_mean": 2.1882739149332044,
+      "weight_norm_mean": 0.2015733040496707
+    },
+    {
+      "config": {
+        "name": "geometry_k64_ridge1_sum0.1",
+        "mode": "geometry",
+        "neighbors": 64,
+        "ridge": 1.0,
+        "sum_penalty": 0.1
+      },
+      "nmse": 0.9232773667566354,
+      "nmse_score": 0.5199458056777186,
+      "fold_nmse": [
+        0.8920615396975873,
+        0.983190348117659,
+        0.5613407033083787,
+        1.0188491159675759,
+        0.6536956752054989
+      ],
+      "distance_max_mean": 1.3076228760797426,
+      "weight_norm_mean": 0.24039007058832795
+    },
+    {
+      "config": {
+        "name": "geometry_k128_ridge1_sum0.1",
+        "mode": "geometry",
+        "neighbors": 128,
+        "ridge": 1.0,
+        "sum_penalty": 0.1
+      },
+      "nmse": 0.9244634476474682,
+      "nmse_score": 0.5196253538732758,
+      "fold_nmse": [
+        0.9040487660194476,
+        0.9848083299920591,
+        0.5587161723002448,
+        1.018320371225652,
+        0.6548223658855665
+      ],
+      "distance_max_mean": 1.6255720316427409,
+      "weight_norm_mean": 0.22011238619405776
+    },
+    {
+      "config": {
+        "name": "combined_k128_ridge1_sum0.1",
+        "mode": "combined",
+        "neighbors": 128,
+        "ridge": 1.0,
+        "sum_penalty": 0.1
+      },
+      "nmse": 0.9249814902381271,
+      "nmse_score": 0.5194855145730759,
+      "fold_nmse": [
+        0.9058190950881944,
+        0.9867217878197909,
+        0.565282210277807,
+        1.0179705241915837,
+        0.652988470235961
+      ],
+      "distance_max_mean": 1.602387441665258,
+      "weight_norm_mean": 0.20647369815222918
+    },
+    {
+      "config": {
+        "name": "combined_k64_ridge1_sum0",
+        "mode": "combined",
+        "neighbors": 64,
+        "ridge": 1.0,
+        "sum_penalty": 0.0
+      },
+      "nmse": 0.9256714273259502,
+      "nmse_score": 0.5192993912718705,
+      "fold_nmse": [
+        0.9008147805979007,
+        1.002853825146969,
+        0.5701794154663631,
+        1.0100746903203597,
+        0.6615560708787872
+      ],
+      "distance_max_mean": 1.3179005290095793,
+      "weight_norm_mean": 0.2196758637452731
+    },
+    {
+      "config": {
+        "name": "xy_k128_ridge1_sum0.1",
+        "mode": "xy",
+        "neighbors": 128,
+        "ridge": 1.0,
+        "sum_penalty": 0.1
+      },
+      "nmse": 0.9260085014373594,
+      "nmse_score": 0.5192085077785019,
+      "fold_nmse": [
+        0.9055399975276041,
+        0.9871076427777404,
+        0.5795235801184291,
+        1.01857086835943,
+        0.652136165561851
+      ],
+      "distance_max_mean": 2.1882739149332044,
+      "weight_norm_mean": 0.2071454527322203
+    },
+    {
+      "config": {
+        "name": "geometry_k32_ridge1_sum0",
+        "mode": "geometry",
+        "neighbors": 32,
+        "ridge": 1.0,
+        "sum_penalty": 0.0
+      },
+      "nmse": 0.9289602161795036,
+      "nmse_score": 0.5184140095852255,
+      "fold_nmse": [
+        0.9039810035097682,
+        1.018804151367332,
+        0.5607767702587012,
+        1.0076799857930696,
+        0.6699852893658254
+      ],
+      "distance_max_mean": 1.1088683039039011,
+      "weight_norm_mean": 0.26085469314783405
+    },
+    {
+      "config": {
+        "name": "geometry_k16_ridge1_sum0",
+        "mode": "geometry",
+        "neighbors": 16,
+        "ridge": 1.0,
+        "sum_penalty": 0.0
+      },
+      "nmse": 0.9296647295602485,
+      "nmse_score": 0.5182247385678703,
+      "fold_nmse": [
+        0.9281544208538879,
+        0.9847086354776194,
+        0.567211412826854,
+        1.0170511928510346,
+        0.6778592568280405
+      ],
+      "distance_max_mean": 0.9754952817293135,
+      "weight_norm_mean": 0.30218709173312025
+    },
+    {
+      "config": {
+        "name": "geometry_k32_ridge1_sum0.1",
+        "mode": "geometry",
+        "neighbors": 32,
+        "ridge": 1.0,
+        "sum_penalty": 0.1
+      },
+      "nmse": 0.9313347519067459,
+      "nmse_score": 0.5177766303913558,
+      "fold_nmse": [
+        0.8926536996942486,
+        1.00632363820377,
+        0.5601237122200641,
+        1.0212881391069293,
+        0.6662029004334253
+      ],
+      "distance_max_mean": 1.1088683039039011,
+      "weight_norm_mean": 0.2708091451115906
+    },
+    {
+      "config": {
+        "name": "combined_k64_ridge1_sum0.1",
+        "mode": "combined",
+        "neighbors": 64,
+        "ridge": 1.0,
+        "sum_penalty": 0.1
+      },
+      "nmse": 0.931372233732529,
+      "nmse_score": 0.5177665819847794,
+      "fold_nmse": [
+        0.8932366383935534,
+        1.0019739937254262,
+        0.5690947501416697,
+        1.024481160199437,
+        0.658133743952198
+      ],
+      "distance_max_mean": 1.3179005290095793,
+      "weight_norm_mean": 0.22710278280079366
+    },
+    {
+      "config": {
+        "name": "combined_k128_ridge0.1_sum0",
+        "mode": "combined",
+        "neighbors": 128,
+        "ridge": 0.1,
+        "sum_penalty": 0.0
+      },
+      "nmse": 0.9325538393907864,
+      "nmse_score": 0.5174500081794552,
+      "fold_nmse": [
+        0.9110428214643513,
+        1.0360281587053242,
+        0.556378549529224,
+        1.0169427823180914,
+        0.6328099272489432
+      ],
+      "distance_max_mean": 1.602387441665258,
+      "weight_norm_mean": 0.5125201590582729
+    },
+    {
+      "config": {
+        "name": "geometry_k128_ridge0.1_sum0",
+        "mode": "geometry",
+        "neighbors": 128,
+        "ridge": 0.1,
+        "sum_penalty": 0.0
+      },
+      "nmse": 0.9325840799719513,
+      "nmse_score": 0.5174419112541347,
+      "fold_nmse": [
+        0.9127916024923847,
+        1.032194527063296,
+        0.5474135583324095,
+        1.0192008863945368,
+        0.6335531343787603
+      ],
+      "distance_max_mean": 1.6255720316427409,
+      "weight_norm_mean": 0.5448292835094035
+    },
+    {
+      "config": {
+        "name": "xy_k128_ridge0.1_sum0",
+        "mode": "xy",
+        "neighbors": 128,
+        "ridge": 0.1,
+        "sum_penalty": 0.0
+      },
+      "nmse": 0.9333420804042741,
+      "nmse_score": 0.51723903914143,
+      "fold_nmse": [
+        0.9083192586065449,
+        1.037423931155527,
+        0.5769368711326048,
+        1.0167430364900862,
+        0.6305405369918319
+      ],
+      "distance_max_mean": 2.1882739149332044,
+      "weight_norm_mean": 0.5112317186072469
+    },
+    {
+      "config": {
+        "name": "geometry_k64_ridge0.1_sum0",
+        "mode": "geometry",
+        "neighbors": 64,
+        "ridge": 0.1,
+        "sum_penalty": 0.0
+      },
+      "nmse": 0.9333687417528047,
+      "nmse_score": 0.5172319063632907,
+      "fold_nmse": [
+        0.8880974458110529,
+        1.0372667694111009,
+        0.5620731747171795,
+        1.0219785004093773,
+        0.6313779158469265
+      ],
+      "distance_max_mean": 1.3076228760797426,
+      "weight_norm_mean": 0.6189304540120065
+    },
+    {
+      "config": {
+        "name": "geometry_k128_ridge0.1_sum0.1",
+        "mode": "geometry",
+        "neighbors": 128,
+        "ridge": 0.1,
+        "sum_penalty": 0.1
+      },
+      "nmse": 0.936805518630914,
+      "nmse_score": 0.5163141009154489,
+      "fold_nmse": [
+        0.8966888667613819,
+        1.0204804354913464,
+        0.5473580404482241,
+        1.0370151343374914,
+        0.629743371457119
+      ],
+      "distance_max_mean": 1.6255720316427409,
+      "weight_norm_mean": 0.5678721702247858
+    },
+    {
+      "config": {
+        "name": "geometry_k64_ridge0.1_sum0.1",
+        "mode": "geometry",
+        "neighbors": 64,
+        "ridge": 0.1,
+        "sum_penalty": 0.1
+      },
+      "nmse": 0.9376407333597927,
+      "nmse_score": 0.5160915451369766,
+      "fold_nmse": [
+        0.8766873720375209,
+        1.0237139794884693,
+        0.5607824083243413,
+        1.0398429261212097,
+        0.6281395441137292
+      ],
+      "distance_max_mean": 1.3076228760797426,
+      "weight_norm_mean": 0.6396532243713736
+    },
+    {
+      "config": {
+        "name": "combined_k128_ridge0.1_sum0.1",
+        "mode": "combined",
+        "neighbors": 128,
+        "ridge": 0.1,
+        "sum_penalty": 0.1
+      },
+      "nmse": 0.9380539723829496,
+      "nmse_score": 0.5159815021923471,
+      "fold_nmse": [
+        0.8980917670198566,
+        1.0256491874552336,
+        0.5554501564446254,
+        1.0359993244601706,
+        0.6299661930872679
+      ],
+      "distance_max_mean": 1.602387441665258,
+      "weight_norm_mean": 0.5275977141335606
+    },
+    {
+      "config": {
+        "name": "xy_k128_ridge0.1_sum0.1",
+        "mode": "xy",
+        "neighbors": 128,
+        "ridge": 0.1,
+        "sum_penalty": 0.1
+      },
+      "nmse": 0.9394558186634291,
+      "nmse_score": 0.5156085487367005,
+      "fold_nmse": [
+        0.8963664859152618,
+        1.028167934696943,
+        0.5752594808802637,
+        1.0364621542805514,
+        0.6276218356733781
+      ],
+      "distance_max_mean": 2.1882739149332044,
+      "weight_norm_mean": 0.5259427811279893
+    },
+    {
+      "config": {
+        "name": "geometry_k16_ridge1_sum0.1",
+        "mode": "geometry",
+        "neighbors": 16,
+        "ridge": 1.0,
+        "sum_penalty": 0.1
+      },
+      "nmse": 0.9394878618785073,
+      "nmse_score": 0.5156000301190035,
+      "fold_nmse": [
+        0.9129206954633953,
+        0.9843278067577326,
+        0.5645288122455181,
+        1.0408927598739428,
+        0.6753627695069964
+      ],
+      "distance_max_mean": 0.9754952817293135,
+      "weight_norm_mean": 0.31361683572269977
+    },
+    {
+      "config": {
+        "name": "xy_k64_ridge1_sum0",
+        "mode": "xy",
+        "neighbors": 64,
+        "ridge": 1.0,
+        "sum_penalty": 0.0
+      },
+      "nmse": 0.9417743654297881,
+      "nmse_score": 0.514992894026934,
+      "fold_nmse": [
+        0.957083126914653,
+        1.0416075975611323,
+        0.6187166520264534,
+        1.0074203538862625,
+        0.6693457635238844
+      ],
+      "distance_max_mean": 1.3957558119297027,
+      "weight_norm_mean": 0.21382463496003765
+    },
+    {
+      "config": {
+        "name": "combined_k64_ridge0.1_sum0",
+        "mode": "combined",
+        "neighbors": 64,
+        "ridge": 0.1,
+        "sum_penalty": 0.0
+      },
+      "nmse": 0.946791471264218,
+      "nmse_score": 0.5136656980270283,
+      "fold_nmse": [
+        0.8923154070369496,
+        1.0783986537085306,
+        0.575285555966288,
+        1.0252193939932082,
+        0.6428704803070932
+      ],
+      "distance_max_mean": 1.3179005290095793,
+      "weight_norm_mean": 0.5971439436392393
+    },
+    {
+      "config": {
+        "name": "xy_k64_ridge1_sum0.1",
+        "mode": "xy",
+        "neighbors": 64,
+        "ridge": 1.0,
+        "sum_penalty": 0.1
+      },
+      "nmse": 0.9501577885415571,
+      "nmse_score": 0.5127790201775718,
+      "fold_nmse": [
+        0.9418525092392868,
+        1.0414068452541378,
+        0.6146153605702832,
+        1.0285216925671121,
+        0.6665043862951471
+      ],
+      "distance_max_mean": 1.3957558119297027,
+      "weight_norm_mean": 0.2185628133043647
+    },
+    {
+      "config": {
+        "name": "combined_k32_ridge1_sum0",
+        "mode": "combined",
+        "neighbors": 32,
+        "ridge": 1.0,
+        "sum_penalty": 0.0
+      },
+      "nmse": 0.9522345441873993,
+      "nmse_score": 0.5122335341198674,
+      "fold_nmse": [
+        0.9432275000067905,
+        1.073271721029839,
+        0.603236115382124,
+        1.0193728631950818,
+        0.6668293749511157
+      ],
+      "distance_max_mean": 1.1925065975999183,
+      "weight_norm_mean": 0.2457428735952526
+    },
+    {
+      "config": {
+        "name": "combined_k64_ridge0.1_sum0.1",
+        "mode": "combined",
+        "neighbors": 64,
+        "ridge": 0.1,
+        "sum_penalty": 0.1
+      },
+      "nmse": 0.9549594941161466,
+      "nmse_score": 0.5115195496426939,
+      "fold_nmse": [
+        0.8845523452902472,
+        1.071488575724368,
+        0.5739044982033651,
+        1.0470452309006542,
+        0.6406800706563684
+      ],
+      "distance_max_mean": 1.3179005290095793,
+      "weight_norm_mean": 0.6209858958385884
+    },
+    {
+      "config": {
+        "name": "geometry_k32_ridge0.1_sum0",
+        "mode": "geometry",
+        "neighbors": 32,
+        "ridge": 0.1,
+        "sum_penalty": 0.0
+      },
+      "nmse": 0.9566743696297831,
+      "nmse_score": 0.5110712418588113,
+      "fold_nmse": [
+        0.8932434654739284,
+        1.0911153764129504,
+        0.5734474262660445,
+        1.0379144635754813,
+        0.6487235478161761
+      ],
+      "distance_max_mean": 1.1088683039039011,
+      "weight_norm_mean": 0.7381657345762651
+    },
+    {
+      "config": {
+        "name": "geometry_k32_ridge0.1_sum0.1",
+        "mode": "geometry",
+        "neighbors": 32,
+        "ridge": 0.1,
+        "sum_penalty": 0.1
+      },
+      "nmse": 0.9570484635950787,
+      "nmse_score": 0.5109735495067965,
+      "fold_nmse": [
+        0.8850904553539118,
+        1.0632463291788334,
+        0.5729385975903253,
+        1.0539493231092079,
+        0.6443362730298268
+      ],
+      "distance_max_mean": 1.1088683039039011,
+      "weight_norm_mean": 0.7627563130632042
+    },
+    {
+      "config": {
+        "name": "combined_k32_ridge1_sum0.1",
+        "mode": "combined",
+        "neighbors": 32,
+        "ridge": 1.0,
+        "sum_penalty": 0.1
+      },
+      "nmse": 0.9574630247794612,
+      "nmse_score": 0.5108653330055446,
+      "fold_nmse": [
+        0.9254374072468433,
+        1.0699946015326558,
+        0.5997620751328285,
+        1.0358792800549856,
+        0.6639201911872569
+      ],
+      "distance_max_mean": 1.1925065975999183,
+      "weight_norm_mean": 0.25561356916092337
+    },
+    {
+      "config": {
+        "name": "xy_k32_ridge1_sum0",
+        "mode": "xy",
+        "neighbors": 32,
+        "ridge": 1.0,
+        "sum_penalty": 0.0
+      },
+      "nmse": 0.9577576966286576,
+      "nmse_score": 0.510788440123128,
+      "fold_nmse": [
+        0.9947635502604836,
+        1.0525071496899068,
+        0.651966894044496,
+        1.0205067413113025,
+        0.6828191753621655
+      ],
+      "distance_max_mean": 1.091002170085907,
+      "weight_norm_mean": 0.24783132646081504
+    },
+    {
+      "config": {
+        "name": "geometry_k16_ridge0.1_sum0",
+        "mode": "geometry",
+        "neighbors": 16,
+        "ridge": 0.1,
+        "sum_penalty": 0.0
+      },
+      "nmse": 0.9638555227156451,
+      "nmse_score": 0.5092024277922375,
+      "fold_nmse": [
+        0.9441094408386141,
+        1.0200967782928372,
+        0.6000183697802767,
+        1.0621269644283875,
+        0.683911207793889
+      ],
+      "distance_max_mean": 0.9754952817293135,
+      "weight_norm_mean": 0.853542169390086
+    },
+    {
+      "config": {
+        "name": "xy_k32_ridge1_sum0.1",
+        "mode": "xy",
+        "neighbors": 32,
+        "ridge": 1.0,
+        "sum_penalty": 0.1
+      },
+      "nmse": 0.9664227521128452,
+      "nmse_score": 0.5085376473220413,
+      "fold_nmse": [
+        0.9742216944514015,
+        1.0555197882779845,
+        0.6453028874444023,
+        1.0421405581567487,
+        0.6794499363213574
+      ],
+      "distance_max_mean": 1.091002170085907,
+      "weight_norm_mean": 0.2551372698172927
+    },
+    {
+      "config": {
+        "name": "xy_k16_ridge1_sum0",
+        "mode": "xy",
+        "neighbors": 16,
+        "ridge": 1.0,
+        "sum_penalty": 0.0
+      },
+      "nmse": 0.9739537103489515,
+      "nmse_score": 0.5065974925132475,
+      "fold_nmse": [
+        1.0148307662279308,
+        1.0586832750631503,
+        0.6650550217575479,
+        1.0176361052747211,
+        0.7811636482411066
+      ],
+      "distance_max_mean": 0.8926372815966606,
+      "weight_norm_mean": 0.29738504048220055
+    },
+    {
+      "config": {
+        "name": "combined_k16_ridge1_sum0",
+        "mode": "combined",
+        "neighbors": 16,
+        "ridge": 1.0,
+        "sum_penalty": 0.0
+      },
+      "nmse": 0.9785247766098947,
+      "nmse_score": 0.5054270797222216,
+      "fold_nmse": [
+        0.9975870070138787,
+        1.1415709429182148,
+        0.6209141133253556,
+        1.028144541346643,
+        0.6737862325388906
+      ],
+      "distance_max_mean": 1.0468730595998221,
+      "weight_norm_mean": 0.2513160540001411
+    },
+    {
+      "config": {
+        "name": "geometry_k16_ridge0.1_sum0.1",
+        "mode": "geometry",
+        "neighbors": 16,
+        "ridge": 0.1,
+        "sum_penalty": 0.1
+      },
+      "nmse": 0.978672422484188,
+      "nmse_score": 0.5053893654334747,
+      "fold_nmse": [
+        0.9321912434010755,
+        1.0254931727767524,
+        0.5954742309912722,
+        1.0939295694750741,
+        0.6784641080451794
+      ],
+      "distance_max_mean": 0.9754952817293135,
+      "weight_norm_mean": 0.8818400956206024
+    },
+    {
+      "config": {
+        "name": "xy_k64_ridge0.1_sum0",
+        "mode": "xy",
+        "neighbors": 64,
+        "ridge": 0.1,
+        "sum_penalty": 0.0
+      },
+      "nmse": 0.9801231331074246,
+      "nmse_score": 0.5050190987015496,
+      "fold_nmse": [
+        0.9652025329680127,
+        1.1785584269931146,
+        0.6442892833131334,
+        1.0242532799039152,
+        0.6518790172416061
+      ],
+      "distance_max_mean": 1.3957558119297027,
+      "weight_norm_mean": 0.5518400915395468
+    },
+    {
+      "config": {
+        "name": "xy_k16_ridge1_sum0.1",
+        "mode": "xy",
+        "neighbors": 16,
+        "ridge": 1.0,
+        "sum_penalty": 0.1
+      },
+      "nmse": 0.9837079692132857,
+      "nmse_score": 0.5041064589746986,
+      "fold_nmse": [
+        0.9962048077752668,
+        1.06136241559075,
+        0.6551672413436066,
+        1.0471641102786537,
+        0.758231555420628
+      ],
+      "distance_max_mean": 0.8926372815966606,
+      "weight_norm_mean": 0.30870976481214163
+    },
+    {
+      "config": {
+        "name": "combined_k16_ridge1_sum0.1",
+        "mode": "combined",
+        "neighbors": 16,
+        "ridge": 1.0,
+        "sum_penalty": 0.1
+      },
+      "nmse": 0.9883819833625914,
+      "nmse_score": 0.5029214750321166,
+      "fold_nmse": [
+        0.9742807598377073,
+        1.1356137247791807,
+        0.6176361801389816,
+        1.0557281880127407,
+        0.672575937941393
+      ],
+      "distance_max_mean": 1.0468730595998221,
+      "weight_norm_mean": 0.2669360164869577
+    },
+    {
+      "config": {
+        "name": "xy_k64_ridge0.1_sum0.1",
+        "mode": "xy",
+        "neighbors": 64,
+        "ridge": 0.1,
+        "sum_penalty": 0.1
+      },
+      "nmse": 0.9929571545668774,
+      "nmse_score": 0.5017669334779686,
+      "fold_nmse": [
+        0.9491355039775179,
+        1.1645750308125333,
+        0.6391328881355508,
+        1.0600305478810825,
+        0.6518273443838435
+      ],
+      "distance_max_mean": 1.3957558119297027,
+      "weight_norm_mean": 0.5750524905286729
+    },
+    {
+      "config": {
+        "name": "combined_k32_ridge0.1_sum0",
+        "mode": "combined",
+        "neighbors": 32,
+        "ridge": 0.1,
+        "sum_penalty": 0.0
+      },
+      "nmse": 1.0051438997884132,
+      "nmse_score": 0.49871732403121893,
+      "fold_nmse": [
+        0.9614112610528407,
+        1.2336213225318222,
+        0.6305995873795835,
+        1.051828110369055,
+        0.6541023673538929
+      ],
+      "distance_max_mean": 1.1925065975999183,
+      "weight_norm_mean": 0.6717212309222523
+    },
+    {
+      "config": {
+        "name": "combined_k32_ridge0.1_sum0.1",
+        "mode": "combined",
+        "neighbors": 32,
+        "ridge": 0.1,
+        "sum_penalty": 0.1
+      },
+      "nmse": 1.011783487147808,
+      "nmse_score": 0.49707138287417957,
+      "fold_nmse": [
+        0.936151601163225,
+        1.2237997846021806,
+        0.6255076752995957,
+        1.0750446145818922,
+        0.6533987315178407
+      ],
+      "distance_max_mean": 1.1925065975999183,
+      "weight_norm_mean": 0.7029349905960262
+    },
+    {
+      "config": {
+        "name": "xy_k32_ridge0.1_sum0",
+        "mode": "xy",
+        "neighbors": 32,
+        "ridge": 0.1,
+        "sum_penalty": 0.0
+      },
+      "nmse": 1.0325452699511648,
+      "nmse_score": 0.49199396184864636,
+      "fold_nmse": [
+        1.0141267656051804,
+        1.2474653346753573,
+        0.6883404917988752,
+        1.0685613438466388,
+        0.7124350744776459
+      ],
+      "distance_max_mean": 1.091002170085907,
+      "weight_norm_mean": 0.7047928911480703
+    },
+    {
+      "config": {
+        "name": "xy_k32_ridge0.1_sum0.1",
+        "mode": "xy",
+        "neighbors": 32,
+        "ridge": 0.1,
+        "sum_penalty": 0.1
+      },
+      "nmse": 1.0467043863978671,
+      "nmse_score": 0.48859034389424816,
+      "fold_nmse": [
+        0.9912937976895695,
+        1.249434691014473,
+        0.6771662053793854,
+        1.103146904462527,
+        0.7075256175753307
+      ],
+      "distance_max_mean": 1.091002170085907,
+      "weight_norm_mean": 0.7311940367668867
+    },
+    {
+      "config": {
+        "name": "combined_k16_ridge0.1_sum0",
+        "mode": "combined",
+        "neighbors": 16,
+        "ridge": 0.1,
+        "sum_penalty": 0.0
+      },
+      "nmse": 1.056539058901083,
+      "nmse_score": 0.4862538329490093,
+      "fold_nmse": [
+        1.0278519259928092,
+        1.3696150492003658,
+        0.6589884949630919,
+        1.0725075043276235,
+        0.6793800812368828
+      ],
+      "distance_max_mean": 1.0468730595998221,
+      "weight_norm_mean": 0.718094745649812
+    },
+    {
+      "config": {
+        "name": "combined_k16_ridge0.1_sum0.1",
+        "mode": "combined",
+        "neighbors": 16,
+        "ridge": 0.1,
+        "sum_penalty": 0.1
+      },
+      "nmse": 1.07428815452095,
+      "nmse_score": 0.4820930967669469,
+      "fold_nmse": [
+        0.9967632181817045,
+        1.3643687719555384,
+        0.6533530340325151,
+        1.1161617598616278,
+        0.6826762218036103
+      ],
+      "distance_max_mean": 1.0468730595998221,
+      "weight_norm_mean": 0.7702611336037517
+    },
+    {
+      "config": {
+        "name": "xy_k16_ridge0.1_sum0",
+        "mode": "xy",
+        "neighbors": 16,
+        "ridge": 0.1,
+        "sum_penalty": 0.0
+      },
+      "nmse": 1.0987128378857098,
+      "nmse_score": 0.4764825286947891,
+      "fold_nmse": [
+        1.0509143730658115,
+        1.2925564975048032,
+        0.7323533863382024,
+        1.044591615296389,
+        1.1588987158091735
+      ],
+      "distance_max_mean": 0.8926372815966606,
+      "weight_norm_mean": 0.9277523037672508
+    },
+    {
+      "config": {
+        "name": "xy_k16_ridge0.1_sum0.1",
+        "mode": "xy",
+        "neighbors": 16,
+        "ridge": 0.1,
+        "sum_penalty": 0.1
+      },
+      "nmse": 1.1099630482518135,
+      "nmse_score": 0.47394194928131034,
+      "fold_nmse": [
+        1.0310022742754568,
+        1.293690045733365,
+        0.7167203506551757,
+        1.1095854048731957,
+        1.0266982253520212
+      ],
+      "distance_max_mean": 0.8926372815966606,
+      "weight_norm_mean": 0.9704068848788738
+    }
+  ],
+  "seconds": 33.645546674728394
+}

@@ -1,0 +1,139 @@
+[
+  {
+    "module": "复信道专家、载波相位和复数融合",
+    "sources": [
+      "/home/chenzhe/work/hw/code/round2/build_v7_complex_carrier_bank.py",
+      "/home/chenzhe/work/hw/code/round2/analyze_v7_complex_carrier_stacking.py"
+    ],
+    "records": [
+      "/home/chenzhe/work/hw/analysis/results/round2_complex_carrier_bank/complex_carrier_bank.json",
+      "/home/chenzhe/work/hw/analysis/results/round2_complex_carrier_stacking/complex_carrier_stacking.json"
+    ],
+    "retained": [
+      "/home/chenzhe/work/hw/artifacts/round2/complex_carrier_stacking/oof_port_gram.npz",
+      "/home/chenzhe/work/hw/artifacts/round2/complex_carrier_stacking/complex_stack_selection.json"
+    ],
+    "finding": "原始各折基础专家按本折训练池生成；下游融合使用混合的旧 OOF 特征。其他折特征的上游可包含当前留出区标签。仅从最终拟合行中删除当前留出点不足以保证整链同划分。",
+    "reuse": "可复用源代码和部分同折基础输出；旧全局融合参数不能自动认证为当前外折专用参数。"
+  },
+  {
+    "module": "邻点权重模型",
+    "sources": [
+      "/home/chenzhe/work/hw/code/round2/run_v3_anchored_neural_rbf.py"
+    ],
+    "records": [
+      "/home/chenzhe/work/hw/analysis/results/round2_v3_anchored_neural_rbf/anchored_neural_rbf.json",
+      "/home/chenzhe/work/hw/analysis/results/round2_v3_anchored_neural_rbf/full_model_and_test.json"
+    ],
+    "retained": [
+      "/home/chenzhe/work/hw/artifacts/round2/v3_anchored_neural_rbf/fold0_final.pt"
+    ],
+    "finding": "部署包有 1 个全训练集模型，另有 5 个固定第 6 轮外折模型。五折模型的训练 query/donor ID 均属于对应允许训练池，且排除了对应留出点。",
+    "reuse": "五个 final 模型可作为外折重拟合复用候选；full 模型不能代替外折模型。best 模型曾按外折表现选择，不能混用。"
+  },
+  {
+    "module": "分组频谱校准、投影与演化策略",
+    "sources": [
+      "/home/chenzhe/work/hw/code/round2/run_v4_calibrated_exact_projection.py",
+      "/home/chenzhe/work/hw/code/round2/run_v6_regime_component_lifecycle.py",
+      "/home/chenzhe/work/hw/code/round2/run_v7_complex_carrier_exact_projection.py"
+    ],
+    "records": [
+      "/home/chenzhe/work/hw/analysis/audits/simulation_recovery_v1/strict_repair_dependencies.json"
+    ],
+    "retained": [
+      "/home/chenzhe/work/hw/artifacts/round2/v4_calibrated_exact_projection/full_group_calibration_model.npz"
+    ],
+    "finding": "有参数、旧选择记录和部署策略。存在与复数融合相同的跨折上游特征依赖。",
+    "reuse": "确定性投影算子可以复用；监督拟合的校准、尺度及策略必须追到本外折允许的标签池。"
+  },
+  {
+    "module": "独立 PAS/PDP 频谱网络，共 10 个",
+    "sources": [
+      "/home/chenzhe/work/hw/code/round2/train_sionna_spectral_calibrator.py"
+    ],
+    "records": [
+      "/home/chenzhe/work/hw/analysis/results/round2_sionna_official_calibration/calibrator_oof.json"
+    ],
+    "retained": [
+      "/home/chenzhe/work/hw/final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/base_field/spectral"
+    ],
+    "finding": "原配置 8 轮、每轮 200 步。全部保存轮次、配置与归档报告吻合。源代码先内层选轮次，再用外层训练池重拟合。",
+    "reuse": "10 个外折重拟合候选可保留；不是内层筛选模型。原完整 4000 点物理输入仍缺。"
+  },
+  {
+    "module": "联合 PAS/PDP 频谱网络，共 10 个",
+    "sources": [
+      "/home/chenzhe/work/hw/code/round2/train_v9_joint_sionna_endpoints.py"
+    ],
+    "records": [
+      "/home/chenzhe/work/hw/analysis/results/round2_v9_joint_sionna_endpoints/joint_endpoint_oof.json"
+    ],
+    "retained": [
+      "/home/chenzhe/work/hw/final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/base_field/joint"
+    ],
+    "finding": "原配置 14 轮、每轮 240 步。全部保存轮次、配置与归档报告吻合。",
+    "reuse": "10 个外折重拟合候选可保留；不能视为一套完整同划分基础链已经恢复。"
+  },
+  {
+    "module": "逐链路 PDP 门控 LinkGate，共 5 个",
+    "sources": [
+      "/home/chenzhe/work/hw/code/round2/train_full_path_pdp_link_gate.py"
+    ],
+    "records": [
+      "/home/chenzhe/work/hw/analysis/results/round2_full_path_pdp_link_gate/full_path_pdp_link_gate_train.json"
+    ],
+    "retained": [
+      "/home/chenzhe/work/hw/artifacts/round2/full_path_pdp_link_gate/train_fold_id.npy",
+      "/home/chenzhe/work/hw/final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/base_field/path_link"
+    ],
+    "finding": "各模型训练 36 轮。训练非零点数为 3035、2974、3004、2961、2978，与记录一致。历史预测按位置自己的旧分组路由，排除了该位置自身，但未排除整个当前空间留出区。",
+    "reuse": "不能把这个模块说成与 PathState 同一种自身标签重叠；它的问题是空间隔离范围不同。"
+  },
+  {
+    "module": "角度坐标映射 E99",
+    "sources": [
+      "/home/chenzhe/work/hw/code/round2/train_e99_corrected_array_surface_model.py",
+      "/home/chenzhe/work/hw/code/round2/optimize_e98_global_array_angle_mapping.py"
+    ],
+    "records": [
+      "/home/chenzhe/work/hw/analysis/results/round2_corrected_array_surface_model/corrected_array_surface_model.json"
+    ],
+    "retained": [
+      "/home/chenzhe/work/hw/analysis/results/round2_corrected_array_surface_model/corrected_array_surface_model.json"
+    ],
+    "finding": "原 NPZ 不在，但 5 组内层参数和 5 组外层参数都能从原 JSON 恢复；外层参数逐值等于 PathState 检查点。原训练池排除对应空间洞，但未排除当前缓冲区。",
+    "reuse": "参数数值可恢复，不需重新拟合；若要求当前空间隔离口径，旧参数仍多用了缓冲区候选。"
+  },
+  {
+    "module": "路径状态 PathState / ComponentState，共 5 个",
+    "sources": [
+      "/home/chenzhe/work/hw/code/round2/train_e190_official_sionna_path_calibrator.py"
+    ],
+    "records": [
+      "/home/chenzhe/work/hw/analysis/results/round2_official_sionna_path_calibrator/outer0_screen.json",
+      "/home/chenzhe/work/hw/analysis/results/round2_official_sionna_path_calibrator/fixed500_report.json"
+    ],
+    "retained": [
+      "/home/chenzhe/work/hw/final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/models/path_calibrator"
+    ],
+    "finding": "最终模型训练轮次为 48、48、36、48、44。旧训练按 FULL_FOLD，旧固定 500 点预测按另一套空间洞折号，因此候选重叠 376；其中至少 46、至多 348 进入对应模型监督损失。",
+    "reuse": "能复用为旧模型。不能把已包含本折标签的权重变为同划分模型。逐点有效标签缺失，确切重叠总数未恢复。"
+  },
+  {
+    "module": "物理传播输入与最终渲染",
+    "sources": [
+      "/home/chenzhe/work/hw/code/round2/prepare_sionna_calibration_dataset.py",
+      "/home/chenzhe/work/hw/code/round2/generate_e190_official_sionna_path_calibrator_test.py"
+    ],
+    "records": [
+      "/home/chenzhe/work/hw/final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/deployment_manifest.json",
+      "/home/chenzhe/work/hw/analysis/audits/simulation_recovery_v1/v16_forward_v3/verification.json"
+    ],
+    "retained": [
+      "/home/chenzhe/work/hw/final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/base_field/base_channel.npy"
+    ],
+    "finding": "官方 Test 部署输入和最终预测保留。另有后来重建的 500 点物理输入和完整复信道预测；它们不是原始 4000 点训练缓存，也不是旧线下预测。",
+    "reuse": "部署推理和旧结果保存有资产基础；新的 500 点结果未评分，且未满足当前全链同划分。"
+  }
+]

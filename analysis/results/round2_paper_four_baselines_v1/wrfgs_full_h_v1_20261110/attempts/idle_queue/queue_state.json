@@ -1,0 +1,15 @@
+{
+  "status": "running",
+  "pending": [
+    1,
+    3,
+    4
+  ],
+  "active": {},
+  "completed": [
+    0,
+    2
+  ],
+  "poll_seconds": 30,
+  "launcher_sha256": "87439d2a0563e470815ff01a4d98753114bc7593900f2ad728bfafb2e77c799b"
+}

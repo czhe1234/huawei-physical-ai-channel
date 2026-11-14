@@ -1,0 +1,11 @@
+{
+  "reason": "GPU policy clause 5 permits reduced parallelism on allowed devices. One fold at a time; >=48GiB free before launch. Observed process allocation <=28GiB and tensor peak 9.62GiB. No training configuration or foreign task changed.",
+  "stopped_own_queue_pid": 1531484,
+  "remaining_folds": [
+    1,
+    3,
+    4
+  ],
+  "training_workers_stopped": 0,
+  "source_sha256": "4a24d79c27a47a343892637c1b2fc50e3b4d9d08a18ee65f1a10829883173484"
+}

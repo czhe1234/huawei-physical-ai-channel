@@ -1,0 +1,107 @@
+{
+  "experiment": "Round2-E190-official-sionna-path-calibrator",
+  "stage": "screen",
+  "status": "capability_passed",
+  "configuration": {
+    "outer": 2,
+    "validation_fold": 3,
+    "epochs": 48,
+    "minimum_epochs": 16,
+    "validation_interval": 4,
+    "batch_size": 64,
+    "hidden": 96,
+    "heads": 4,
+    "sequence_layers": 2,
+    "set_layers": 2,
+    "feedforward": 256,
+    "dropout": 0.08,
+    "learning_rate": 0.0005,
+    "weight_decay": 0.0002,
+    "score_limit": 4.0,
+    "port_limit": 2.0,
+    "match_cost_limit": 1.0,
+    "match_bandwidth": 0.25,
+    "minimum_path_fraction": 1e-05,
+    "spectral_weight": 1.0,
+    "mass_weight": 0.75,
+    "coordinate_weight": 0.2,
+    "port_weight": 0.2,
+    "existence_weight": 0.05,
+    "residual_weight": 0.002,
+    "random_state": 20260812190,
+    "capability_minimum_delta": 0.01,
+    "screen_minimum_delta": 0.005,
+    "maximum_component_drop": 0.001
+  },
+  "identity": {
+    "v12_replay_max_abs_error": 4.5583745111876794e-11
+  },
+  "labels": {
+    "screen": {
+      "point_count": 4000,
+      "nonzero_count": 3738,
+      "valid_label_count": 3582,
+      "matched_count_nonzero_mean": 16.077314071696094,
+      "matched_count_nonzero_median": 19.0,
+      "matched_fraction_nonzero_mean": 0.7709136939513735,
+      "matched_fraction_available_ratio": 0.8306566860974374,
+      "accepted_cost_mean": 0.2354980856180191,
+      "accepted_cost_p90": 0.6614130258560182,
+      "seconds": 0.8313014507293701
+    },
+    "refit": {
+      "point_count": 4000,
+      "nonzero_count": 3738,
+      "valid_label_count": 3582,
+      "matched_count_nonzero_mean": 16.093632958801496,
+      "matched_count_nonzero_median": 19.0,
+      "matched_fraction_nonzero_mean": 0.7708233389153997,
+      "matched_fraction_available_ratio": 0.8305593288765927,
+      "accepted_cost_mean": 0.2345055788755417,
+      "accepted_cost_p90": 0.6600282907485964,
+      "seconds": 1.1069750785827637
+    }
+  },
+  "split": {
+    "outer": 2,
+    "validation_fold": 3,
+    "screen_fit_count": 2408,
+    "refit_count": 3209,
+    "strict_outer_count": 63,
+    "strict_validation_count": 110
+  },
+  "capability_gate": {
+    "selected": {
+      "count": 63,
+      "pas": 0.6590544902007529,
+      "pdp": 0.7374139890612834,
+      "nmse": 0.6224381594756159,
+      "nmse_score": 0.616356311739615,
+      "score": 0.6818586540527376
+    },
+    "baseline": {
+      "count": 63,
+      "pas": 0.5685444920844658,
+      "pdp": 0.689263907105223,
+      "nmse": 0.6259693905628906,
+      "nmse_score": 0.6150177277653501,
+      "score": 0.6261269052289455
+    },
+    "delta": {
+      "pas": 0.09050999811628713,
+      "pdp": 0.04815008195606041,
+      "nmse_score": 0.0013385839742648953,
+      "score": 0.05573174882379206
+    },
+    "minimum_score_delta": 0.01,
+    "passed": true,
+    "truth_usage": "held official paths used only for an undeployable representation ceiling"
+  },
+  "timing_seconds": {
+    "load_and_identity": 7.032242298126221,
+    "screen_labels": 1.4239885807037354,
+    "refit_labels": 1.8420119285583496,
+    "capability": 0.5699574947357178
+  },
+  "seconds": 10.869099855422974
+}

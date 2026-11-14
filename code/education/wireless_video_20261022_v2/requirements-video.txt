@@ -1,0 +1,5 @@
+numpy
+Pillow
+matplotlib
+edge-tts
+# edge-tts: stock Mandarin male narration; installed in an isolated artifact directory.

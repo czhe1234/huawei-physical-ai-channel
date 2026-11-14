@@ -1,0 +1,62 @@
+{
+  "experiment": "Round2-E216-V16-single-seed-information-ablation",
+  "variant": "seed42_both",
+  "stage": "audit",
+  "status": "complete",
+  "configuration": {
+    "name": "seed42_both",
+    "spectral_seeds": 1,
+    "path_seeds": 1,
+    "physical_view": "both",
+    "token_view": "both",
+    "use_presence": true,
+    "rebuild_e40": true,
+    "rebuild_v9": true,
+    "path_models_changed": true
+  },
+  "resolved": {
+    "spectral_root": "artifacts/round2/e216_v16_rt_information_ablation/shared_seed42_spectra",
+    "spectral_seeds": 1,
+    "base_config": "primary_d16_base_v4lambda_1m",
+    "scatter_config": "primary_d10_scatter015_v4lambda_1m",
+    "v9_base_config": "primary_d16_base_v4lambda_1m",
+    "v9_scatter_config": "primary_d10_scatter015_v4lambda_1m",
+    "token_cache": "artifacts/round2/e216_v16_rt_information_ablation/variants/seed42_both/joint_path_token_oracle/n4000_s01_k128_b096_d064_scatter1_sel106",
+    "token_artifact_root": "artifacts/round2/e216_v16_rt_information_ablation/variants/seed42_both/joint_path_token_oracle",
+    "canonical_base_pas": "artifacts/round2/e216_v16_rt_information_ablation/shared_seed42_spectra/primary_d16_base_v4lambda_1m/full/running/train_pas_mean_n1.npy",
+    "canonical_scatter_pas": "artifacts/round2/e216_v16_rt_information_ablation/shared_seed42_spectra/primary_d10_scatter015_v4lambda_1m/full/running/train_pas_mean_n1.npy",
+    "path_presence_denominator": 1
+  },
+  "required": {
+    "token_cache": {
+      "path": "artifacts/round2/e216_v16_rt_information_ablation/variants/seed42_both/joint_path_token_oracle/n4000_s01_k128_b096_d064_scatter1_sel106/mask.npy",
+      "exists": true,
+      "size": 512128
+    },
+    "base_pas": {
+      "path": "artifacts/round2/e216_v16_rt_information_ablation/shared_seed42_spectra/primary_d16_base_v4lambda_1m/full/running/train_pas_mean_n1.npy",
+      "exists": true,
+      "size": 3145728128
+    },
+    "scatter_pas": {
+      "path": "artifacts/round2/e216_v16_rt_information_ablation/shared_seed42_spectra/primary_d10_scatter015_v4lambda_1m/full/running/train_pas_mean_n1.npy",
+      "exists": true,
+      "size": 3145728128
+    },
+    "truth_pas": {
+      "path": "artifacts/round2/sionna_official_calibration/official_train_pas_f16.npy",
+      "exists": true,
+      "size": 1572864128
+    },
+    "truth_pdp": {
+      "path": "artifacts/round2/sionna_official_calibration/official_train_pdp_f16.npy",
+      "exists": true,
+      "size": 1572864128
+    },
+    "fold_ids": {
+      "path": "artifacts/round2/full_path_pdp_link_gate/train_fold_id.npy",
+      "exists": true,
+      "size": 4128
+    }
+  }
+}

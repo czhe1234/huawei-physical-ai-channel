@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "retained_prediction_counts": {
+    "nerf2": 174,
+    "newrf": 347
+  },
+  "query_truth_reads": 0,
+  "scored": false,
+  "fixture_metric_max_deltas": {
+    "pas": 0.0,
+    "pdp": 0.0,
+    "squared_error": 0.0,
+    "truth_energy": 0.0
+  },
+  "source_ast_and_paths": {
+    "code/round2/baseline_freqminibatch_20261112/coordinate.py": "fa9d7e665e7e5611d819fbe36382ef8d9cdd759b3bd8a787a79c77f25e9bf164"
+  },
+  "original_scorer_sha256": "56fc83f5309ab46d42ee8a744ea0ee54867b1d18e2d62ce5e8a412a2314b3c23"
+}

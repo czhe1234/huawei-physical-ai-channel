@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "files": [
+    "code/round2/baseline_repair_20261111/optimizer_copy_guard.py",
+    "code/round2/baseline_repair_20261111/ngrf_dropout_adam_v2.py",
+    "code/round2/baseline_repair_20261111/ngrf_position_adam_v2.py",
+    "code/round2/baseline_repair_20261111/ngrf_dropout_eval_adam_v2.py",
+    "code/round2/baseline_repair_20261111/ngrf_position_eval_adam_v2.py",
+    "code/round2/baseline_repair_20261111/ngrf_verify_adam_v2.py"
+  ],
+  "new_scope_hits": [],
+  "syntax_passed": true,
+  "legacy_global_exit_code": 1,
+  "legacy_global_log": "analysis/results/round2_paper_four_baselines_v1/repair_20261111/ngrf/final_global_path_check.log"
+}

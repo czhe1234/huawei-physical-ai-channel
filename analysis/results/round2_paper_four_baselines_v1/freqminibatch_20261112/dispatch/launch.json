@@ -1,0 +1,26 @@
+{
+  "pid": 2820402,
+  "argv": [
+    "/home/chenzhe/work/hw/code/tools/run_in_env.sh",
+    "python",
+    "-u",
+    "-m",
+    "round2.baseline_freqminibatch_20261112.nerf2",
+    "--config",
+    "analysis/results/round2_paper_four_baselines_v1/freqminibatch_20261112/nerf2/method_config.json",
+    "--gpu-uuid",
+    "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "--folds",
+    "4",
+    "--mode",
+    "run"
+  ],
+  "gpu_uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+  "spec_sha256": "253089d1fc0ce6f4827cf4bf75176f978fbabc915e81f0b4433c634e63375add",
+  "availability": {
+    "ready_newrf_folds": 5,
+    "newrf_pids": [],
+    "free_mib": 64099,
+    "reserved_nerf2_fold": 4
+  }
+}

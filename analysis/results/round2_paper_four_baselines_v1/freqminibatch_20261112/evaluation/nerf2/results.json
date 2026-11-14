@@ -1,0 +1,51 @@
+{
+  "schema": "huawei-canonical500-final-score-v1",
+  "method": "nerf2",
+  "generated_utc": "2026-11-12T03:10:16.806556+00:00",
+  "input_identity": "819ab37e745a05962e0166654510b1e385ea160da8254b61e88300bdcaaa0b1c",
+  "row_ids_sha256": "f115290de0dc5f80cfe304e1f2143696694e66eec10c418e1b086d0b179ed08b",
+  "metrics": {
+    "count": 500,
+    "pas": 0.04577324899532563,
+    "pdp": 0.2526877049985076,
+    "nmse": 1.0000000421062036,
+    "nmse_score": 0.49999998947344926,
+    "score": 0.21938437949222317
+  },
+  "raw_prediction_rescored": true,
+  "raw_truth_identity": {
+    "path": "datasets/round2/Round2_Train_Channel.npy",
+    "bytes": 6291456128,
+    "mtime_ns": 1785834848000000000,
+    "inode": 248020994
+  },
+  "prediction_manifests": {
+    "artifacts/round2/paper_four_baselines_v1/formal_20261111/nerf2/outer0/prediction/manifest.json": "3c475d938e458ac9fce8651f6e6d84cdec378b1f846f4efd695db87c77f925e4",
+    "artifacts/round2/paper_four_baselines_v1/formal_20261111/nerf2/outer1/prediction/manifest.json": "3454ad5e6e50f2c78a04a6bd849c5cf938e0912517d92c8f24885806343f8c15",
+    "artifacts/round2/paper_four_baselines_v1/freqminibatch_20261112/nerf2/outer2/prediction/manifest.json": "a2d912d19930c43514f1e1d5ac6902c5bd311c9021ec3ad98e02055250b14b79",
+    "artifacts/round2/paper_four_baselines_v1/freqminibatch_20261112/nerf2/outer3/prediction/manifest.json": "098fa10cfeee3a178b0a05503d2ac4abe7f79a253c13366061dcdc0d692b947c",
+    "artifacts/round2/paper_four_baselines_v1/freqminibatch_20261112/nerf2/outer4/prediction/manifest.json": "f88fde6f2ae71029df0edc6789b2cc2c22ec8461425ffa0c3ae7693ad41806c8"
+  },
+  "prediction_files": {
+    "artifacts/round2/paper_four_baselines_v1/formal_20261111/nerf2/outer0/prediction/channels.npy": "b09fd9e68fffa5f85a30671b491fbd6b72477af1ed1b2a3df98d833eadbb836e",
+    "artifacts/round2/paper_four_baselines_v1/formal_20261111/nerf2/outer1/prediction/channels.npy": "70a72a7703b003d2365dc4acccffcc9e0e757a77c25dcaed2f6f95a8978bcdb7",
+    "artifacts/round2/paper_four_baselines_v1/freqminibatch_20261112/nerf2/outer2/prediction/channels.npy": "6cef9fb1dbe6cb7dc6661a259c62622d90c0d324365fbcd1c52c54ff366532b6",
+    "artifacts/round2/paper_four_baselines_v1/freqminibatch_20261112/nerf2/outer3/prediction/channels.npy": "09195eb1588e6779670b0e9cbb8f59d7f5c6bf4176da5a58aa293623fbce99b0",
+    "artifacts/round2/paper_four_baselines_v1/freqminibatch_20261112/nerf2/outer4/prediction/channels.npy": "8cf3c1ce1057a00bcaa109d31651bf726e276e5360217efb9cfe3d8bb6860c82"
+  },
+  "point_statistics_sha256": "13c4641442b489dabcfbeaddceb1a93ac69eca8206239292f96a7ee3fabef189",
+  "all_five_outer_folds_complete": true,
+  "all_zero_truth_rows_retained": true,
+  "zero_truth_row_count": 31,
+  "query_truth_use": "final scoring only after all5 predictions frozen",
+  "phase_delay_amplitude_alignment": false,
+  "scoring_device": "CPU",
+  "fft_workers": 1,
+  "nmse_aggregation": "sum squared error / sum truth energy; linear",
+  "formula": "0.4*PAS+0.4*PDP+0.2/(1+global_NMSE)",
+  "original_paper_exact_reproduction": false,
+  "fixed_configuration": true,
+  "seed": 42,
+  "scorer_sha256": "56fc83f5309ab46d42ee8a744ea0ee54867b1d18e2d62ce5e8a412a2314b3c23",
+  "official_metric_sha256": "15aa0cca3b7df17f8c93bd26d22b44f4a49b48d6b13fd8cc7b52325fb74729c3"
+}

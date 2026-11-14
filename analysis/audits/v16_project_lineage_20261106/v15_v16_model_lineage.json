@@ -1,0 +1,250 @@
+[
+  {
+    "v15_archive": "versions/round2/V15_online_0.686591.zip",
+    "v15_member": "model/full_epoch6.pt",
+    "v15_file_sha256": "771a502c2d6ade625ba6d2d75de7e923d4e03b832abeedb43d019c9a72a118a8",
+    "state_sha256": "4fa58f692f0ca4800faea7c59940fe46c1cdba1b044d443c7b2b7594be2ee78e",
+    "v16_match": "artifacts/round2/physical_ai_submission/models/base_field/donor_weight_model.pt",
+    "file_bytes_equal_to_v16": true
+  },
+  {
+    "v15_archive": "versions/round2/V15_online_0.686591.zip",
+    "v15_member": "model/calibrators/calibrator_pas_mean_fold0.pt",
+    "v15_file_sha256": "63596221d6938a031702153b90e48cad133f784a5b75a961432d632a63b4acc9",
+    "state_sha256": "2cc379b91538a8f6d70bbbbabc94849e7b0054aab6628f99de324a42b7ddc68d",
+    "v16_match": "artifacts/round2/physical_ai_submission/models/base_field/spectral/pas_fold_0.pt",
+    "file_bytes_equal_to_v16": false
+  },
+  {
+    "v15_archive": "versions/round2/V15_online_0.686591.zip",
+    "v15_member": "model/calibrators/calibrator_pas_mean_fold1.pt",
+    "v15_file_sha256": "556ac8e83957aa2ef3e81b774adc8c8d37856f0d74f82a51feaaea0f22a51ae8",
+    "state_sha256": "1926ef0acb65bdad73c161c7133362a2170deff11033ba31b882cc05cf90d9e5",
+    "v16_match": "artifacts/round2/physical_ai_submission/models/base_field/spectral/pas_fold_1.pt",
+    "file_bytes_equal_to_v16": false
+  },
+  {
+    "v15_archive": "versions/round2/V15_online_0.686591.zip",
+    "v15_member": "model/calibrators/calibrator_pas_mean_fold2.pt",
+    "v15_file_sha256": "da3ac1b48fdabebcaa599326ee8138ed1dce84e560d13869622f211bfc479485",
+    "state_sha256": "50ca73b6326786e89b097e58a6db332efeb3ad6582e58a99af11a34661bfa157",
+    "v16_match": "artifacts/round2/physical_ai_submission/models/base_field/spectral/pas_fold_2.pt",
+    "file_bytes_equal_to_v16": false
+  },
+  {
+    "v15_archive": "versions/round2/V15_online_0.686591.zip",
+    "v15_member": "model/calibrators/calibrator_pas_mean_fold3.pt",
+    "v15_file_sha256": "13d589a804c479096b26b2903d79c6b170d90a9bcc7fa613218fdacb4d7c9de9",
+    "state_sha256": "b09cb71834839025cdfae0efcd4c4ed43c12c6ae5c45769002a1e6d7b4194db6",
+    "v16_match": "artifacts/round2/physical_ai_submission/models/base_field/spectral/pas_fold_3.pt",
+    "file_bytes_equal_to_v16": false
+  },
+  {
+    "v15_archive": "versions/round2/V15_online_0.686591.zip",
+    "v15_member": "model/calibrators/calibrator_pas_mean_fold4.pt",
+    "v15_file_sha256": "8299462e2dc68ab046011f44bb3d2c18ac3b404d497e39039b3a63863dca6005",
+    "state_sha256": "021feb911c0ccd28251fa1c0c40e8871e0849edd47d57fe69333a6ce4533471d",
+    "v16_match": "artifacts/round2/physical_ai_submission/models/base_field/spectral/pas_fold_4.pt",
+    "file_bytes_equal_to_v16": false
+  },
+  {
+    "v15_archive": "versions/round2/V15_online_0.686591.zip",
+    "v15_member": "model/calibrators/calibrator_pdp_mean_fold0.pt",
+    "v15_file_sha256": "3bb6870b6e2feb7b1a9ae0afd10879f128bb07df610386db86b971a9f43491eb",
+    "state_sha256": "9ccedd55464c5503b46b4a525ace6ed870e4df607836b078c9e474e2a6e78026",
+    "v16_match": "artifacts/round2/physical_ai_submission/models/base_field/spectral/pdp_fold_0.pt",
+    "file_bytes_equal_to_v16": false
+  },
+  {
+    "v15_archive": "versions/round2/V15_online_0.686591.zip",
+    "v15_member": "model/calibrators/calibrator_pdp_mean_fold1.pt",
+    "v15_file_sha256": "55c0f3ca6d34b5cb65ec8712b2a18223e791bd70f50ce87a81bc5d364c0b747d",
+    "state_sha256": "8bbe467a03bb88abbeffdc4decefe58390a0e4b1b893770c73930a79672efc09",
+    "v16_match": "artifacts/round2/physical_ai_submission/models/base_field/spectral/pdp_fold_1.pt",
+    "file_bytes_equal_to_v16": false
+  },
+  {
+    "v15_archive": "versions/round2/V15_online_0.686591.zip",
+    "v15_member": "model/calibrators/calibrator_pdp_mean_fold2.pt",
+    "v15_file_sha256": "01b64030331e8d6aea9e45071f96c2d5b642f0ce6dfbfc8f838cfbf88ff429cd",
+    "state_sha256": "2876cae74075700cbdae4e36eca558e890573d7e6206085c18289f4e6db0a876",
+    "v16_match": "artifacts/round2/physical_ai_submission/models/base_field/spectral/pdp_fold_2.pt",
+    "file_bytes_equal_to_v16": false
+  },
+  {
+    "v15_archive": "versions/round2/V15_online_0.686591.zip",
+    "v15_member": "model/calibrators/calibrator_pdp_mean_fold3.pt",
+    "v15_file_sha256": "cfff9f7b94683120cd3075a5fe62b2f625b68b4328232e911b966265ed96b353",
+    "state_sha256": "e1d47d307a547d16216a6a6dc8420853f4738a6e91f2b96ec5880ac6be0b93d8",
+    "v16_match": "artifacts/round2/physical_ai_submission/models/base_field/spectral/pdp_fold_3.pt",
+    "file_bytes_equal_to_v16": false
+  },
+  {
+    "v15_archive": "versions/round2/V15_online_0.686591.zip",
+    "v15_member": "model/calibrators/calibrator_pdp_mean_fold4.pt",
+    "v15_file_sha256": "978f967946127d941f11bf751fd81db8e7cd7654b01eb5334933b070a15bedd1",
+    "state_sha256": "b245ca24ebe3e9c4e7f00d64d6a6ad39c44762be85b7a3a332b85df5aebdf7e0",
+    "v16_match": "artifacts/round2/physical_ai_submission/models/base_field/spectral/pdp_fold_4.pt",
+    "file_bytes_equal_to_v16": false
+  },
+  {
+    "v15_archive": "versions/round2/V15_online_0.686591.zip",
+    "v15_member": "model/calibrators/joint_calibrator_pas_fold0.pt",
+    "v15_file_sha256": "cc3efc9bd3e7182d7281dabfdf5a04db1ef3a850fe7a8e723ef15aa44132d091",
+    "state_sha256": "69ce32fc58380e026264dec4b96f49392cea50b25a0d873a8a0602782c6537c7",
+    "v16_match": "artifacts/round2/physical_ai_submission/models/base_field/joint/pas_fold_0.pt",
+    "file_bytes_equal_to_v16": false
+  },
+  {
+    "v15_archive": "versions/round2/V15_online_0.686591.zip",
+    "v15_member": "model/calibrators/joint_calibrator_pas_fold1.pt",
+    "v15_file_sha256": "7d6a86d68398608844072db1c8985dc5b8dec093ee8ff83dcbbfea779242cf63",
+    "state_sha256": "96ffcb596468b24b95e65b4ffdc425afbe8934090ea41567ecb3f5a74a463efb",
+    "v16_match": "artifacts/round2/physical_ai_submission/models/base_field/joint/pas_fold_1.pt",
+    "file_bytes_equal_to_v16": false
+  },
+  {
+    "v15_archive": "versions/round2/V15_online_0.686591.zip",
+    "v15_member": "model/calibrators/joint_calibrator_pas_fold2.pt",
+    "v15_file_sha256": "f60d1f7d057031a721f4ae24e286cef698c2a9ddf30173daa1cd1f44ca1cddc0",
+    "state_sha256": "df8081587e5eef866c2aa127c4c67e9070bd1eaa739345674722c26c29cfe080",
+    "v16_match": "artifacts/round2/physical_ai_submission/models/base_field/joint/pas_fold_2.pt",
+    "file_bytes_equal_to_v16": false
+  },
+  {
+    "v15_archive": "versions/round2/V15_online_0.686591.zip",
+    "v15_member": "model/calibrators/joint_calibrator_pas_fold3.pt",
+    "v15_file_sha256": "95617091ab528ad03ee0855e422b41711135e25e44ee1223ed5919e99b14a024",
+    "state_sha256": "5a125f402befd6be68fb01632f071682ab8fcd3b3cb66290118308fcd9258040",
+    "v16_match": "artifacts/round2/physical_ai_submission/models/base_field/joint/pas_fold_3.pt",
+    "file_bytes_equal_to_v16": false
+  },
+  {
+    "v15_archive": "versions/round2/V15_online_0.686591.zip",
+    "v15_member": "model/calibrators/joint_calibrator_pas_fold4.pt",
+    "v15_file_sha256": "2b3d616c008bbed0a43f18e5ff8780ebc0e73ff096e150c8c997e90460e81a58",
+    "state_sha256": "193b28eb9aaaf4bca833e571ca5d929c35f363d3fa7793c620c2f6e0fa18b9ca",
+    "v16_match": "artifacts/round2/physical_ai_submission/models/base_field/joint/pas_fold_4.pt",
+    "file_bytes_equal_to_v16": false
+  },
+  {
+    "v15_archive": "versions/round2/V15_online_0.686591.zip",
+    "v15_member": "model/calibrators/joint_calibrator_pdp_fold0.pt",
+    "v15_file_sha256": "c99a446b5c20d3214c6f18a93dc558aa9edd699797c80a7095a54662831642db",
+    "state_sha256": "976a96c76fa1928fa4507bf61a9f91922ac2f6259db58aa1806136c6356b58be",
+    "v16_match": "artifacts/round2/physical_ai_submission/models/base_field/joint/pdp_fold_0.pt",
+    "file_bytes_equal_to_v16": false
+  },
+  {
+    "v15_archive": "versions/round2/V15_online_0.686591.zip",
+    "v15_member": "model/calibrators/joint_calibrator_pdp_fold1.pt",
+    "v15_file_sha256": "bfd70fccf940fe050fd1cfc56cbfd8f44b530224d5310937e764a058981bf53b",
+    "state_sha256": "ba60dac4c521a09afcbddea815b42fccef1b1b23733a37a55d3f8b687b6a4ef5",
+    "v16_match": "artifacts/round2/physical_ai_submission/models/base_field/joint/pdp_fold_1.pt",
+    "file_bytes_equal_to_v16": false
+  },
+  {
+    "v15_archive": "versions/round2/V15_online_0.686591.zip",
+    "v15_member": "model/calibrators/joint_calibrator_pdp_fold2.pt",
+    "v15_file_sha256": "c599a21bd447c16dca5361f654b4ad58de74885b63b543dd5626bf3ae889a959",
+    "state_sha256": "a2f9bf6c2de3b8e9fb792df0c9f82200af4885b784cdc57c9b9370a898e6344b",
+    "v16_match": "artifacts/round2/physical_ai_submission/models/base_field/joint/pdp_fold_2.pt",
+    "file_bytes_equal_to_v16": false
+  },
+  {
+    "v15_archive": "versions/round2/V15_online_0.686591.zip",
+    "v15_member": "model/calibrators/joint_calibrator_pdp_fold3.pt",
+    "v15_file_sha256": "59f90e5f0839c867f90f6dd95f07073be8a135701506851d15172c94d0b1bd9b",
+    "state_sha256": "9d52e8a6a78d554f64eb6152f8aede2895bd6735453be280431876ced47416cf",
+    "v16_match": "artifacts/round2/physical_ai_submission/models/base_field/joint/pdp_fold_3.pt",
+    "file_bytes_equal_to_v16": false
+  },
+  {
+    "v15_archive": "versions/round2/V15_online_0.686591.zip",
+    "v15_member": "model/calibrators/joint_calibrator_pdp_fold4.pt",
+    "v15_file_sha256": "2eb0e7ad56df48f293d102f5f3a6d50815169b39cfdfdc14cd732ff9fd9f056b",
+    "state_sha256": "3750b920a7be6f63cac891ada856fcb54d57fb6207babe360c590fb86c4ac633",
+    "v16_match": "artifacts/round2/physical_ai_submission/models/base_field/joint/pdp_fold_4.pt",
+    "file_bytes_equal_to_v16": false
+  },
+  {
+    "v15_archive": "versions/round2/V15_online_0.686591.zip",
+    "v15_member": "model/path_link_gate/fold0_full_link_gate.pt",
+    "v15_file_sha256": "6b6909d3d03945ee0be46198ccb56a0e8b3c8db024adc1a538e190b983990b77",
+    "state_sha256": "754712eb2cd0eec1969a3c7a18b2b4aeaafb1483944f7be720232a01d3eec5bd",
+    "v16_match": "artifacts/round2/physical_ai_submission/models/base_field/path_link/fold_0.pt",
+    "file_bytes_equal_to_v16": true
+  },
+  {
+    "v15_archive": "versions/round2/V15_online_0.686591.zip",
+    "v15_member": "model/path_link_gate/fold1_full_link_gate.pt",
+    "v15_file_sha256": "f679a544e4e324c6e2a26a83287b40d99eba08bbc78ae3fc915f69ce48fb9fca",
+    "state_sha256": "ca0f86c6fa188ce47e62f942b4543ad121898365462ac1963878061f589984b3",
+    "v16_match": "artifacts/round2/physical_ai_submission/models/base_field/path_link/fold_1.pt",
+    "file_bytes_equal_to_v16": true
+  },
+  {
+    "v15_archive": "versions/round2/V15_online_0.686591.zip",
+    "v15_member": "model/path_link_gate/fold2_full_link_gate.pt",
+    "v15_file_sha256": "fb8702238e00dec518d836406bdb34ae3f5ceafc65c219475e8d1804af63ddf6",
+    "state_sha256": "0cc78a546fd3b8f52a1da2f119070340c1f04b06f7216970b7be2448c621b5b7",
+    "v16_match": "artifacts/round2/physical_ai_submission/models/base_field/path_link/fold_2.pt",
+    "file_bytes_equal_to_v16": true
+  },
+  {
+    "v15_archive": "versions/round2/V15_online_0.686591.zip",
+    "v15_member": "model/path_link_gate/fold3_full_link_gate.pt",
+    "v15_file_sha256": "2806262bf4104d52cc6f165476d9470057876f8e2b93a51805c55253613ef677",
+    "state_sha256": "b39d7f5242055ddb067d4d50f60023261eeca60002f945f3cbd3765975448598",
+    "v16_match": "artifacts/round2/physical_ai_submission/models/base_field/path_link/fold_3.pt",
+    "file_bytes_equal_to_v16": true
+  },
+  {
+    "v15_archive": "versions/round2/V15_online_0.686591.zip",
+    "v15_member": "model/path_link_gate/fold4_full_link_gate.pt",
+    "v15_file_sha256": "2dc4a06f5c7ed2d81fd43de41d30b1de54d010e883cdbcc23071240480b95560",
+    "state_sha256": "53500d27a7979dd1785ceaa530d4cacdcdcd0876299aad500bfac2c6dd60c7a7",
+    "v16_match": "artifacts/round2/physical_ai_submission/models/base_field/path_link/fold_4.pt",
+    "file_bytes_equal_to_v16": true
+  },
+  {
+    "v15_archive": "versions/round2/V15_online_0.686591.zip",
+    "v15_member": "model/official_path_calibrator/outer0_refit_model.pt",
+    "v15_file_sha256": "da9af5fb565e0a7a15d7e98fc83f47996c522325492a614d79da322dfc213d91",
+    "state_sha256": "6d78a2604c3cb3f6110005e004aecd3c47df54576e38d0ad310d5f9caf62dee0",
+    "v16_match": "artifacts/round2/physical_ai_submission/models/path_calibrator/fold_0.pt",
+    "file_bytes_equal_to_v16": true
+  },
+  {
+    "v15_archive": "versions/round2/V15_online_0.686591.zip",
+    "v15_member": "model/official_path_calibrator/outer1_refit_model.pt",
+    "v15_file_sha256": "64401600ee3b28daed1ce16ffb55ef85b682ba58ffa58103239d00b53b659b97",
+    "state_sha256": "0cf85be75ef66e34857b9acb5752a65c00b878c17404f349bf912f8777ab290d",
+    "v16_match": "artifacts/round2/physical_ai_submission/models/path_calibrator/fold_1.pt",
+    "file_bytes_equal_to_v16": true
+  },
+  {
+    "v15_archive": "versions/round2/V15_online_0.686591.zip",
+    "v15_member": "model/official_path_calibrator/outer2_refit_model.pt",
+    "v15_file_sha256": "ee002588272ae0d4570f0b46426ff4d327f64edb5556b573a9105738ac3fddb2",
+    "state_sha256": "839fd988df116048805e1165b761e45a36ccaa992fcb26da9b85ac90842000b8",
+    "v16_match": "artifacts/round2/physical_ai_submission/models/path_calibrator/fold_2.pt",
+    "file_bytes_equal_to_v16": true
+  },
+  {
+    "v15_archive": "versions/round2/V15_online_0.686591.zip",
+    "v15_member": "model/official_path_calibrator/outer3_refit_model.pt",
+    "v15_file_sha256": "9b980bf193474cd2a298c26fa835471b72be00a6198c27012eb5f04325c87ed2",
+    "state_sha256": "2abbf700099f9773809b929444f59a4c4235b17292ab72b936b341f6c533d40e",
+    "v16_match": "artifacts/round2/physical_ai_submission/models/path_calibrator/fold_3.pt",
+    "file_bytes_equal_to_v16": true
+  },
+  {
+    "v15_archive": "versions/round2/V15_online_0.686591.zip",
+    "v15_member": "model/official_path_calibrator/outer4_refit_model.pt",
+    "v15_file_sha256": "1efb3e4c66fd6301a1b5a2234c8a386354766e838e96c92ed737702285747382",
+    "state_sha256": "ed906f81b515b169fc2827e5318ca126e24ed384040cbc1507b91290e24b5da6",
+    "v16_match": "artifacts/round2/physical_ai_submission/models/path_calibrator/fold_4.pt",
+    "file_bytes_equal_to_v16": true
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "schema": "newrf-formal-query-only-full-H-v1-draft",
+  "seed": 42,
+  "batch_positions": 4,
+  "bs_block": 8,
+  "n_samples": 128,
+  "n_importance": 128,
+  "frequency_chunk": 8,
+  "direction_cache_entries": 512,
+  "checkpoint_every": 50,
+  "health_every": 1000,
+  "validation_every": 1000,
+  "stage_min_updates": {
+    "coarse": 6000,
+    "warm": 6000,
+    "native": 4000
+  },
+  "stage_max_updates": {
+    "coarse": 8000,
+    "warm": 8000,
+    "native": 8000
+  },
+  "learning_rates": {
+    "coarse": 0.0005,
+    "warm": 5e-05,
+    "native": 5e-05
+  },
+  "native_patience": 4,
+  "minimum_validation_improvement": 0.001,
+  "training_power_floor_FIT_RMS_squared": 1e-06,
+  "max_role_wall_seconds": 86400,
+  "smoke_updates": 20,
+  "smoke_batch_options": [
+    2,
+    4
+  ],
+  "initialization": "fresh seed42; all8fields coarse->copy fine->warm density-backward detach->native release",
+  "budget_status": "DRAFT; throughput smoke only; root freezes full training budget afterwards",
+  "selection": "fixed original role-validation16panel/8BS per field/12frequencies; no PAS/PDP selection",
+  "phase_gate": "original numerical nonzero point gates; zero leakage reported; cap failure recorded without blocking subsequent phases"
+}

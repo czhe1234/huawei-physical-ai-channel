@@ -1,0 +1,51 @@
+{
+  "schema": "huawei-canonical500-final-score-v1",
+  "method": "nerf2",
+  "generated_utc": "2026-11-10T07:35:16.458170+00:00",
+  "input_identity": "819ab37e745a05962e0166654510b1e385ea160da8254b61e88300bdcaaa0b1c",
+  "row_ids_sha256": "f115290de0dc5f80cfe304e1f2143696694e66eec10c418e1b086d0b179ed08b",
+  "metrics": {
+    "count": 500,
+    "pas": 0.04295328829063716,
+    "pdp": 0.46884501160405334,
+    "nmse": 1.0000232017321908,
+    "nmse_score": 0.49999419963424163,
+    "score": 0.3047181598847245
+  },
+  "raw_prediction_rescored": true,
+  "raw_truth_identity": {
+    "path": "datasets/round2/Round2_Train_Channel.npy",
+    "bytes": 6291456128,
+    "mtime_ns": 1785834848000000000,
+    "inode": 248020994
+  },
+  "prediction_manifests": {
+    "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer0/prediction/manifest.json": "bc9d3f6e519365bd304b3b0d649e2c8b7187b2de7615820910b8ccff0f105e1a",
+    "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer1/prediction/manifest.json": "ba03012d40da7a8778461759c6d7a3fea99c43cd937a42aea894e505068db83d",
+    "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer2/prediction/manifest.json": "195ceb3bd6024f6ac5ebc0104817609d8ac8b8c8d6e9a021ebe336c32864dbab",
+    "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer3/prediction/manifest.json": "c120c7ae62090ff9c4c899949809b19ae4cc04b993d5acfe14319cc505dba306",
+    "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer4/prediction/manifest.json": "2cb321e622976c4ffa865716af5f43f3c6f3ab1b98a2b661df7f4073f450ba4f"
+  },
+  "prediction_files": {
+    "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer0/prediction/channels.npy": "c5c8e5afd3d082890a1af841c787d3446adfd29964cd9148a8c7b93bd68f9114",
+    "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer1/prediction/channels.npy": "69dd7b9d9a5898010eb0b38d26128e7bd536c88eb0339891d93ffb31b9c6089a",
+    "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer2/prediction/channels.npy": "a7fc9d3f5c33dc585cba0860689125e57129b0f11494ba54a5b0afc808c6e0a3",
+    "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer3/prediction/channels.npy": "ead646001dc83b140b659059313718e2b0ae1566a2a8032d088c38ed6bbc3810",
+    "artifacts/round2/paper_four_baselines_v1/nerf2/v3/outer4/prediction/channels.npy": "46e3d39f4a250d270f7284a41b49dc1061d3bc5c39d18d1dd84e314c3eca055b"
+  },
+  "point_statistics_sha256": "5c26d7975437db4e42c7c8f6bbb34feae7a52bcbe231c57bded6d41c9455a74e",
+  "all_five_outer_folds_complete": true,
+  "all_zero_truth_rows_retained": true,
+  "zero_truth_row_count": 31,
+  "query_truth_use": "final scoring only after all5 predictions frozen",
+  "phase_delay_amplitude_alignment": false,
+  "scoring_device": "CPU",
+  "fft_workers": 1,
+  "nmse_aggregation": "sum squared error / sum truth energy; linear",
+  "formula": "0.4*PAS+0.4*PDP+0.2/(1+global_NMSE)",
+  "original_paper_exact_reproduction": false,
+  "fixed_configuration": true,
+  "seed": 42,
+  "scorer_sha256": "56fc83f5309ab46d42ee8a744ea0ee54867b1d18e2d62ce5e8a412a2314b3c23",
+  "official_metric_sha256": "15aa0cca3b7df17f8c93bd26d22b44f4a49b48d6b13fd8cc7b52325fb74729c3"
+}

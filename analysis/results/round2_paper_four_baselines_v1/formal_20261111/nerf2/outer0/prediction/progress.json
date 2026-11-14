@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-11T07:13:44Z",
+  "event": "outer_prediction_only",
+  "completed": 100,
+  "total": 103,
+  "seconds": 72.14267936802935,
+  "query_truth_read": false
+}

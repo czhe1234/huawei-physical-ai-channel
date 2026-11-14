@@ -1,0 +1,55 @@
+{
+  "schema": "huawei-formal-three-baselines-contract-v1",
+  "user_authorized_formal_training": true,
+  "input_identity": "819ab37e745a05962e0166654510b1e385ea160da8254b61e88300bdcaaa0b1c",
+  "query_ids_sha256": "f115290de0dc5f80cfe304e1f2143696694e66eec10c418e1b086d0b179ed08b",
+  "outer_counts": [
+    103,
+    71,
+    63,
+    110,
+    153
+  ],
+  "methods": [
+    "nerf2",
+    "newrf",
+    "ngrf"
+  ],
+  "each_prediction_shape": [
+    500,
+    256,
+    4,
+    192
+  ],
+  "dtype": "complex64",
+  "roles": "existing screen_fit / validation / refit / outer; no split changes",
+  "method_configs": {
+    "nerf2": "analysis/results/round2_paper_four_baselines_v1/formal_20261111/nerf2/method_config.json",
+    "newrf": "analysis/results/round2_paper_four_baselines_v1/formal_20261111/newrf/method_config.json",
+    "ngrf": "analysis/results/round2_paper_four_baselines_v1/formal_20261111/ngrf/method_config.json"
+  },
+  "config_freeze": "each method config accepted and hashed after finite correctness/throughput smoke; recorded before its formal run",
+  "model_selection": "screen validation only; never outer truth; fresh refit selected budget",
+  "no_mixed_old_new_fields": true,
+  "all_required_fields_trained": true,
+  "all_allowed_FIT_rows_used_for_optimization": true,
+  "zero_channels_retained": true,
+  "query_CSI_input": false,
+  "truth_phase_delay_amplitude_alignment": false,
+  "V16_retrained_or_rescored": false,
+  "WRFGS_retrained_or_rescored": false,
+  "score_only_after_all15_prediction_manifests_sealed": true,
+  "official_metrics_sha256": "15aa0cca3b7df17f8c93bd26d22b44f4a49b48d6b13fd8cc7b52325fb74729c3",
+  "original_final_scorer_sha256": "56fc83f5309ab46d42ee8a744ea0ee54867b1d18e2d62ce5e8a412a2314b3c23",
+  "score_formula": "0.4*PAS+0.4*PDP+0.2/(1+global NMSE)",
+  "allowed_GPU_UUIDs": [
+    "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160"
+  ],
+  "environment": "existing base through run_in_env; no dependencies changed",
+  "source_paper_exact_reproduction": false,
+  "equal_compute_claim": false,
+  "completion_not_performance_threshold": true,
+  "no_extra_seed_or_hyperparameter_branch_after_outer_scores": true
+}

@@ -1,0 +1,106 @@
+{
+  "nerf2": {
+    "0": {
+      "screen": {
+        "path": "analysis/results/round2_paper_four_baselines_v1/formal_20261111/nerf2/outer0/screen/result.json",
+        "sha256": "9c35124e5845cff912c22ca657166feff942b36c331cad458d2aff8ecbec7734"
+      },
+      "refit": {
+        "path": "analysis/results/round2_paper_four_baselines_v1/formal_20261111/nerf2/outer0/refit/result.json",
+        "sha256": "6b9cf3557283c4cca7148086e6dc284b96562d7eb386b0596fba03f6b9acda56"
+      }
+    },
+    "1": {
+      "screen": {
+        "path": "analysis/results/round2_paper_four_baselines_v1/formal_20261111/nerf2/outer1/screen/result.json",
+        "sha256": "082742a8e758b517ea7b9205703d45ba1957de16bf35e7d75f7bc270d47dd037"
+      },
+      "refit": {
+        "path": "analysis/results/round2_paper_four_baselines_v1/formal_20261111/nerf2/outer1/refit/result.json",
+        "sha256": "d5edcfeb37e094d9c7b166fb76b855e7022cb3aa7f0a475a79c9354a4c4670ba"
+      }
+    },
+    "2": {
+      "screen": {
+        "path": "analysis/results/round2_paper_four_baselines_v1/freqminibatch_20261112/nerf2/outer2/screen/result.json",
+        "sha256": "e831ba2f362d4f31d4b56f6f6bea3434c4d0842edbd4f080053413a6a47b4367"
+      },
+      "refit": {
+        "path": "analysis/results/round2_paper_four_baselines_v1/freqminibatch_20261112/nerf2/outer2/refit/result.json",
+        "sha256": "389ee5c907bd02c2432bc92da5cae13c4a73c508299b22d66a5e922abb02c7f6"
+      }
+    },
+    "3": {
+      "screen": {
+        "path": "analysis/results/round2_paper_four_baselines_v1/freqminibatch_20261112/nerf2/outer3/screen/result.json",
+        "sha256": "a32786a215bb7806efe30a4525385b41fa9a43ee793cd71c18a1b8451b6613cc"
+      },
+      "refit": {
+        "path": "analysis/results/round2_paper_four_baselines_v1/freqminibatch_20261112/nerf2/outer3/refit/result.json",
+        "sha256": "070d4a3f11cc00f1c744b06bb3830f50154634a7391ca14300aa1d17cb233932"
+      }
+    },
+    "4": {
+      "screen": {
+        "path": "analysis/results/round2_paper_four_baselines_v1/freqminibatch_20261112/nerf2/outer4/screen/result.json",
+        "sha256": "2fc67c42520ce11d9bb134a1da03d5ae8e91f52b1e8f7ce11998777d64364006"
+      },
+      "refit": {
+        "path": "analysis/results/round2_paper_four_baselines_v1/freqminibatch_20261112/nerf2/outer4/refit/result.json",
+        "sha256": "9ea83f707a730fe4fca7d167557057411c64a29fe88b65dccef7295f9768854d"
+      }
+    }
+  },
+  "newrf": {
+    "0": {
+      "screen": {
+        "path": "analysis/results/round2_paper_four_baselines_v1/formal_20261111/newrf/outer0/screen/result.json",
+        "sha256": "c6cb088d60695eca5b6fe1ed3bc5ba62a894d763d96891764c7bfc1c78456d5d"
+      },
+      "refit": {
+        "path": "analysis/results/round2_paper_four_baselines_v1/formal_20261111/newrf/outer0/refit/result.json",
+        "sha256": "49f147b0e4ac5885a76014a08cec0fc0563878fd100dc704251f46b27d06c9c2"
+      }
+    },
+    "1": {
+      "screen": {
+        "path": "analysis/results/round2_paper_four_baselines_v1/formal_20261111/newrf/outer1/screen/result.json",
+        "sha256": "6796c8c3b3ebc9fffe8e6c2f821c202c555ffce0d4dc46dc71ac79f92024eee6"
+      },
+      "refit": {
+        "path": "analysis/results/round2_paper_four_baselines_v1/formal_20261111/newrf/outer1/refit/result.json",
+        "sha256": "790f832ae22a58fdc71373dca4dedccfad29bc83a82d78f358c1e0e99cb98349"
+      }
+    },
+    "2": {
+      "screen": {
+        "path": "analysis/results/round2_paper_four_baselines_v1/formal_20261111/newrf/outer2/screen/result.json",
+        "sha256": "065d471007ceff9af3073c476547d49bfbd5d8aefad0849156d88ce07b494d8f"
+      },
+      "refit": {
+        "path": "analysis/results/round2_paper_four_baselines_v1/formal_20261111/newrf/outer2/refit/result.json",
+        "sha256": "7cf9e01b81ad23b089e955c7477a7ff6c2373d2dc80fc32a2dbf420596a79d0c"
+      }
+    },
+    "3": {
+      "screen": {
+        "path": "analysis/results/round2_paper_four_baselines_v1/formal_20261111/newrf/outer3/screen/result.json",
+        "sha256": "993c8a795eac72e6f27b6c70aa724adaa93a68a5303e6b8fa60508f10d782dd4"
+      },
+      "refit": {
+        "path": "analysis/results/round2_paper_four_baselines_v1/formal_20261111/newrf/outer3/refit/result.json",
+        "sha256": "415a583aa0e94bc7397e74ece682d05a27030b11b81af6772210eb00bdb29323"
+      }
+    },
+    "4": {
+      "screen": {
+        "path": "analysis/results/round2_paper_four_baselines_v1/freqminibatch_20261112/newrf/outer4/screen/result.json",
+        "sha256": "20a1a38deba484eacce8eea13dd21eac0de7610c6b48448202f2a7271cb22431"
+      },
+      "refit": {
+        "path": "analysis/results/round2_paper_four_baselines_v1/freqminibatch_20261112/newrf/outer4/refit/result.json",
+        "sha256": "0265d7106a9b38384f8a37c649936b619834fdafe9f47769813147115237529c"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "status": "running",
+  "outer": 3,
+  "role": "refit",
+  "step": 1670,
+  "loss_mean": 0.5412190407514572,
+  "gradient_mean": 1.0843087324074336,
+  "validation": null,
+  "best_step": 0,
+  "best_score": null,
+  "elapsed_seconds": 119.9463609829545,
+  "exposure_min": 3,
+  "exposure_max": 4
+}

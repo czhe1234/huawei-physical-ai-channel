@@ -1,0 +1,19 @@
+{
+  "source_identity": {
+    "CPU_fixture": "same_frozen_source"
+  },
+  "checkpoint_sha256": "CPU_checkpoint",
+  "path": "analysis/results/round2_paper_four_baselines_v1/formal_20261111/nerf2/portable_4/publication_cpu_check_833a986b9212/artifact/outer4/prediction/channels.npy",
+  "sha256": "519130e4dd26234cfd0b87fcfc9c86607fdaf5c8d295f9da2d500f6a900207c0",
+  "row_ids": [
+    7
+  ],
+  "metadata": {},
+  "shape": [
+    1,
+    256,
+    4,
+    192
+  ],
+  "dtype": "complex64"
+}

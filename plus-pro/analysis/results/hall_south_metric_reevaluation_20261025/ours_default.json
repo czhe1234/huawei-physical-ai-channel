@@ -1,0 +1,62 @@
+{
+  "name": "ours_default",
+  "label": "新版含几何：原默认检查点",
+  "family": "structured",
+  "status": "ok",
+  "scores": {
+    "pas_cosine": 0.7306545462293375,
+    "relative_pdp_cosine": 0.564503418289454,
+    "receive_energy_TV": 0.2283050971885652,
+    "receive_delay_joint_TV": 0.5868964332065059,
+    "by_panel": {
+      "pas_cosine": [
+        0.7620415462175872,
+        0.6992675462410877
+      ],
+      "relative_pdp_cosine": [
+        0.5975301476202021,
+        0.531476688958706
+      ],
+      "receive_energy_TV": [
+        0.21200475900714624,
+        0.24460543536998416
+      ],
+      "receive_delay_joint_TV": [
+        0.5614558197129026,
+        0.6123370467001091
+      ]
+    },
+    "reference_valid_pas_cells": 98304,
+    "reference_valid_pdp_links": 3072,
+    "reference_valid_energy_panels": 96,
+    "reference_valid_joint_panels": 96,
+    "invalid_reference_anchors": 0,
+    "failed_prediction_pdp_links": 0,
+    "failed_prediction_energy_panels": 0,
+    "prediction_oracle_alignment": false,
+    "combined_score": null
+  },
+  "auxiliary": {
+    "reference_panels_total": 96,
+    "reference_panels_valid": 96,
+    "zero_prediction_panels": 0,
+    "undefined_reference_panels": 0,
+    "mean_direction_cosine": 0.8662635000861397,
+    "mean_beam_loss_db": 1.6779796230967146,
+    "infinite_mean_beam_loss": false,
+    "p90_beam_loss_db": 5.190340047100465,
+    "beam_loss_over3_fraction": 0.23958333333333334,
+    "reference_mask_depends_on_prediction": false
+  },
+  "prediction_file": "artifacts/measured/hall_sw_structured_development_v2/models/ours_default/best_channel.npz",
+  "prediction_sha256": "e97fa654a9cdb64f823d2078bc53bcda126dd39677981b054bb2d6fd999013d4",
+  "explicit_row_ids": true,
+  "row_provenance": "explicit NPZ IDs",
+  "old_metric_parity": {
+    "direction_cosine_difference": 6.831519694383559e-08,
+    "beam_loss_difference": 3.458810859946482e-08
+  },
+  "best_epoch": 25,
+  "checkpoint_selection": "unchanged old metric selection; no new epoch search",
+  "regenerated": false
+}

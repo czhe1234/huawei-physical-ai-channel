@@ -1,0 +1,508 @@
+{
+  "experiment": "Round2-E46-complex-carrier-exact-projection",
+  "status": "analysis_only",
+  "official_inputs_only": true,
+  "sionna_used": false,
+  "primary_hypothesis": "A complex ridge stack that improves carrier coherence can preserve that gain after the frozen, already validated V4 PAS/PDP exact projection.",
+  "stack_config": {
+    "name": "site_port8_ridge1_sum0",
+    "scope": "site",
+    "ports": "port8",
+    "ridge": 1.0,
+    "sum_penalty": 0.0
+  },
+  "stack": {
+    "path": "artifacts/round2/complex_carrier_stacking/oof_stacked_complex_channel.npy",
+    "shape": [
+      500,
+      256,
+      4,
+      192
+    ],
+    "dtype": "complex64",
+    "decisions": [
+      {
+        "fold": 0,
+        "fit_count": 397,
+        "held_count": 103,
+        "weight_norm": {
+          "0": 0.6696978211402893,
+          "1": 0.3988542854785919
+        }
+      },
+      {
+        "fold": 1,
+        "fit_count": 429,
+        "held_count": 71,
+        "weight_norm": {
+          "0": 0.7262449264526367,
+          "1": 0.467588871717453
+        }
+      },
+      {
+        "fold": 2,
+        "fit_count": 437,
+        "held_count": 63,
+        "weight_norm": {
+          "0": 0.7324549555778503,
+          "1": 0.394546777009964
+        }
+      },
+      {
+        "fold": 3,
+        "fit_count": 390,
+        "held_count": 110,
+        "weight_norm": {
+          "0": 0.7012268900871277,
+          "1": 0.4629308581352234
+        }
+      },
+      {
+        "fold": 4,
+        "fit_count": 347,
+        "held_count": 153,
+        "weight_norm": {
+          "0": 0.7621501088142395,
+          "1": 0.3971345126628876
+        }
+      }
+    ]
+  },
+  "raw_score": {
+    "nested": {
+      "overall": {
+        "count": 500,
+        "pas": 0.48734831686285085,
+        "pdp": 0.6824972491402473,
+        "nmse": 0.9233342247630788,
+        "nmse_score": 0.5199304349316524,
+        "score": 0.5719243133875698
+      },
+      "folds": [
+        {
+          "fold": 0,
+          "count": 103,
+          "pas": 0.6055806388109171,
+          "pdp": 0.8047952799592183,
+          "nmse": 0.925315996592541,
+          "nmse_score": 0.519395258632774,
+          "score": 0.668029419234609
+        },
+        {
+          "fold": 1,
+          "count": 71,
+          "pas": 0.38435822172933276,
+          "pdp": 0.6749598396888029,
+          "nmse": 0.9985474084458915,
+          "nmse_score": 0.5003634118330067,
+          "score": 0.5237999069338557
+        },
+        {
+          "fold": 2,
+          "count": 63,
+          "pas": 0.39495888708821586,
+          "pdp": 0.5901429568285631,
+          "nmse": 0.5598571235552325,
+          "nmse_score": 0.6410843563164272,
+          "score": 0.522257608829997
+        },
+        {
+          "fold": 3,
+          "count": 110,
+          "pas": 0.3032944039029589,
+          "pdp": 0.49588135336841194,
+          "nmse": 1.0024391205435725,
+          "nmse_score": 0.4993909626218973,
+          "score": 0.4195484954329278
+        },
+        {
+          "fold": 4,
+          "count": 153,
+          "pas": 0.6259158468969624,
+          "pdp": 0.7758601762463687,
+          "nmse": 0.6669846996795934,
+          "nmse_score": 0.5998855299584976,
+          "score": 0.680687515249032
+        }
+      ],
+      "scale_decisions": [
+        {
+          "fold": 0,
+          "site": 0,
+          "scale": 1.1718356612905632,
+          "fit_count": 195,
+          "query_count": 55
+        },
+        {
+          "fold": 0,
+          "site": 1,
+          "scale": 0.525685242399655,
+          "fit_count": 202,
+          "query_count": 48
+        },
+        {
+          "fold": 1,
+          "site": 0,
+          "scale": 1.1956396765398716,
+          "fit_count": 229,
+          "query_count": 21
+        },
+        {
+          "fold": 1,
+          "site": 1,
+          "scale": 0.3531296955277039,
+          "fit_count": 200,
+          "query_count": 50
+        },
+        {
+          "fold": 2,
+          "site": 0,
+          "scale": 1.1562161212525794,
+          "fit_count": 209,
+          "query_count": 41
+        },
+        {
+          "fold": 2,
+          "site": 1,
+          "scale": 0.5580955267824915,
+          "fit_count": 228,
+          "query_count": 22
+        },
+        {
+          "fold": 3,
+          "site": 0,
+          "scale": 1.1468807048377554,
+          "fit_count": 207,
+          "query_count": 43
+        },
+        {
+          "fold": 3,
+          "site": 1,
+          "scale": 0.7713690987528421,
+          "fit_count": 183,
+          "query_count": 67
+        },
+        {
+          "fold": 4,
+          "site": 0,
+          "scale": 0.9743316689368924,
+          "fit_count": 160,
+          "query_count": 90
+        },
+        {
+          "fold": 4,
+          "site": 1,
+          "scale": 0.5623928248619579,
+          "fit_count": 187,
+          "query_count": 63
+        }
+      ]
+    },
+    "full_oof": {
+      "overall": {
+        "count": 500,
+        "pas": 0.48734831686285085,
+        "pdp": 0.6824972491402473,
+        "nmse": 0.9186372622719239,
+        "nmse_score": 0.5212032621611163,
+        "score": 0.5721788788334626
+      },
+      "folds": [
+        {
+          "fold": 0,
+          "count": 103,
+          "pas": 0.6055806388109171,
+          "pdp": 0.8047952799592183,
+          "nmse": 0.9239931579325139,
+          "nmse_score": 0.5197523680773276,
+          "score": 0.6681008411235196
+        },
+        {
+          "fold": 1,
+          "count": 71,
+          "pas": 0.38435822172933276,
+          "pdp": 0.6749598396888029,
+          "nmse": 0.9936027994160156,
+          "nmse_score": 0.501604432082925,
+          "score": 0.5240481109838393
+        },
+        {
+          "fold": 2,
+          "count": 63,
+          "pas": 0.39495888708821586,
+          "pdp": 0.5901429568285631,
+          "nmse": 0.5595412942011846,
+          "nmse_score": 0.6412141850416418,
+          "score": 0.52228357457504
+        },
+        {
+          "fold": 3,
+          "count": 110,
+          "pas": 0.3032944039029589,
+          "pdp": 0.49588135336841194,
+          "nmse": 1.0006084827158146,
+          "nmse_score": 0.4998479255883718,
+          "score": 0.41963988802622276
+        },
+        {
+          "fold": 4,
+          "count": 153,
+          "pas": 0.6259158468969624,
+          "pdp": 0.7758601762463687,
+          "nmse": 0.6486193990252725,
+          "nmse_score": 0.6065681385232023,
+          "score": 0.682024036961973
+        }
+      ],
+      "scale_decisions": [
+        {
+          "fold": null,
+          "site": 0,
+          "scale": 1.1429185382400817,
+          "fit_count": 250,
+          "query_count": 250
+        },
+        {
+          "fold": null,
+          "site": 1,
+          "scale": 0.5580346463987955,
+          "fit_count": 250,
+          "query_count": 250
+        }
+      ]
+    }
+  },
+  "projection": {
+    "path": "artifacts/round2/complex_carrier_stacking/oof_stacked_v4_projection.npy",
+    "shape": [
+      500,
+      256,
+      4,
+      192
+    ],
+    "dtype": "complex64"
+  },
+  "projected_score": {
+    "nested": {
+      "overall": {
+        "count": 500,
+        "pas": 0.598326560997055,
+        "pdp": 0.7557210225315002,
+        "nmse": 0.9475266384730862,
+        "nmse_score": 0.5134717955817165,
+        "score": 0.6443133925277654
+      },
+      "folds": [
+        {
+          "fold": 0,
+          "count": 103,
+          "pas": 0.7431744303659595,
+          "pdp": 0.8782853769682457,
+          "nmse": 0.9528603078844818,
+          "nmse_score": 0.5120693968547562,
+          "score": 0.7509978023046334
+        },
+        {
+          "fold": 1,
+          "count": 71,
+          "pas": 0.48503691510295577,
+          "pdp": 0.7447578925676603,
+          "nmse": 1.0002300249615041,
+          "nmse_score": 0.49994250037279875,
+          "score": 0.5919064231428062
+        },
+        {
+          "fold": 2,
+          "count": 63,
+          "pas": 0.5216514318626313,
+          "pdp": 0.6719112945143096,
+          "nmse": 0.6782549987142041,
+          "nmse_score": 0.5958570066921597,
+          "score": 0.5965964918892084
+        },
+        {
+          "fold": 3,
+          "count": 110,
+          "pas": 0.4336088275966618,
+          "pdp": 0.5922004019736712,
+          "nmse": 1.0015120160765347,
+          "nmse_score": 0.49962228153905897,
+          "score": 0.510248148135945
+        },
+        {
+          "fold": 4,
+          "count": 153,
+          "pas": 0.7033835421931057,
+          "pdp": 0.8303715770863502,
+          "nmse": 0.7762616050407588,
+          "nmse_score": 0.5629801360127095,
+          "score": 0.7260980749143243
+        }
+      ],
+      "scale_decisions": [
+        {
+          "fold": 0,
+          "site": 0,
+          "scale": 0.9687320506217487,
+          "fit_count": 195,
+          "query_count": 55
+        },
+        {
+          "fold": 0,
+          "site": 1,
+          "scale": 0.4477030413920487,
+          "fit_count": 202,
+          "query_count": 48
+        },
+        {
+          "fold": 1,
+          "site": 0,
+          "scale": 0.987953883301502,
+          "fit_count": 229,
+          "query_count": 21
+        },
+        {
+          "fold": 1,
+          "site": 1,
+          "scale": 0.35868205462765357,
+          "fit_count": 200,
+          "query_count": 50
+        },
+        {
+          "fold": 2,
+          "site": 0,
+          "scale": 0.9330254709496896,
+          "fit_count": 209,
+          "query_count": 41
+        },
+        {
+          "fold": 2,
+          "site": 1,
+          "scale": 0.49250263220621865,
+          "fit_count": 228,
+          "query_count": 22
+        },
+        {
+          "fold": 3,
+          "site": 0,
+          "scale": 0.9431406115449679,
+          "fit_count": 207,
+          "query_count": 43
+        },
+        {
+          "fold": 3,
+          "site": 1,
+          "scale": 0.6692517330915767,
+          "fit_count": 183,
+          "query_count": 67
+        },
+        {
+          "fold": 4,
+          "site": 0,
+          "scale": 0.8071399184941752,
+          "fit_count": 160,
+          "query_count": 90
+        },
+        {
+          "fold": 4,
+          "site": 1,
+          "scale": 0.49662999280134085,
+          "fit_count": 187,
+          "query_count": 63
+        }
+      ]
+    },
+    "full_oof": {
+      "overall": {
+        "count": 500,
+        "pas": 0.598326560997055,
+        "pdp": 0.7557210225315002,
+        "nmse": 0.9445745131351084,
+        "nmse_score": 0.5142513147453354,
+        "score": 0.6444692963604892
+      },
+      "folds": [
+        {
+          "fold": 0,
+          "count": 103,
+          "pas": 0.7431744303659595,
+          "pdp": 0.8782853769682457,
+          "nmse": 0.9512790442393616,
+          "nmse_score": 0.5124843640135619,
+          "score": 0.7510807957363945
+        },
+        {
+          "fold": 1,
+          "count": 71,
+          "pas": 0.48503691510295577,
+          "pdp": 0.7447578925676603,
+          "nmse": 0.997538046757746,
+          "nmse_score": 0.5006162468960854,
+          "score": 0.5920411724474636
+        },
+        {
+          "fold": 2,
+          "count": 63,
+          "pas": 0.5216514318626313,
+          "pdp": 0.6719112945143096,
+          "nmse": 0.6781708676583962,
+          "nmse_score": 0.5958868785485062,
+          "score": 0.5966024662604776
+        },
+        {
+          "fold": 3,
+          "count": 110,
+          "pas": 0.4336088275966618,
+          "pdp": 0.5922004019736712,
+          "nmse": 1.0002548267902371,
+          "nmse_score": 0.49993630141849327,
+          "score": 0.5103109521118319
+        },
+        {
+          "fold": 4,
+          "count": 153,
+          "pas": 0.7033835421931057,
+          "pdp": 0.8303715770863502,
+          "nmse": 0.764873600865485,
+          "nmse_score": 0.5666128155067904,
+          "score": 0.7268246108131405
+        }
+      ],
+      "scale_decisions": [
+        {
+          "fold": null,
+          "site": 0,
+          "scale": 0.9398883264868243,
+          "fit_count": 250,
+          "query_count": 250
+        },
+        {
+          "fold": null,
+          "site": 1,
+          "scale": 0.49245731003619586,
+          "fit_count": 250,
+          "query_count": 250
+        }
+      ]
+    }
+  },
+  "v4_reference": {
+    "nested": {
+      "count": 500,
+      "pas": 0.597641634561141,
+      "pdp": 0.7555351532775364,
+      "nmse": 0.9518465208922827,
+      "nmse_score": 0.512335365150971,
+      "score": 0.6437377881656652
+    },
+    "full_oof": {
+      "count": 500,
+      "pas": 0.5999806972817299,
+      "pdp": 0.7557643526795922,
+      "nmse": 0.9432800066721969,
+      "nmse_score": 0.5145938807410813,
+      "score": 0.6452167961327451
+    }
+  },
+  "seconds": 41.16302704811096
+}

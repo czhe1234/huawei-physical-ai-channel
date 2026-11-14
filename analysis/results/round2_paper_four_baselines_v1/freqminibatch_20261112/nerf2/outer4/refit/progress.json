@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-12T03:01:49Z",
+  "event": "stage_complete",
+  "fold": 4,
+  "role": "refit",
+  "actual_updates": 31080,
+  "seconds": 5768.760125739966,
+  "checkpoint": "artifacts/round2/paper_four_baselines_v1/freqminibatch_20261112/nerf2/outer4/refit/final.pt"
+}

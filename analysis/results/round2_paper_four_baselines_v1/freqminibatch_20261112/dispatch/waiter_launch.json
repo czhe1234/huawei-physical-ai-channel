@@ -1,0 +1,15 @@
+{
+  "pid": 2519904,
+  "argv": [
+    "/home/chenzhe/work/hw/code/tools/run_in_env.sh",
+    "python",
+    "-u",
+    "-m",
+    "round2.baseline_freqminibatch_20261112.dispatch",
+    "--spec",
+    "/home/chenzhe/work/hw/analysis/results/round2_paper_four_baselines_v1/freqminibatch_20261112/dispatch/spec.json"
+  ],
+  "CUDA_VISIBLE_DEVICES": "",
+  "spec_sha256": "253089d1fc0ce6f4827cf4bf75176f978fbabc915e81f0b4433c634e63375add",
+  "source_sha256": "d31ae71aeeebebfc16efa72ad823c18ef22f27c1538603b1ac55bd16d8cbc167"
+}

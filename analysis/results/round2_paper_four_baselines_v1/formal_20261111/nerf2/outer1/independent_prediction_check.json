@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "fold": 1,
+  "shape": [
+    71,
+    256,
+    4,
+    192
+  ],
+  "dtype": "complex64",
+  "finite": true,
+  "channel_sha256": "70a72a7703b003d2365dc4acccffcc9e0e757a77c25dcaed2f6f95a8978bcdb7",
+  "checkpoint_sha256": "8ed7d17c79543b966ab32a48f233048c473d5db63e20f97efe8de3530a918797",
+  "screen_actual_updates": 46560,
+  "screen_selected_step": 46560,
+  "refit_actual_updates": 47400,
+  "refit_per_field_updates": 5925,
+  "actual_Adam_step_histogram": {
+    "5925": 208,
+    "47400": 1
+  },
+  "all8fields_complete_FIT_x128BS_coverage": true,
+  "all8fields_native192_heads": true,
+  "full_source_config_hashes_verified": true,
+  "no_outer_truth_read": true,
+  "scorer_not_called": true,
+  "CPU_only": true
+}

@@ -1,0 +1,33 @@
+{
+  "scope": "execution scheduling only",
+  "canonical_folds": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "portable_folds": [
+    4
+  ],
+  "canonical_GPU_UUID": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+  "portable_GPU_UUID": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+  "canonical_resume_step": 37418,
+  "canonical_launch_record": "analysis/results/round2_paper_four_baselines_v1/formal_20261111/nerf2/parallel_dispatch/canonical_launch_0_3.json",
+  "superseded_old_canonical_PID_chain": [
+    30472,
+    30476,
+    30515
+  ],
+  "launch_conditions": [
+    "newrf all5 manifests complete",
+    "no active newrf CUDA job",
+    "H1001 free memory at least52GiB",
+    "no canonical run queue containsfold4"
+  ],
+  "portable_source_sha256": "833a986b9212f496fd656c19a4cee2dc7c3e34a013dd8d0e518f255b8485ba40",
+  "portable_runtime_sha256": "a25b85c20725dc6454ba502f97ba905ddb58de1f7ea7c3f2de48397c1a15cbd9",
+  "method_config_sha256": "c298cb71156e7aa78eec1f374ea8bb36fba47d5ef8a7a54b76dbeee5cf258a35",
+  "original_queue_0_4_restart_instruction_superseded": true,
+  "coordination_boundary": "all authorized workers controlled by this dispatcher; uncoordinated manual old launches are outside this schedule",
+  "mathematical_model_data_and_budget_identical": true
+}

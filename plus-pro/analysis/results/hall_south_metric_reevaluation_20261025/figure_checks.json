@@ -1,0 +1,24 @@
+{
+  "visual_inspection_passed": true,
+  "PNG_pixels": [
+    2881,
+    1763
+  ],
+  "PNG_dpi": [
+    399.9992,
+    399.9992
+  ],
+  "PDF_page_points": [
+    518.74,
+    317.48
+  ],
+  "physical_mm": [
+    183,
+    112
+  ],
+  "embedded_Arial": true,
+  "SVG_text_preserved": true,
+  "source": "evaluation.json and comparison.csv",
+  "no_invented_uncertainty": true,
+  "formal_confirmatory_figure": false
+}

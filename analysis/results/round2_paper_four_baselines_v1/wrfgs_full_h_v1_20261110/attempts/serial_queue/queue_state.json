@@ -1,0 +1,22 @@
+{
+  "status": "running",
+  "pending": [
+    3,
+    4
+  ],
+  "active": {
+    "1": {
+      "pid": 1719833,
+      "uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+      "adopted": false
+    }
+  },
+  "completed": [
+    0,
+    2
+  ],
+  "poll_seconds": 30,
+  "maximum_parallel_folds": 1,
+  "minimum_free_mib_before_launch": 49152,
+  "launcher_sha256": "4a24d79c27a47a343892637c1b2fc50e3b4d9d08a18ee65f1a10829883173484"
+}

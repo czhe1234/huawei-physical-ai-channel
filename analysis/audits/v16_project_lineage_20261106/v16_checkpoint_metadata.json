@@ -1,0 +1,1829 @@
+[
+  {
+    "archive": "versions/round2/V16_source_online_0.686754.zip",
+    "member": "artifacts/round2/physical_ai_submission/models/base_field/donor_weight_model.pt",
+    "sha256": "771a502c2d6ade625ba6d2d75de7e923d4e03b832abeedb43d019c9a72a118a8",
+    "state_sha256": "4fa58f692f0ca4800faea7c59940fe46c1cdba1b044d443c7b2b7594be2ee78e",
+    "checkpoint_keys": [
+      "state_dict",
+      "config",
+      "feature_mean",
+      "feature_std",
+      "epoch",
+      "seed"
+    ],
+    "metadata": {
+      "config": {
+        "neighbors": 64,
+        "candidate_neighbors": 320,
+        "guard_radii_m": [
+          2.0,
+          4.0,
+          6.0,
+          8.0,
+          10.0,
+          12.0,
+          16.0
+        ],
+        "smoothing": 10.0,
+        "hidden": 128,
+        "spectral_hidden": 64,
+        "correction_l1_bound": 0.8,
+        "correction_regularization": 0.003,
+        "epochs": 6,
+        "batch_size": 128,
+        "learning_rate": 0.0008,
+        "weight_decay": 2e-05,
+        "seed": 20260805
+      },
+      "feature_mean": {
+        "kind": "numpy",
+        "shape": [
+          34
+        ],
+        "dtype": "float32",
+        "sha256": "a766c80b7648ab91a60408c6094301ee12eb0ffe0c03123d5447ab019a8fe18e"
+      },
+      "feature_std": {
+        "kind": "numpy",
+        "shape": [
+          34
+        ],
+        "dtype": "float32",
+        "sha256": "a8fe67ddac8a48f97762316b625180fb30fd08900bf8d571e0a17547096f51b5"
+      },
+      "epoch": 6,
+      "seed": 20350805
+    }
+  },
+  {
+    "archive": "versions/round2/V16_source_online_0.686754.zip",
+    "member": "artifacts/round2/physical_ai_submission/models/base_field/joint/pas_fold_4.pt",
+    "sha256": "a35f5b6f9f63f141ea2aed9a984b3ca4cb4191e2a1c3060b1cabec4e2f97eb24",
+    "state_sha256": "193b28eb9aaaf4bca833e571ca5d929c35f363d3fa7793c620c2f6e0fa18b9ca",
+    "checkpoint_keys": [
+      "version",
+      "domain",
+      "mode",
+      "fold",
+      "epoch",
+      "config",
+      "input_channels",
+      "state_dict",
+      "context_mean",
+      "context_std"
+    ],
+    "metadata": {
+      "version": "physical-ai-point-joint-endpoints",
+      "domain": "pas",
+      "mode": "joint",
+      "fold": 4,
+      "epoch": 12,
+      "config": {
+        "epochs": 14,
+        "steps_per_epoch": 240,
+        "pas_batch_size": 512,
+        "pdp_batch_size": 1024,
+        "validation_batch_size": 2048,
+        "hidden": 96,
+        "context_channels": 32,
+        "blocks": 6,
+        "residual_scale": 5.0,
+        "learning_rate": 0.001,
+        "weight_decay": 5e-05,
+        "hellinger_weight": 0.08,
+        "residual_weight": 0.0002,
+        "seed": 2026080609
+      },
+      "input_channels": 56,
+      "context_mean": {
+        "kind": "torch",
+        "shape": [
+          60
+        ],
+        "dtype": "torch.float32"
+      },
+      "context_std": {
+        "kind": "torch",
+        "shape": [
+          60
+        ],
+        "dtype": "torch.float32"
+      }
+    }
+  },
+  {
+    "archive": "versions/round2/V16_source_online_0.686754.zip",
+    "member": "artifacts/round2/physical_ai_submission/models/base_field/joint/pdp_fold_3.pt",
+    "sha256": "f3836edb51d2ae282dc9851bd0d453dac8dc7bcdd864ba0780dc1e88f6cb6f02",
+    "state_sha256": "9d52e8a6a78d554f64eb6152f8aede2895bd6735453be280431876ced47416cf",
+    "checkpoint_keys": [
+      "version",
+      "domain",
+      "mode",
+      "fold",
+      "epoch",
+      "config",
+      "input_channels",
+      "state_dict",
+      "context_mean",
+      "context_std"
+    ],
+    "metadata": {
+      "version": "physical-ai-point-joint-endpoints",
+      "domain": "pdp",
+      "mode": "joint",
+      "fold": 3,
+      "epoch": 11,
+      "config": {
+        "epochs": 14,
+        "steps_per_epoch": 240,
+        "pas_batch_size": 512,
+        "pdp_batch_size": 1024,
+        "validation_batch_size": 2048,
+        "hidden": 96,
+        "context_channels": 32,
+        "blocks": 6,
+        "residual_scale": 5.0,
+        "learning_rate": 0.001,
+        "weight_decay": 5e-05,
+        "hellinger_weight": 0.08,
+        "residual_weight": 0.0002,
+        "seed": 2026080609
+      },
+      "input_channels": 53,
+      "context_mean": {
+        "kind": "torch",
+        "shape": [
+          60
+        ],
+        "dtype": "torch.float32"
+      },
+      "context_std": {
+        "kind": "torch",
+        "shape": [
+          60
+        ],
+        "dtype": "torch.float32"
+      }
+    }
+  },
+  {
+    "archive": "versions/round2/V16_source_online_0.686754.zip",
+    "member": "artifacts/round2/physical_ai_submission/models/base_field/joint/pas_fold_2.pt",
+    "sha256": "90279d6573753a06b9f979be2516caa1c8458918e32d7da3cfb41a3faaa9ec90",
+    "state_sha256": "df8081587e5eef866c2aa127c4c67e9070bd1eaa739345674722c26c29cfe080",
+    "checkpoint_keys": [
+      "version",
+      "domain",
+      "mode",
+      "fold",
+      "epoch",
+      "config",
+      "input_channels",
+      "state_dict",
+      "context_mean",
+      "context_std"
+    ],
+    "metadata": {
+      "version": "physical-ai-point-joint-endpoints",
+      "domain": "pas",
+      "mode": "joint",
+      "fold": 2,
+      "epoch": 9,
+      "config": {
+        "epochs": 14,
+        "steps_per_epoch": 240,
+        "pas_batch_size": 512,
+        "pdp_batch_size": 1024,
+        "validation_batch_size": 2048,
+        "hidden": 96,
+        "context_channels": 32,
+        "blocks": 6,
+        "residual_scale": 5.0,
+        "learning_rate": 0.001,
+        "weight_decay": 5e-05,
+        "hellinger_weight": 0.08,
+        "residual_weight": 0.0002,
+        "seed": 2026080609
+      },
+      "input_channels": 56,
+      "context_mean": {
+        "kind": "torch",
+        "shape": [
+          60
+        ],
+        "dtype": "torch.float32"
+      },
+      "context_std": {
+        "kind": "torch",
+        "shape": [
+          60
+        ],
+        "dtype": "torch.float32"
+      }
+    }
+  },
+  {
+    "archive": "versions/round2/V16_source_online_0.686754.zip",
+    "member": "artifacts/round2/physical_ai_submission/models/base_field/joint/pas_fold_3.pt",
+    "sha256": "d692b261afaf0d614065eadf0301fd7494dcb7c740ca1b819b634a330488fdaa",
+    "state_sha256": "5a125f402befd6be68fb01632f071682ab8fcd3b3cb66290118308fcd9258040",
+    "checkpoint_keys": [
+      "version",
+      "domain",
+      "mode",
+      "fold",
+      "epoch",
+      "config",
+      "input_channels",
+      "state_dict",
+      "context_mean",
+      "context_std"
+    ],
+    "metadata": {
+      "version": "physical-ai-point-joint-endpoints",
+      "domain": "pas",
+      "mode": "joint",
+      "fold": 3,
+      "epoch": 1,
+      "config": {
+        "epochs": 14,
+        "steps_per_epoch": 240,
+        "pas_batch_size": 512,
+        "pdp_batch_size": 1024,
+        "validation_batch_size": 2048,
+        "hidden": 96,
+        "context_channels": 32,
+        "blocks": 6,
+        "residual_scale": 5.0,
+        "learning_rate": 0.001,
+        "weight_decay": 5e-05,
+        "hellinger_weight": 0.08,
+        "residual_weight": 0.0002,
+        "seed": 2026080609
+      },
+      "input_channels": 56,
+      "context_mean": {
+        "kind": "torch",
+        "shape": [
+          60
+        ],
+        "dtype": "torch.float32"
+      },
+      "context_std": {
+        "kind": "torch",
+        "shape": [
+          60
+        ],
+        "dtype": "torch.float32"
+      }
+    }
+  },
+  {
+    "archive": "versions/round2/V16_source_online_0.686754.zip",
+    "member": "artifacts/round2/physical_ai_submission/models/base_field/joint/pas_fold_0.pt",
+    "sha256": "8d4bdbd8f69d59f10e0dcc5990211092d657b54998cd2170965937a53ff9d0d2",
+    "state_sha256": "69ce32fc58380e026264dec4b96f49392cea50b25a0d873a8a0602782c6537c7",
+    "checkpoint_keys": [
+      "version",
+      "domain",
+      "mode",
+      "fold",
+      "epoch",
+      "config",
+      "input_channels",
+      "state_dict",
+      "context_mean",
+      "context_std"
+    ],
+    "metadata": {
+      "version": "physical-ai-point-joint-endpoints",
+      "domain": "pas",
+      "mode": "joint",
+      "fold": 0,
+      "epoch": 10,
+      "config": {
+        "epochs": 14,
+        "steps_per_epoch": 240,
+        "pas_batch_size": 512,
+        "pdp_batch_size": 1024,
+        "validation_batch_size": 2048,
+        "hidden": 96,
+        "context_channels": 32,
+        "blocks": 6,
+        "residual_scale": 5.0,
+        "learning_rate": 0.001,
+        "weight_decay": 5e-05,
+        "hellinger_weight": 0.08,
+        "residual_weight": 0.0002,
+        "seed": 2026080609
+      },
+      "input_channels": 56,
+      "context_mean": {
+        "kind": "torch",
+        "shape": [
+          60
+        ],
+        "dtype": "torch.float32"
+      },
+      "context_std": {
+        "kind": "torch",
+        "shape": [
+          60
+        ],
+        "dtype": "torch.float32"
+      }
+    }
+  },
+  {
+    "archive": "versions/round2/V16_source_online_0.686754.zip",
+    "member": "artifacts/round2/physical_ai_submission/models/base_field/joint/pdp_fold_1.pt",
+    "sha256": "88c23bcabfbf42ba1ef9dc3abeab993b6c6de5edadd2c0b3e8c755f7e6054186",
+    "state_sha256": "ba60dac4c521a09afcbddea815b42fccef1b1b23733a37a55d3f8b687b6a4ef5",
+    "checkpoint_keys": [
+      "version",
+      "domain",
+      "mode",
+      "fold",
+      "epoch",
+      "config",
+      "input_channels",
+      "state_dict",
+      "context_mean",
+      "context_std"
+    ],
+    "metadata": {
+      "version": "physical-ai-point-joint-endpoints",
+      "domain": "pdp",
+      "mode": "joint",
+      "fold": 1,
+      "epoch": 3,
+      "config": {
+        "epochs": 14,
+        "steps_per_epoch": 240,
+        "pas_batch_size": 512,
+        "pdp_batch_size": 1024,
+        "validation_batch_size": 2048,
+        "hidden": 96,
+        "context_channels": 32,
+        "blocks": 6,
+        "residual_scale": 5.0,
+        "learning_rate": 0.001,
+        "weight_decay": 5e-05,
+        "hellinger_weight": 0.08,
+        "residual_weight": 0.0002,
+        "seed": 2026080609
+      },
+      "input_channels": 53,
+      "context_mean": {
+        "kind": "torch",
+        "shape": [
+          60
+        ],
+        "dtype": "torch.float32"
+      },
+      "context_std": {
+        "kind": "torch",
+        "shape": [
+          60
+        ],
+        "dtype": "torch.float32"
+      }
+    }
+  },
+  {
+    "archive": "versions/round2/V16_source_online_0.686754.zip",
+    "member": "artifacts/round2/physical_ai_submission/models/base_field/joint/pas_fold_1.pt",
+    "sha256": "f03381ef696160bc336e3f70112f59f81721864d0b4579c2c5c3743bf78865e5",
+    "state_sha256": "96ffcb596468b24b95e65b4ffdc425afbe8934090ea41567ecb3f5a74a463efb",
+    "checkpoint_keys": [
+      "version",
+      "domain",
+      "mode",
+      "fold",
+      "epoch",
+      "config",
+      "input_channels",
+      "state_dict",
+      "context_mean",
+      "context_std"
+    ],
+    "metadata": {
+      "version": "physical-ai-point-joint-endpoints",
+      "domain": "pas",
+      "mode": "joint",
+      "fold": 1,
+      "epoch": 2,
+      "config": {
+        "epochs": 14,
+        "steps_per_epoch": 240,
+        "pas_batch_size": 512,
+        "pdp_batch_size": 1024,
+        "validation_batch_size": 2048,
+        "hidden": 96,
+        "context_channels": 32,
+        "blocks": 6,
+        "residual_scale": 5.0,
+        "learning_rate": 0.001,
+        "weight_decay": 5e-05,
+        "hellinger_weight": 0.08,
+        "residual_weight": 0.0002,
+        "seed": 2026080609
+      },
+      "input_channels": 56,
+      "context_mean": {
+        "kind": "torch",
+        "shape": [
+          60
+        ],
+        "dtype": "torch.float32"
+      },
+      "context_std": {
+        "kind": "torch",
+        "shape": [
+          60
+        ],
+        "dtype": "torch.float32"
+      }
+    }
+  },
+  {
+    "archive": "versions/round2/V16_source_online_0.686754.zip",
+    "member": "artifacts/round2/physical_ai_submission/models/base_field/joint/pdp_fold_4.pt",
+    "sha256": "dbcfc43833350224484fd6ada6a2828a1d892f763accc69565986b118367338a",
+    "state_sha256": "3750b920a7be6f63cac891ada856fcb54d57fb6207babe360c590fb86c4ac633",
+    "checkpoint_keys": [
+      "version",
+      "domain",
+      "mode",
+      "fold",
+      "epoch",
+      "config",
+      "input_channels",
+      "state_dict",
+      "context_mean",
+      "context_std"
+    ],
+    "metadata": {
+      "version": "physical-ai-point-joint-endpoints",
+      "domain": "pdp",
+      "mode": "joint",
+      "fold": 4,
+      "epoch": 11,
+      "config": {
+        "epochs": 14,
+        "steps_per_epoch": 240,
+        "pas_batch_size": 512,
+        "pdp_batch_size": 1024,
+        "validation_batch_size": 2048,
+        "hidden": 96,
+        "context_channels": 32,
+        "blocks": 6,
+        "residual_scale": 5.0,
+        "learning_rate": 0.001,
+        "weight_decay": 5e-05,
+        "hellinger_weight": 0.08,
+        "residual_weight": 0.0002,
+        "seed": 2026080609
+      },
+      "input_channels": 53,
+      "context_mean": {
+        "kind": "torch",
+        "shape": [
+          60
+        ],
+        "dtype": "torch.float32"
+      },
+      "context_std": {
+        "kind": "torch",
+        "shape": [
+          60
+        ],
+        "dtype": "torch.float32"
+      }
+    }
+  },
+  {
+    "archive": "versions/round2/V16_source_online_0.686754.zip",
+    "member": "artifacts/round2/physical_ai_submission/models/base_field/joint/pdp_fold_0.pt",
+    "sha256": "410758fd23a48b9b2f2b42c83d6cdf7730e5c1044218830096abfc62b9b28404",
+    "state_sha256": "976a96c76fa1928fa4507bf61a9f91922ac2f6259db58aa1806136c6356b58be",
+    "checkpoint_keys": [
+      "version",
+      "domain",
+      "mode",
+      "fold",
+      "epoch",
+      "config",
+      "input_channels",
+      "state_dict",
+      "context_mean",
+      "context_std"
+    ],
+    "metadata": {
+      "version": "physical-ai-point-joint-endpoints",
+      "domain": "pdp",
+      "mode": "joint",
+      "fold": 0,
+      "epoch": 2,
+      "config": {
+        "epochs": 14,
+        "steps_per_epoch": 240,
+        "pas_batch_size": 512,
+        "pdp_batch_size": 1024,
+        "validation_batch_size": 2048,
+        "hidden": 96,
+        "context_channels": 32,
+        "blocks": 6,
+        "residual_scale": 5.0,
+        "learning_rate": 0.001,
+        "weight_decay": 5e-05,
+        "hellinger_weight": 0.08,
+        "residual_weight": 0.0002,
+        "seed": 2026080609
+      },
+      "input_channels": 53,
+      "context_mean": {
+        "kind": "torch",
+        "shape": [
+          60
+        ],
+        "dtype": "torch.float32"
+      },
+      "context_std": {
+        "kind": "torch",
+        "shape": [
+          60
+        ],
+        "dtype": "torch.float32"
+      }
+    }
+  },
+  {
+    "archive": "versions/round2/V16_source_online_0.686754.zip",
+    "member": "artifacts/round2/physical_ai_submission/models/base_field/joint/pdp_fold_2.pt",
+    "sha256": "18e9fccfa546f033e91ced092fafe4c8e6d0bd80b712e41e469e0c7ddf55679e",
+    "state_sha256": "a2f9bf6c2de3b8e9fb792df0c9f82200af4885b784cdc57c9b9370a898e6344b",
+    "checkpoint_keys": [
+      "version",
+      "domain",
+      "mode",
+      "fold",
+      "epoch",
+      "config",
+      "input_channels",
+      "state_dict",
+      "context_mean",
+      "context_std"
+    ],
+    "metadata": {
+      "version": "physical-ai-point-joint-endpoints",
+      "domain": "pdp",
+      "mode": "joint",
+      "fold": 2,
+      "epoch": 6,
+      "config": {
+        "epochs": 14,
+        "steps_per_epoch": 240,
+        "pas_batch_size": 512,
+        "pdp_batch_size": 1024,
+        "validation_batch_size": 2048,
+        "hidden": 96,
+        "context_channels": 32,
+        "blocks": 6,
+        "residual_scale": 5.0,
+        "learning_rate": 0.001,
+        "weight_decay": 5e-05,
+        "hellinger_weight": 0.08,
+        "residual_weight": 0.0002,
+        "seed": 2026080609
+      },
+      "input_channels": 53,
+      "context_mean": {
+        "kind": "torch",
+        "shape": [
+          60
+        ],
+        "dtype": "torch.float32"
+      },
+      "context_std": {
+        "kind": "torch",
+        "shape": [
+          60
+        ],
+        "dtype": "torch.float32"
+      }
+    }
+  },
+  {
+    "archive": "versions/round2/V16_source_online_0.686754.zip",
+    "member": "artifacts/round2/physical_ai_submission/models/base_field/path_link/fold_1.pt",
+    "sha256": "f679a544e4e324c6e2a26a83287b40d99eba08bbc78ae3fc915f69ce48fb9fca",
+    "state_sha256": "ca0f86c6fa188ce47e62f942b4543ad121898365462ac1963878061f589984b3",
+    "checkpoint_keys": [
+      "state_dict",
+      "context_mean",
+      "context_std",
+      "input_dim",
+      "config"
+    ],
+    "metadata": {
+      "context_mean": {
+        "kind": "numpy",
+        "shape": [
+          143
+        ],
+        "dtype": "float32",
+        "sha256": "d74cf4c0ac53aeb7a4596e6c69e3e1893068ce50332763276f1c4d8c1c9651d6"
+      },
+      "context_std": {
+        "kind": "numpy",
+        "shape": [
+          143
+        ],
+        "dtype": "float32",
+        "sha256": "94b9342f89f6bf3c0c7d003476180bc3ec49ce6b301f9620b40dad6eb1ff3aa8"
+      },
+      "input_dim": 254,
+      "config": {
+        "phase": "train",
+        "device": "cuda:0",
+        "micro_clusters": 160,
+        "neighbors": 64,
+        "smoothing": 1e-05,
+        "build_batch_size": 2,
+        "batch_size": 8,
+        "epochs": 36,
+        "learning_rate": 0.0008,
+        "weight_decay": 0.0001,
+        "gate_penalty": 0.0002,
+        "hidden": 320,
+        "dropout": 0.1,
+        "random_state": 2026080666,
+        "force": false
+      }
+    }
+  },
+  {
+    "archive": "versions/round2/V16_source_online_0.686754.zip",
+    "member": "artifacts/round2/physical_ai_submission/models/base_field/path_link/fold_2.pt",
+    "sha256": "fb8702238e00dec518d836406bdb34ae3f5ceafc65c219475e8d1804af63ddf6",
+    "state_sha256": "0cc78a546fd3b8f52a1da2f119070340c1f04b06f7216970b7be2448c621b5b7",
+    "checkpoint_keys": [
+      "state_dict",
+      "context_mean",
+      "context_std",
+      "input_dim",
+      "config"
+    ],
+    "metadata": {
+      "context_mean": {
+        "kind": "numpy",
+        "shape": [
+          143
+        ],
+        "dtype": "float32",
+        "sha256": "8c82e9bf10a94ce8fb2acb8ee2cfac6e40e364d0ccb36cfd372610cded6e3ce2"
+      },
+      "context_std": {
+        "kind": "numpy",
+        "shape": [
+          143
+        ],
+        "dtype": "float32",
+        "sha256": "f8fa77d2937afd2420627399a014ebc507815f1df73d3960f49c8375e07cdbfa"
+      },
+      "input_dim": 254,
+      "config": {
+        "phase": "train",
+        "device": "cuda:0",
+        "micro_clusters": 160,
+        "neighbors": 64,
+        "smoothing": 1e-05,
+        "build_batch_size": 2,
+        "batch_size": 8,
+        "epochs": 36,
+        "learning_rate": 0.0008,
+        "weight_decay": 0.0001,
+        "gate_penalty": 0.0002,
+        "hidden": 320,
+        "dropout": 0.1,
+        "random_state": 2026080666,
+        "force": false
+      }
+    }
+  },
+  {
+    "archive": "versions/round2/V16_source_online_0.686754.zip",
+    "member": "artifacts/round2/physical_ai_submission/models/base_field/path_link/fold_0.pt",
+    "sha256": "6b6909d3d03945ee0be46198ccb56a0e8b3c8db024adc1a538e190b983990b77",
+    "state_sha256": "754712eb2cd0eec1969a3c7a18b2b4aeaafb1483944f7be720232a01d3eec5bd",
+    "checkpoint_keys": [
+      "state_dict",
+      "context_mean",
+      "context_std",
+      "input_dim",
+      "config"
+    ],
+    "metadata": {
+      "context_mean": {
+        "kind": "numpy",
+        "shape": [
+          143
+        ],
+        "dtype": "float32",
+        "sha256": "89e2776199962ed4c0215b4bec51d0f40ad94bf28f5c869be6d2c2cd0d785ad7"
+      },
+      "context_std": {
+        "kind": "numpy",
+        "shape": [
+          143
+        ],
+        "dtype": "float32",
+        "sha256": "a688aed47fc989932c8b49b6ccc5f71326d6ee66ec9531f9600c23e4e223ee60"
+      },
+      "input_dim": 254,
+      "config": {
+        "phase": "train",
+        "device": "cuda:0",
+        "micro_clusters": 160,
+        "neighbors": 64,
+        "smoothing": 1e-05,
+        "build_batch_size": 2,
+        "batch_size": 8,
+        "epochs": 36,
+        "learning_rate": 0.0008,
+        "weight_decay": 0.0001,
+        "gate_penalty": 0.0002,
+        "hidden": 320,
+        "dropout": 0.1,
+        "random_state": 2026080666,
+        "force": false
+      }
+    }
+  },
+  {
+    "archive": "versions/round2/V16_source_online_0.686754.zip",
+    "member": "artifacts/round2/physical_ai_submission/models/base_field/path_link/fold_4.pt",
+    "sha256": "2dc4a06f5c7ed2d81fd43de41d30b1de54d010e883cdbcc23071240480b95560",
+    "state_sha256": "53500d27a7979dd1785ceaa530d4cacdcdcd0876299aad500bfac2c6dd60c7a7",
+    "checkpoint_keys": [
+      "state_dict",
+      "context_mean",
+      "context_std",
+      "input_dim",
+      "config"
+    ],
+    "metadata": {
+      "context_mean": {
+        "kind": "numpy",
+        "shape": [
+          143
+        ],
+        "dtype": "float32",
+        "sha256": "3c7b601d444761378a168aaddf55bb5987a279c372a6ef6d6992658b26df2d2d"
+      },
+      "context_std": {
+        "kind": "numpy",
+        "shape": [
+          143
+        ],
+        "dtype": "float32",
+        "sha256": "72f822673fa0ccaa99ba49ca21f7e90df82cebf6c951730101f351a1683a472f"
+      },
+      "input_dim": 254,
+      "config": {
+        "phase": "train",
+        "device": "cuda:0",
+        "micro_clusters": 160,
+        "neighbors": 64,
+        "smoothing": 1e-05,
+        "build_batch_size": 2,
+        "batch_size": 8,
+        "epochs": 36,
+        "learning_rate": 0.0008,
+        "weight_decay": 0.0001,
+        "gate_penalty": 0.0002,
+        "hidden": 320,
+        "dropout": 0.1,
+        "random_state": 2026080666,
+        "force": false
+      }
+    }
+  },
+  {
+    "archive": "versions/round2/V16_source_online_0.686754.zip",
+    "member": "artifacts/round2/physical_ai_submission/models/base_field/path_link/fold_3.pt",
+    "sha256": "2806262bf4104d52cc6f165476d9470057876f8e2b93a51805c55253613ef677",
+    "state_sha256": "b39d7f5242055ddb067d4d50f60023261eeca60002f945f3cbd3765975448598",
+    "checkpoint_keys": [
+      "state_dict",
+      "context_mean",
+      "context_std",
+      "input_dim",
+      "config"
+    ],
+    "metadata": {
+      "context_mean": {
+        "kind": "numpy",
+        "shape": [
+          143
+        ],
+        "dtype": "float32",
+        "sha256": "464414153004f7bdc476824b058805f5a4afbdef5011ea5aa6d7785aab5878aa"
+      },
+      "context_std": {
+        "kind": "numpy",
+        "shape": [
+          143
+        ],
+        "dtype": "float32",
+        "sha256": "7e6da471cd2c5f67c1c2b58fc7134a3dfdef4fad498704b1d420d7b40487a7bb"
+      },
+      "input_dim": 254,
+      "config": {
+        "phase": "train",
+        "device": "cuda:0",
+        "micro_clusters": 160,
+        "neighbors": 64,
+        "smoothing": 1e-05,
+        "build_batch_size": 2,
+        "batch_size": 8,
+        "epochs": 36,
+        "learning_rate": 0.0008,
+        "weight_decay": 0.0001,
+        "gate_penalty": 0.0002,
+        "hidden": 320,
+        "dropout": 0.1,
+        "random_state": 2026080666,
+        "force": false
+      }
+    }
+  },
+  {
+    "archive": "versions/round2/V16_source_online_0.686754.zip",
+    "member": "artifacts/round2/physical_ai_submission/models/base_field/spectral/pas_fold_4.pt",
+    "sha256": "e52e72e2e22c11571d5f208ccadb737d37e1dc5abccbc7e4a09b711f1ca72f2c",
+    "state_sha256": "021feb911c0ccd28251fa1c0c40e8871e0849edd47d57fe69333a6ce4533471d",
+    "checkpoint_keys": [
+      "version",
+      "domain",
+      "mode",
+      "fold",
+      "epoch",
+      "config",
+      "state_dict",
+      "context_mean",
+      "context_std"
+    ],
+    "metadata": {
+      "version": "physical-ai-spectral-calibrator",
+      "domain": "pas",
+      "mode": "mean",
+      "fold": 4,
+      "epoch": 7,
+      "config": {
+        "epochs": 8,
+        "steps_per_epoch": 200,
+        "pas_batch_size": 1024,
+        "pdp_batch_size": 2048,
+        "validation_batch_size": 4096,
+        "hidden": 64,
+        "context_channels": 24,
+        "blocks": 5,
+        "residual_scale": 6.0,
+        "learning_rate": 0.0015,
+        "weight_decay": 2e-05,
+        "hellinger_weight": 0.05,
+        "residual_weight": 0.0001,
+        "seed": 20260806
+      },
+      "context_mean": {
+        "kind": "torch",
+        "shape": [
+          39
+        ],
+        "dtype": "torch.float32"
+      },
+      "context_std": {
+        "kind": "torch",
+        "shape": [
+          39
+        ],
+        "dtype": "torch.float32"
+      }
+    }
+  },
+  {
+    "archive": "versions/round2/V16_source_online_0.686754.zip",
+    "member": "artifacts/round2/physical_ai_submission/models/base_field/spectral/pdp_fold_3.pt",
+    "sha256": "e86cfa06cf04943145ae8d9077d0fcb2b22517d1b335a61c15e25a2b2046e474",
+    "state_sha256": "e1d47d307a547d16216a6a6dc8420853f4738a6e91f2b96ec5880ac6be0b93d8",
+    "checkpoint_keys": [
+      "version",
+      "domain",
+      "mode",
+      "fold",
+      "epoch",
+      "config",
+      "state_dict",
+      "context_mean",
+      "context_std"
+    ],
+    "metadata": {
+      "version": "physical-ai-spectral-calibrator",
+      "domain": "pdp",
+      "mode": "mean",
+      "fold": 3,
+      "epoch": 3,
+      "config": {
+        "epochs": 8,
+        "steps_per_epoch": 200,
+        "pas_batch_size": 1024,
+        "pdp_batch_size": 2048,
+        "validation_batch_size": 4096,
+        "hidden": 64,
+        "context_channels": 24,
+        "blocks": 5,
+        "residual_scale": 6.0,
+        "learning_rate": 0.0015,
+        "weight_decay": 2e-05,
+        "hellinger_weight": 0.05,
+        "residual_weight": 0.0001,
+        "seed": 20260806
+      },
+      "context_mean": {
+        "kind": "torch",
+        "shape": [
+          39
+        ],
+        "dtype": "torch.float32"
+      },
+      "context_std": {
+        "kind": "torch",
+        "shape": [
+          39
+        ],
+        "dtype": "torch.float32"
+      }
+    }
+  },
+  {
+    "archive": "versions/round2/V16_source_online_0.686754.zip",
+    "member": "artifacts/round2/physical_ai_submission/models/base_field/spectral/pas_fold_2.pt",
+    "sha256": "86862d15c7b52a47cc47ab8d9156f2b69c04c1a7c92f04b7a73332e052cda422",
+    "state_sha256": "50ca73b6326786e89b097e58a6db332efeb3ad6582e58a99af11a34661bfa157",
+    "checkpoint_keys": [
+      "version",
+      "domain",
+      "mode",
+      "fold",
+      "epoch",
+      "config",
+      "state_dict",
+      "context_mean",
+      "context_std"
+    ],
+    "metadata": {
+      "version": "physical-ai-spectral-calibrator",
+      "domain": "pas",
+      "mode": "mean",
+      "fold": 2,
+      "epoch": 3,
+      "config": {
+        "epochs": 8,
+        "steps_per_epoch": 200,
+        "pas_batch_size": 1024,
+        "pdp_batch_size": 2048,
+        "validation_batch_size": 4096,
+        "hidden": 64,
+        "context_channels": 24,
+        "blocks": 5,
+        "residual_scale": 6.0,
+        "learning_rate": 0.0015,
+        "weight_decay": 2e-05,
+        "hellinger_weight": 0.05,
+        "residual_weight": 0.0001,
+        "seed": 20260806
+      },
+      "context_mean": {
+        "kind": "torch",
+        "shape": [
+          39
+        ],
+        "dtype": "torch.float32"
+      },
+      "context_std": {
+        "kind": "torch",
+        "shape": [
+          39
+        ],
+        "dtype": "torch.float32"
+      }
+    }
+  },
+  {
+    "archive": "versions/round2/V16_source_online_0.686754.zip",
+    "member": "artifacts/round2/physical_ai_submission/models/base_field/spectral/pas_fold_3.pt",
+    "sha256": "8747d07d3ae0e98585a43ebc05f2d8ac5222d319894db6e9feb4daf3478ad0f3",
+    "state_sha256": "b09cb71834839025cdfae0efcd4c4ed43c12c6ae5c45769002a1e6d7b4194db6",
+    "checkpoint_keys": [
+      "version",
+      "domain",
+      "mode",
+      "fold",
+      "epoch",
+      "config",
+      "state_dict",
+      "context_mean",
+      "context_std"
+    ],
+    "metadata": {
+      "version": "physical-ai-spectral-calibrator",
+      "domain": "pas",
+      "mode": "mean",
+      "fold": 3,
+      "epoch": 4,
+      "config": {
+        "epochs": 8,
+        "steps_per_epoch": 200,
+        "pas_batch_size": 1024,
+        "pdp_batch_size": 2048,
+        "validation_batch_size": 4096,
+        "hidden": 64,
+        "context_channels": 24,
+        "blocks": 5,
+        "residual_scale": 6.0,
+        "learning_rate": 0.0015,
+        "weight_decay": 2e-05,
+        "hellinger_weight": 0.05,
+        "residual_weight": 0.0001,
+        "seed": 20260806
+      },
+      "context_mean": {
+        "kind": "torch",
+        "shape": [
+          39
+        ],
+        "dtype": "torch.float32"
+      },
+      "context_std": {
+        "kind": "torch",
+        "shape": [
+          39
+        ],
+        "dtype": "torch.float32"
+      }
+    }
+  },
+  {
+    "archive": "versions/round2/V16_source_online_0.686754.zip",
+    "member": "artifacts/round2/physical_ai_submission/models/base_field/spectral/pas_fold_0.pt",
+    "sha256": "b8bb12ab9c8813b07fd9eca47dd424bce3387affe1c9703a1b9f4afefe70b2d3",
+    "state_sha256": "2cc379b91538a8f6d70bbbbabc94849e7b0054aab6628f99de324a42b7ddc68d",
+    "checkpoint_keys": [
+      "version",
+      "domain",
+      "mode",
+      "fold",
+      "epoch",
+      "config",
+      "state_dict",
+      "context_mean",
+      "context_std"
+    ],
+    "metadata": {
+      "version": "physical-ai-spectral-calibrator",
+      "domain": "pas",
+      "mode": "mean",
+      "fold": 0,
+      "epoch": 3,
+      "config": {
+        "epochs": 8,
+        "steps_per_epoch": 200,
+        "pas_batch_size": 1024,
+        "pdp_batch_size": 2048,
+        "validation_batch_size": 4096,
+        "hidden": 64,
+        "context_channels": 24,
+        "blocks": 5,
+        "residual_scale": 6.0,
+        "learning_rate": 0.0015,
+        "weight_decay": 2e-05,
+        "hellinger_weight": 0.05,
+        "residual_weight": 0.0001,
+        "seed": 20260806
+      },
+      "context_mean": {
+        "kind": "torch",
+        "shape": [
+          39
+        ],
+        "dtype": "torch.float32"
+      },
+      "context_std": {
+        "kind": "torch",
+        "shape": [
+          39
+        ],
+        "dtype": "torch.float32"
+      }
+    }
+  },
+  {
+    "archive": "versions/round2/V16_source_online_0.686754.zip",
+    "member": "artifacts/round2/physical_ai_submission/models/base_field/spectral/pdp_fold_1.pt",
+    "sha256": "12c613f17bf24ec846aa33830197b2642f40f762a53087a1a4f08428a77fd4f7",
+    "state_sha256": "8bbe467a03bb88abbeffdc4decefe58390a0e4b1b893770c73930a79672efc09",
+    "checkpoint_keys": [
+      "version",
+      "domain",
+      "mode",
+      "fold",
+      "epoch",
+      "config",
+      "state_dict",
+      "context_mean",
+      "context_std"
+    ],
+    "metadata": {
+      "version": "physical-ai-spectral-calibrator",
+      "domain": "pdp",
+      "mode": "mean",
+      "fold": 1,
+      "epoch": 2,
+      "config": {
+        "epochs": 8,
+        "steps_per_epoch": 200,
+        "pas_batch_size": 1024,
+        "pdp_batch_size": 2048,
+        "validation_batch_size": 4096,
+        "hidden": 64,
+        "context_channels": 24,
+        "blocks": 5,
+        "residual_scale": 6.0,
+        "learning_rate": 0.0015,
+        "weight_decay": 2e-05,
+        "hellinger_weight": 0.05,
+        "residual_weight": 0.0001,
+        "seed": 20260806
+      },
+      "context_mean": {
+        "kind": "torch",
+        "shape": [
+          39
+        ],
+        "dtype": "torch.float32"
+      },
+      "context_std": {
+        "kind": "torch",
+        "shape": [
+          39
+        ],
+        "dtype": "torch.float32"
+      }
+    }
+  },
+  {
+    "archive": "versions/round2/V16_source_online_0.686754.zip",
+    "member": "artifacts/round2/physical_ai_submission/models/base_field/spectral/pas_fold_1.pt",
+    "sha256": "910e1543c34e3bed9cb2b319813c7e5215534006384187b55c50df094efddb77",
+    "state_sha256": "1926ef0acb65bdad73c161c7133362a2170deff11033ba31b882cc05cf90d9e5",
+    "checkpoint_keys": [
+      "version",
+      "domain",
+      "mode",
+      "fold",
+      "epoch",
+      "config",
+      "state_dict",
+      "context_mean",
+      "context_std"
+    ],
+    "metadata": {
+      "version": "physical-ai-spectral-calibrator",
+      "domain": "pas",
+      "mode": "mean",
+      "fold": 1,
+      "epoch": 2,
+      "config": {
+        "epochs": 8,
+        "steps_per_epoch": 200,
+        "pas_batch_size": 1024,
+        "pdp_batch_size": 2048,
+        "validation_batch_size": 4096,
+        "hidden": 64,
+        "context_channels": 24,
+        "blocks": 5,
+        "residual_scale": 6.0,
+        "learning_rate": 0.0015,
+        "weight_decay": 2e-05,
+        "hellinger_weight": 0.05,
+        "residual_weight": 0.0001,
+        "seed": 20260806
+      },
+      "context_mean": {
+        "kind": "torch",
+        "shape": [
+          39
+        ],
+        "dtype": "torch.float32"
+      },
+      "context_std": {
+        "kind": "torch",
+        "shape": [
+          39
+        ],
+        "dtype": "torch.float32"
+      }
+    }
+  },
+  {
+    "archive": "versions/round2/V16_source_online_0.686754.zip",
+    "member": "artifacts/round2/physical_ai_submission/models/base_field/spectral/pdp_fold_4.pt",
+    "sha256": "72b5478640946cfe363c2cc6560c713cc93c1bd5e61e53cdfecfe040c1d57f0f",
+    "state_sha256": "b245ca24ebe3e9c4e7f00d64d6a6ad39c44762be85b7a3a332b85df5aebdf7e0",
+    "checkpoint_keys": [
+      "version",
+      "domain",
+      "mode",
+      "fold",
+      "epoch",
+      "config",
+      "state_dict",
+      "context_mean",
+      "context_std"
+    ],
+    "metadata": {
+      "version": "physical-ai-spectral-calibrator",
+      "domain": "pdp",
+      "mode": "mean",
+      "fold": 4,
+      "epoch": 8,
+      "config": {
+        "epochs": 8,
+        "steps_per_epoch": 200,
+        "pas_batch_size": 1024,
+        "pdp_batch_size": 2048,
+        "validation_batch_size": 4096,
+        "hidden": 64,
+        "context_channels": 24,
+        "blocks": 5,
+        "residual_scale": 6.0,
+        "learning_rate": 0.0015,
+        "weight_decay": 2e-05,
+        "hellinger_weight": 0.05,
+        "residual_weight": 0.0001,
+        "seed": 20260806
+      },
+      "context_mean": {
+        "kind": "torch",
+        "shape": [
+          39
+        ],
+        "dtype": "torch.float32"
+      },
+      "context_std": {
+        "kind": "torch",
+        "shape": [
+          39
+        ],
+        "dtype": "torch.float32"
+      }
+    }
+  },
+  {
+    "archive": "versions/round2/V16_source_online_0.686754.zip",
+    "member": "artifacts/round2/physical_ai_submission/models/base_field/spectral/pdp_fold_0.pt",
+    "sha256": "301fa7fbe4c729479495a996f946850cc8d1b2ca67a851e5ac02e533363a3c17",
+    "state_sha256": "9ccedd55464c5503b46b4a525ace6ed870e4df607836b078c9e474e2a6e78026",
+    "checkpoint_keys": [
+      "version",
+      "domain",
+      "mode",
+      "fold",
+      "epoch",
+      "config",
+      "state_dict",
+      "context_mean",
+      "context_std"
+    ],
+    "metadata": {
+      "version": "physical-ai-spectral-calibrator",
+      "domain": "pdp",
+      "mode": "mean",
+      "fold": 0,
+      "epoch": 5,
+      "config": {
+        "epochs": 8,
+        "steps_per_epoch": 200,
+        "pas_batch_size": 1024,
+        "pdp_batch_size": 2048,
+        "validation_batch_size": 4096,
+        "hidden": 64,
+        "context_channels": 24,
+        "blocks": 5,
+        "residual_scale": 6.0,
+        "learning_rate": 0.0015,
+        "weight_decay": 2e-05,
+        "hellinger_weight": 0.05,
+        "residual_weight": 0.0001,
+        "seed": 20260806
+      },
+      "context_mean": {
+        "kind": "torch",
+        "shape": [
+          39
+        ],
+        "dtype": "torch.float32"
+      },
+      "context_std": {
+        "kind": "torch",
+        "shape": [
+          39
+        ],
+        "dtype": "torch.float32"
+      }
+    }
+  },
+  {
+    "archive": "versions/round2/V16_source_online_0.686754.zip",
+    "member": "artifacts/round2/physical_ai_submission/models/base_field/spectral/pdp_fold_2.pt",
+    "sha256": "6b58e17f32ed970bd21f0f779d18c47e1667a675099668a674df92b848d0aad0",
+    "state_sha256": "2876cae74075700cbdae4e36eca558e890573d7e6206085c18289f4e6db0a876",
+    "checkpoint_keys": [
+      "version",
+      "domain",
+      "mode",
+      "fold",
+      "epoch",
+      "config",
+      "state_dict",
+      "context_mean",
+      "context_std"
+    ],
+    "metadata": {
+      "version": "physical-ai-spectral-calibrator",
+      "domain": "pdp",
+      "mode": "mean",
+      "fold": 2,
+      "epoch": 3,
+      "config": {
+        "epochs": 8,
+        "steps_per_epoch": 200,
+        "pas_batch_size": 1024,
+        "pdp_batch_size": 2048,
+        "validation_batch_size": 4096,
+        "hidden": 64,
+        "context_channels": 24,
+        "blocks": 5,
+        "residual_scale": 6.0,
+        "learning_rate": 0.0015,
+        "weight_decay": 2e-05,
+        "hellinger_weight": 0.05,
+        "residual_weight": 0.0001,
+        "seed": 20260806
+      },
+      "context_mean": {
+        "kind": "torch",
+        "shape": [
+          39
+        ],
+        "dtype": "torch.float32"
+      },
+      "context_std": {
+        "kind": "torch",
+        "shape": [
+          39
+        ],
+        "dtype": "torch.float32"
+      }
+    }
+  },
+  {
+    "archive": "versions/round2/V16_source_online_0.686754.zip",
+    "member": "artifacts/round2/physical_ai_submission/models/path_calibrator/fold_1.pt",
+    "sha256": "64401600ee3b28daed1ce16ffb55ef85b682ba58ffa58103239d00b53b659b97",
+    "state_sha256": "0cf85be75ef66e34857b9acb5752a65c00b878c17404f349bf912f8777ab290d",
+    "checkpoint_keys": [
+      "state_dict",
+      "config",
+      "feature_mean",
+      "feature_std",
+      "best_epoch",
+      "outer",
+      "mapping_latent"
+    ],
+    "metadata": {
+      "config": {
+        "outer": 1,
+        "validation_fold": 2,
+        "epochs": 48,
+        "minimum_epochs": 16,
+        "validation_interval": 4,
+        "batch_size": 64,
+        "hidden": 96,
+        "heads": 4,
+        "sequence_layers": 2,
+        "set_layers": 2,
+        "feedforward": 256,
+        "dropout": 0.08,
+        "learning_rate": 0.0005,
+        "weight_decay": 0.0002,
+        "score_limit": 4.0,
+        "port_limit": 2.0,
+        "match_cost_limit": 1.0,
+        "match_bandwidth": 0.25,
+        "minimum_path_fraction": 1e-05,
+        "spectral_weight": 1.0,
+        "mass_weight": 0.75,
+        "coordinate_weight": 0.2,
+        "port_weight": 0.2,
+        "existence_weight": 0.05,
+        "residual_weight": 0.002,
+        "random_state": 20260812190,
+        "capability_minimum_delta": 0.01,
+        "screen_minimum_delta": 0.005,
+        "maximum_component_drop": 0.001
+      },
+      "feature_mean": {
+        "kind": "numpy",
+        "shape": [
+          120
+        ],
+        "dtype": "float32",
+        "sha256": "0c879e3003d19e5f41f7174a8ef308fa0be37ecef0b6d6647d8448d568e8dc89"
+      },
+      "feature_std": {
+        "kind": "numpy",
+        "shape": [
+          120
+        ],
+        "dtype": "float32",
+        "sha256": "eaa48a6a6b58fa8ac8c7eefa688d5d06ce3ffd2b67079fb0efbcaf786ae7188f"
+      },
+      "best_epoch": 48,
+      "outer": 1,
+      "mapping_latent": {
+        "kind": "numpy",
+        "shape": [
+          10
+        ],
+        "dtype": "float32",
+        "value": [
+          0.0017254650592803955,
+          0.00117380206938833,
+          0.25708672404289246,
+          0.16586554050445557,
+          -0.009869739413261414,
+          -0.027208156883716583,
+          0.011930135078728199,
+          0.0031991798896342516,
+          -0.5403710603713989,
+          -0.5097846984863281
+        ]
+      }
+    }
+  },
+  {
+    "archive": "versions/round2/V16_source_online_0.686754.zip",
+    "member": "artifacts/round2/physical_ai_submission/models/path_calibrator/fold_2.pt",
+    "sha256": "ee002588272ae0d4570f0b46426ff4d327f64edb5556b573a9105738ac3fddb2",
+    "state_sha256": "839fd988df116048805e1165b761e45a36ccaa992fcb26da9b85ac90842000b8",
+    "checkpoint_keys": [
+      "state_dict",
+      "config",
+      "feature_mean",
+      "feature_std",
+      "best_epoch",
+      "outer",
+      "mapping_latent"
+    ],
+    "metadata": {
+      "config": {
+        "outer": 2,
+        "validation_fold": 3,
+        "epochs": 48,
+        "minimum_epochs": 16,
+        "validation_interval": 4,
+        "batch_size": 64,
+        "hidden": 96,
+        "heads": 4,
+        "sequence_layers": 2,
+        "set_layers": 2,
+        "feedforward": 256,
+        "dropout": 0.08,
+        "learning_rate": 0.0005,
+        "weight_decay": 0.0002,
+        "score_limit": 4.0,
+        "port_limit": 2.0,
+        "match_cost_limit": 1.0,
+        "match_bandwidth": 0.25,
+        "minimum_path_fraction": 1e-05,
+        "spectral_weight": 1.0,
+        "mass_weight": 0.75,
+        "coordinate_weight": 0.2,
+        "port_weight": 0.2,
+        "existence_weight": 0.05,
+        "residual_weight": 0.002,
+        "random_state": 20260812190,
+        "capability_minimum_delta": 0.01,
+        "screen_minimum_delta": 0.005,
+        "maximum_component_drop": 0.001
+      },
+      "feature_mean": {
+        "kind": "numpy",
+        "shape": [
+          120
+        ],
+        "dtype": "float32",
+        "sha256": "2f64313650f66a02b1e197c9b996a25b65091398bc6f8668a750d3f300591960"
+      },
+      "feature_std": {
+        "kind": "numpy",
+        "shape": [
+          120
+        ],
+        "dtype": "float32",
+        "sha256": "935a8faf1ec929e4184580ffc6b1e144e57086210a0f36e223eaff00c709f0be"
+      },
+      "best_epoch": 36,
+      "outer": 2,
+      "mapping_latent": {
+        "kind": "numpy",
+        "shape": [
+          10
+        ],
+        "dtype": "float32",
+        "value": [
+          0.003398840082809329,
+          0.007108858786523342,
+          0.2557945251464844,
+          0.16979622840881348,
+          -0.010842512361705303,
+          -0.029223380610346794,
+          0.007695121690630913,
+          0.00528574688360095,
+          -0.55635666847229,
+          -0.5292699933052063
+        ]
+      }
+    }
+  },
+  {
+    "archive": "versions/round2/V16_source_online_0.686754.zip",
+    "member": "artifacts/round2/physical_ai_submission/models/path_calibrator/fold_0.pt",
+    "sha256": "da9af5fb565e0a7a15d7e98fc83f47996c522325492a614d79da322dfc213d91",
+    "state_sha256": "6d78a2604c3cb3f6110005e004aecd3c47df54576e38d0ad310d5f9caf62dee0",
+    "checkpoint_keys": [
+      "state_dict",
+      "config",
+      "feature_mean",
+      "feature_std",
+      "best_epoch",
+      "outer",
+      "mapping_latent"
+    ],
+    "metadata": {
+      "config": {
+        "outer": 0,
+        "validation_fold": 1,
+        "epochs": 48,
+        "minimum_epochs": 16,
+        "validation_interval": 4,
+        "batch_size": 64,
+        "hidden": 96,
+        "heads": 4,
+        "sequence_layers": 2,
+        "set_layers": 2,
+        "feedforward": 256,
+        "dropout": 0.08,
+        "learning_rate": 0.0005,
+        "weight_decay": 0.0002,
+        "score_limit": 4.0,
+        "port_limit": 2.0,
+        "match_cost_limit": 1.0,
+        "match_bandwidth": 0.25,
+        "minimum_path_fraction": 1e-05,
+        "spectral_weight": 1.0,
+        "mass_weight": 0.75,
+        "coordinate_weight": 0.2,
+        "port_weight": 0.2,
+        "existence_weight": 0.05,
+        "residual_weight": 0.002,
+        "random_state": 20260812190,
+        "capability_minimum_delta": 0.01,
+        "screen_minimum_delta": 0.005,
+        "maximum_component_drop": 0.001
+      },
+      "feature_mean": {
+        "kind": "numpy",
+        "shape": [
+          120
+        ],
+        "dtype": "float32",
+        "sha256": "1abfe37903b728102a4811b74ce1319bfc9f32d848e9ae0bb0cc940170c27a00"
+      },
+      "feature_std": {
+        "kind": "numpy",
+        "shape": [
+          120
+        ],
+        "dtype": "float32",
+        "sha256": "a738467e9778064ac08e42e08e646aab7902efe33138ba75be026ef8506975dd"
+      },
+      "best_epoch": 48,
+      "outer": 0,
+      "mapping_latent": {
+        "kind": "numpy",
+        "shape": [
+          10
+        ],
+        "dtype": "float32",
+        "value": [
+          -0.00493293022736907,
+          -0.002043979475274682,
+          0.25277143716812134,
+          0.17983274161815643,
+          0.01024281233549118,
+          -0.02626616321504116,
+          0.005199565552175045,
+          0.005534220486879349,
+          -0.559464693069458,
+          -0.5459068417549133
+        ]
+      }
+    }
+  },
+  {
+    "archive": "versions/round2/V16_source_online_0.686754.zip",
+    "member": "artifacts/round2/physical_ai_submission/models/path_calibrator/fold_4.pt",
+    "sha256": "1efb3e4c66fd6301a1b5a2234c8a386354766e838e96c92ed737702285747382",
+    "state_sha256": "ed906f81b515b169fc2827e5318ca126e24ed384040cbc1507b91290e24b5da6",
+    "checkpoint_keys": [
+      "state_dict",
+      "config",
+      "feature_mean",
+      "feature_std",
+      "best_epoch",
+      "outer",
+      "mapping_latent"
+    ],
+    "metadata": {
+      "config": {
+        "outer": 4,
+        "validation_fold": 0,
+        "epochs": 48,
+        "minimum_epochs": 16,
+        "validation_interval": 4,
+        "batch_size": 64,
+        "hidden": 96,
+        "heads": 4,
+        "sequence_layers": 2,
+        "set_layers": 2,
+        "feedforward": 256,
+        "dropout": 0.08,
+        "learning_rate": 0.0005,
+        "weight_decay": 0.0002,
+        "score_limit": 4.0,
+        "port_limit": 2.0,
+        "match_cost_limit": 1.0,
+        "match_bandwidth": 0.25,
+        "minimum_path_fraction": 1e-05,
+        "spectral_weight": 1.0,
+        "mass_weight": 0.75,
+        "coordinate_weight": 0.2,
+        "port_weight": 0.2,
+        "existence_weight": 0.05,
+        "residual_weight": 0.002,
+        "random_state": 20260812190,
+        "capability_minimum_delta": 0.01,
+        "screen_minimum_delta": 0.005,
+        "maximum_component_drop": 0.001
+      },
+      "feature_mean": {
+        "kind": "numpy",
+        "shape": [
+          120
+        ],
+        "dtype": "float32",
+        "sha256": "cf06e21a9203cdc17a92d4ff380dd2bf3166ad19b468f4f2ce7a3f30dea20bb1"
+      },
+      "feature_std": {
+        "kind": "numpy",
+        "shape": [
+          120
+        ],
+        "dtype": "float32",
+        "sha256": "c65156c64923e056e7fcbbf2f444918c6db37b0edc685b5aaccd33ec779a2341"
+      },
+      "best_epoch": 44,
+      "outer": 4,
+      "mapping_latent": {
+        "kind": "numpy",
+        "shape": [
+          10
+        ],
+        "dtype": "float32",
+        "value": [
+          0.0014936511870473623,
+          -0.006173581350594759,
+          0.2528785765171051,
+          0.1797332614660263,
+          0.0009364194702357054,
+          -0.022930221632122993,
+          -0.0009325694409199059,
+          -0.016666676849126816,
+          -0.5390060544013977,
+          -0.5452155470848083
+        ]
+      }
+    }
+  },
+  {
+    "archive": "versions/round2/V16_source_online_0.686754.zip",
+    "member": "artifacts/round2/physical_ai_submission/models/path_calibrator/fold_3.pt",
+    "sha256": "9b980bf193474cd2a298c26fa835471b72be00a6198c27012eb5f04325c87ed2",
+    "state_sha256": "2abbf700099f9773809b929444f59a4c4235b17292ab72b936b341f6c533d40e",
+    "checkpoint_keys": [
+      "state_dict",
+      "config",
+      "feature_mean",
+      "feature_std",
+      "best_epoch",
+      "outer",
+      "mapping_latent"
+    ],
+    "metadata": {
+      "config": {
+        "outer": 3,
+        "validation_fold": 4,
+        "epochs": 48,
+        "minimum_epochs": 16,
+        "validation_interval": 4,
+        "batch_size": 64,
+        "hidden": 96,
+        "heads": 4,
+        "sequence_layers": 2,
+        "set_layers": 2,
+        "feedforward": 256,
+        "dropout": 0.08,
+        "learning_rate": 0.0005,
+        "weight_decay": 0.0002,
+        "score_limit": 4.0,
+        "port_limit": 2.0,
+        "match_cost_limit": 1.0,
+        "match_bandwidth": 0.25,
+        "minimum_path_fraction": 1e-05,
+        "spectral_weight": 1.0,
+        "mass_weight": 0.75,
+        "coordinate_weight": 0.2,
+        "port_weight": 0.2,
+        "existence_weight": 0.05,
+        "residual_weight": 0.002,
+        "random_state": 20260812190,
+        "capability_minimum_delta": 0.01,
+        "screen_minimum_delta": 0.005,
+        "maximum_component_drop": 0.001
+      },
+      "feature_mean": {
+        "kind": "numpy",
+        "shape": [
+          120
+        ],
+        "dtype": "float32",
+        "sha256": "e0afd7ec828e2135c4f19b90d0eec110d7cdb88d04c4983893116ef2b84d9668"
+      },
+      "feature_std": {
+        "kind": "numpy",
+        "shape": [
+          120
+        ],
+        "dtype": "float32",
+        "sha256": "451eb4df65b5315a2f3c2dddf9a96f63f61112acb1e439136a11ed2b396104b6"
+      },
+      "best_epoch": 48,
+      "outer": 3,
+      "mapping_latent": {
+        "kind": "numpy",
+        "shape": [
+          10
+        ],
+        "dtype": "float32",
+        "value": [
+          0.00838432926684618,
+          0.008970744907855988,
+          0.25169268250465393,
+          0.17829261720180511,
+          0.01830117776989937,
+          -0.020698226988315582,
+          0.01094630267471075,
+          0.015135107561945915,
+          -0.5344388484954834,
+          -0.5330192446708679
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "kind": "metadata errata; original frozen source/config/results preserved",
+  "affected_fields": {
+    "config.initialization": "Inherited10717 text; actual parent is corrected relative final12717.",
+    "config.qa20_counted_in2000 and snapshot.qa20_included_in_fixed2000": "Inherited label; actual first20 updates are included inside this500, no extra20.",
+    "config.arms": "Inherited matched-arm list; actual confirmation executes only one continuation.",
+    "continuation.run_manifest.changed_item": "Inherited loss-only label; confirmation changes no objective/LR, only continues the existing candidate.",
+    "continuation.result.fit_passed": "Local counter1 only; top-level result combines inherited2 and real new1 to total3."
+  },
+  "actual_parent_checkpoint": "artifacts/round2/paper_four_baselines_v1/repair_20261111/nerf2/position_loss_v2/relative/final.pt",
+  "actual_parent_sha256": "0d2a0f32c6bc325dc7949ce734daaba6145cdcb0f5f371094370bf302b7697d1",
+  "actual_parent_total_optimizer_updates": 12717,
+  "actual_additional_optimizer_calls": 500,
+  "actual_total_optimizer_updates": 13217,
+  "actual_QA20_inside500": true,
+  "actual_single_continuation": true,
+  "basis": [
+    "continuation/initial_QA.json",
+    "initial_optimizer_proof.json",
+    "continuation/qa20.json",
+    "continuation/final.pt actual27 Adam times13217"
+  ],
+  "frozen_source_or_config_edited": false,
+  "training_rerun": false
+}

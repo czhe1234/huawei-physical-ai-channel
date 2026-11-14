@@ -1,0 +1,83 @@
+{
+  "status": "passed",
+  "matched_initial_model_Adam_RNG_schedule_parameter_count": true,
+  "same_global6001_8000_steps": true,
+  "both_actual_dropout_p0": true,
+  "training_floor_not_used_in_evaluation": true,
+  "FIT_checks": [
+    {
+      "branch": "loss_global",
+      "CPU_raw_metrics": {
+        "complex_nmse": 0.0011521469617402614,
+        "magnitude_nmse": 0.00045399464257406724,
+        "prediction_to_truth_energy": 1.0017891152041185
+      },
+      "normalized_monitor_delta": {
+        "complex_nmse": 1.1943904567636443e-10,
+        "magnitude_nmse": 9.115596249836475e-11,
+        "prediction_to_truth_energy": 8.16190699470809e-08
+      },
+      "independent_failed_nonzero_points": [
+        2,
+        1124,
+        1693
+      ]
+    },
+    {
+      "branch": "loss_position_relative",
+      "CPU_raw_metrics": {
+        "complex_nmse": 0.001416631887341215,
+        "magnitude_nmse": 0.0005093919499058138,
+        "prediction_to_truth_energy": 1.000173929448373
+      },
+      "normalized_monitor_delta": {
+        "complex_nmse": 6.56791858313216e-11,
+        "magnitude_nmse": 2.857362881459463e-11,
+        "prediction_to_truth_energy": 8.137884144332475e-08
+      },
+      "independent_failed_nonzero_points": []
+    }
+  ],
+  "validation_checks": [
+    {
+      "branch": "loss_global",
+      "CPU_metrics": {
+        "pas": 0.0746217965399675,
+        "pdp": 0.36284082848080956,
+        "nmse": 1.0092364690311844,
+        "score": 0.2745253495612232
+      },
+      "GPU_CPU_delta": {
+        "pas": 3.467874876150745e-10,
+        "pdp": -9.751506269140009e-10,
+        "nmse": 4.3200776289609166e-11,
+        "score": -2.5348545484860097e-10
+      }
+    },
+    {
+      "branch": "loss_position_relative",
+      "CPU_metrics": {
+        "pas": 0.07437278066781516,
+        "pdp": 0.3655164795612009,
+        "nmse": 1.009828244759925,
+        "score": 0.2754666949046001
+      },
+      "GPU_CPU_delta": {
+        "pas": 5.445315309771104e-10,
+        "pdp": -6.523626083776435e-10,
+        "nmse": 2.085176475929984e-11,
+        "score": -4.416483845304242e-11
+      }
+    }
+  ],
+  "strict_all_nonzero_candidate_verified": true,
+  "zero_leakage_candidate_verified": true,
+  "canonical500_scored": false,
+  "independent_zero_leakage_checks": [
+    {
+      "row_id": 2877,
+      "CPU_raw_derived_power_FIT_RMS_squared": 1.1786525953327852e-10,
+      "original_ceiling": 3.157025873640034e-05
+    }
+  ]
+}

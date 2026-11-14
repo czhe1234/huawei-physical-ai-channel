@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-11T03:27:45Z",
+  "event": "stage_complete",
+  "fold": 0,
+  "role": "screen",
+  "actual_updates": 46080,
+  "seconds": 19077.163617189974,
+  "checkpoint": "artifacts/round2/paper_four_baselines_v1/formal_20261111/nerf2/outer0/screen/best.pt"
+}

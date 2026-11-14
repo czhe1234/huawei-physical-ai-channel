@@ -1,0 +1,32 @@
+{
+  "schema": "nerf2-formal192-eightfields-v1",
+  "seed": 42,
+  "position_batch": 4,
+  "BS_batch": 16,
+  "inference_BS_chunk": 8,
+  "power_floor": 1e-06,
+  "initial_lrs": [
+    0.0001,
+    0.001
+  ],
+  "low_lr_factor": 0.2,
+  "min_coverage_epochs": 1.0,
+  "max_coverage_epochs": 2.0,
+  "validation_coverage_interval": 0.25,
+  "validation_selection": "global complex NMSE on original fixed16 development locations; all256BS x4UE x192F",
+  "min_delta": 0.001,
+  "patience": 6,
+  "checkpoint_seconds": 300,
+  "stage_wall_cap_seconds": 172800,
+  "min_free_GiB": 48,
+  "initialization": "fresh same-seed all8native192; no old field/model stitching",
+  "training_loss": "first .5 coverage epoch native .5*MSE, then .5*mean_i[MSE_i/max(FIT_field_mean_power_i,1e-6)]",
+  "sampling": "round-robin8fields; withinfield complete shuffled position x128BS coverage sweeps",
+  "refit": "fresh initialization; fixed selected screen per-field update budget times refit/screen FIT count ratio",
+  "LR": "cosine initial_lrs to factor.2 during first .5 coverage native warmup; fixed factor.2 for relative loss thereafter",
+  "outer_truth_use": "none; root scoring only after all5 predictions frozen",
+  "smoke_family": "batch4_bs16",
+  "draft_not_formal_frozen": true,
+  "native_warmup_coverage_epochs": 0.5,
+  "training_family_reason": "Same 64 position-BS links/update as measured batch8_bs8; fewer positions in medium computation; avoid unsafe batch8_bs16 predicted VRAM."
+}

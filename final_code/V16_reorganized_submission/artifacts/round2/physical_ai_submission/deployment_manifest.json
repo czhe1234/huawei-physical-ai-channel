@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "description": "Frozen offline Physical-AI base-channel prior and component-state deployment inputs.",
+  "baseline": {
+    "source_archive": "V16_source_online_0.686754.zip",
+    "source_archive_sha256": "18a7e257ac42a9a88c2c4941b9ed547537084b25b425ad8584b32d79689939a6",
+    "online_score": 0.686754,
+    "seed_count": 24,
+    "reference_output_sha256": "a0ad87f5ca1d1d8bd05d86829a36121a6bca4c309413739da2c53597cd4a2ca9"
+  },
+  "official_inputs": {
+    "Round2_Train_Channel.npy": {
+      "bytes": 6291456128
+    },
+    "Round2_Train_Pos.npy": {
+      "bytes": 96128,
+      "sha256": "c7b30384086ab3aae076f5b7699a79534ed3294e9b4d65c5c5a514767cb9a541"
+    },
+    "Round2_Test_Pos.npy": {
+      "bytes": 12128,
+      "sha256": "914100a06bdcdfa286f0116614550ad28f7642f4be099e140a6ecf99285f1345"
+    },
+    "Round2_Map.ply": {
+      "bytes": 1043883,
+      "sha256": "85727e99c8afa2b4a16d2f60c588741c5b9c1863c00ac3c9a102b3f7f3165c90"
+    },
+    "Round2_Setup.json": {
+      "bytes": 229,
+      "sha256": "16e64a9ce18c5828f2b69ed25a28a534a9d411df24aebc6ccd216b5b1cb6f2c9"
+    }
+  },
+  "assets": [
+    {
+      "root": "work",
+      "path": "base_field/base_channel.npy",
+      "kind": "npy",
+      "bytes": 786432128,
+      "sha256": "2f525878a9865fca15175ad147a99e406c7505f3dae320c7267eb1eb7f309d84",
+      "shape": [500, 256, 4, 192],
+      "dtype": "complex64"
+    },
+    {
+      "root": "work",
+      "path": "model_inputs/test/features.npy",
+      "kind": "npy",
+      "bytes": 30720128,
+      "sha256": "fcc5234e7a377f503e28e3ac4186581454797907e626deaf76fb7845e10b4ce7",
+      "shape": [500, 128, 120],
+      "dtype": "float32"
+    },
+    {
+      "root": "work",
+      "path": "model_inputs/test/auxiliary.npz",
+      "kind": "npz",
+      "bytes": 14409357,
+      "sha256": "6b68917b758e2f258a6b90853ba2b338cc980b2a5a6917c433793142a7115e2e",
+      "arrays": {
+        "coordinate": {"shape": [500, 128, 3], "dtype": "float32"},
+        "port": {"shape": [500, 128, 2, 4], "dtype": "float32"},
+        "geometry": {"shape": [500, 128, 16, 21], "dtype": "float32"},
+        "hash": {"shape": [500, 128, 2], "dtype": "int64"},
+        "depth": {"shape": [500, 128], "dtype": "int64"},
+        "interactions": {"shape": [500, 128, 16], "dtype": "int64"},
+        "objects": {"shape": [500, 128, 16], "dtype": "int64"},
+        "primitives": {"shape": [500, 128, 16], "dtype": "int64"},
+        "fraction": {"shape": [500, 128], "dtype": "float32"},
+        "presence": {"shape": [500, 128], "dtype": "float32"},
+        "angles": {"shape": [500, 128, 4], "dtype": "float32"}
+      }
+    },
+    {
+      "root": "model",
+      "path": "component_calibrator/fold_0.pt",
+      "kind": "file",
+      "bytes": 35993730,
+      "sha256": "da9af5fb565e0a7a15d7e98fc83f47996c522325492a614d79da322dfc213d91"
+    },
+    {
+      "root": "model",
+      "path": "component_calibrator/fold_1.pt",
+      "kind": "file",
+      "bytes": 35993730,
+      "sha256": "64401600ee3b28daed1ce16ffb55ef85b682ba58ffa58103239d00b53b659b97"
+    },
+    {
+      "root": "model",
+      "path": "component_calibrator/fold_2.pt",
+      "kind": "file",
+      "bytes": 35993730,
+      "sha256": "ee002588272ae0d4570f0b46426ff4d327f64edb5556b573a9105738ac3fddb2"
+    },
+    {
+      "root": "model",
+      "path": "component_calibrator/fold_3.pt",
+      "kind": "file",
+      "bytes": 35993730,
+      "sha256": "9b980bf193474cd2a298c26fa835471b72be00a6198c27012eb5f04325c87ed2"
+    },
+    {
+      "root": "model",
+      "path": "component_calibrator/fold_4.pt",
+      "kind": "file",
+      "bytes": 35993730,
+      "sha256": "1efb3e4c66fd6301a1b5a2234c8a386354766e838e96c92ed737702285747382"
+    }
+  ]
+}

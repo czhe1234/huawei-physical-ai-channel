@@ -1,0 +1,60 @@
+{
+  "stage": "native",
+  "step": 500,
+  "new_updates": 2000,
+  "fine": {
+    "pred_energy": 2.1584637304227474e-07,
+    "truth_energy": 2.1667868251492588e-07,
+    "squared_error": 1.2961437182120994e-09,
+    "nmse": 0.005981870035243614,
+    "energy_ratio": 0.9961587846898885,
+    "signed_correlation_real": 0.9970051575540808,
+    "per_position": [
+      {
+        "pred_energy": 1.8957378461231973e-07,
+        "truth_energy": 1.8940802393565062e-07,
+        "squared_error": 3.758038076456218e-10,
+        "nmse": 0.0019840965542901033,
+        "energy_ratio": 1.0008751512909793,
+        "signed_correlation_real": 0.9990084833972589
+      },
+      {
+        "pred_energy": 2.627258842995501e-08,
+        "truth_energy": 2.7270658579275268e-08,
+        "squared_error": 9.203399105664776e-10,
+        "nmse": 0.033748356604262696,
+        "energy_ratio": 0.9634013184383176,
+        "signed_correlation_real": 0.9829820722613826
+      }
+    ]
+  },
+  "coarse": {
+    "pred_energy": 2.0821096280064985e-07,
+    "truth_energy": 2.1667868251492588e-07,
+    "squared_error": 3.4228618913910823e-09,
+    "nmse": 0.01579694805074006,
+    "energy_ratio": 0.9609203839713548,
+    "signed_correlation_real": 0.9921411624547913,
+    "per_position": [
+      {
+        "pred_energy": 1.8543420779719866e-07,
+        "truth_energy": 1.8940802393565062e-07,
+        "squared_error": 1.1134368227054393e-09,
+        "nmse": 0.005878509260429841,
+        "energy_ratio": 0.9790198110096855,
+        "signed_correlation_real": 0.9970856181572878
+      },
+      {
+        "pred_energy": 2.2776755003451184e-08,
+        "truth_energy": 2.7270658579275268e-08,
+        "squared_error": 2.309425068685643e-09,
+        "nmse": 0.08468534274565426,
+        "energy_ratio": 0.835211035965252,
+        "signed_correlation_real": 0.9577240252105632
+      }
+    ]
+  },
+  "gate_now": true,
+  "stable_full_checks": 1,
+  "elapsed_seconds": 491.5288102660561
+}

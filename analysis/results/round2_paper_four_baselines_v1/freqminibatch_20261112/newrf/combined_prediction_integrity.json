@@ -1,0 +1,59 @@
+{
+  "status": "passed_complete500_fullH_mixed_frozen_protocol",
+  "records": [
+    {
+      "outer": 0,
+      "N": 103,
+      "manifest_sha256": "ddaf626951287d1a071ef29594c3eb35139caef79ee08e653cecefe8772a2bae",
+      "channel_sha256": "9f8710cab3efe617a7116cdcc19299f05484c3f45ba0388441101426ecb4abaa",
+      "refit_updates": 22440,
+      "full_inference_frequency_count": 192,
+      "frequency_minibatch": 192
+    },
+    {
+      "outer": 1,
+      "N": 71,
+      "manifest_sha256": "714dbda86438ff2606c6f2e030c314d61b9be728c211702dcf862e57f34b6d2e",
+      "channel_sha256": "bc4eb343ca5afea8d00d7e9bec78cfa5b1011f96b6f21fe4c9e62a12068eeb59",
+      "refit_updates": 22400,
+      "full_inference_frequency_count": 192,
+      "frequency_minibatch": 192
+    },
+    {
+      "outer": 2,
+      "N": 63,
+      "manifest_sha256": "ecfc23e90ea8c2fd1a0127f087b4f5975de9cecd35b5d49021131da16e83179b",
+      "channel_sha256": "dacafa6acf7b0399ed1c7df762f055a0842f1cbaded269fa1edba5630fd80c42",
+      "refit_updates": 22688,
+      "full_inference_frequency_count": 192,
+      "frequency_minibatch": 192
+    },
+    {
+      "outer": 3,
+      "N": 110,
+      "manifest_sha256": "2178860463b28fefad0769566750cd41a579b2e6db57e9fbaece169f4ce80184",
+      "channel_sha256": "ecf0b39a7511bbfbc096ffedc7246f95af3e97c2dbf24f1b0ee8fc9cb52280ca",
+      "refit_updates": 22968,
+      "full_inference_frequency_count": 192,
+      "frequency_minibatch": 192
+    },
+    {
+      "outer": 4,
+      "N": 153,
+      "manifest_sha256": "6fd5b2e1e2eee37f7cfd7eee5a3952ecd4acb35b9d6b198d5792c5d5d56cb4e9",
+      "channel_sha256": "45b15268208593d542c34afa160c21b911029bab67a7cb9fe93334ebdd5ef7f6",
+      "refit_updates": 22640,
+      "full_inference_frequency_count": 192,
+      "frequency_minibatch": 8
+    }
+  ],
+  "actual_formal_optimizer_updates": 243136,
+  "recorded_role_seconds": 81195.60574799357,
+  "old347_predictions_unchanged": true,
+  "new153_full192": true,
+  "all_fields_all_FIT_gradient_coverage": true,
+  "new_tone_exposure_accounting_verified": true,
+  "outer_truth_reads": 0,
+  "quality_scored": false,
+  "CUDA_initialized": false
+}

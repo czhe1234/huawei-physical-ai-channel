@@ -1,0 +1,140 @@
+{
+  "status": "passed",
+  "source_identity": {
+    "code/round2/baseline_formal_20261111/nerf2.py": "d210f6c817141a4055a4a42689cd9b41d316aef5cfcb29dd93a7b1bb10aae626",
+    "analysis/results/round2_paper_four_baselines_v1/formal_20261111/nerf2/method_config.json": "c298cb71156e7aa78eec1f374ea8bb36fba47d5ef8a7a54b76dbeee5cf258a35",
+    "code/round2/paper_baseline_training_v1/common.py": "5ad45eb0b8d16f4a9af9462ba747f582d28946caef84747a8c21e1ccd3d1205d",
+    "code/round2/paper_baseline_training_v1/nerf2_runner_v2.py": "9cf207b5eaf420718ed0e11d4e40b7ccc2b25e1198752f03eb7a66653c6f24a0",
+    "code/round2/paper_baseline_training_v1/nerf2_runner_v3.py": "a5e24f56228079b691ed4b5186de52bd5f7851e5603c34956f15e9a1aa8899ca",
+    "code/round2/paper_baseline_training_v1/field_fast.py": "4773a34235bcaa7e24f119f333be39f7a986fd8726bbba1a4e66c3f2990e1d9f",
+    "code/round2/paper_baseline_training_v1/nerf2_native_frequency_heads_v4.py": "f572c341d09a0edce929502836692eb825e65b937c6863c66720a7b49a892270",
+    "code/round2/paper_baseline_training_v1/nerf2_native_heads_joint_v5.py": "1d1387c5d4836c2823d150cdf8a25c725fb7453e2e326d2493b43f03d36ab882",
+    "code/round2/paper_baseline_adapters_v1/contract.py": "0da0617438cd3ca72d536da566f35305d78c16b3fabeb4d3877e92486bf34b5f",
+    "code/round2/paper_baseline_adapters_v1/field_models.py": "8009d8877a680f232445d277f890796109f982347741593fc4bf8db4a5bc8242",
+    "code/round2/paper_baseline_training_v1/field_runner.py": "cdf21f0534b8d616511cebddb09b8b72ca325c3ab7e1e8ef6fb3b28192213ed7",
+    "plus-pro/code/measured/full_h_adapters_v1/nerf2.py": "37704fd408178a4286e0b58a92b21a8f6a02ca635dc712d6194ceca7f488f192",
+    "plus-pro/code/third_party/paper_baselines/nerf2/model.py": "c63fa4246d6255035d03ebc1dbd7b5a1d40391b51e98805ed3d9969bc3546ad1",
+    "plus-pro/code/third_party/paper_baselines/nerf2/renderer.py": "4f5e5b1ab617de27918e8d2bc540182a110d37eb6ac5e743449c34b3a8535c92",
+    "code/round2/baseline_formal_20261111/nerf2_portable.py": "833a986b9212f496fd656c19a4cee2dc7c3e34a013dd8d0e518f255b8485ba40",
+    "analysis/results/round2_paper_four_baselines_v1/formal_20261111/nerf2/portable_4/runtime_config.json": "a25b85c20725dc6454ba502f97ba905ddb58de1f7ea7c3f2de48397c1a15cbd9"
+  },
+  "runtime": {
+    "schema": "nerf2-execution-only-portable-v1",
+    "gpu_uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "folds": [
+      4
+    ],
+    "method_config": "analysis/results/round2_paper_four_baselines_v1/formal_20261111/nerf2/method_config.json",
+    "method_config_sha256": "c298cb71156e7aa78eec1f374ea8bb36fba47d5ef8a7a54b76dbeee5cf258a35",
+    "frozen_base_sha256": "d210f6c817141a4055a4a42689cd9b41d316aef5cfcb29dd93a7b1bb10aae626",
+    "frozen_legacy_sha256": "cdf21f0534b8d616511cebddb09b8b72ca325c3ab7e1e8ef6fb3b28192213ed7",
+    "execution_only": true,
+    "frozen": true,
+    "qa_min_free_GiB": 24,
+    "note": "Scheduling binding only. No formal run until root dispatch and actual base worker excludes fold4. Lightweight QA uses4FIT points,0updates; prior probe scaling plus8GiB margin gives conservative24GiB guard."
+  },
+  "device_binding_proof": {
+    "frozen_base_sha256": "d210f6c817141a4055a4a42689cd9b41d316aef5cfcb29dd93a7b1bb10aae626",
+    "frozen_legacy_sha256": "cdf21f0534b8d616511cebddb09b8b72ca325c3ab7e1e8ef6fb3b28192213ed7",
+    "legacy_original_AST_sha256": "ab788bc57e04ee0f2ad1abeb5431fa00147a50867ecb29c9b429b27f5a1fc2e5",
+    "legacy_device_bound_AST_sha256": "7ff1ede44ba559dbbba4155487f7593a6283284bf9a5733615eaf8669f5e2c8e",
+    "legacy_device_normalized_AST_sha256": "1249e5059fc577c7c5607aa9d55ec8ff4e33a3e734bb0a5ac6ede9c7661ee8a7",
+    "only_legacy_AST_change": "one top-level GPU_UUID constant",
+    "legacy_original_GPU_UUID": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "legacy_runtime_GPU_UUID": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "frozen_module_original_GPU": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "frozen_module_runtime_GPU": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "all_frozen_function_code_sha256": {
+      "parts": "c2854c46ab11acf7d283487c75cee2d65fa29c6487d8a699cbb9fae4c6a8f979",
+      "locations": "b758327054da91877118507ec7f203b0c164eac21801ac18ec25d4847b018a14",
+      "emit": "b9d00f402fa278d8bb63219966a83633afc3da67d306c5ea00eb308db9b9afac",
+      "identity": "627890c27687f31fb3aa138ddce061d2455f0b5bba217a9f06c16bf3837f2cc2",
+      "verify_identity": "a87ff5beb5debdcfd54f0787ea9dbd8ebef357dffbfd643f66106dcbea41ce21",
+      "cpu_tree": "2df28e5fae22b83ec12040a0e51c5994af58ecf240ae55fae175d404c1450e28",
+      "optimizer_fingerprint": "5fc921870e416cedc7d18a2d9501728934e2c7519cc50b7d86e838051cf60bb0",
+      "rng_state": "b35e29e27a651a62449c7356eb7abdaf55bb03c4b8035662467841b7174a96ca",
+      "restore_rng": "8bed0ff4c8013c524bf125ed084b067bd6572fb2d048fa5e4747bd0a2a88dd54",
+      "build": "ddf5d7ec674f35897f1f67d384044fbaf4ccda31d6a9c651b29f7c312c25353f",
+      "train_step": "397e31b12f75fa3bb4ae5ad90996551701ffb1a7381ae4fe8afb076870359b7b",
+      "predict_full": "59866a5d56c441e63930ce608e1c70b3aecf1e2bc92e946015abb456807ae250",
+      "validation": "59866a5d56c441e63930ce608e1c70b3aecf1e2bc92e946015abb456807ae250",
+      "snapshot": "88c6a0c0307122e03212c66eba04e25c691971e8d1a8c4762b400d21d22c40a2",
+      "restore": "42fb8007dedb356c93e6886320cf9a802580c8e4806cb4685e3b6630b90ffe1e",
+      "set_lr": "c52631644896b8fa57bb4591b2df28e3911bc3db9f4adf32ec66a8d864540179",
+      "training_coverage": "ed4047677b545784f173bbe8babdbaff370353bec683d141e1cd6a258b1ff2a0",
+      "bounds": "501e929be8ed59929f77e995c421b12e3579e047ddb33570b175cb9a9c49f759",
+      "stage": "e106366407a4450f5523fa3a5409fb3df3d0baca9c6fcda5dc92c9ce0d7dc4b3",
+      "outer_prediction": "59866a5d56c441e63930ce608e1c70b3aecf1e2bc92e946015abb456807ae250",
+      "qa_gradients": "65f0cd75e68fd24aa172c195b3a18f4ccc60d4b855a82f2a2d1f0ad7cc424624",
+      "smoke": "c8ce087ba5e2c33b948ee01a414d651dbe39ad35360b6c79d35a3fa5e9fffd44",
+      "cpu_check": "463635ff8b77735ce293d6b5e184f4ea89fd8ae60997537951aefc503ecb9e73",
+      "default_config": "207b802accfd8b825aaf1ab92947206ff5cc42061c24419f1801b7743d6baae0",
+      "main": "e086860bb203f32125b20328f37feac1b816cb712a749f0a998db95e952cc294"
+    },
+    "frozen_function_bytecode_unchanged": true,
+    "no_disk_source_modified": true,
+    "mathematical_functions_reused_directly": true
+  },
+  "publication_CPU_check": {
+    "exact_resolved_path_only": true,
+    "unrelated_writes_passthrough": true,
+    "intentional_exception_finally_restores_writer": true,
+    "fresh_staged_predictor_calls": 1,
+    "fresh_return_matches_pending": true,
+    "fresh_predictor_exception_finally_restores_writer": true,
+    "pending_resume_frozen_predictor_calls": 0,
+    "pending_raw_SHA_inode_size_mtime_unchanged": true,
+    "annotated_report_before_canonical": true,
+    "canonical_publish_count": 1,
+    "canonical_is_last_write": true,
+    "immutable_reentry_SHA_and_mtime": true,
+    "published_reader_calls": 1
+  },
+  "CPU_only": true,
+  "CUDA_initialized": false,
+  "optimizer_updates": 0,
+  "frozen_math_config_sha256": "c298cb71156e7aa78eec1f374ea8bb36fba47d5ef8a7a54b76dbeee5cf258a35",
+  "records": [
+    {
+      "fold": 4,
+      "bounds": [
+        3776,
+        7552,
+        944
+      ],
+      "identical_same_seed_sampler": true,
+      "train_labels_read": 0,
+      "outer_count": 153
+    }
+  ],
+  "active_base_worker_queues": [
+    {
+      "pid": 2374829,
+      "folds": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "pid": 2374833,
+      "folds": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "pid": 2374949,
+      "folds": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "duplicate_queue_guard_enforced_at_real_run": true
+}

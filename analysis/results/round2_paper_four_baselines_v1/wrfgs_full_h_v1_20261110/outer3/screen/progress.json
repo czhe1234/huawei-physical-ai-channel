@@ -1,0 +1,21 @@
+{
+  "status": "running",
+  "outer": 3,
+  "role": "screen",
+  "step": 4800,
+  "loss_mean": 0.5289109475538134,
+  "gradient_mean": 1.3748298848420382,
+  "validation": {
+    "count": 16,
+    "pas": 0.41008834579830966,
+    "pdp": 0.7164205251708609,
+    "nmse": 0.9953878229165076,
+    "nmse_score": 0.5011557094391683,
+    "score": 0.5508346902755019
+  },
+  "best_step": 1600,
+  "best_score": 0.5807581761201303,
+  "elapsed_seconds": 338.8089121830417,
+  "exposure_min": 10,
+  "exposure_max": 11
+}

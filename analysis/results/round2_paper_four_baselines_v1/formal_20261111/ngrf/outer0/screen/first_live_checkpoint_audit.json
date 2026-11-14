@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "step": 2551,
+  "actual_adam_counters": [
+    2551.0
+  ],
+  "optimizer_state_count": 52,
+  "fit_positions": 3820,
+  "zero_fit_positions": 261,
+  "min_visits": 21,
+  "min_zero_visits": 21,
+  "true_update_visits": 81632,
+  "unique_tones": 192,
+  "minimum_distinct_tones_per_position": 99,
+  "schedule_and_position_frequency_counts_match": true,
+  "GPU_used": false,
+  "outer_truth_read": false
+}

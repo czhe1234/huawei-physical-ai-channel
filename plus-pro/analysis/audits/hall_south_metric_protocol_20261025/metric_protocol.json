@@ -1,0 +1,88 @@
+{
+  "schema": "hall-south-paper-metrics-candidate-v1",
+  "status": "Executable candidate; numerically checked on declared FIT only; not a performance result.",
+  "scientific_object": "Measured angular/relative-delay/receive-energy structure, separately for each real32-element panel.",
+  "competition": {
+    "score": "0.4*PAS+0.4*PDP+0.2/(1+NMSE)",
+    "PAS": "Per-frequency cosine across spatial/polarization bins, then average UE/frequency/points.",
+    "PDP": "Per-link cosine across delay bins, then average links/points.",
+    "limitation": "Measured single-TX/two-panels are not the original2-polarization x4-UE tensor; raw absolute-H NMSE is not transferred."
+  },
+  "primary": {
+    "pas_cosine": {
+      "operator": "FFT2 over each actual8x4 array; power; cosine across32 direction bins at each frequency.",
+      "direction": "higher is better",
+      "rationale": "Closest physical-layout adaptation of competition PAS, preserves every frequency.",
+      "requires": "A genuinely frequency-resolved prediction; no copying a broadband-only prediction across tones."
+    },
+    "relative_pdp_cosine": {
+      "operator": "Each channel tensor independently referenced with one shared anchor for all32 elements per panel; IFFT then power; cosine across full relative-delay axis per receive element.",
+      "direction": "higher is better",
+      "rationale": "Inherits competition PDP shape operator after explicitly removing unidentifiable common timing.",
+      "allowed_claim": "Relative profile shape, not absolute arrival time, physical first-path timing or unique true path recovery."
+    }
+  },
+  "core_mechanism": {
+    "receive_energy_TV": {
+      "operator": "E_m=mean_k |H_mk|^2; p_m=E_m/sum_m E_m; TV=0.5*sum_m |p_pred-p_ref|.",
+      "direction": "lower is better",
+      "caveat": "Marginal only; cannot establish correct receive/delay pairing or separate fixed hardware response from propagation."
+    },
+    "receive_delay_joint_TV": {
+      "operator": "J_m,d=relative_PDP_m,d/sum_m,d relative_PDP_m,d; TV=0.5*sum_m,d |J_pred-J_ref|.",
+      "direction": "lower is better",
+      "rationale": "Distinguishes correct total receive energy from energy placed at the wrong relative delay/channel."
+    }
+  },
+  "auxiliary": {
+    "covariance_NMSE": "Within-panel spatial correlation diagnostic; distinct from energy allocation.",
+    "frequency_correlation_MAE": "Panel/per-beam frequency-structure diagnostic; not a replacement for direct relative PDP.",
+    "relative_CSI_power_MAE_db": "Total measured signal strength versus a FIT-only panel reference; not dBm.",
+    "beam_loss_db": "Downstream32-beam selection utility.",
+    "RMS_delay_spread": "Deferred until FIT-fixed noise/window/unwrap rules are justified; moment sensitivity is not hidden by a direct profile score.",
+    "angle_delay_joint_spectrum": "Needed if the paper claims correct direction-delay pairing; marginal PAS/PDP alone are insufficient."
+  },
+  "reference": {
+    "formula": "C=sum_m,k H_m,k+1*conj(H_m,k); t_anchor=-arg(C)/(2*pi*delta_f); H_rel=H*exp(+j*2*pi*f_offset*t_anchor).",
+    "equivalence": "H -> a*exp(j*phi)*exp(-j*2*pi*f*tau0)*H for common a,phi,tau0 within one calibrated panel.",
+    "no_pairwise_fit": true,
+    "no_per_receive_element_alignment": true,
+    "no_query_truth_prediction_correction": true,
+    "numerical_coherence_min": 1e-06,
+    "comparison_window": "Entire centered FFT period; no adaptive peak crop or best-shift search.",
+    "actual_bandwidth_hz": 50000000.0,
+    "nominal_delay_bin_ns": 20.0,
+    "period_us": 20.48,
+    "meaning": "A mathematical reference modulo the delay period, not the physical first arrival."
+  },
+  "aggregation": "Average valid frequency/link cells within each position/panel; positions within each panel; then the two panels equally. Report panels separately.",
+  "invalid_policy": {
+    "reference": "Nonfinite rejected. Zero reference energy or numerically undefined timing counted; only reference determines excluded cells.",
+    "prediction": "Zero or undefined-timing prediction on a valid reference remains in the denominator: PAS/PDP zero, energy/joint TV one. No method-specific reference mask."
+  },
+  "selection": {
+    "combined_score": null,
+    "reason": "Do not replace missing absolute-H score with a new weighted winner score.",
+    "previous_model_outputs": "Not loaded or rescored. Any later use is development exploration because old checkpoints were selected by old objectives.",
+    "future": "Training/selection changes must be explicit; keep existing raw, prepared and result versions. North/TEST remain held out."
+  },
+  "baseline_eligibility": {
+    "full_channel": "Eligible for both primary metrics and energy mechanisms if produced without query truth.",
+    "broadband_only": "Eligible only for declared broadband direction/beam auxiliary comparisons; no artificial phases or repeated-tone claims.",
+    "energy_controls": "Later include uniform and FIT-average allocation; no baseline scored in this stage."
+  },
+  "implementation_boundary": {
+    "original_port_head": "Path-specific2x4 polarization/UE profile.",
+    "measured_receive_head": "One shared32-element log-amplitude vector per query/panel; same gain multiplies all candidate paths.",
+    "consequence": "Not an equivalent implementation of the original port mechanism; metric changes alone do not restore that mechanism.",
+    "caution": "Do not blindly invent UE/polarization ports or copy a path-specific receiver head without physical justification."
+  },
+  "scope": {
+    "new_training": false,
+    "algorithm_rescoring": false,
+    "checkpoint_loading": false,
+    "validation_channels": false,
+    "test": false,
+    "north": false
+  }
+}

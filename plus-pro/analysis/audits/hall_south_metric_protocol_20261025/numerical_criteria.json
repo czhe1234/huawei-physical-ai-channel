@@ -1,0 +1,6 @@
+{
+  "clock_joint_L1_max": 5e-05,
+  "FP32_FP64_anchor_difference_ns_max": 0.02,
+  "coherence_numeric_min": 1e-06,
+  "meaning": "Numerical gauge/conditioning criteria only, not a measured-noise or absolute-clock certification."
+}

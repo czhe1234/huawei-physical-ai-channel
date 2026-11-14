@@ -1,0 +1,54 @@
+{
+  "schema": "completion-based-fold-selection-v1",
+  "input_identity": "819ab37e745a05962e0166654510b1e385ea160da8254b61e88300bdcaaa0b1c",
+  "query_ids_sha256": "f115290de0dc5f80cfe304e1f2143696694e66eec10c418e1b086d0b179ed08b",
+  "retained_manifest_hashes": {
+    "artifacts/round2/paper_four_baselines_v1/formal_20261111/nerf2/outer0/prediction/manifest.json": "3c475d938e458ac9fce8651f6e6d84cdec378b1f846f4efd695db87c77f925e4",
+    "artifacts/round2/paper_four_baselines_v1/formal_20261111/nerf2/outer1/prediction/manifest.json": "3454ad5e6e50f2c78a04a6bd849c5cf938e0912517d92c8f24885806343f8c15",
+    "artifacts/round2/paper_four_baselines_v1/formal_20261111/newrf/outer0/prediction/manifest.json": "ddaf626951287d1a071ef29594c3eb35139caef79ee08e653cecefe8772a2bae",
+    "artifacts/round2/paper_four_baselines_v1/formal_20261111/newrf/outer1/prediction/manifest.json": "714dbda86438ff2606c6f2e030c314d61b9be728c211702dcf862e57f34b6d2e",
+    "artifacts/round2/paper_four_baselines_v1/formal_20261111/newrf/outer2/prediction/manifest.json": "ecfc23e90ea8c2fd1a0127f087b4f5975de9cecd35b5d49021131da16e83179b",
+    "artifacts/round2/paper_four_baselines_v1/formal_20261111/newrf/outer3/prediction/manifest.json": "2178860463b28fefad0769566750cd41a579b2e6db57e9fbaece169f4ce80184",
+    "artifacts/round2/paper_four_baselines_v1/formal_20261111/ngrf/outer0/prediction/manifest.json": "3910ddf9666a0db50947e322ce81276f71cef4c99a840663c00d8d1c1d191467",
+    "artifacts/round2/paper_four_baselines_v1/formal_20261111/ngrf/outer1/prediction/manifest.json": "665a1535097a96f91c1d42cd3dbfbc9051b450319dd96ee2339672e3a5e52b23",
+    "artifacts/round2/paper_four_baselines_v1/formal_20261111/ngrf/outer2/prediction/manifest.json": "1341e19d74f3d3e9d8536c45c84fba852174de37cc91b1596a30a012109f58e1",
+    "artifacts/round2/paper_four_baselines_v1/formal_20261111/ngrf/outer3/prediction/manifest.json": "c9433b714eb9ae153181335945b5b66d68e4a1c92896e6e1c91b86e7b1886c99",
+    "artifacts/round2/paper_four_baselines_v1/formal_20261111/ngrf/outer4/prediction/manifest.json": "fbb5cf6841b0e1b637d4afe89b757cc588dff7153f28780bcc7e45478cc100b0"
+  },
+  "retained_result_hashes": {
+    "analysis/results/round2_paper_four_baselines_v1/formal_20261111/evaluation/ngrf/results.json": "6362fa225e7f0ac69e78e5857d4f648c60c5e28e34d088586ef740002641ccb5",
+    "analysis/results/round2_paper_four_baselines_v1/formal_20261111/evaluation/ngrf/independent_verification.json": "363bf36f28fdc2a9b8a688df067ecf38bd123dc71d00f79b968d5a7bd2b92eb6",
+    "analysis/results/round2_paper_four_baselines_v1/formal_20261111/evaluation/ngrf/independent_cpu_verification.json": "fdfed5e91d55123a310e1898a9e0ecb8e7e7e03202eeee8dce492428f689533c",
+    "analysis/results/round2_paper_four_baselines_v1/wrfgs_full_h_v1_20261110/evaluation/comparison.json": "4d8d7ef6e2841c80723404e3761320012419d8ae969521c0e9ab702ee97829fb"
+  },
+  "new_root_folds": {
+    "nerf2": [
+      2,
+      3,
+      4
+    ],
+    "newrf": [
+      4
+    ]
+  },
+  "retained_formal_folds": {
+    "nerf2": [
+      0,
+      1
+    ],
+    "newrf": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "ngrf": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "selection_uses_outer_scores": false
+}

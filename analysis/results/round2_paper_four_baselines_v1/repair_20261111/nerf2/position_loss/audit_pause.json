@@ -1,0 +1,5 @@
+{
+  "pid": 4002996,
+  "signal": "SIGSTOP",
+  "reason": "Audit paired optimizer CPU step alias before more candidate updates"
+}

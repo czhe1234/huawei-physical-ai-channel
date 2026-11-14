@@ -1,0 +1,15 @@
+{
+  "queue_PID": 50879,
+  "GPU_UUID": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+  "launch_UTC": "2026-11-10T22:21:01.572399+00:00",
+  "outer_order": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "source_sha256": "8da7d760d2d056adab8824d48bfc763d9aae0d55012bd4bfb72166ed67844272",
+  "method_config_sha256": "3582f1108c001814e506753785adb38478b821929d9e57b5647fdf987255beb3",
+  "exact_queue_script": "set -euo pipefail\ncd /home/chenzhe/work/hw\nexport PATH=/opt/anaconda3/bin:$PATH\nexport PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 OMP_NUM_THREADS=4 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=4 HW_SKIP_ENV_CHECK=1 CUDA_VISIBLE_DEVICES=GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009\nexec 9>analysis/results/round2_paper_four_baselines_v1/formal_20261111/newrf/queue.lock\nflock -n 9\nfor outer in 0 1 2 3 4; do\n  test \"$(sha256sum code/round2/baseline_formal_20261111/newrf.py | cut -d' ' -f1)\" = 8da7d760d2d056adab8824d48bfc763d9aae0d55012bd4bfb72166ed67844272\n  test \"$(sha256sum analysis/results/round2_paper_four_baselines_v1/formal_20261111/newrf/method_config.json | cut -d' ' -f1)\" = 3582f1108c001814e506753785adb38478b821929d9e57b5647fdf987255beb3\n  while ! test \"$(nvidia-smi -i GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009 --query-gpu=memory.free --format=csv,noheader,nounits)\" -ge 32768; do\n    printf 'Waiting for 32GiB on allowed H1001 before outer%s at %s\\n' \"$outer\" \"$(date -Iseconds)\"\n    sleep 60\n  done\n  mkdir -p analysis/results/round2_paper_four_baselines_v1/formal_20261111/newrf/outer\"$outer\"\n  printf 'Starting NeWRF outer%s on H1001 at %s\\n' \"$outer\" \"$(date -Iseconds)\"\n  code/tools/run_in_env.sh python -m round2.baseline_formal_20261111.newrf --mode run --outer \"$outer\" --gpu-uuid GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009 --config analysis/results/round2_paper_four_baselines_v1/formal_20261111/newrf/method_config.json >> analysis/results/round2_paper_four_baselines_v1/formal_20261111/newrf/outer\"$outer\"/run.log 2>&1\n  printf 'Completed NeWRF outer%s at %s\\n' \"$outer\" \"$(date -Iseconds)\"\ndone"
+}

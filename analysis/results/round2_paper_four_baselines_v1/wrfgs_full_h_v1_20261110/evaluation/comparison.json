@@ -1,0 +1,131 @@
+{
+  "rows": [
+    {
+      "method": "V16（历史结果保留）",
+      "key": "v16",
+      "metrics": {
+        "count": 500,
+        "pas": 0.6769415758539015,
+        "pdp": 0.7803473980573273,
+        "nmse": 0.9331251955178452,
+        "nmse_score": 0.5172970702149067,
+        "score": 0.6863750036074728
+      },
+      "origin": "archived_summary_not_rescored"
+    },
+    {
+      "method": "NeRF²（全H适配）",
+      "key": "nerf2",
+      "metrics": {
+        "count": 500,
+        "pas": 0.04295328829063716,
+        "pdp": 0.46884501160405334,
+        "nmse": 1.0000232017321908,
+        "nmse_score": 0.49999419963424163,
+        "score": 0.3047181598847245
+      },
+      "origin": "fresh_raw_prediction_scoring"
+    },
+    {
+      "method": "NeWRF（全H适配）",
+      "key": "newrf",
+      "metrics": {
+        "count": 500,
+        "pas": 0.045065016042223446,
+        "pdp": 0.06856087436940117,
+        "nmse": 0.9999999802438484,
+        "nmse_score": 0.500000004939038,
+        "score": 0.14545035715245744
+      },
+      "origin": "fresh_raw_prediction_scoring"
+    },
+    {
+      "method": "nGRF（全H适配）",
+      "key": "ngrf",
+      "metrics": {
+        "count": 500,
+        "pas": 0.10680143017968657,
+        "pdp": 0.013950433898883624,
+        "nmse": 1.1036185502866709,
+        "nmse_score": 0.4753713546896251,
+        "score": 0.14337501656935311
+      },
+      "origin": "fresh_raw_prediction_scoring"
+    },
+    {
+      "method": "WRF-GS+（功率适配）",
+      "key": "wrfgs",
+      "metrics": {
+        "count": 500,
+        "pas": 0.32457563564083103,
+        "pdp": null,
+        "nmse": null,
+        "nmse_score": null,
+        "score": null
+      },
+      "origin": "fresh_raw_prediction_scoring"
+    },
+    {
+      "method": "WRF-GS+（完整H适配）",
+      "key": "wrfgs_full_h_v1",
+      "metrics": {
+        "count": 500,
+        "pas": 0.43313136325639273,
+        "pdp": 0.6594547343705439,
+        "nmse": 1.0010891825029031,
+        "nmse_score": 0.4997278525833765,
+        "score": 0.53698000956745
+      },
+      "origin": "fresh_raw_prediction_scoring"
+    }
+  ],
+  "old_metric_deltas": {
+    "nerf2": {
+      "count": 0,
+      "pas": 0.0,
+      "pdp": 0.0,
+      "nmse": 0.0,
+      "nmse_score": 0.0,
+      "score": 0.0
+    },
+    "newrf": {
+      "count": 0,
+      "pas": 0.0,
+      "pdp": 0.0,
+      "nmse": 0.0,
+      "nmse_score": 0.0,
+      "score": 0.0
+    },
+    "ngrf": {
+      "count": 0,
+      "pas": 0.0,
+      "pdp": 0.0,
+      "nmse": 0.0,
+      "nmse_score": 0.0,
+      "score": 0.0
+    },
+    "wrfgs": {
+      "count": 0,
+      "pas": 0.0,
+      "pdp": null,
+      "nmse": null,
+      "nmse_score": null,
+      "score": null
+    }
+  },
+  "query_ids_sha256": "f115290de0dc5f80cfe304e1f2143696694e66eec10c418e1b086d0b179ed08b",
+  "source_identity": {
+    "code/round2/wrfgs_full_h_v1/run.py": "1657e4fe4a5a60e6024f50cdb2f889ee2c8ed6ecb8416a68c32ee97a9c759356",
+    "code/round2/wrfgs_full_h_v1/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "code/round2/wrfgs_full_h_v1/model.py": "bfdd3bf0f9991b61de24c9392b3d77d09a81b1b679fd5989721164c3662158c8",
+    "code/common/official_metrics.py": "15aa0cca3b7df17f8c93bd26d22b44f4a49b48d6b13fd8cc7b52325fb74729c3",
+    "code/round2/paper_baseline_training_v1/common.py": "5ad45eb0b8d16f4a9af9462ba747f582d28946caef84747a8c21e1ccd3d1205d",
+    "code/round2/paper_baseline_training_v1/final_score.py": "56fc83f5309ab46d42ee8a744ea0ee54867b1d18e2d62ce5e8a412a2314b3c23",
+    "code/round2/paper_baseline_training_v1/wrfgs_model.py": "f8a5391d57f41ea72181c14e46c751d4d0035c87e4d129703208963700f6397a",
+    "code/round2/paper_baseline_training_v1/wrfgs_fast_ops.py": "4bb979456b6b2a6bad57dd842b17f07b2b4ee91f7554fe09705d3b56029e8816",
+    "code/round2/paper_baseline_adapters_v1/wrfgs.py": "277039c6b53651bbe0d356f099d06dca783c05a3d56454e4e0959d851b448aa4",
+    "code/round2/paper_baseline_adapters_v1/contract.py": "0da0617438cd3ca72d536da566f35305d78c16b3fabeb4d3877e92486bf34b5f",
+    "analysis/results/round2_paper_four_baselines_v1/wrfgs_full_h_v1_20261110/config.json": "ce8740273f7908f93c44e95f687991df406ca043bd7eaa63014c85ca7da672c0"
+  },
+  "new_full_H_included": true
+}

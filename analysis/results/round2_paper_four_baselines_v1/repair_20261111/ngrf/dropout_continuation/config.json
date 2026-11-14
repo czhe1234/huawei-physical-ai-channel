@@ -1,0 +1,17 @@
+{
+  "parent_global_step": 3000,
+  "additional_updates": 3000,
+  "eval_every": 250,
+  "max_total_seconds": 600,
+  "conditional_method_total_ceiling_seconds": 1200,
+  "profile_updates": 20,
+  "branches": [
+    "dropout_on",
+    "dropout_off"
+  ],
+  "loss": "native magnitudeNMSE+1*complexNMSE+original activation-logit penalty",
+  "change": "Dropout probabilities only; model structure and all trainable parameters identical",
+  "schedule": "seed42 original schedule positions/frequencies 3001..6000, same in both branches",
+  "selection": "FIT-only fixed endpoints; no validation",
+  "strict_gate": "Every nonzero point NMSE<=0.5 and energy ratio0.5..1.5; zero leakage<=lambda1 parent endpoint; pooled complex<=0.5 and magnitude<=0.05"
+}

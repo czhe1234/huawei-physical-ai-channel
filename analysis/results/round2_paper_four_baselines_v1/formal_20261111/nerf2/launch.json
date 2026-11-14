@@ -1,0 +1,32 @@
+{
+  "status": "launched",
+  "launcher_pid": 30472,
+  "worker_pid": 30515,
+  "actual_CUDA_UUID": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+  "gpu_free_bytes_before": 66495709184,
+  "frozen_config_sha256": "c298cb71156e7aa78eec1f374ea8bb36fba47d5ef8a7a54b76dbeee5cf258a35",
+  "frozen_source_sha256": "d210f6c817141a4055a4a42689cd9b41d316aef5cfcb29dd93a7b1bb10aae626",
+  "argv": [
+    "code/tools/run_in_env.sh",
+    "python",
+    "-u",
+    "-m",
+    "round2.baseline_formal_20261111.nerf2",
+    "--config",
+    "analysis/results/round2_paper_four_baselines_v1/formal_20261111/nerf2/method_config.json",
+    "--mode",
+    "run",
+    "--folds",
+    "0,1,2,3,4"
+  ],
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "HW_SKIP_ENV_CHECK": "1",
+    "environment": "existing base"
+  },
+  "stdout_stderr": "analysis/results/round2_paper_four_baselines_v1/formal_20261111/nerf2/formal_run.log",
+  "stage_progress": "analysis/results/round2_paper_four_baselines_v1/formal_20261111/nerf2/outer0/screen/progress.json",
+  "exact_restart": "Same frozen argv/config and GPU; existing last.pt restores model/Adam/RNG/field schedule. Use a new log file.",
+  "outside_test_truth_read": false
+}

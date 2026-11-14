@@ -1,0 +1,209 @@
+{
+  "status": "passed",
+  "method": "ngrf",
+  "folds": [
+    {
+      "outer": 0,
+      "heldout_count": 103,
+      "screen_selected_steps": 18000,
+      "best_validation_score": 0.15224673947783107,
+      "screen_stopping": "validation_plateau_after_minimum",
+      "prediction_path": "artifacts/round2/paper_four_baselines_v1/formal_20261111/ngrf/outer0/prediction/channels.npy",
+      "prediction_sha256": "1c493d9bf977c823cff3d05e373df8718f3a8bb8ed7822ca5a8933b31208834c",
+      "refit_checkpoint": "artifacts/round2/paper_four_baselines_v1/formal_20261111/ngrf/outer0/refit/latest.pt",
+      "refit_checkpoint_sha256": "8bb14ea7259c1b3542e24212acf92bc2b47276ec7623691639f991518fc786fe",
+      "roles": [
+        {
+          "role": "screen",
+          "fit_count": 3820,
+          "actual_updates": 22000,
+          "zero_count": 261,
+          "min_visits": 183,
+          "zero_min_visits": 183,
+          "min_distinct_tones": 190,
+          "fit_pooled_H_nmse": 1.0594604388454332,
+          "fit_nonzero_NMSE_le_half_count": 0
+        },
+        {
+          "role": "refit",
+          "fit_count": 3893,
+          "actual_updates": 18344,
+          "zero_count": 262,
+          "min_visits": 150,
+          "zero_min_visits": 150,
+          "min_distinct_tones": 189,
+          "fit_pooled_H_nmse": 1.0487561762401842,
+          "fit_nonzero_NMSE_le_half_count": 0
+        }
+      ]
+    },
+    {
+      "outer": 1,
+      "heldout_count": 71,
+      "screen_selected_steps": 29000,
+      "best_validation_score": 0.16313849014302217,
+      "screen_stopping": "maximum_steps",
+      "prediction_path": "artifacts/round2/paper_four_baselines_v1/formal_20261111/ngrf/outer1/prediction/channels.npy",
+      "prediction_sha256": "828faf38619b5fef3139c7b43217fb37ec1bc9cbdab2b72c080499cc15600f64",
+      "refit_checkpoint": "artifacts/round2/paper_four_baselines_v1/formal_20261111/ngrf/outer1/refit/latest.pt",
+      "refit_checkpoint_sha256": "7ac3904eafc310cb7227f5a30203e31694d656fded5a76608b6ee8bacb8b1ef4",
+      "roles": [
+        {
+          "role": "screen",
+          "fit_count": 3858,
+          "actual_updates": 30000,
+          "zero_count": 257,
+          "min_visits": 247,
+          "zero_min_visits": 247,
+          "min_distinct_tones": 191,
+          "fit_pooled_H_nmse": 1.1014229089244103,
+          "fit_nonzero_NMSE_le_half_count": 0
+        },
+        {
+          "role": "refit",
+          "fit_count": 3927,
+          "actual_updates": 29519,
+          "zero_count": 261,
+          "min_visits": 238,
+          "zero_min_visits": 238,
+          "min_distinct_tones": 191,
+          "fit_pooled_H_nmse": 1.1207627692726285,
+          "fit_nonzero_NMSE_le_half_count": 0
+        }
+      ]
+    },
+    {
+      "outer": 2,
+      "heldout_count": 63,
+      "screen_selected_steps": 16500,
+      "best_validation_score": 0.14117223462633588,
+      "screen_stopping": "validation_plateau_after_minimum",
+      "prediction_path": "artifacts/round2/paper_four_baselines_v1/formal_20261111/ngrf/outer2/prediction/channels.npy",
+      "prediction_sha256": "280d17da8dbfd1b7fa8885059ee449f309d0248369d7b4099e6bfc046b2ce1b5",
+      "refit_checkpoint": "artifacts/round2/paper_four_baselines_v1/formal_20261111/ngrf/outer2/refit/latest.pt",
+      "refit_checkpoint_sha256": "2c839a882e554eb7e1aff1f57c680484fb30665c830014d8e2a6de459c96ce3c",
+      "roles": [
+        {
+          "role": "screen",
+          "fit_count": 3813,
+          "actual_updates": 20500,
+          "zero_count": 232,
+          "min_visits": 171,
+          "zero_min_visits": 171,
+          "min_distinct_tones": 190,
+          "fit_pooled_H_nmse": 1.061836085097778,
+          "fit_nonzero_NMSE_le_half_count": 0
+        },
+        {
+          "role": "refit",
+          "fit_count": 3931,
+          "actual_updates": 17011,
+          "zero_count": 258,
+          "min_visits": 138,
+          "zero_min_visits": 138,
+          "min_distinct_tones": 188,
+          "fit_pooled_H_nmse": 1.080349490101417,
+          "fit_nonzero_NMSE_le_half_count": 0
+        }
+      ]
+    },
+    {
+      "outer": 3,
+      "heldout_count": 110,
+      "screen_selected_steps": 21000,
+      "best_validation_score": 0.16343622635408994,
+      "screen_stopping": "validation_plateau_after_minimum",
+      "prediction_path": "artifacts/round2/paper_four_baselines_v1/formal_20261111/ngrf/outer3/prediction/channels.npy",
+      "prediction_sha256": "bc97763165b7046d667f5150ff1a06ea16211ba3c52d00902555ee43aa935e2a",
+      "refit_checkpoint": "artifacts/round2/paper_four_baselines_v1/formal_20261111/ngrf/outer3/refit/latest.pt",
+      "refit_checkpoint_sha256": "d370950a7472da2ede54bb8240997bb3e262387317c475b12c1ceac4bfb1ec8a",
+      "roles": [
+        {
+          "role": "screen",
+          "fit_count": 3720,
+          "actual_updates": 25000,
+          "zero_count": 235,
+          "min_visits": 214,
+          "zero_min_visits": 214,
+          "min_distinct_tones": 191,
+          "fit_pooled_H_nmse": 1.062668711180264,
+          "fit_nonzero_NMSE_le_half_count": 0
+        },
+        {
+          "role": "refit",
+          "fit_count": 3882,
+          "actual_updates": 21915,
+          "zero_count": 236,
+          "min_visits": 179,
+          "zero_min_visits": 179,
+          "min_distinct_tones": 189,
+          "fit_pooled_H_nmse": 1.0873685243394189,
+          "fit_nonzero_NMSE_le_half_count": 0
+        }
+      ]
+    },
+    {
+      "outer": 4,
+      "heldout_count": 153,
+      "screen_selected_steps": 29000,
+      "best_validation_score": 0.22171582934604386,
+      "screen_stopping": "maximum_steps",
+      "prediction_path": "artifacts/round2/paper_four_baselines_v1/formal_20261111/ngrf/outer4/prediction/channels.npy",
+      "prediction_sha256": "8040ef3bb0d36a2af89e5bd9c593a668f9216d7c4ca93a1f4552f78e4998d0dd",
+      "refit_checkpoint": "artifacts/round2/paper_four_baselines_v1/formal_20261111/ngrf/outer4/refit/latest.pt",
+      "refit_checkpoint_sha256": "aafa1f59705819f858d1d77390765c564aa2f01a9522402dbeae9ff05a002f41",
+      "roles": [
+        {
+          "role": "screen",
+          "fit_count": 3731,
+          "actual_updates": 30000,
+          "zero_count": 261,
+          "min_visits": 254,
+          "zero_min_visits": 254,
+          "min_distinct_tones": 191,
+          "fit_pooled_H_nmse": 1.1192653661258385,
+          "fit_nonzero_NMSE_le_half_count": 0
+        },
+        {
+          "role": "refit",
+          "fit_count": 3838,
+          "actual_updates": 29832,
+          "zero_count": 261,
+          "min_visits": 246,
+          "zero_min_visits": 246,
+          "min_distinct_tones": 191,
+          "fit_pooled_H_nmse": 1.0919583858609423,
+          "fit_nonzero_NMSE_le_half_count": 0
+        }
+      ]
+    }
+  ],
+  "full_H_count": 500,
+  "shape": [
+    500,
+    256,
+    4,
+    192
+  ],
+  "dtype": "complex64",
+  "actual_training_updates": 244121,
+  "stage_training_wall_seconds": 14846.96621323598,
+  "peak_torch_allocated_bytes": 6753188352,
+  "peak_scope": "method process allocator, not whole-device peak",
+  "outer_truth_read": false,
+  "scoring_performed": false,
+  "GPU_used": false,
+  "exact_canonical_row_set": true,
+  "source_identity": {
+    "code/round2/baseline_formal_20261111/ngrf.py": "d7e01060ad1a45111a3088af7bc1f9b6653d37199bf2d2df18ce556c7290fbc4",
+    "code/round2/paper_baseline_training_v1/common.py": "5ad45eb0b8d16f4a9af9462ba747f582d28946caef84747a8c21e1ccd3d1205d",
+    "code/round2/paper_baseline_training_v1/native_ngrf.py": "a84eadc26fe79310a89bcdc21be0cc46d590bd1c3bda2b61402936cf82d8a967",
+    "code/round2/paper_baseline_adapters_v1/contract.py": "0da0617438cd3ca72d536da566f35305d78c16b3fabeb4d3877e92486bf34b5f",
+    "code/round2/baseline_repair_20261111/optimizer_copy_guard.py": "d5cbe8fdb055f825fe24854f65af4c7f94dc34f5f66f3e128d16d56c95a8a68c",
+    "code/common/official_metrics.py": "15aa0cca3b7df17f8c93bd26d22b44f4a49b48d6b13fd8cc7b52325fb74729c3",
+    "code/round2/paper_baseline_training_v1/field_fast.py": "4773a34235bcaa7e24f119f333be39f7a986fd8726bbba1a4e66c3f2990e1d9f",
+    "code/round2/paper_baseline_adapters_v1/field_models.py": "8009d8877a680f232445d277f890796109f982347741593fc4bf8db4a5bc8242",
+    "analysis/results/round2_paper_four_baselines_v1/formal_20261111/ngrf/method_config.json": "9561d64e9576ad69c9ea302b10e64330153503a9820d684ed5e9b815ced48921",
+    "analysis/results/round2_paper_four_baselines_v1/formal_20261111/contract.json": "9216b0004a6193d1af7e9e0f78d2cd44ec23f77a152deaec6e36857b679b8176"
+  }
+}

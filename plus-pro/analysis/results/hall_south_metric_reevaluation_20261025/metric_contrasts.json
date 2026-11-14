@@ -1,0 +1,20 @@
+{
+  "new_minus_old": {
+    "pas_cosine": 0.01878897321712425,
+    "relative_pdp_cosine": -0.043080671073052135,
+    "receive_energy_TV": -0.03616836185524938,
+    "receive_delay_joint_TV": 0.02995708053402535
+  },
+  "new_minus_rbf": {
+    "pas_cosine": -0.030025522711536468,
+    "relative_pdp_cosine": -0.018101312280744963,
+    "receive_energy_TV": -0.03482678060876496,
+    "receive_delay_joint_TV": 0.0014094887959738012
+  },
+  "geometry_minus_no_geometry": {
+    "pas_cosine": 0.0018617674609462398,
+    "relative_pdp_cosine": 0.0010130839525118729,
+    "receive_energy_TV": 0.004197932887928746,
+    "receive_delay_joint_TV": -0.0001503874634770641
+  }
+}

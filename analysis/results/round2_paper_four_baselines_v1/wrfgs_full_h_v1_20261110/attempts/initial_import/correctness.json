@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "production_array_ranks": [
+    {
+      "site": 0,
+      "rank": 128,
+      "condition": 7.671193645062291
+    },
+    {
+      "site": 1,
+      "rank": 128,
+      "condition": 7.671193645062234
+    }
+  ],
+  "full_H_shape": [
+    2,
+    256,
+    4,
+    192
+  ],
+  "coherent_readout_max_abs": 1.2101400773503468e-07,
+  "global_phase_equivariance_max_abs": 0.0,
+  "identity_loss": 0.0,
+  "signed_real_and_imag": true,
+  "source_identity": {
+    "code/round2/wrfgs_full_h_v1/run.py": "36074c0107d0d4c2ae0063dbf0effbcfa674f0b71ae06c52b0876c532a84095a",
+    "code/round2/wrfgs_full_h_v1/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "code/round2/wrfgs_full_h_v1/model.py": "78139ffa09d0b1f21628e915995438e63abeee6df772d9554532c6f55b2fe0f4",
+    "code/common/official_metrics.py": "15aa0cca3b7df17f8c93bd26d22b44f4a49b48d6b13fd8cc7b52325fb74729c3",
+    "code/round2/paper_baseline_training_v1/common.py": "5ad45eb0b8d16f4a9af9462ba747f582d28946caef84747a8c21e1ccd3d1205d",
+    "code/round2/paper_baseline_training_v1/final_score.py": "56fc83f5309ab46d42ee8a744ea0ee54867b1d18e2d62ce5e8a412a2314b3c23",
+    "code/round2/paper_baseline_training_v1/wrfgs_model.py": "f8a5391d57f41ea72181c14e46c751d4d0035c87e4d129703208963700f6397a",
+    "code/round2/paper_baseline_training_v1/wrfgs_fast_ops.py": "4bb979456b6b2a6bad57dd842b17f07b2b4ee91f7554fe09705d3b56029e8816",
+    "code/round2/paper_baseline_adapters_v1/wrfgs.py": "277039c6b53651bbe0d356f099d06dca783c05a3d56454e4e0959d851b448aa4",
+    "code/round2/paper_baseline_adapters_v1/contract.py": "0da0617438cd3ca72d536da566f35305d78c16b3fabeb4d3877e92486bf34b5f",
+    "analysis/results/round2_paper_four_baselines_v1/wrfgs_full_h_v1_20261110/config.json": "d4d30b4ef0f7508d89f7f3e608c5cfddf5c4bc5cae2e9b9196a559a0f8b839f7"
+  },
+  "query_truth_read": false,
+  "fit_labels_read": false,
+  "geometry_identity": "ab3f0d361d3505947fea54e2ddb060af5ea31cec8146d5dec4baaa2d927cdcda"
+}

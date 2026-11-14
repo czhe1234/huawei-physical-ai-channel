@@ -1,0 +1,2157 @@
+{
+  "status": "completed",
+  "device": {
+    "GPU_UUID": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "CUDA_context_UUID": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "PCI_bus": "0000:32:00.0",
+    "logical_device": 0,
+    "PID": 3677554,
+    "MPS_servers": [],
+    "NVML_direct_client_visible": true,
+    "mapping_verification": "current CUDA context UUID",
+    "name": "NVIDIA H100 80GB HBM3",
+    "total_bytes": 84929347584
+  },
+  "source_identity": {
+    "code/round2/baseline_repair_20261111/newrf_repair.py": "c7d78ea18fb66f10bad27ba7c68b10515a3cc9161440a460a64e4a064d8cc4e3",
+    "analysis/results/round2_paper_four_baselines_v1/repair_20261111/config.json": "d572d97d0c61d8a3789efb09d56e6feab709a3d2566f8d9f32ec9bcc50e2a258",
+    "artifacts/round2/simulation_recovery_v1/geometry/full_outer0_all_train/manifest.json": "dddb7f9e826adc7bd8713a8fb9433ced90d52cf6cf443f0292a8932d039b3ead",
+    "code/common/official_metrics.py": "15aa0cca3b7df17f8c93bd26d22b44f4a49b48d6b13fd8cc7b52325fb74729c3",
+    "code/round2/paper_baseline_training_v1/newrf_query_check.py": "7ca5551a99aaef96ca14c22e3dbe323dd75f86be5d7707c20c47a6257abccd05",
+    "code/round2/paper_baseline_training_v1/newrf_minimal_fullH_v2.py": "7c6b7084f1ebbdbe0345e72a5277d1ad32dc38211e2c9e4e65f834fb81ed1127",
+    "code/round2/paper_baseline_training_v1/newrf_query.py": "36e4929d2d67953ab8edc8bf470dd526309770710e90a41818f49a957f8ec0f5",
+    "code/round2/paper_baseline_training_v1/newrf_query_route_h1003_v11c.py": "ec3bd5cce300ba9177150b1b16a2edc86f578f1fe77f038d9d84b53ab141a39f",
+    "code/round2/paper_baseline_training_v1/newrf_staged_two_positions_v7.py": "b03738b32e0c7a77e21645abb4967c65502d092f6601f70ddec9d40bbc2805c6",
+    "code/round2/paper_baseline_training_v1/newrf_v4_health.py": "11823c1de3c816df66647e2fb32b64898e43643a9f1093e711fb4678f49994bb",
+    "code/round2/paper_baseline_training_v1/newrf_precision_probe.py": "04df855f7b82ad30e01d7a053a18d68bda57ac1a2fbe13d92ed156785f1a5d9c",
+    "code/round2/paper_baseline_training_v1/newrf_paired_initialization_v8.py": "ac73734bd0bfc40a34c93df0256287283a8028d1a5174e1c3fdcd3f211e8b363",
+    "code/round2/paper_baseline_training_v1/newrf_staged_joint_v6.py": "21d8bed3fd230ffef8ea5d194ca43ec7428652440230705e199f4984ff68029d",
+    "code/round2/paper_baseline_training_v1/common.py": "5ad45eb0b8d16f4a9af9462ba747f582d28946caef84747a8c21e1ccd3d1205d",
+    "code/round2/paper_baseline_training_v1/newrf_signal_gradient_warm_v9.py": "07021d9997f2dbe53572e0b4a57989b7896b3cd2e1a3495b923b23f98353a498",
+    "code/round2/paper_baseline_training_v1/newrf_runner.py": "0a49a92ae1c44da58856a0e7edcc3b1473df6f51de8e7dc4459700ec7f8c175b",
+    "code/round2/paper_baseline_training_v1/newrf_runtime_cache_v4.py": "84e48f5684a61b2fa86be636e5f3c0db6469e5766b0dbfcce669a0bffc5bb74d",
+    "code/round2/paper_baseline_training_v1/newrf_train_v4.py": "1172d907bc1535039082cc0da076bbf954f3481ca7db91862e98a7076972dd33",
+    "code/round2/paper_baseline_training_v1/newrf_train.py": "c1736d29555d35daa26b364fde6aee3700bb80254b2624a0aae24d4865e205c5",
+    "code/round2/paper_baseline_training_v1/newrf_native_batch_v4.py": "0ad133e24dfec623dbcd8272a14061d943b50c244fbc40d39895c18a31e12a15",
+    "code/round2/paper_baseline_training_v1/newrf_balanced_dev_v1.py": "41a84eaca80b532fc5abc4500d9b5e63658e91a5b4fb525d03140d769a24a5a3",
+    "code/round2/paper_baseline_training_v1/newrf_conditioning_check.py": "b44cd5a9264b6ec0e32b870c3344ab2a291a58b8f3b66788bde767068caaad43",
+    "code/round2/paper_baseline_training_v1/newrf_staged_native_v5.py": "0676a36c32494fcf8dee985bee4afbc4e3ed2efaae446b8d3464952141c14327",
+    "code/round2/paper_baseline_training_v1/newrf_v3_exact_fit_health.py": "5d548159ea2553de09a0a376b2efe8a292395ed42e38e93a220b69a0bc5f38a8",
+    "code/round2/paper_baseline_training_v1/newrf_query_route_v11.py": "dd52641c80736634def78d754deb6ca51ced008c981154cc5051590ff955e2d7",
+    "code/round2/paper_baseline_training_v1/newrf_fixed_sampling_v3.py": "59bdc8f9072fbff82e8f460febb8b3b75983c890824601ed857701eac62d7d82",
+    "code/round2/paper_baseline_training_v1/newrf_latefreq_pilot.py": "f861a01f2b460e60d7a0cb033a898ac3faefdda46cd8aa4434c2ba395343b8e7",
+    "code/round2/paper_baseline_training_v1/newrf_coarse_init_signal_warm_v10.py": "ccae3faaf4cdcf6d9832083d838c81b460db8d3be951d7bd8b43a5368ced6176",
+    "code/round2/paper_baseline_training_v1/newrf_fit_health.py": "1e52146cc41361b74e8aa4d4493c2aca144371ecb1142391bee4da4af7f3cf85",
+    "code/round2/paper_baseline_training_v1/newrf_query_route_h1003_v11b.py": "bb4d17934677d40157f8cdfce694de0e57bb104d67358233c0535a1098391c2c",
+    "code/round2/paper_baseline_training_v1/newrf_query_route_cpu_v11d.py": "305950630e31f163f95e550369187d42a7ebe4f379b6e0315af9512090e210dd",
+    "code/round2/paper_baseline_training_v1/newrf_train_v3.py": "a72ec1a0695d399e6df9abd4fffab6e37daf53ad80589b0db53a40eb490609da",
+    "code/round2/paper_baseline_training_v1/newrf_staged_two_positions_v7a.py": "4d7b419076c464585066fa1aed3e74378059033a04e6bf3761fd7c1a58f1172b",
+    "code/round2/paper_baseline_training_v1/newrf_conditioned_v3.py": "967b77635c27c13f12004b6a48985f73060b0e1b852e9cc32dcfc553b4d6730f",
+    "code/round2/paper_baseline_training_v1/newrf_fixed_density_v4.py": "2555cdf55f83b61368bfc0fc42874fd145e42aea8f81ddd18890db4a82417342",
+    "code/round2/paper_baseline_training_v1/newrf_conditioning_pilot.py": "509ee819d70174fa0d3b9f97a451ee6c8d30b5636918478765b094d2322904f5",
+    "code/round2/paper_baseline_training_v1/newrf_v3_health.py": "075961a3ff5f2b7fa3237e1ad3668f49b7e2cee05ebac931fc326beee0959cd6",
+    "code/round2/paper_baseline_training_v1/newrf_v3_multifit_health.py": "463c5f584455c41063cac1861312b384e3c4660ce9bec8e5503c3b9d342d2748",
+    "code/round2/paper_baseline_training_v1/newrf_latefreq.py": "121d04c5af426a7f12e6d87890782da7fdd83b0dc49370a0577f042863b63452",
+    "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v10_coarse_init_signal_warm_20261101/newrf/final.pt": "ab59afabaa1d253c029ad1bdd935ddb2c6b0ae421589692481149c2d7341d6a5",
+    "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v10_coarse_init_signal_warm_20261101/newrf/actual_target_field.npy": "5fc6563c985dd27925b86593d6a2f8857800394aba0acfdfeb190540b35540bb",
+    "artifacts/round2/paper_four_baselines_v1/fit_repair_paper_v10_coarse_init_signal_warm_20261101/newrf/full_field_prediction.npy": "4df0b57161467bc3aa67a4cdebb619c4705eb1a64d18dd237eb0aa999d6a3644",
+    "code/round2/baseline_repair_20261111/newrf_direction_audit.py": "998c8b0dfcbc4dcd3a4a444fcf2412b787be0ecaa6ca4ab6390701fdcb51db85"
+  },
+  "angular_comparison": [
+    {
+      "row": 2666,
+      "training_rays": 29,
+      "query_rays": 64,
+      "median_nearest_angle_all_BS_deg": 5.212645349378089,
+      "max_nearest_angle_all_BS_deg": 55.32133095419205,
+      "BS30": {
+        "BS": 30,
+        "nearest_angle_min_deg": 1.4985257865271469,
+        "nearest_angle_median_deg": 5.2391075384463255,
+        "nearest_angle_max_deg": 55.31551346422154,
+        "training_rays_matched_under_1deg": 0,
+        "training_rays_matched_under_point1deg": 0
+      },
+      "per_BS": [
+        {
+          "BS": 0,
+          "nearest_angle_min_deg": 1.3668077054084509,
+          "nearest_angle_median_deg": 5.156178520150556,
+          "nearest_angle_max_deg": 55.31644830014648,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 1,
+          "nearest_angle_min_deg": 1.3891058693696587,
+          "nearest_angle_median_deg": 5.169035865439176,
+          "nearest_angle_max_deg": 55.317123650319175,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 2,
+          "nearest_angle_min_deg": 1.4114389178379119,
+          "nearest_angle_median_deg": 5.18197921252001,
+          "nearest_angle_max_deg": 55.31780639352641,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 3,
+          "nearest_angle_min_deg": 1.4338054536924787,
+          "nearest_angle_median_deg": 5.195007899852246,
+          "nearest_angle_max_deg": 55.31849652832849,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 4,
+          "nearest_angle_min_deg": 1.4562041629251528,
+          "nearest_angle_median_deg": 5.208121268123273,
+          "nearest_angle_max_deg": 55.31919405327139,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 5,
+          "nearest_angle_min_deg": 1.4786338086447661,
+          "nearest_angle_median_deg": 5.221318660330289,
+          "nearest_angle_max_deg": 55.31989896688694,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 6,
+          "nearest_angle_min_deg": 1.5010932255845733,
+          "nearest_angle_median_deg": 5.234599421855288,
+          "nearest_angle_max_deg": 55.32061126769271,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 7,
+          "nearest_angle_min_deg": 1.523581315060965,
+          "nearest_angle_median_deg": 5.24796290054084,
+          "nearest_angle_max_deg": 55.32133095419205,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 8,
+          "nearest_angle_min_deg": 1.365871722867815,
+          "nearest_angle_median_deg": 5.157696926023705,
+          "nearest_angle_max_deg": 55.31474849453638,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 9,
+          "nearest_angle_min_deg": 1.3881832844653046,
+          "nearest_angle_median_deg": 5.170551613714574,
+          "nearest_angle_max_deg": 55.31542395705646,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 10,
+          "nearest_angle_min_deg": 1.4105293339598952,
+          "nearest_angle_median_deg": 5.183492301687285,
+          "nearest_angle_max_deg": 55.31610681374296,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 11,
+          "nearest_angle_min_deg": 1.4329084909683676,
+          "nearest_angle_median_deg": 5.196518328732954,
+          "nearest_angle_max_deg": 55.31679706315572,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 12,
+          "nearest_angle_min_deg": 1.455319457343167,
+          "nearest_angle_median_deg": 5.2096290358665405,
+          "nearest_angle_max_deg": 55.31749470384038,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 13,
+          "nearest_angle_min_deg": 1.4777610112301645,
+          "nearest_angle_median_deg": 5.222823766406439,
+          "nearest_angle_max_deg": 55.318199734328395,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 14,
+          "nearest_angle_min_deg": 1.5002320016244493,
+          "nearest_angle_median_deg": 5.236101866051544,
+          "nearest_angle_max_deg": 55.318912153136914,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 15,
+          "nearest_angle_min_deg": 1.5227313433729674,
+          "nearest_angle_median_deg": 5.249462682955571,
+          "nearest_angle_max_deg": 55.31963195876888,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 16,
+          "nearest_angle_min_deg": 1.3649415746111282,
+          "nearest_angle_median_deg": 5.159215587146647,
+          "nearest_angle_max_deg": 55.31304853552574,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 17,
+          "nearest_angle_min_deg": 1.3872664591685264,
+          "nearest_angle_median_deg": 5.17206761828311,
+          "nearest_angle_max_deg": 55.31372411041577,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 18,
+          "nearest_angle_min_deg": 1.4096254364723357,
+          "nearest_angle_median_deg": 5.185005648180527,
+          "nearest_angle_max_deg": 55.31440708060424,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 19,
+          "nearest_angle_min_deg": 1.4320171428611346,
+          "nearest_angle_median_deg": 5.198029015962572,
+          "nearest_angle_max_deg": 55.31509744465066,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 20,
+          "nearest_angle_min_deg": 1.4544402960309093,
+          "nearest_angle_median_deg": 5.211137062970739,
+          "nearest_angle_max_deg": 55.315795201100315,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 21,
+          "nearest_angle_min_deg": 1.4768936891447115,
+          "nearest_angle_median_deg": 5.224329132845116,
+          "nearest_angle_max_deg": 55.31650034848418,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 22,
+          "nearest_angle_min_deg": 1.4993761854353724,
+          "nearest_angle_median_deg": 5.237604571601243,
+          "nearest_angle_max_deg": 55.317212885319066,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 23,
+          "nearest_angle_min_deg": 1.521886713260499,
+          "nearest_angle_median_deg": 5.250962727704005,
+          "nearest_angle_max_deg": 55.317932810107536,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 24,
+          "nearest_angle_min_deg": 1.3640172728426299,
+          "nearest_angle_median_deg": 5.160734503463251,
+          "nearest_angle_max_deg": 55.31134842309687,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 25,
+          "nearest_angle_min_deg": 1.386355405170556,
+          "nearest_angle_median_deg": 5.173583879087918,
+          "nearest_angle_max_deg": 55.312024110379355,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 26,
+          "nearest_angle_min_deg": 1.4087272365802546,
+          "nearest_angle_median_deg": 5.186519251942926,
+          "nearest_angle_max_deg": 55.31270719409258,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 27,
+          "nearest_angle_min_deg": 1.4311314201174519,
+          "nearest_angle_median_deg": 5.199539961483381,
+          "nearest_angle_max_deg": 55.31339767279565,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 28,
+          "nearest_angle_min_deg": 1.4535666893005632,
+          "nearest_angle_median_deg": 5.212645349378089,
+          "nearest_angle_max_deg": 55.31409554503347,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 29,
+          "nearest_angle_min_deg": 1.4760318522867202,
+          "nearest_angle_median_deg": 5.2258347595884995,
+          "nearest_angle_max_deg": 55.31480080933663,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 30,
+          "nearest_angle_min_deg": 1.4985257865271469,
+          "nearest_angle_median_deg": 5.2391075384463255,
+          "nearest_angle_max_deg": 55.31551346422154,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 31,
+          "nearest_angle_min_deg": 1.5210474338617703,
+          "nearest_angle_median_deg": 5.252463034727514,
+          "nearest_angle_max_deg": 55.31623350819035,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 32,
+          "nearest_angle_min_deg": 1.363098829721614,
+          "nearest_angle_median_deg": 5.162253674917131,
+          "nearest_angle_max_deg": 55.30964815723203,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 33,
+          "nearest_angle_min_deg": 1.3854501341179486,
+          "nearest_angle_median_deg": 5.1751003960727235,
+          "nearest_angle_max_deg": 55.31032395692955,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 34,
+          "nearest_angle_min_deg": 1.4078347454476834,
+          "nearest_angle_median_deg": 5.188033112917559,
+          "nearest_angle_max_deg": 55.31100715419029,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 35,
+          "nearest_angle_min_deg": 1.430251333442043,
+          "nearest_angle_median_deg": 5.201051165238667,
+          "nearest_angle_max_deg": 55.31169774757301,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 36,
+          "nearest_angle_min_deg": 1.4526986474229886,
+          "nearest_angle_median_deg": 5.214153895031403,
+          "nearest_angle_max_deg": 55.31239573562217,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 37,
+          "nearest_angle_min_deg": 1.4751755105187596,
+          "nearest_angle_median_deg": 5.22734064657873,
+          "nearest_angle_max_deg": 55.31310111686804,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 38,
+          "nearest_angle_min_deg": 1.4976808143710163,
+          "nearest_angle_median_deg": 5.240610766528418,
+          "nearest_angle_max_deg": 55.31381388982661,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 39,
+          "nearest_angle_min_deg": 1.5202135142792332,
+          "nearest_angle_median_deg": 5.253963603967708,
+          "nearest_angle_max_deg": 55.314534052999655,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 40,
+          "nearest_angle_min_deg": 1.362186257366302,
+          "nearest_angle_median_deg": 5.163773101452638,
+          "nearest_angle_max_deg": 55.30794773791354,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 41,
+          "nearest_angle_min_deg": 1.3845506576187927,
+          "nearest_angle_median_deg": 5.176617169180863,
+          "nearest_angle_max_deg": 55.30862365004861,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 42,
+          "nearest_angle_min_deg": 1.4069479741978568,
+          "nearest_angle_median_deg": 5.189547231047536,
+          "nearest_angle_max_deg": 55.30930696087963,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 43,
+          "nearest_angle_min_deg": 1.4293768935019788,
+          "nearest_angle_median_deg": 5.202562627170767,
+          "nearest_angle_max_deg": 55.30999766896497,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 44,
+          "nearest_angle_min_deg": 1.4518361806317213,
+          "nearest_angle_median_deg": 5.2156626998729605,
+          "nearest_angle_max_deg": 55.310695772848725,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 45,
+          "nearest_angle_min_deg": 1.4743246736624867,
+          "nearest_angle_median_deg": 5.228846793757836,
+          "nearest_angle_max_deg": 55.31140127106074,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 46,
+          "nearest_angle_min_deg": 1.496841278401645,
+          "nearest_angle_median_deg": 5.242114255789658,
+          "nearest_angle_max_deg": 55.312114162116636,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 47,
+          "nearest_angle_min_deg": 1.5193849635791596,
+          "nearest_angle_median_deg": 5.255464435366158,
+          "nearest_angle_max_deg": 55.31283444451775,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 48,
+          "nearest_angle_min_deg": 1.3612795678513088,
+          "nearest_angle_median_deg": 5.165292783013307,
+          "nearest_angle_max_deg": 55.30624716512367,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 49,
+          "nearest_angle_min_deg": 1.383656987236042,
+          "nearest_angle_median_deg": 5.178134198356192,
+          "nearest_angle_max_deg": 55.30692318971884,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 50,
+          "nearest_angle_min_deg": 1.406066933912371,
+          "nearest_angle_median_deg": 5.1910616062759924,
+          "nearest_angle_max_deg": 55.30760661414291,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 51,
+          "nearest_angle_min_deg": 1.4285081109215434,
+          "nearest_angle_median_deg": 5.204074347223099,
+          "nearest_angle_max_deg": 55.30829743695388,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 52,
+          "nearest_angle_min_deg": 1.4509792991194561,
+          "nearest_angle_median_deg": 5.217171763845141,
+          "nearest_angle_max_deg": 55.308995656695416,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 53,
+          "nearest_angle_min_deg": 1.4734793515028606,
+          "nearest_angle_median_deg": 5.230353201068153,
+          "nearest_angle_max_deg": 55.30970127189701,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 54,
+          "nearest_angle_min_deg": 1.4960071880149668,
+          "nearest_angle_median_deg": 5.24361800617173,
+          "nearest_angle_max_deg": 55.31041428107388,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 55,
+          "nearest_angle_min_deg": 1.518561790789544,
+          "nearest_angle_median_deg": 5.256965528864601,
+          "nearest_angle_max_deg": 55.31113468272699,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 56,
+          "nearest_angle_min_deg": 1.36037877320617,
+          "nearest_angle_median_deg": 5.166812719543475,
+          "nearest_angle_max_deg": 55.304546438844675,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 57,
+          "nearest_angle_min_deg": 1.3827691344905726,
+          "nearest_angle_median_deg": 5.179651483542244,
+          "nearest_angle_max_deg": 55.30522257592252,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 58,
+          "nearest_angle_min_deg": 1.405191635629046,
+          "nearest_angle_median_deg": 5.1925762385465895,
+          "nearest_angle_max_deg": 55.30590611396242,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 59,
+          "nearest_angle_min_deg": 1.427644996283729,
+          "nearest_angle_median_deg": 5.205586325338126,
+          "nearest_angle_max_deg": 55.306597051522004,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 60,
+          "nearest_angle_min_deg": 1.4501280130387886,
+          "nearest_angle_median_deg": 5.218681086891124,
+          "nearest_angle_max_deg": 55.30729538714457,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 61,
+          "nearest_angle_min_deg": 1.4726395537829675,
+          "nearest_angle_median_deg": 5.23185986845219,
+          "nearest_angle_max_deg": 55.30800111935918,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 62,
+          "nearest_angle_min_deg": 1.4951785525684667,
+          "nearest_angle_median_deg": 5.245122017616829,
+          "nearest_angle_max_deg": 55.30871424668069,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 63,
+          "nearest_angle_min_deg": 1.5177440049011168,
+          "nearest_angle_median_deg": 5.258466884404803,
+          "nearest_angle_max_deg": 55.30943476760966,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 64,
+          "nearest_angle_min_deg": 1.3594838854165485,
+          "nearest_angle_median_deg": 5.168332910987227,
+          "nearest_angle_max_deg": 55.30284555905883,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 65,
+          "nearest_angle_min_deg": 1.3818871108589792,
+          "nearest_angle_median_deg": 5.1811690246828634,
+          "nearest_angle_max_deg": 55.30352180864191,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 66,
+          "nearest_angle_min_deg": 1.40432209034523,
+          "nearest_angle_median_deg": 5.194091127802593,
+          "nearest_angle_max_deg": 55.30420546032045,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 67,
+          "nearest_angle_min_deg": 1.4267875601309654,
+          "nearest_angle_median_deg": 5.207098561459254,
+          "nearest_angle_max_deg": 55.304896512651645,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 68,
+          "nearest_angle_min_deg": 1.4492823325004482,
+          "nearest_angle_median_deg": 5.220190668953275,
+          "nearest_angle_max_deg": 55.30559496417846,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 69,
+          "nearest_angle_min_deg": 1.4718052902067555,
+          "nearest_angle_median_deg": 5.2333667958522,
+          "nearest_angle_max_deg": 55.30630081342956,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 70,
+          "nearest_angle_min_deg": 1.4943553813807307,
+          "nearest_angle_median_deg": 5.246626290067256,
+          "nearest_angle_max_deg": 55.30701405891937,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 71,
+          "nearest_angle_min_deg": 1.5169316148666878,
+          "nearest_angle_median_deg": 5.259968501928418,
+          "nearest_angle_max_deg": 55.307734699148085,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 72,
+          "nearest_angle_min_deg": 1.3585949164222255,
+          "nearest_angle_median_deg": 5.169853357288894,
+          "nearest_angle_max_deg": 55.30114452574846,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 73,
+          "nearest_angle_min_deg": 1.381010927772686,
+          "nearest_angle_median_deg": 5.182686821721924,
+          "nearest_angle_max_deg": 55.301820887859336,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 74,
+          "nearest_angle_min_deg": 1.4034583090122876,
+          "nearest_angle_median_deg": 5.1956062739872975,
+          "nearest_angle_max_deg": 55.30250465319927,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 75,
+          "nearest_angle_min_deg": 1.4259358129612545,
+          "nearest_angle_median_deg": 5.208611055529428,
+          "nearest_angle_max_deg": 55.3031958203251,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 76,
+          "nearest_angle_min_deg": 1.448442267575552,
+          "nearest_angle_median_deg": 5.2217005099744105,
+          "nearest_angle_max_deg": 55.30389438777939,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 77,
+          "nearest_angle_min_deg": 1.4709765704392999,
+          "nearest_angle_median_deg": 5.234873983210608,
+          "nearest_angle_max_deg": 55.304600354090425,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 78,
+          "nearest_angle_min_deg": 1.493537683730266,
+          "nearest_angle_median_deg": 5.248130823464843,
+          "nearest_angle_max_deg": 55.305313717772215,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 79,
+          "nearest_angle_min_deg": 1.5161246296009634,
+          "nearest_angle_median_deg": 5.261470381377686,
+          "nearest_angle_max_deg": 55.30603447732459,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 80,
+          "nearest_angle_min_deg": 1.3577118781172366,
+          "nearest_angle_median_deg": 5.171374058392407,
+          "nearest_angle_max_deg": 55.29944333889579,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 81,
+          "nearest_angle_min_deg": 1.380140596619697,
+          "nearest_angle_median_deg": 5.184204874602977,
+          "nearest_angle_max_deg": 55.30011981355704,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 82,
+          "nearest_angle_min_deg": 1.4026003025389067,
+          "nearest_angle_median_deg": 5.19712167704452,
+          "nearest_angle_max_deg": 55.300803692581184,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 83,
+          "nearest_angle_min_deg": 1.4250897652306884,
+          "nearest_angle_median_deg": 5.210123807491968,
+          "nearest_angle_max_deg": 55.30149497452467,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 84,
+          "nearest_angle_min_deg": 1.4476078282905664,
+          "nearest_angle_median_deg": 5.223210609897518,
+          "nearest_angle_max_deg": 55.30219365792967,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 85,
+          "nearest_angle_min_deg": 1.470153404102611,
+          "nearest_angle_median_deg": 5.236381430470074,
+          "nearest_angle_max_deg": 55.30289974132409,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 86,
+          "nearest_angle_min_deg": 1.4927254688562726,
+          "nearest_angle_median_deg": 5.249635617752085,
+          "nearest_angle_max_deg": 55.303613223221554,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 87,
+          "nearest_angle_min_deg": 1.5153230579794061,
+          "nearest_angle_median_deg": 5.262972522694183,
+          "nearest_angle_max_deg": 55.30433410212146,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 88,
+          "nearest_angle_min_deg": 1.3568347823478573,
+          "nearest_angle_median_deg": 5.172895014242361,
+          "nearest_angle_max_deg": 55.29774199848312,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 89,
+          "nearest_angle_min_deg": 1.3792761287408006,
+          "nearest_angle_median_deg": 5.185723183270379,
+          "nearest_angle_max_deg": 55.298418585717314,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 90,
+          "nearest_angle_min_deg": 1.4017480817884378,
+          "nearest_angle_median_deg": 5.1986373369176855,
+          "nearest_angle_max_deg": 55.299102578448455,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 91,
+          "nearest_angle_min_deg": 1.42424942735137,
+          "nearest_angle_median_deg": 5.211636817289949,
+          "nearest_angle_max_deg": 55.29979397523262,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 92,
+          "nearest_angle_min_deg": 1.4467790246315746,
+          "nearest_angle_median_deg": 5.224720968665329,
+          "nearest_angle_max_deg": 55.30049277461157,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 93,
+          "nearest_angle_min_deg": 1.4693358007781263,
+          "nearest_angle_median_deg": 5.237889137573014,
+          "nearest_angle_max_deg": 55.30119897511283,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 94,
+          "nearest_angle_min_deg": 1.491918745957461,
+          "nearest_angle_median_deg": 5.251140672870947,
+          "nearest_angle_max_deg": 55.30191257524965,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 95,
+          "nearest_angle_min_deg": 1.5145269088373312,
+          "nearest_angle_median_deg": 5.264474925820064,
+          "nearest_angle_max_deg": 55.30263357352102,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 96,
+          "nearest_angle_min_deg": 1.3559636409130063,
+          "nearest_angle_median_deg": 5.174416224782962,
+          "nearest_angle_max_deg": 55.29604050449268,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 97,
+          "nearest_angle_min_deg": 1.3784175354300003,
+          "nearest_angle_median_deg": 5.187241747667947,
+          "nearest_angle_max_deg": 55.29671720432243,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 98,
+          "nearest_angle_min_deg": 1.4009016575796074,
+          "nearest_angle_median_deg": 5.200153253550318,
+          "nearest_angle_max_deg": 55.297401310783385,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 99,
+          "nearest_angle_min_deg": 1.4234148096913766,
+          "nearest_angle_median_deg": 5.21315008486703,
+          "nearest_angle_max_deg": 55.298092822431244,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 100,
+          "nearest_angle_min_deg": 1.4459558665402428,
+          "nearest_angle_median_deg": 5.2262315862210285,
+          "nearest_angle_max_deg": 55.2987917378074,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 101,
+          "nearest_angle_min_deg": 1.468523770004992,
+          "nearest_angle_median_deg": 5.239397104462421,
+          "nearest_angle_max_deg": 55.29949805543899,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 102,
+          "nearest_angle_min_deg": 1.4911175241923382,
+          "nearest_angle_median_deg": 5.252645988764327,
+          "nearest_angle_max_deg": 55.30021177383886,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 103,
+          "nearest_angle_min_deg": 1.5137361909714118,
+          "nearest_angle_median_deg": 5.265977590697517,
+          "nearest_angle_max_deg": 55.300932891505596,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 104,
+          "nearest_angle_min_deg": 1.3550984655649174,
+          "nearest_angle_median_deg": 5.175937689958936,
+          "nearest_angle_max_deg": 55.29433885690677,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 105,
+          "nearest_angle_min_deg": 1.37756482793706,
+          "nearest_angle_median_deg": 5.188760567739816,
+          "nearest_angle_max_deg": 55.29501566935463,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 106,
+          "nearest_angle_min_deg": 1.4000610406846328,
+          "nearest_angle_median_deg": 5.201669426886388,
+          "nearest_angle_max_deg": 55.29569988956821,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 107,
+          "nearest_angle_min_deg": 1.422585922574471,
+          "nearest_angle_median_deg": 5.214663610166061,
+          "nearest_angle_max_deg": 55.296391516102815,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 108,
+          "nearest_angle_min_deg": 1.4451383639155742,
+          "nearest_angle_median_deg": 5.227742462507546,
+          "nearest_angle_max_deg": 55.29709054749943,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 109,
+          "nearest_angle_min_deg": 1.4677173212795844,
+          "nearest_angle_median_deg": 5.240905331080839,
+          "nearest_angle_max_deg": 55.29779698228482,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 110,
+          "nearest_angle_min_deg": 1.4903218126763154,
+          "nearest_angle_median_deg": 5.254151565374176,
+          "nearest_angle_max_deg": 55.29851081897144,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 111,
+          "nearest_angle_min_deg": 1.5129509131385368,
+          "nearest_angle_median_deg": 5.267480517268615,
+          "nearest_angle_max_deg": 55.29923205605747,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 112,
+          "nearest_angle_min_deg": 1.3542392680047044,
+          "nearest_angle_median_deg": 5.177459409714544,
+          "nearest_angle_max_deg": 55.292637055707644,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 113,
+          "nearest_angle_min_deg": 1.3767180174594718,
+          "nearest_angle_median_deg": 5.190279643430074,
+          "nearest_angle_max_deg": 55.293313980796235,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 114,
+          "nearest_angle_min_deg": 1.3992262418288959,
+          "nearest_angle_median_deg": 5.20318585686969,
+          "nearest_angle_max_deg": 55.29399831478524,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 115,
+          "nearest_angle_min_deg": 1.4217627762782714,
+          "nearest_angle_median_deg": 5.2161773931310425,
+          "nearest_angle_max_deg": 55.29469005622961,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 116,
+          "nearest_angle_min_deg": 1.4443265266123906,
+          "nearest_angle_median_deg": 5.229253597468053,
+          "nearest_angle_max_deg": 55.29538920366998,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 117,
+          "nearest_angle_min_deg": 1.4669164640565202,
+          "nearest_angle_median_deg": 5.242413817371109,
+          "nearest_angle_max_deg": 55.296095755632635,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 118,
+          "nearest_angle_min_deg": 1.4895316204849252,
+          "nearest_angle_median_deg": 5.255657402643171,
+          "nearest_angle_max_deg": 55.296809710629695,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 119,
+          "nearest_angle_min_deg": 1.5121710840532239,
+          "nearest_angle_median_deg": 5.268983705475464,
+          "nearest_angle_max_deg": 55.29753106715893,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 120,
+          "nearest_angle_min_deg": 1.3533860598862615,
+          "nearest_angle_median_deg": 5.178981383994638,
+          "nearest_angle_max_deg": 55.290935100877576,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 121,
+          "nearest_angle_min_deg": 1.375877115151088,
+          "nearest_angle_median_deg": 5.1917989746831195,
+          "nearest_angle_max_deg": 55.291612138629475,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 122,
+          "nearest_angle_min_deg": 1.3983972716927018,
+          "nearest_angle_median_deg": 5.204702543444045,
+          "nearest_angle_max_deg": 55.292296586416754,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 123,
+          "nearest_angle_min_deg": 1.4209453810355008,
+          "nearest_angle_median_deg": 5.217691433705088,
+          "nearest_angle_max_deg": 55.29298844279394,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 124,
+          "nearest_angle_min_deg": 1.4435203644405685,
+          "nearest_angle_median_deg": 5.230764991045676,
+          "nearest_angle_max_deg": 55.293687706301284,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 125,
+          "nearest_angle_min_deg": 1.4661212077466914,
+          "nearest_angle_median_deg": 5.243922563275899,
+          "nearest_angle_max_deg": 55.29439437546471,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 126,
+          "nearest_angle_min_deg": 1.4887469566501965,
+          "nearest_angle_median_deg": 5.257163500514016,
+          "nearest_angle_max_deg": 55.295108448795936,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 127,
+          "nearest_angle_min_deg": 1.511396712390573,
+          "nearest_angle_median_deg": 5.270487155260542,
+          "nearest_angle_max_deg": 55.295829924792315,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        }
+      ]
+    },
+    {
+      "row": 2042,
+      "training_rays": 17,
+      "query_rays": 64,
+      "median_nearest_angle_all_BS_deg": 6.9895473052106665,
+      "max_nearest_angle_all_BS_deg": 48.722181687193135,
+      "BS30": {
+        "BS": 30,
+        "nearest_angle_min_deg": 1.7079801487455555,
+        "nearest_angle_median_deg": 7.058930800815684,
+        "nearest_angle_max_deg": 48.70031605699637,
+        "training_rays_matched_under_1deg": 0,
+        "training_rays_matched_under_point1deg": 0
+      },
+      "per_BS": [
+        {
+          "BS": 0,
+          "nearest_angle_min_deg": 1.6984535526368587,
+          "nearest_angle_median_deg": 6.927170494609953,
+          "nearest_angle_max_deg": 48.722181687193135,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 1,
+          "nearest_angle_min_deg": 1.6920461086270286,
+          "nearest_angle_median_deg": 6.950077751752941,
+          "nearest_angle_max_deg": 48.71934576010965,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 2,
+          "nearest_angle_min_deg": 1.6880645806718257,
+          "nearest_angle_median_deg": 6.973062969614194,
+          "nearest_angle_max_deg": 48.71651896561834,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 3,
+          "nearest_angle_min_deg": 1.6865270761823232,
+          "nearest_angle_median_deg": 6.996125327151239,
+          "nearest_angle_max_deg": 48.7137013052076,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 4,
+          "nearest_angle_min_deg": 1.6874411770093125,
+          "nearest_angle_median_deg": 7.0192640111606135,
+          "nearest_angle_max_deg": 48.71089278034724,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 5,
+          "nearest_angle_min_deg": 1.6908037820260953,
+          "nearest_angle_median_deg": 7.042478216238036,
+          "nearest_angle_max_deg": 48.7080933924884,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 6,
+          "nearest_angle_min_deg": 1.696601180565432,
+          "nearest_angle_median_deg": 7.065767144738139,
+          "nearest_angle_max_deg": 48.705303143063674,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 7,
+          "nearest_angle_min_deg": 1.7048093529626984,
+          "nearest_angle_median_deg": 7.089130006731711,
+          "nearest_angle_max_deg": 48.70252203348699,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 8,
+          "nearest_angle_min_deg": 1.7023260847435933,
+          "nearest_angle_median_deg": 6.924857486194807,
+          "nearest_angle_max_deg": 48.72052012862233,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 9,
+          "nearest_angle_min_deg": 1.6959175741215173,
+          "nearest_angle_median_deg": 6.947770381402182,
+          "nearest_angle_max_deg": 48.71768408903795,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 10,
+          "nearest_angle_min_deg": 1.691930017018627,
+          "nearest_angle_median_deg": 6.970761211760227,
+          "nearest_angle_max_deg": 48.71485718339391,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 11,
+          "nearest_angle_min_deg": 1.6903814708851588,
+          "nearest_angle_median_deg": 6.99382915603145,
+          "nearest_angle_max_deg": 48.712039413178786,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 12,
+          "nearest_angle_min_deg": 1.6912795349409495,
+          "nearest_angle_median_deg": 7.016973400826814,
+          "nearest_angle_max_deg": 48.70923077986255,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 13,
+          "nearest_angle_min_deg": 1.6946211930520272,
+          "nearest_angle_median_deg": 7.0401931405657265,
+          "nearest_angle_max_deg": 48.7064312848966,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 14,
+          "nearest_angle_min_deg": 1.7003928850118115,
+          "nearest_angle_median_deg": 7.06348757743553,
+          "nearest_angle_max_deg": 48.703640929713664,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 15,
+          "nearest_angle_min_deg": 1.7085708026028583,
+          "nearest_angle_median_deg": 7.086855921348744,
+          "nearest_angle_max_deg": 48.700859715727866,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 16,
+          "nearest_angle_min_deg": 1.7061995729219932,
+          "nearest_angle_median_deg": 6.922545256452255,
+          "nearest_angle_max_deg": 48.718858421420656,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 17,
+          "nearest_angle_min_deg": 1.6997899978078999,
+          "nearest_angle_median_deg": 6.945463791029007,
+          "nearest_angle_max_deg": 48.71602226932873,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 18,
+          "nearest_angle_min_deg": 1.6957964351497452,
+          "nearest_angle_median_deg": 6.9684602351464555,
+          "nearest_angle_max_deg": 48.71319525252557,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 19,
+          "nearest_angle_min_deg": 1.694236892596984,
+          "nearest_angle_median_deg": 6.9915337673725615,
+          "nearest_angle_max_deg": 48.71037737249995,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 20,
+          "nearest_angle_min_deg": 1.695118986325192,
+          "nearest_angle_median_deg": 7.014683574132803,
+          "nearest_angle_max_deg": 48.70756863072204,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 21,
+          "nearest_angle_min_deg": 1.6984397842102819,
+          "nearest_angle_median_deg": 7.037908849671017,
+          "nearest_angle_max_deg": 48.7047690286434,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 22,
+          "nearest_angle_min_deg": 1.7041858749933325,
+          "nearest_angle_median_deg": 7.06120879600783,
+          "nearest_angle_max_deg": 48.70197856769694,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 23,
+          "nearest_angle_min_deg": 1.7123336599328784,
+          "nearest_angle_median_deg": 7.084582622897862,
+          "nearest_angle_max_deg": 48.69919724929697,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 24,
+          "nearest_angle_min_deg": 1.7100740174786255,
+          "nearest_angle_median_deg": 6.9202338057542745,
+          "nearest_angle_max_deg": 48.717196565570916,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 25,
+          "nearest_angle_min_deg": 1.7036633799792062,
+          "nearest_angle_median_deg": 6.943157981003817,
+          "nearest_angle_max_deg": 48.71436030096484,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 26,
+          "nearest_angle_min_deg": 1.6996638352047413,
+          "nearest_angle_median_deg": 6.9661600401413075,
+          "nearest_angle_max_deg": 48.71153317299622,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 27,
+          "nearest_angle_min_deg": 1.6980933411660741,
+          "nearest_angle_median_deg": 6.989239161540833,
+          "nearest_angle_max_deg": 48.708715183154,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 28,
+          "nearest_angle_min_deg": 1.698959530586235,
+          "nearest_angle_median_deg": 7.012394531443226,
+          "nearest_angle_max_deg": 48.70590633290856,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 29,
+          "nearest_angle_min_deg": 1.7022595543812493,
+          "nearest_angle_median_deg": 7.035625343916748,
+          "nearest_angle_max_deg": 48.703106623711655,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 30,
+          "nearest_angle_min_deg": 1.7079801487455555,
+          "nearest_angle_median_deg": 7.058930800815684,
+          "nearest_angle_max_deg": 48.70031605699637,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 31,
+          "nearest_angle_min_deg": 1.7160979224580224,
+          "nearest_angle_median_deg": 7.082310111737544,
+          "nearest_angle_max_deg": 48.697534634177195,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 32,
+          "nearest_angle_min_deg": 1.7139494187197928,
+          "nearest_angle_median_deg": 6.917923134473185,
+          "nearest_angle_max_deg": 48.71553456105599,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 33,
+          "nearest_angle_min_deg": 1.7075377209289575,
+          "nearest_angle_median_deg": 6.940852951696774,
+          "nearest_angle_max_deg": 48.71269818392914,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 34,
+          "nearest_angle_min_deg": 1.7035322173258423,
+          "nearest_angle_median_deg": 6.963860627113488,
+          "nearest_angle_max_deg": 48.70987094478867,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 35,
+          "nearest_angle_min_deg": 1.701950816447142,
+          "nearest_angle_median_deg": 6.986945338903221,
+          "nearest_angle_max_deg": 48.707052845123776,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 36,
+          "nearest_angle_min_deg": 1.70280116715935,
+          "nearest_angle_median_deg": 7.010106273122893,
+          "nearest_angle_max_deg": 48.70424388640497,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 37,
+          "nearest_angle_min_deg": 1.706080502459377,
+          "nearest_angle_median_deg": 7.033342623665714,
+          "nearest_angle_max_deg": 48.70144407008422,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 38,
+          "nearest_angle_min_deg": 1.7117757045187785,
+          "nearest_angle_median_deg": 7.056653592220313,
+          "nearest_angle_max_deg": 48.6986533975948,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 39,
+          "nearest_angle_min_deg": 1.7198635877060389,
+          "nearest_angle_median_deg": 7.080038388227094,
+          "nearest_angle_max_deg": 48.69587187035136,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 40,
+          "nearest_angle_min_deg": 1.7178257769528085,
+          "nearest_angle_median_deg": 6.9156132429817125,
+          "nearest_angle_max_deg": 48.71387240785875,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 41,
+          "nearest_angle_min_deg": 1.7114130209494556,
+          "nearest_angle_median_deg": 6.9385487034791185,
+          "nearest_angle_max_deg": 48.711035918204495,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 42,
+          "nearest_angle_min_deg": 1.7074015816574823,
+          "nearest_angle_median_deg": 6.961561996431779,
+          "nearest_angle_max_deg": 48.708208567885826,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 43,
+          "nearest_angle_min_deg": 1.7058093182972052,
+          "nearest_angle_median_deg": 6.984652299826754,
+          "nearest_angle_max_deg": 48.70539035839212,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 44,
+          "nearest_angle_min_deg": 1.7066438954841447,
+          "nearest_angle_median_deg": 7.007818799536941,
+          "nearest_angle_max_deg": 48.702581291194136,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 45,
+          "nearest_angle_min_deg": 1.709902627350889,
+          "nearest_angle_median_deg": 7.031060689281188,
+          "nearest_angle_max_deg": 48.69978136774397,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 46,
+          "nearest_angle_min_deg": 1.715572540582772,
+          "nearest_angle_median_deg": 7.054377170582781,
+          "nearest_angle_max_deg": 48.69699058947509,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 47,
+          "nearest_angle_min_deg": 1.7236306532273606,
+          "nearest_angle_median_deg": 7.0777674527257135,
+          "nearest_angle_max_deg": 48.69420895780236,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 48,
+          "nearest_angle_min_deg": 1.7217030924853467,
+          "nearest_angle_median_deg": 6.913304131652503,
+          "nearest_angle_max_deg": 48.71221010596203,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 49,
+          "nearest_angle_min_deg": 1.7152892803351945,
+          "nearest_angle_median_deg": 6.9362452367215415,
+          "nearest_angle_max_deg": 48.70937350377376,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 50,
+          "nearest_angle_min_deg": 1.7112719283439362,
+          "nearest_angle_median_deg": 6.959264148465719,
+          "nearest_angle_max_deg": 48.70654604227052,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 51,
+          "nearest_angle_min_deg": 1.709668846577695,
+          "nearest_angle_median_deg": 6.982360044678945,
+          "nearest_angle_max_deg": 48.70372772294193,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 52,
+          "nearest_angle_min_deg": 1.7104877150109101,
+          "nearest_angle_median_deg": 7.005532111050938,
+          "nearest_angle_max_deg": 48.70091854725889,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 53,
+          "nearest_angle_min_deg": 1.713725927973238,
+          "nearest_angle_median_deg": 7.028779541126813,
+          "nearest_angle_max_deg": 48.69811851667374,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 54,
+          "nearest_angle_min_deg": 1.719370655223611,
+          "nearest_angle_median_deg": 7.052101536264992,
+          "nearest_angle_max_deg": 48.6953276326201,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 55,
+          "nearest_angle_min_deg": 1.7273991165963536,
+          "nearest_angle_median_deg": 7.075497305593273,
+          "nearest_angle_max_deg": 48.69254589651302,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 56,
+          "nearest_angle_min_deg": 1.725581365624172,
+          "nearest_angle_median_deg": 6.910995800858869,
+          "nearest_angle_max_deg": 48.71054765534871,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 57,
+          "nearest_angle_min_deg": 1.7191664993805034,
+          "nearest_angle_median_deg": 6.933942551795597,
+          "nearest_angle_max_deg": 48.707710940619755,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 58,
+          "nearest_angle_min_deg": 1.7151432575325056,
+          "nearest_angle_median_deg": 6.956967083584551,
+          "nearest_angle_max_deg": 48.704883367925596,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 59,
+          "nearest_angle_min_deg": 1.7135294011550442,
+          "nearest_angle_median_deg": 6.9800685738272215,
+          "nearest_angle_max_deg": 48.702064938756,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 60,
+          "nearest_angle_min_deg": 1.714332625194765,
+          "nearest_angle_median_deg": 7.003246208030724,
+          "nearest_angle_max_deg": 48.69925565458212,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 61,
+          "nearest_angle_min_deg": 1.7175504032566833,
+          "nearest_angle_median_deg": 7.026499179566551,
+          "nearest_angle_max_deg": 48.696455516856396,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 62,
+          "nearest_angle_min_deg": 1.7231700467439293,
+          "nearest_angle_median_deg": 7.049826689628536,
+          "nearest_angle_max_deg": 48.69366452701269,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 63,
+          "nearest_angle_min_deg": 1.7311689754077073,
+          "nearest_angle_median_deg": 7.073227947189488,
+          "nearest_angle_max_deg": 48.69088268646622,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 64,
+          "nearest_angle_min_deg": 1.729460596676833,
+          "nearest_angle_median_deg": 6.9086882509743655,
+          "nearest_angle_max_deg": 48.70888505600161,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 65,
+          "nearest_angle_min_deg": 1.723044678379334,
+          "nearest_angle_median_deg": 6.931640649073029,
+          "nearest_angle_max_deg": 48.70604822872537,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 66,
+          "nearest_angle_min_deg": 1.7190155693717901,
+          "nearest_angle_median_deg": 6.954670802158278,
+          "nearest_angle_max_deg": 48.703220544833925,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 67,
+          "nearest_angle_min_deg": 1.7173909818978732,
+          "nearest_angle_median_deg": 6.977777887639917,
+          "nearest_angle_max_deg": 48.700402005817224,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 68,
+          "nearest_angle_min_deg": 1.7181786254992093,
+          "nearest_angle_median_deg": 7.000961090842309,
+          "nearest_angle_max_deg": 48.697592613146604,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 69,
+          "nearest_angle_min_deg": 1.7213760521431,
+          "nearest_angle_median_deg": 7.0242196049643235,
+          "nearest_angle_max_deg": 48.694792368274754,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 70,
+          "nearest_angle_min_deg": 1.7269707134633852,
+          "nearest_angle_median_deg": 7.047552631035683,
+          "nearest_angle_max_deg": 48.692001272635686,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 71,
+          "nearest_angle_min_deg": 1.7349402272791756,
+          "nearest_angle_median_deg": 7.070959377874538,
+          "nearest_angle_max_deg": 48.68921932764476,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 72,
+          "nearest_angle_min_deg": 1.7333407859514396,
+          "nearest_angle_median_deg": 6.906381482372897,
+          "nearest_angle_max_deg": 48.70722230790362,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 73,
+          "nearest_angle_min_deg": 1.7269238176265311,
+          "nearest_angle_median_deg": 6.929339528925918,
+          "nearest_angle_max_deg": 48.70438536807346,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 74,
+          "nearest_angle_min_deg": 1.7228888640116704,
+          "nearest_angle_median_deg": 6.952375304557076,
+          "nearest_angle_max_deg": 48.70155757297834,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 75,
+          "nearest_angle_min_deg": 1.721253588680778,
+          "nearest_angle_median_deg": 6.975487986484962,
+          "nearest_angle_max_deg": 48.69873892410844,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 76,
+          "nearest_angle_min_deg": 1.7220257153954022,
+          "nearest_angle_median_deg": 6.998676759852077,
+          "nearest_angle_max_deg": 48.69592942293529,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 77,
+          "nearest_angle_min_deg": 1.7252028735841656,
+          "nearest_angle_median_deg": 7.0219408176846265,
+          "nearest_angle_max_deg": 48.69312907091173,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 78,
+          "nearest_angle_min_deg": 1.7307726537172219,
+          "nearest_angle_median_deg": 7.045279360849069,
+          "nearest_angle_max_deg": 48.69033786947196,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 79,
+          "nearest_angle_min_deg": 1.7387128698507162,
+          "nearest_angle_median_deg": 7.06869159800896,
+          "nearest_angle_max_deg": 48.68755582003154,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 80,
+          "nearest_angle_min_deg": 1.7372219337560295,
+          "nearest_angle_median_deg": 6.904075495428553,
+          "nearest_angle_max_deg": 48.705559411037534,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 81,
+          "nearest_angle_min_deg": 1.730803917416766,
+          "nearest_angle_median_deg": 6.927039191726378,
+          "nearest_angle_max_deg": 48.70272235864683,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 82,
+          "nearest_angle_min_deg": 1.7267631416035056,
+          "nearest_angle_median_deg": 6.950080591151518,
+          "nearest_angle_max_deg": 48.69989445234169,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 83,
+          "nearest_angle_min_deg": 1.725117221380251,
+          "nearest_angle_median_deg": 6.9731988707310375,
+          "nearest_angle_max_deg": 48.6970756936125,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 84,
+          "nearest_angle_min_deg": 1.725873894361445,
+          "nearest_angle_median_deg": 6.99639321542669,
+          "nearest_angle_max_deg": 48.694266083930934,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 85,
+          "nearest_angle_min_deg": 1.7290308665454754,
+          "nearest_angle_median_deg": 7.019662818092177,
+          "nearest_angle_max_deg": 48.69146562475011,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 86,
+          "nearest_angle_min_deg": 1.7345758658590522,
+          "nearest_angle_median_deg": 7.043006879431334,
+          "nearest_angle_max_deg": 48.68867431750435,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 87,
+          "nearest_angle_min_deg": 1.7424869007830153,
+          "nearest_angle_median_deg": 7.0664246079534,
+          "nearest_angle_max_deg": 48.68589216360939,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 88,
+          "nearest_angle_min_deg": 1.7411040403985645,
+          "nearest_angle_median_deg": 6.901770290515721,
+          "nearest_angle_max_deg": 48.703896365386264,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 89,
+          "nearest_angle_min_deg": 1.7346849780462197,
+          "nearest_angle_median_deg": 6.924739637847279,
+          "nearest_angle_max_deg": 48.701059200428354,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 90,
+          "nearest_angle_min_deg": 1.730638402300958,
+          "nearest_angle_median_deg": 6.947786662312139,
+          "nearest_angle_max_deg": 48.698231182906824,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 91,
+          "nearest_angle_min_deg": 1.7289818798778203,
+          "nearest_angle_median_deg": 6.970910540747264,
+          "nearest_angle_max_deg": 48.69541231431223,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 92,
+          "nearest_angle_min_deg": 1.7297231618823066,
+          "nearest_angle_median_deg": 6.994110457933134,
+          "nearest_angle_max_deg": 48.69260259611645,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 93,
+          "nearest_angle_min_deg": 1.7328600300026098,
+          "nearest_angle_median_deg": 7.017385606552117,
+          "nearest_angle_max_deg": 48.68980202977275,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 94,
+          "nearest_angle_min_deg": 1.7383803482556368,
+          "nearest_angle_median_deg": 7.040735187145536,
+          "nearest_angle_max_deg": 48.68701061671568,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 95,
+          "nearest_angle_min_deg": 1.7462623177587415,
+          "nearest_angle_median_deg": 7.064158408069016,
+          "nearest_angle_max_deg": 48.68422835836116,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 96,
+          "nearest_angle_min_deg": 1.7449871061883935,
+          "nearest_angle_median_deg": 6.899465868009455,
+          "nearest_angle_max_deg": 48.70223317093259,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 97,
+          "nearest_angle_min_deg": 1.7385669998100488,
+          "nearest_angle_median_deg": 6.922440867661521,
+          "nearest_angle_max_deg": 48.69939589340088,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 98,
+          "nearest_angle_min_deg": 1.7345146462572334,
+          "nearest_angle_median_deg": 6.945493518410288,
+          "nearest_angle_max_deg": 48.696567764656585,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 99,
+          "nearest_angle_min_deg": 1.7328475640581038,
+          "nearest_angle_median_deg": 6.968622996902615,
+          "nearest_angle_max_deg": 48.693748786190476,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 100,
+          "nearest_angle_min_deg": 1.733573517450383,
+          "nearest_angle_median_deg": 6.991828487738667,
+          "nearest_angle_max_deg": 48.69093895947466,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 101,
+          "nearest_angle_min_deg": 1.736690362942501,
+          "nearest_angle_median_deg": 7.015109183429485,
+          "nearest_angle_max_deg": 48.68813828596252,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 102,
+          "nearest_angle_min_deg": 1.7421860992930305,
+          "nearest_angle_median_deg": 7.038464284354893,
+          "nearest_angle_max_deg": 48.68534676708883,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 103,
+          "nearest_angle_min_deg": 1.750039118481497,
+          "nearest_angle_median_deg": 7.061892998717067,
+          "nearest_angle_max_deg": 48.68256440426966,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 104,
+          "nearest_angle_min_deg": 1.748871131432691,
+          "nearest_angle_median_deg": 6.897162228284785,
+          "nearest_angle_max_deg": 48.70056982765939,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 105,
+          "nearest_angle_min_deg": 1.742449983004486,
+          "nearest_angle_median_deg": 6.920142881542403,
+          "nearest_angle_max_deg": 48.69773243754724,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 106,
+          "nearest_angle_min_deg": 1.73839187362991,
+          "nearest_angle_median_deg": 6.94320115981723,
+          "nearest_angle_max_deg": 48.69490419757383,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 107,
+          "nearest_angle_min_deg": 1.7367142738108736,
+          "nearest_angle_median_deg": 6.966336239566612,
+          "nearest_angle_max_deg": 48.6920851092301,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 108,
+          "nearest_angle_min_deg": 1.7374249605652083,
+          "nearest_angle_median_deg": 6.9895473052106665,
+          "nearest_angle_max_deg": 48.689275173988364,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 109,
+          "nearest_angle_min_deg": 1.7405218643628948,
+          "nearest_angle_median_deg": 7.012833549090271,
+          "nearest_angle_max_deg": 48.68647439330222,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 110,
+          "nearest_angle_min_deg": 1.7459931173709542,
+          "nearest_angle_median_deg": 7.036194171422987,
+          "nearest_angle_max_deg": 48.683682768606616,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 111,
+          "nearest_angle_min_deg": 1.7538173006764397,
+          "nearest_angle_median_deg": 7.059628380259071,
+          "nearest_angle_max_deg": 48.68090030131778,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 112,
+          "nearest_angle_min_deg": 1.752756116440849,
+          "nearest_angle_median_deg": 6.894859371716879,
+          "nearest_angle_max_deg": 48.6989063355495,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 113,
+          "nearest_angle_min_deg": 1.7463339279253667,
+          "nearest_angle_median_deg": 6.917845679863454,
+          "nearest_angle_max_deg": 48.696068832850244,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 114,
+          "nearest_angle_min_deg": 1.7422700845762853,
+          "nearest_angle_median_deg": 6.940909586904671,
+          "nearest_angle_max_deg": 48.69324048164135,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 115,
+          "nearest_angle_min_deg": 1.740582009027438,
+          "nearest_angle_median_deg": 6.9640502691089985,
+          "nearest_angle_max_deg": 48.690421283413905,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 116,
+          "nearest_angle_min_deg": 1.74127749073275,
+          "nearest_angle_median_deg": 6.987266910717251,
+          "nearest_angle_max_deg": 48.68761123964045,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 117,
+          "nearest_angle_min_deg": 1.7443545332730765,
+          "nearest_angle_median_deg": 7.010558703899952,
+          "nearest_angle_max_deg": 48.68481035177472,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 118,
+          "nearest_angle_min_deg": 1.7498014009049514,
+          "nearest_angle_median_deg": 7.033924848713822,
+          "nearest_angle_max_deg": 48.68201862125184,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 119,
+          "nearest_angle_min_deg": 1.7575968620892406,
+          "nearest_angle_median_deg": 7.057364553056963,
+          "nearest_angle_max_deg": 48.679236049488296,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 120,
+          "nearest_angle_min_deg": 1.7566420615236185,
+          "nearest_angle_median_deg": 6.892557298681941,
+          "nearest_angle_max_deg": 48.69724269458573,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 121,
+          "nearest_angle_min_deg": 1.7502188348700054,
+          "nearest_angle_median_deg": 6.915549262998604,
+          "nearest_angle_max_deg": 48.69440507929278,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 122,
+          "nearest_angle_min_deg": 1.746149279254631,
+          "nearest_angle_median_deg": 6.938618800044655,
+          "nearest_angle_max_deg": 48.69157661684203,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 123,
+          "nearest_angle_min_deg": 1.7444507696050162,
+          "nearest_angle_median_deg": 6.96176508590006,
+          "nearest_angle_max_deg": 48.68875730872478,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 124,
+          "nearest_angle_min_deg": 1.7451311074659683,
+          "nearest_angle_median_deg": 6.984987304626396,
+          "nearest_angle_max_deg": 48.685947156413725,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 125,
+          "nearest_angle_min_deg": 1.748188368693124,
+          "nearest_angle_median_deg": 7.008284648224843,
+          "nearest_angle_max_deg": 48.68314616136285,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 126,
+          "nearest_angle_min_deg": 1.753610948327266,
+          "nearest_angle_median_deg": 7.031656316591559,
+          "nearest_angle_max_deg": 48.68035432500742,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        },
+        {
+          "BS": 127,
+          "nearest_angle_min_deg": 1.7613778004854679,
+          "nearest_angle_median_deg": 7.055101517472877,
+          "nearest_angle_max_deg": 48.67757164876411,
+          "training_rays_matched_under_1deg": 0,
+          "training_rays_matched_under_point1deg": 0
+        }
+      ]
+    }
+  ],
+  "query_input_available_at_unseen_positions": true,
+  "query_geometry_payload_reads": 0,
+  "source_geometry_count": 3820,
+  "source_geometry_ids_sha256": "bc777387e529f8373d7df15dd56685eba0e343325ff3677544a09d5d29bdb9ae",
+  "directions_frequency_independent": true,
+  "CSI_labels_read": 0,
+  "optimizer_updates": 0,
+  "formal_test": false,
+  "direction_sha256": {
+    "FIT_directions_row2666.npy": "0b61e44d2c022a1b7c4d8df72f8a735e7b445d6db64cfea6a1d8f1fb0ef55362",
+    "FIT_directions_row2042.npy": "73e22e8e33187cf16dbccf346873b329513a9fd53e239a3b62745534fc102181",
+    "query_directions.npy": "46b7d170edc43032541130eea7367deb095824f466a7f4b0541ba9d871661fc5"
+  }
+}

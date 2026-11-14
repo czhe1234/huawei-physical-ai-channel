@@ -1,0 +1,8 @@
+{
+  "step": 5500,
+  "source": "last.pt",
+  "snapshot": "artifacts/round2/paper_four_baselines_v1/repair_20261111/nerf2/diagnostic_snapshot/near5000.pt",
+  "sha256": "ec3b57032c25fe3f3205d2bdb1155e6d9cbe0fe7a10c1abdf8069540bc6cc9d4",
+  "free_mib": 56610,
+  "training_continues": true
+}

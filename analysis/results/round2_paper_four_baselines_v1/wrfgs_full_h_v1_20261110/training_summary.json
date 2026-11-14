@@ -1,0 +1,176 @@
+{
+  "folds": [
+    {
+      "fold": 0,
+      "query_count": 103,
+      "screen_fit_count": 3820,
+      "refit_fit_count": 3893,
+      "screen_updates": 12000,
+      "selected_updates": 11200,
+      "refit_updates": 11415,
+      "screen_stop_reason": "max_updates",
+      "screen_validation": {
+        "count": 71,
+        "pas": 0.2664884148344392,
+        "pdp": 0.675757357377187,
+        "nmse": 1.0021849384176007,
+        "nmse_score": 0.49945436148887234,
+        "score": 0.47678918118242497
+      },
+      "training_seconds": 2223.2017781039467,
+      "peak_cuda_bytes": 10340018688,
+      "device": {
+        "GPU_UUID": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+        "CUDA_context_UUID": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+        "PCI_bus": "0000:84:00.0",
+        "logical_device": 0,
+        "PID": 1548882,
+        "MPS_servers": [],
+        "NVML_direct_client_visible": true,
+        "mapping_verification": "current CUDA context UUID",
+        "name": "NVIDIA A800 80GB PCIe",
+        "total_bytes": 84974239744
+      },
+      "model_sha256": "d636f13ab4c81a4ed9b950f7d4362eb2ff7826c2d117fb15a7c4dfbcdc5e29fb",
+      "prediction_sha256": "34576362eee8f55161c61fbd24fe0e34515c810a1fb2dbe2ca43146134d8b4b8"
+    },
+    {
+      "fold": 1,
+      "query_count": 71,
+      "screen_fit_count": 3858,
+      "refit_fit_count": 3927,
+      "screen_updates": 12000,
+      "selected_updates": 11200,
+      "refit_updates": 11401,
+      "screen_stop_reason": "max_updates",
+      "screen_validation": {
+        "count": 63,
+        "pas": 0.36183404460812363,
+        "pdp": 0.6558018004751296,
+        "nmse": 1.0034677822308669,
+        "nmse_score": 0.49913455502962834,
+        "score": 0.5068812490392269
+      },
+      "training_seconds": 1868.6636571208946,
+      "peak_cuda_bytes": 10638552576,
+      "device": {
+        "GPU_UUID": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+        "CUDA_context_UUID": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+        "PCI_bus": "0000:32:00.0",
+        "logical_device": 0,
+        "PID": 1719833,
+        "MPS_servers": [],
+        "NVML_direct_client_visible": true,
+        "mapping_verification": "current CUDA context UUID",
+        "name": "NVIDIA H100 80GB HBM3",
+        "total_bytes": 84929347584
+      },
+      "model_sha256": "a06f8219da673951601f2d5484705cada67d3ca5409dd921ccaa6d911fe8cb83",
+      "prediction_sha256": "b0a7df2a4837198dd64bba68e9d35a4ccfed73db5181b9c60ccd14bfc206c950"
+    },
+    {
+      "fold": 2,
+      "query_count": 63,
+      "screen_fit_count": 3813,
+      "refit_fit_count": 3931,
+      "screen_updates": 4000,
+      "selected_updates": 800,
+      "refit_updates": 825,
+      "screen_stop_reason": "validation_plateau",
+      "screen_validation": {
+        "count": 110,
+        "pas": 0.2319743357307633,
+        "pdp": 0.4718191994383817,
+        "nmse": 1.0001967007551387,
+        "nmse_score": 0.4999508296471381,
+        "score": 0.3815075799970856
+      },
+      "training_seconds": 517.1090619530296,
+      "peak_cuda_bytes": 10329532928,
+      "device": {
+        "GPU_UUID": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+        "CUDA_context_UUID": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+        "PCI_bus": "0000:84:00.0",
+        "logical_device": 0,
+        "PID": 1487682,
+        "MPS_servers": [],
+        "NVML_direct_client_visible": true,
+        "mapping_verification": "current CUDA context UUID",
+        "name": "NVIDIA A800 80GB PCIe",
+        "total_bytes": 84974239744
+      },
+      "model_sha256": "8f63a8e4330a5b6d3f09db7d89e70738e239664b9d02a62db048808cebc2553e",
+      "prediction_sha256": "ad6fe24f5fd8e253f90518d2fb409a7171a6776832b24f7ec9ff6f69a3c2e49a"
+    },
+    {
+      "fold": 3,
+      "query_count": 110,
+      "screen_fit_count": 3720,
+      "refit_fit_count": 3882,
+      "screen_updates": 4800,
+      "selected_updates": 1600,
+      "refit_updates": 1670,
+      "screen_stop_reason": "validation_plateau",
+      "screen_validation": {
+        "count": 153,
+        "pas": 0.5702197418013423,
+        "pdp": 0.7140635925024802,
+        "nmse": 1.000533328411265,
+        "nmse_score": 0.4998667034426043,
+        "score": 0.6136866744100498
+      },
+      "training_seconds": 460.4267389740562,
+      "peak_cuda_bytes": 10281233920,
+      "device": {
+        "GPU_UUID": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+        "CUDA_context_UUID": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+        "PCI_bus": "0000:58:00.0",
+        "logical_device": 0,
+        "PID": 1792425,
+        "MPS_servers": [],
+        "NVML_direct_client_visible": true,
+        "mapping_verification": "current CUDA context UUID",
+        "name": "NVIDIA H100 80GB HBM3",
+        "total_bytes": 84929347584
+      },
+      "model_sha256": "c0045a2a5ec9a2d808f82dbc6f54d99c2447b32177cb6be12c28521de96e0ae9",
+      "prediction_sha256": "3a1f5aa00af1c30cfac9e8ae12ad3c19d0c0f5e03602cecfa74774ae2e386c84"
+    },
+    {
+      "fold": 4,
+      "query_count": 153,
+      "screen_fit_count": 3731,
+      "refit_fit_count": 3838,
+      "screen_updates": 12000,
+      "selected_updates": 8800,
+      "refit_updates": 9053,
+      "screen_stop_reason": "validation_plateau",
+      "screen_validation": {
+        "count": 103,
+        "pas": 0.6763777373941439,
+        "pdp": 0.8493615283463511,
+        "nmse": 1.0055219417559178,
+        "nmse_score": 0.4986233155467043,
+        "score": 0.7100203694055389
+      },
+      "training_seconds": 2016.806172415032,
+      "peak_cuda_bytes": 10161957376,
+      "device": {
+        "GPU_UUID": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+        "CUDA_context_UUID": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+        "PCI_bus": "0000:84:00.0",
+        "logical_device": 0,
+        "PID": 1792426,
+        "MPS_servers": [],
+        "NVML_direct_client_visible": true,
+        "mapping_verification": "current CUDA context UUID",
+        "name": "NVIDIA A800 80GB PCIe",
+        "total_bytes": 84974239744
+      },
+      "model_sha256": "7310d81bddbca9d0ae3983ec6f04c0852d589b0529a4ac300434affb611b88b8",
+      "prediction_sha256": "3cee1df943c63a36730d355c062268e4895de0a737b1ec568473217aba83a3d9"
+    }
+  ],
+  "total_training_seconds": 7086.207408566959,
+  "total_optimizer_updates": 79164
+}

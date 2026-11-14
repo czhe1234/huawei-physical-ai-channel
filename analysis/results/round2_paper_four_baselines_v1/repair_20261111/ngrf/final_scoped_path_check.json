@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "new_scope_hits": [],
+  "global_exit_code": 1,
+  "syntax_passed": true,
+  "files": [
+    "code/round2/baseline_repair_20261111/ngrf_continuation_eval.py",
+    "code/round2/baseline_repair_20261111/ngrf_continue_dropout.py",
+    "code/round2/baseline_repair_20261111/ngrf_dropout_diagnostic.py",
+    "code/round2/baseline_repair_20261111/ngrf_gradient_diagnostic.py",
+    "code/round2/baseline_repair_20261111/ngrf_position_eval.py",
+    "code/round2/baseline_repair_20261111/ngrf_position_loss.py",
+    "code/round2/baseline_repair_20261111/ngrf_repair.py",
+    "code/round2/baseline_repair_20261111/ngrf_spatial_diagnostic.py"
+  ]
+}

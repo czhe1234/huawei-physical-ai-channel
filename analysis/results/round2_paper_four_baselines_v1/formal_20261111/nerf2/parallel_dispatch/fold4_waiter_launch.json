@@ -1,0 +1,29 @@
+{
+  "PID": 2400500,
+  "argv": [
+    "code/tools/run_in_env.sh",
+    "python",
+    "-u",
+    "-m",
+    "round2.baseline_formal_20261111.dispatch_fold4",
+    "--runtime-config",
+    "analysis/results/round2_paper_four_baselines_v1/formal_20261111/nerf2/portable_4/runtime_config.json",
+    "--portable-sha256",
+    "833a986b9212f496fd656c19a4cee2dc7c3e34a013dd8d0e518f255b8485ba40",
+    "--runtime-sha256",
+    "a25b85c20725dc6454ba502f97ba905ddb58de1f7ea7c3f2de48397c1a15cbd9",
+    "--wait-hours",
+    "24"
+  ],
+  "CPU_only_waiter": true,
+  "portable_source_sha256": "833a986b9212f496fd656c19a4cee2dc7c3e34a013dd8d0e518f255b8485ba40",
+  "dispatcher_source_sha256": "2f6b9880de69c2deb9ff20d8e2c1b3bb0e4166313d28494f1b91ff3343a05003",
+  "runtime_sha256": "a25b85c20725dc6454ba502f97ba905ddb58de1f7ea7c3f2de48397c1a15cbd9",
+  "start_unix_seconds": 1794426252.1106956,
+  "log": "analysis/results/round2_paper_four_baselines_v1/formal_20261111/nerf2/parallel_dispatch/fold4_waiter.log",
+  "dispatcher_diff_from_independent_review": {
+    "reviewed_sha256": "81598ffcb35d93825b8d7b620cd09ab1106cb2d3d7ca2008521e8fcf6846f38e",
+    "only_change": "skip non-run/prediction-only canonical processes in duplicate-worker check"
+  },
+  "math_config_sha256": "c298cb71156e7aa78eec1f374ea8bb36fba47d5ef8a7a54b76dbeee5cf258a35"
+}

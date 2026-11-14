@@ -1,0 +1,44 @@
+{
+  "schema": "newrf-formal-query-only-full-H-v1",
+  "seed": 42,
+  "batch_positions": 2,
+  "bs_block": 8,
+  "n_samples": 128,
+  "n_importance": 128,
+  "frequency_chunk": 8,
+  "direction_cache_entries": 512,
+  "checkpoint_every": 100,
+  "health_every": 1000,
+  "validation_every": 250,
+  "stage_min_updates": {
+    "coarse": 750,
+    "warm": 1000,
+    "native": 1000
+  },
+  "stage_max_updates": {
+    "coarse": 750,
+    "warm": 1000,
+    "native": 2000
+  },
+  "learning_rates": {
+    "coarse": 0.0005,
+    "warm": 5e-05,
+    "native": 5e-05
+  },
+  "native_patience": 2,
+  "minimum_validation_improvement": 0.001,
+  "training_power_floor_FIT_RMS_squared": 1e-06,
+  "max_role_wall_seconds": 21600,
+  "smoke_updates": 20,
+  "smoke_batch_options": [
+    2,
+    4
+  ],
+  "initialization": "fresh seed42; all8fields coarse->copy fine->warm density-backward detach->native release",
+  "budget_status": "Formal method caps frozen by root after2/4-position20-step smoke; screen min2750/max3750 each field; refit ceil per-stage selected times FIT ratio with at most necessary native first-coverage extension",
+  "selection": "fixed original role-validation16panel/8BS per field/12frequencies; no PAS/PDP selection",
+  "phase_gate": "original numerical nonzero point gates; zero leakage reported; cap failure recorded without blocking subsequent phases",
+  "position_sampling": "per-site without replacement permutations, persistent across stages; each position independently cycles all16 8BS blocks",
+  "validation_selection": "only native>=1000 and after every allowed FIT point enters real gradients; original fixed16positions, 8BS per field and12 frequency validation proxy; min improvement .001, patience2",
+  "no_unbounded_score_tuning": true
+}

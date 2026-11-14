@@ -1,0 +1,51 @@
+{
+  "status": "complete",
+  "manifest": {
+    "source_identity": {
+      "CPU_fixture": "same_frozen_source"
+    },
+    "checkpoint_sha256": "CPU_checkpoint",
+    "path": "analysis/results/round2_paper_four_baselines_v1/formal_20261111/nerf2/portable_4/publication_cpu_check_833a986b9212/artifact/outer4/prediction/channels.npy",
+    "sha256": "519130e4dd26234cfd0b87fcfc9c86607fdaf5c8d295f9da2d500f6a900207c0",
+    "row_ids": [
+      7
+    ],
+    "metadata": {
+      "runtime_adaptation": {
+        "kind": "scheduling_and_GPU_binding_only",
+        "GPU_UUID": "CPU_fixture",
+        "CUDA_context_UUID": "CPU_fixture",
+        "portable_entry": "code/round2/baseline_formal_20261111/nerf2_portable.py",
+        "runtime_contract": {
+          "CPU_fixture": true
+        },
+        "proof": {
+          "CPU_fixture": true
+        },
+        "mathematics_config_sha256": "c298cb71156e7aa78eec1f374ea8bb36fba47d5ef8a7a54b76dbeee5cf258a35",
+        "exact_frozen_build_train_validation_predict_functions": true
+      }
+    },
+    "shape": [
+      1,
+      256,
+      4,
+      192
+    ],
+    "dtype": "complex64",
+    "runtime_adaptation": {
+      "kind": "scheduling_and_GPU_binding_only",
+      "GPU_UUID": "CPU_fixture",
+      "CUDA_context_UUID": "CPU_fixture",
+      "portable_entry": "code/round2/baseline_formal_20261111/nerf2_portable.py",
+      "runtime_contract": {
+        "CPU_fixture": true
+      },
+      "proof": {
+        "CPU_fixture": true
+      },
+      "mathematics_config_sha256": "c298cb71156e7aa78eec1f374ea8bb36fba47d5ef8a7a54b76dbeee5cf258a35",
+      "exact_frozen_build_train_validation_predict_functions": true
+    }
+  }
+}

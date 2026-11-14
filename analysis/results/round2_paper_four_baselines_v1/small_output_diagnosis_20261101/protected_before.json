@@ -1,0 +1,12 @@
+{
+  "analysis/results/round2_paper_four_baselines_v1/comparison.json": "1aad3d9fd70e40270d8a36e83400b52741002c82de70eb51b6d1ce21eeb85157",
+  "analysis/results/round2_paper_four_baselines_v1/comparison.csv": "c141a65db5286213bcb7fdae3300366205c9a53966e5fa12efdcff48311206fd",
+  "analysis/results/round2_paper_four_baselines_v1/comparison.md": "1f07992a8e468505d132e066f4fe8c5cb12234edb650c038cbee855574b224e2",
+  "analysis/results/round2_paper_four_baselines_v1/completed_result_verification.json": "dbb386f2c1952efc0ba934fc1c8d3207267a6542fd77e6327d34cd7e6e297c37",
+  "analysis/results/round2_paper_four_baselines_v1/preservation_check.json": "3a7f6b2ca5a589155d4f0307310e30789b792a661329bf9cb604eb4c07936222",
+  "analysis/results/round2_existing_comparison_20261101/comparison.csv": "ab067cb96bcd1487d8e6db70261ff10490934e2ac93ce6fc1e83f8649b307234",
+  "analysis/results/round2_existing_comparison_20261101/comparison.md": "e3a47fd838f76da5a34921b7329aac36c24a01676cd3883b2193e5e582e69eb0",
+  "analysis/results/round2_existing_comparison_20261101/results.json": "4d20884a37ed97a4d62739fe24c769298eeefa1492e4e7d6d00eb3bc8d288e77",
+  "analysis/results/round2_official_sionna_path_calibrator/fixed500_report.json": "23641a6515f28171129dde67b712dbe8b6b468f493c1f842ef36b5ea2b09c0d2",
+  "final_code/V16_fast_repro_submission/artifacts/round2/physical_ai_submission/deployment_manifest.json": "b04f76014b7ad056520a83e010f3f822afc88aa70c8eff9c625bb2e1f2f41b95"
+}

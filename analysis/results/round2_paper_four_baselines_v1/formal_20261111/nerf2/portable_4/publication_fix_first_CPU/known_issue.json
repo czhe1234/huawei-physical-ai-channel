@@ -1,0 +1,7 @@
+{
+  "status": "not_validated_for_fresh_prediction_execution",
+  "source_sha256": "228660fa4aaa9596527fb36be9013741a09fdb3dc50f6960fe37b10ccca90b7a",
+  "issue": "Global replacement introduced recursive fresh staged call. First CPU probe covered routing/annotation only, not the full fresh helper.",
+  "no_portable_formal_training_started": true,
+  "optimizer_updates_affected": 0
+}

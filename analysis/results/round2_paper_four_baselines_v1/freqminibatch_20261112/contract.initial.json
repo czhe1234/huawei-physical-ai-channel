@@ -1,0 +1,63 @@
+{
+  "schema": "huawei-frequency-minibatch-continuation-v1",
+  "authorized_utc": "2026-11-11T20:18:32.303599+00:00",
+  "parent_contract": "analysis/results/round2_paper_four_baselines_v1/formal_20261111/contract.json",
+  "parent_contract_sha256": "9216b0004a6193d1af7e9e0f78d2cd44ec23f77a152deaec6e36857b679b8176",
+  "input_identity": "819ab37e745a05962e0166654510b1e385ea160da8254b61e88300bdcaaa0b1c",
+  "query_ids_sha256": "f115290de0dc5f80cfe304e1f2143696694e66eec10c418e1b086d0b179ed08b",
+  "outer_counts": [
+    103,
+    71,
+    63,
+    110,
+    153
+  ],
+  "output_shape": [
+    500,
+    256,
+    4,
+    192
+  ],
+  "dtype": "complex64",
+  "official_metrics_sha256": "15aa0cca3b7df17f8c93bd26d22b44f4a49b48d6b13fd8cc7b52325fb74729c3",
+  "score_formula": "0.4*PAS+0.4*PDP+0.2/(1+global NMSE)",
+  "same_split_ports_frequency_order_and_raw_units": true,
+  "test_CSI_alignment": false,
+  "retained_formal_folds": {
+    "nerf2": [
+      0,
+      1
+    ],
+    "newrf": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "ngrf": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "new_root_folds": {
+    "nerf2": [
+      2,
+      3,
+      4
+    ],
+    "newrf": [
+      4
+    ]
+  },
+  "selection_depends_on_completion_not_outer_score": true,
+  "frequency_batch_configuration": "freeze after correctness and timing QA before continuation",
+  "same_optimizer_step_budget_not_frequency_exposure_budget": true,
+  "changed_stochastic_trajectory": true,
+  "V16_retrained_or_rescored": false,
+  "WRFGS_retrained_or_rescored": false,
+  "original_paper_exact_reproduction": false,
+  "per_method_all5_seal_before_scoring": true
+}

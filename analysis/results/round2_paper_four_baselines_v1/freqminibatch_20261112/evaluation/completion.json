@@ -1,0 +1,107 @@
+{
+  "status": "scored_and_verified",
+  "rows": [
+    {
+      "key": "v16",
+      "method": "V16（历史版本）",
+      "metrics": {
+        "count": 500,
+        "pas": 0.6769415758539015,
+        "pdp": 0.7803473980573273,
+        "nmse": 0.9331251955178452,
+        "nmse_score": 0.5172970702149067,
+        "score": 0.6863750036074728
+      },
+      "status": "retained",
+      "origin": "analysis/results/round2_paper_four_baselines_v1/wrfgs_full_h_v1_20261110/evaluation/comparison.json"
+    },
+    {
+      "key": "nerf2",
+      "method": "NeRF²（频点小批量续训）",
+      "metrics": {
+        "count": 500,
+        "pas": 0.04577324899532563,
+        "pdp": 0.2526877049985076,
+        "nmse": 1.0000000421062036,
+        "nmse_score": 0.49999998947344926,
+        "score": 0.21938437949222317
+      },
+      "status": "verified500",
+      "prediction_count": 500,
+      "new_frequency_minibatch_folds": [
+        2,
+        3,
+        4
+      ],
+      "retained_full_frequency_folds": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "newrf",
+      "method": "NeWRF（频点小批量续训）",
+      "metrics": {
+        "count": 500,
+        "pas": 0.04655987131867856,
+        "pdp": 0.03120405889303317,
+        "nmse": 1.0000000091643075,
+        "nmse_score": 0.4999999977089231,
+        "score": 0.13110557162646932
+      },
+      "status": "verified500",
+      "prediction_count": 500,
+      "new_frequency_minibatch_folds": [
+        4
+      ],
+      "retained_full_frequency_folds": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "key": "ngrf",
+      "method": "nGRF（已核验修复版）",
+      "metrics": {
+        "count": 500,
+        "pas": 0.11842334382966814,
+        "pdp": 0.026203649457232418,
+        "nmse": 1.0165804024271432,
+        "nmse_score": 0.4958889805714696,
+        "score": 0.15702859342905415
+      },
+      "status": "retained_verified500",
+      "origin": "analysis/results/round2_paper_four_baselines_v1/formal_20261111/evaluation/ngrf/results.json"
+    },
+    {
+      "key": "wrfgs_full_h_v1",
+      "method": "WRF-GS+（完整H适配）",
+      "metrics": {
+        "count": 500,
+        "pas": 0.43313136325639273,
+        "pdp": 0.6594547343705439,
+        "nmse": 1.0010891825029031,
+        "nmse_score": 0.4997278525833765,
+        "score": 0.53698000956745
+      },
+      "status": "retained",
+      "origin": "analysis/results/round2_paper_four_baselines_v1/wrfgs_full_h_v1_20261110/evaluation/comparison.json"
+    }
+  ],
+  "old_file_protection": {
+    "parent": {
+      "protected_hashes": 333,
+      "protected_stats": 385,
+      "record_prefix_match": true,
+      "stat_checks_are_not_full_content_hashes": true
+    },
+    "hashes": 209,
+    "model_array_stats": 190,
+    "stats_are_not_content_hashes": true
+  },
+  "completed_utc": "2026-11-12T03:10:22.539417+00:00",
+  "all_query_counts": 500,
+  "all_zero_truth_rows_retained": 31
+}

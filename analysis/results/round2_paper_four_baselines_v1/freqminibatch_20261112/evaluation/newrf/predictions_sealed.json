@@ -1,0 +1,51 @@
+{
+  "method": "newrf",
+  "query_count": 500,
+  "input_identity": "819ab37e745a05962e0166654510b1e385ea160da8254b61e88300bdcaaa0b1c",
+  "manifests": {
+    "artifacts/round2/paper_four_baselines_v1/formal_20261111/newrf/outer0/prediction/manifest.json": "ddaf626951287d1a071ef29594c3eb35139caef79ee08e653cecefe8772a2bae",
+    "artifacts/round2/paper_four_baselines_v1/formal_20261111/newrf/outer1/prediction/manifest.json": "714dbda86438ff2606c6f2e030c314d61b9be728c211702dcf862e57f34b6d2e",
+    "artifacts/round2/paper_four_baselines_v1/formal_20261111/newrf/outer2/prediction/manifest.json": "ecfc23e90ea8c2fd1a0127f087b4f5975de9cecd35b5d49021131da16e83179b",
+    "artifacts/round2/paper_four_baselines_v1/formal_20261111/newrf/outer3/prediction/manifest.json": "2178860463b28fefad0769566750cd41a579b2e6db57e9fbaece169f4ce80184",
+    "artifacts/round2/paper_four_baselines_v1/freqminibatch_20261112/newrf/outer4/prediction/manifest.json": "6fd5b2e1e2eee37f7cfd7eee5a3952ecd4acb35b9d6b198d5792c5d5d56cb4e9"
+  },
+  "training_evidence": {
+    "0": {
+      "screen": "c6cb088d60695eca5b6fe1ed3bc5ba62a894d763d96891764c7bfc1c78456d5d",
+      "refit": "49f147b0e4ac5885a76014a08cec0fc0563878fd100dc704251f46b27d06c9c2",
+      "model": "946f5fe046a64c1fa47da33bf590a3e4ebd809b0b9be6bf371acc5342fa64ef5"
+    },
+    "1": {
+      "screen": "6796c8c3b3ebc9fffe8e6c2f821c202c555ffce0d4dc46dc71ac79f92024eee6",
+      "refit": "790f832ae22a58fdc71373dca4dedccfad29bc83a82d78f358c1e0e99cb98349",
+      "model": "5bda09fdd02d770ff03b9a188b7dbb54fbdbd3b94364c503db095707d5657e47"
+    },
+    "2": {
+      "screen": "065d471007ceff9af3073c476547d49bfbd5d8aefad0849156d88ce07b494d8f",
+      "refit": "7cf9e01b81ad23b089e955c7477a7ff6c2373d2dc80fc32a2dbf420596a79d0c",
+      "model": "a29c0e4d790fe83bc6d255656209d259624616abf5578aa99206eba1a9766b07"
+    },
+    "3": {
+      "screen": "993c8a795eac72e6f27b6c70aa724adaa93a68a5303e6b8fa60508f10d782dd4",
+      "refit": "415a583aa0e94bc7397e74ece682d05a27030b11b81af6772210eb00bdb29323",
+      "model": "57ce94f530869212861a691e26c6c38c02846c7eecee35c3bebd29e33337fd64"
+    },
+    "4": {
+      "screen": "20a1a38deba484eacce8eea13dd21eac0de7610c6b48448202f2a7271cb22431",
+      "refit": "0265d7106a9b38384f8a37c649936b619834fdafe9f47769813147115237529c",
+      "model": "2cb1d7b703684b41c863cb9c10035dd8eb567ec062d58f5c0b5087cc4dbd8bef"
+    }
+  },
+  "sealed_before_method_truth_scoring": true,
+  "selection_depends_on_completion_not_test_score": true,
+  "new_frequency_minibatch_folds": [
+    4
+  ],
+  "retained_full_frequency_folds": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "other_training_not_tuned_on_scored_outer_results": true
+}

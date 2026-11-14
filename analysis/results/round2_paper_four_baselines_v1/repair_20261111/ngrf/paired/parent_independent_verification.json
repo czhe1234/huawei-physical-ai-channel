@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "weight": 0.1,
+      "complex_nmse": 0.4995070801699142,
+      "magnitude_nmse": 0.01959146807145977,
+      "deltas": {
+        "complex_nmse": 8.804343920587598e-10,
+        "magnitude_nmse": 4.528563635197713e-11
+      },
+      "all_finite": true
+    },
+    {
+      "weight": 1.0,
+      "complex_nmse": 0.030206311298860374,
+      "magnitude_nmse": 0.011095461662061368,
+      "deltas": {
+        "complex_nmse": 2.043135972906729e-10,
+        "magnitude_nmse": 1.7571917185210673e-10
+      },
+      "all_finite": true
+    }
+  ],
+  "same_init_rng_schedule": true
+}

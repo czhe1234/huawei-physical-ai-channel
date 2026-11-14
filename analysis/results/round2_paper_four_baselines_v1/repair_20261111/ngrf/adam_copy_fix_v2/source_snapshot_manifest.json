@@ -1,0 +1,16 @@
+{
+  "analysis/results/round2_paper_four_baselines_v1/repair_20261111/config.json": "d572d97d0c61d8a3789efb09d56e6feab709a3d2566f8d9f32ec9bcc50e2a258",
+  "analysis/results/round2_paper_four_baselines_v1/repair_20261111/ngrf/adam_copy_fix_v2/dropout/config.json": "63ee17a7b8d7ae936b664fad79e42e908bb9641ed1f76bbfa852857cdcde9b76",
+  "analysis/results/round2_paper_four_baselines_v1/repair_20261111/ngrf/adam_copy_fix_v2/position_loss/config.json": "f1819ca52e660344df94f3cbeda0791e8fadf73a457e6384aad850e8cec42415",
+  "code/round2/baseline_repair_20261111/ngrf_dropout_adam_v2.py": "dfc0ddad07a35b89d13e0ad4645111e7926680cfe0bb6c834fa37dc33c255a4f",
+  "code/round2/baseline_repair_20261111/ngrf_dropout_eval_adam_v2.py": "b06c5743528a9dae9227382129a31e45894d255cef9669c43a495c22876a3cef",
+  "code/round2/baseline_repair_20261111/ngrf_position_adam_v2.py": "030f2ce8936bda3b58ce92fe3386b2ee2eb13bab9e067eff7f50fdefbdde1da2",
+  "code/round2/baseline_repair_20261111/ngrf_position_eval_adam_v2.py": "25a9b71f6d580c059d5c8adb882426b2f0bdff7cf0d6015071cad333af262d9b",
+  "code/round2/baseline_repair_20261111/ngrf_repair.py": "b145213ba278e55962468db462f8faac933b317e2b041fd94d0f4b63d36bbf0c",
+  "code/round2/baseline_repair_20261111/ngrf_verify_adam_v2.py": "15b4a70b897422a887faf6c5d1f301fd4b79e2f50a871571fcd57ebfbef43bef",
+  "code/round2/baseline_repair_20261111/optimizer_copy_guard.py": "d5cbe8fdb055f825fe24854f65af4c7f94dc34f5f66f3e128d16d56c95a8a68c",
+  "code/round2/paper_baseline_adapters_v1/field_models.py": "8009d8877a680f232445d277f890796109f982347741593fc4bf8db4a5bc8242",
+  "code/round2/paper_baseline_training_v1/common.py": "5ad45eb0b8d16f4a9af9462ba747f582d28946caef84747a8c21e1ccd3d1205d",
+  "code/round2/paper_baseline_training_v1/field_fast.py": "4773a34235bcaa7e24f119f333be39f7a986fd8726bbba1a4e66c3f2990e1d9f",
+  "code/round2/paper_baseline_training_v1/native_ngrf.py": "a84eadc26fe79310a89bcdc21be0cc46d590bd1c3bda2b61402936cf82d8a967"
+}

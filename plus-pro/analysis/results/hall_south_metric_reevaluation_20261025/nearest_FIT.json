@@ -1,0 +1,62 @@
+{
+  "name": "nearest_FIT",
+  "label": "最近训练点",
+  "family": "full",
+  "status": "ok",
+  "scores": {
+    "pas_cosine": 0.6597374438050965,
+    "relative_pdp_cosine": 0.6002845436237201,
+    "receive_energy_TV": 0.26361445867502564,
+    "receive_delay_joint_TV": 0.5577388472168825,
+    "by_panel": {
+      "pas_cosine": [
+        0.64822068888703,
+        0.6712541987231629
+      ],
+      "relative_pdp_cosine": [
+        0.670507052939049,
+        0.5300620343083912
+      ],
+      "receive_energy_TV": [
+        0.24878065569785632,
+        0.27844826165219494
+      ],
+      "receive_delay_joint_TV": [
+        0.5070988758997009,
+        0.6083788185340642
+      ]
+    },
+    "reference_valid_pas_cells": 98304,
+    "reference_valid_pdp_links": 3072,
+    "reference_valid_energy_panels": 96,
+    "reference_valid_joint_panels": 96,
+    "invalid_reference_anchors": 0,
+    "failed_prediction_pdp_links": 0,
+    "failed_prediction_energy_panels": 0,
+    "prediction_oracle_alignment": false,
+    "combined_score": null
+  },
+  "auxiliary": {
+    "reference_panels_total": 96,
+    "reference_panels_valid": 96,
+    "zero_prediction_panels": 0,
+    "undefined_reference_panels": 0,
+    "mean_direction_cosine": 0.7694870692202208,
+    "mean_beam_loss_db": 2.3070046120475762,
+    "infinite_mean_beam_loss": false,
+    "p90_beam_loss_db": 6.2127293748726355,
+    "beam_loss_over3_fraction": 0.34375,
+    "reference_mask_depends_on_prediction": false
+  },
+  "prediction_file": "artifacts/measured/hall_sw_metric_reevaluation_v1/nearest_channel.npz",
+  "prediction_sha256": "f77d4c15fdf5b1d3541e0aae4a397eadcf187eedd3b8dbf453fd492194ba8ae5",
+  "explicit_row_ids": true,
+  "row_provenance": "explicit NPZ IDs",
+  "old_metric_parity": {
+    "direction_cosine_difference": 1.3738000625984625e-08,
+    "beam_loss_difference": 7.812271185514419e-08
+  },
+  "best_epoch": null,
+  "checkpoint_selection": "unchanged old metric selection; no new epoch search",
+  "regenerated": true
+}

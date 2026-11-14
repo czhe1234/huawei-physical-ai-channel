@@ -1,0 +1,62 @@
+{
+  "name": "frequency_RBF",
+  "label": "频率核插值",
+  "family": "full",
+  "status": "ok",
+  "scores": {
+    "pas_cosine": 0.7606800689408739,
+    "relative_pdp_cosine": 0.582604730570199,
+    "receive_energy_TV": 0.26313187779733016,
+    "receive_delay_joint_TV": 0.5854869444105321,
+    "by_panel": {
+      "pas_cosine": [
+        0.7856151723187837,
+        0.7357449655629642
+      ],
+      "relative_pdp_cosine": [
+        0.6420817061096102,
+        0.5231277550307878
+      ],
+      "receive_energy_TV": [
+        0.26005675036940057,
+        0.2662070052252598
+      ],
+      "receive_delay_joint_TV": [
+        0.5556007109625354,
+        0.6153731778585287
+      ]
+    },
+    "reference_valid_pas_cells": 98304,
+    "reference_valid_pdp_links": 3072,
+    "reference_valid_energy_panels": 96,
+    "reference_valid_joint_panels": 96,
+    "invalid_reference_anchors": 0,
+    "failed_prediction_pdp_links": 0,
+    "failed_prediction_energy_panels": 0,
+    "prediction_oracle_alignment": false,
+    "combined_score": null
+  },
+  "auxiliary": {
+    "reference_panels_total": 96,
+    "reference_panels_valid": 96,
+    "zero_prediction_panels": 0,
+    "undefined_reference_panels": 0,
+    "mean_direction_cosine": 0.8901572562904753,
+    "mean_beam_loss_db": 0.9701781058763709,
+    "infinite_mean_beam_loss": false,
+    "p90_beam_loss_db": 3.8717077105700097,
+    "beam_loss_over3_fraction": 0.125,
+    "reference_mask_depends_on_prediction": false
+  },
+  "prediction_file": "artifacts/measured/hall_sw_structured_development_v2/baselines/rbf_best_channel.npz",
+  "prediction_sha256": "c4f2e1c9f697f37f705eb120a73dac52fccffcf65f7f96fde8d9580d9b24a094",
+  "explicit_row_ids": true,
+  "row_provenance": "explicit NPZ IDs",
+  "old_metric_parity": {
+    "direction_cosine_difference": 3.354267252841936e-08,
+    "beam_loss_difference": 3.8192197293618335e-08
+  },
+  "best_epoch": null,
+  "checkpoint_selection": "unchanged old metric selection; no new epoch search",
+  "regenerated": false
+}

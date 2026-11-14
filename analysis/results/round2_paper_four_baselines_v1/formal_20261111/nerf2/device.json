@@ -1,0 +1,13 @@
+{
+  "GPU_UUID": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+  "CUDA_context_UUID": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+  "PCI_bus": "0000:58:00.0",
+  "logical_device": 0,
+  "PID": 2374949,
+  "MPS_servers": [],
+  "NVML_direct_client_visible": true,
+  "mapping_verification": "current CUDA context UUID",
+  "name": "NVIDIA H100 80GB HBM3",
+  "total_bytes": 84929347584,
+  "free_bytes_before": 68082794496
+}

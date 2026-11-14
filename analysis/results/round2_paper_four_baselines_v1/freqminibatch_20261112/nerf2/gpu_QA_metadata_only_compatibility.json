@@ -1,0 +1,32 @@
+{
+  "status": "same_computational_QA_applies",
+  "numerical_QA_source_sha256": "1b16fe6c37e11be63574b025e1746f9354e37be1d2bba6c8f49d72ed86c0cd97",
+  "final_source_sha256": "e919f90db32cb87774f4b4dd8eafd84db1dc29f20ee4d5ae7c09725cf41f9ab2",
+  "unchanged_AST": {
+    "FrequencyRenderer": {
+      "before": "612425af3a422eba012ae82113cf9b52b664a97f2d802605a167cad1ddf4c74a",
+      "after": "612425af3a422eba012ae82113cf9b52b664a97f2d802605a167cad1ddf4c74a"
+    },
+    "train_step": {
+      "before": "8d680a692f09115e3206e187e2e798189e978d731535417befbff34c619404a0",
+      "after": "8d680a692f09115e3206e187e2e798189e978d731535417befbff34c619404a0"
+    },
+    "gpu_qa": {
+      "before": "ef203802c1c1618b5f6ce1245a198e6a5a68a4c1d6c67e7dc82fc510588cb806",
+      "after": "ef203802c1c1618b5f6ce1245a198e6a5a68a4c1d6c67e7dc82fc510588cb806"
+    }
+  },
+  "unchanged_full192_prediction_source_sha256": "d210f6c817141a4055a4a42689cd9b41d316aef5cfcb29dd93a7b1bb10aae626",
+  "change": "Stable content fingerprints, migration lineage propagation and final resource/frozen metadata only.",
+  "config_changes_after_QA": {
+    "formal_frozen": [
+      false,
+      true
+    ],
+    "min_free_GiB": [
+      24,
+      20
+    ]
+  },
+  "training_math_changed_after_QA": false
+}

@@ -1,0 +1,13 @@
+{
+  "status": "new_scope_passed",
+  "full_checker_exit_code": 1,
+  "full_checker_has_preexisting_findings": true,
+  "new_scope_findings": [],
+  "ast_and_regex_checked_sources": {
+    "code/round2/baseline_freqminibatch_20261112/dispatch.py": "d31ae71aeeebebfc16efa72ad823c18ef22f27c1538603b1ac55bd16d8cbc167",
+    "code/round2/baseline_freqminibatch_20261112/newrf.py": "47990905f60bed81d8be61275f7faa8e7ef9e480ea9f0496d81b56a7314f1551",
+    "code/round2/baseline_freqminibatch_20261112/newrf_qa.py": "d2ab0babcfb93d7354c4f3527e20a15128b22c8b7f32b2991c74b1e91bce0302",
+    "code/round2/baseline_freqminibatch_20261112/coordinate.py": "871fc8a6214d864fc0b14dd0d52b32f444a3a682022373949fa2b9550f548d09",
+    "code/round2/baseline_freqminibatch_20261112/nerf2.py": "e919f90db32cb87774f4b4dd8eafd84db1dc29f20ee4d5ae7c09725cf41f9ab2"
+  }
+}

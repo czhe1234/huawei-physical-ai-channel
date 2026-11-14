@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "pending": [],
+  "active": {},
+  "completed": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "poll_seconds": 30,
+  "maximum_parallel_folds": 3,
+  "minimum_free_mib_before_launch": 49152,
+  "launcher_sha256": "1f5b6da9940c806ffe5496a153328c97280806a05c479df1ca02c0bfc6e86708"
+}

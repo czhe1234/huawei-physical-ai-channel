@@ -1,0 +1,419 @@
+{
+  "status": "complete",
+  "source_sha256": "99bf3a74875bfe38a782a540895689d29185c58f87d5378d9aae7a393a3009cc",
+  "checkpoint": "artifacts/round2/paper_four_baselines_v1/repair_20261111/ngrf/paired/weight_1p0/final.pt",
+  "checkpoint_sha256": "da581d3b32e8e5b998c77542739877d318ff1f789185db82211fb07501165b9c",
+  "sites": [
+    {
+      "site": 0,
+      "rows": [
+        2,
+        565,
+        1120,
+        1717,
+        2295,
+        2877,
+        3447,
+        3998
+      ],
+      "gaussian_count": 1200,
+      "rank": 8,
+      "singular_values": [
+        1.5023535209356782,
+        1.328544843541803,
+        1.1774345269137545,
+        1.137375278246525,
+        0.8981275143545279,
+        0.5814444458224111,
+        0.11102001749264176,
+        0.03711174738793849
+      ],
+      "condition": 40.481885836072244,
+      "row_cosine": [
+        [
+          1.0,
+          0.00016553408155326997,
+          5.239793607210226e-07,
+          0.0004878270407400619,
+          4.3040495076766015e-05,
+          4.1448617555390067e-10,
+          0.0004930396223242294,
+          0.004295182298730243
+        ],
+        [
+          0.00016553408155326997,
+          1.0000000000000004,
+          0.0174968518574474,
+          8.931910578379345e-11,
+          5.8359731250769926e-05,
+          1.825031131860802e-06,
+          0.08588089689421301,
+          0.00976819003396287
+        ],
+        [
+          5.239793607210226e-07,
+          0.0174968518574474,
+          0.9999999999999998,
+          1.067122654348396e-10,
+          5.924719961191632e-07,
+          3.420661916423046e-05,
+          0.003930343193245672,
+          0.016913898379656733
+        ],
+        [
+          0.0004878270407400619,
+          8.931910578379345e-11,
+          1.067122654348396e-10,
+          0.9999999999999998,
+          1.362600498459404e-10,
+          2.233280892157201e-06,
+          1.0683233753576015e-10,
+          9.875691083072387e-11
+        ],
+        [
+          4.3040495076766015e-05,
+          5.8359731250769926e-05,
+          5.924719961191632e-07,
+          1.362600498459404e-10,
+          0.9999999999999998,
+          7.195294830516701e-10,
+          1.2315022009726597e-06,
+          0.00015899224373547394
+        ],
+        [
+          4.1448617555390067e-10,
+          1.825031131860802e-06,
+          3.420661916423046e-05,
+          2.233280892157201e-06,
+          7.195294830516701e-10,
+          1.0,
+          1.789143324224237e-08,
+          1.897799826384793e-09
+        ],
+        [
+          0.0004930396223242294,
+          0.08588089689421301,
+          0.003930343193245672,
+          1.0683233753576015e-10,
+          1.2315022009726597e-06,
+          1.789143324224237e-08,
+          0.9999999999999998,
+          0.008519280186936411
+        ],
+        [
+          0.004295182298730243,
+          0.00976819003396287,
+          0.016913898379656733,
+          9.875691083072387e-11,
+          0.00015899224373547394,
+          1.897799826384793e-09,
+          0.008519280186936411,
+          1.0
+        ]
+      ],
+      "unconstrained_complex_readout_residual_nmse": 7.944964738002802e-31,
+      "points": [
+        {
+          "row_id": 2,
+          "weight_sum": 0.27293547993420897,
+          "weight_L2": 0.11102107469206748,
+          "maximum_weight": 0.0832262635231018,
+          "effective_count": 6.0437868008000475,
+          "relative_support_count": 46,
+          "nearest_gaussian_distance_m": 0.01780199429963638,
+          "maximum_row_cosine_with_another": 0.004295182298730243
+        },
+        {
+          "row_id": 565,
+          "weight_sum": 8.188980562207966,
+          "weight_L2": 1.4939328543653139,
+          "maximum_weight": 0.558688223361969,
+          "effective_count": 30.04675140868493,
+          "relative_support_count": 142,
+          "nearest_gaussian_distance_m": 0.01593049648036294,
+          "maximum_row_cosine_with_another": 0.08588089689421301
+        },
+        {
+          "row_id": 1120,
+          "weight_sum": 8.38265436733297,
+          "weight_L2": 1.178656024337265,
+          "maximum_weight": 0.4896715581417084,
+          "effective_count": 50.58118025313474,
+          "relative_support_count": 124,
+          "nearest_gaussian_distance_m": 0.00786263032491354,
+          "maximum_row_cosine_with_another": 0.0174968518574474
+        },
+        {
+          "row_id": 1717,
+          "weight_sum": 8.122968865745413,
+          "weight_L2": 0.8981275126962287,
+          "maximum_weight": 0.1371828317642212,
+          "effective_count": 81.80005134503949,
+          "relative_support_count": 83,
+          "nearest_gaussian_distance_m": 4.308546914837245,
+          "maximum_row_cosine_with_another": 0.0004878270407400619
+        },
+        {
+          "row_id": 2295,
+          "weight_sum": 2.202742611754788,
+          "weight_L2": 0.5814444560064223,
+          "maximum_weight": 0.4696798622608185,
+          "effective_count": 14.351954161548507,
+          "relative_support_count": 44,
+          "nearest_gaussian_distance_m": 0.008026089610096637,
+          "maximum_row_cosine_with_another": 0.00015899224373547394
+        },
+        {
+          "row_id": 2877,
+          "weight_sum": 0.12108576655454734,
+          "weight_L2": 0.03711174740980007,
+          "maximum_weight": 0.023610783740878105,
+          "effective_count": 10.64543429436115,
+          "relative_support_count": 53,
+          "nearest_gaussian_distance_m": 0.025660313929929287,
+          "maximum_row_cosine_with_another": 3.420661916423046e-05
+        },
+        {
+          "row_id": 3447,
+          "weight_sum": 7.5233618505144895,
+          "weight_L2": 1.147579464884679,
+          "maximum_weight": 0.46284210681915283,
+          "effective_count": 42.979203677900024,
+          "relative_support_count": 133,
+          "nearest_gaussian_distance_m": 0.790865524782387,
+          "maximum_row_cosine_with_another": 0.08588089689421301
+        },
+        {
+          "row_id": 3998,
+          "weight_sum": 8.672870476706594,
+          "weight_L2": 1.3281821497871458,
+          "maximum_weight": 0.2609129250049591,
+          "effective_count": 42.63933694864851,
+          "relative_support_count": 105,
+          "nearest_gaussian_distance_m": 5.657726302074563,
+          "maximum_row_cosine_with_another": 0.016913898379656733
+        }
+      ]
+    },
+    {
+      "site": 1,
+      "rows": [
+        0,
+        558,
+        1124,
+        1693,
+        2286,
+        2846,
+        3415,
+        3999
+      ],
+      "gaussian_count": 1200,
+      "rank": 8,
+      "singular_values": [
+        1.9118028155702746,
+        1.7437821481367375,
+        1.4223068694422747,
+        1.1024039908641912,
+        1.053553505929006,
+        0.8895518094060598,
+        0.8585909636918787,
+        0.7177836563677172
+      ],
+      "condition": 2.663480560765049,
+      "row_cosine": [
+        [
+          0.9999999999999998,
+          0.004691547533038317,
+          0.07194112618527326,
+          1.4989989800714655e-05,
+          4.225631065425368e-08,
+          0.13719704021169618,
+          7.365703281093948e-06,
+          7.555854065409065e-08
+        ],
+        [
+          0.004691547533038317,
+          1.0,
+          3.968599807124244e-06,
+          1.935248531643507e-10,
+          1.7897367894336694e-05,
+          1.5830902645736947e-09,
+          8.371317202895315e-11,
+          6.93718819268647e-11
+        ],
+        [
+          0.07194112618527326,
+          3.968599807124244e-06,
+          1.0,
+          2.7104681078638693e-07,
+          0.00019429405241766718,
+          0.10178788318954608,
+          3.842503791495511e-09,
+          1.4716964999506417e-10
+        ],
+        [
+          1.4989989800714655e-05,
+          1.935248531643507e-10,
+          2.7104681078638693e-07,
+          1.0,
+          1.0319590173522087e-08,
+          4.8864029935120014e-06,
+          8.67698855837541e-11,
+          7.345652256102888e-11
+        ],
+        [
+          4.225631065425368e-08,
+          1.7897367894336694e-05,
+          0.00019429405241766718,
+          1.0319590173522087e-08,
+          0.9999999999999999,
+          0.0007516161529447703,
+          9.362236485308507e-11,
+          6.92607996867838e-11
+        ],
+        [
+          0.13719704021169618,
+          1.5830902645736947e-09,
+          0.10178788318954608,
+          4.8864029935120014e-06,
+          0.0007516161529447703,
+          0.9999999999999998,
+          4.5863148420434795e-09,
+          7.010084161020219e-11
+        ],
+        [
+          7.365703281093948e-06,
+          8.371317202895315e-11,
+          3.842503791495511e-09,
+          8.67698855837541e-11,
+          9.362236485308507e-11,
+          4.5863148420434795e-09,
+          1.0000000000000002,
+          0.0007870310372998285
+        ],
+        [
+          7.555854065409065e-08,
+          6.93718819268647e-11,
+          1.4716964999506417e-10,
+          7.345652256102888e-11,
+          6.92607996867838e-11,
+          7.010084161020219e-11,
+          0.0007870310372998285,
+          0.9999999999999998
+        ]
+      ],
+      "unconstrained_complex_readout_residual_nmse": 4.802392662621202e-31,
+      "points": [
+        {
+          "row_id": 0,
+          "weight_sum": 16.185786280230527,
+          "weight_L2": 1.9015946938833868,
+          "maximum_weight": 0.5000995397567749,
+          "effective_count": 72.44888223509949,
+          "relative_support_count": 83,
+          "nearest_gaussian_distance_m": 0.021607988368699697,
+          "maximum_row_cosine_with_another": 0.13719704021169618
+        },
+        {
+          "row_id": 558,
+          "weight_sum": 2.5422994883609675,
+          "weight_L2": 0.8895651943355806,
+          "maximum_weight": 0.5001847743988037,
+          "effective_count": 8.167663857041868,
+          "relative_support_count": 49,
+          "nearest_gaussian_distance_m": 0.00907225434463952,
+          "maximum_row_cosine_with_another": 0.004691547533038317
+        },
+        {
+          "row_id": 1124,
+          "weight_sum": 2.830829421798352,
+          "weight_L2": 0.7252537748966902,
+          "maximum_weight": 0.3789985477924347,
+          "effective_count": 15.235173541004661,
+          "relative_support_count": 118,
+          "nearest_gaussian_distance_m": 2.830647001613494,
+          "maximum_row_cosine_with_another": 0.10178788318954608
+        },
+        {
+          "row_id": 1693,
+          "weight_sum": 2.8827749546402397,
+          "weight_L2": 0.8585909638163945,
+          "maximum_weight": 0.5002152323722839,
+          "effective_count": 11.27324261358251,
+          "relative_support_count": 55,
+          "nearest_gaussian_distance_m": 0.024348832270244446,
+          "maximum_row_cosine_with_another": 1.4989989800714655e-05
+        },
+        {
+          "row_id": 2286,
+          "weight_sum": 11.781105207630631,
+          "weight_L2": 1.4223062493571417,
+          "maximum_weight": 0.50018709897995,
+          "effective_count": 68.60974926240411,
+          "relative_support_count": 75,
+          "nearest_gaussian_distance_m": 0.015630933342062798,
+          "maximum_row_cosine_with_another": 0.0007516161529447703
+        },
+        {
+          "row_id": 2846,
+          "weight_sum": 6.664172323885911,
+          "weight_L2": 1.1150876532605634,
+          "maximum_weight": 0.4699890613555908,
+          "effective_count": 35.71695470266648,
+          "relative_support_count": 87,
+          "nearest_gaussian_distance_m": 1.8799850724933669,
+          "maximum_row_cosine_with_another": 0.13719704021169618
+        },
+        {
+          "row_id": 3415,
+          "weight_sum": 8.421293443347574,
+          "weight_L2": 1.0535540198589828,
+          "maximum_weight": 0.3065289855003357,
+          "effective_count": 63.8916324408351,
+          "relative_support_count": 77,
+          "nearest_gaussian_distance_m": 2.2437058668053944,
+          "maximum_row_cosine_with_another": 0.0007870310372998285
+        },
+        {
+          "row_id": 3999,
+          "weight_sum": 12.946715735065705,
+          "weight_L2": 1.7437818376649845,
+          "maximum_weight": 0.5002837181091309,
+          "effective_count": 55.123263956468605,
+          "relative_support_count": 71,
+          "nearest_gaussian_distance_m": 0.013048001759236786,
+          "maximum_row_cosine_with_another": 0.0007870310372998285
+        }
+      ]
+    }
+  ],
+  "parameter_updates": false,
+  "optimizer_created": false,
+  "validation_labels_read": false,
+  "outer_truth_read": false,
+  "actual_state_hash_before": "4f40021002a16285bc8147af61160172742aed147a8057059d492e7e78e74238",
+  "actual_state_hash_after": "4f40021002a16285bc8147af61160172742aed147a8057059d492e7e78e74238",
+  "RNG_before": {
+    "cpu": "04466032617408b8d2e3e55db28c985b84e3ba9b1817f2c161af1de629a4eee3",
+    "cuda": "a3e85589feb4c7edc2434e8b4429c602df597929c52de186e3ea57e3e87b8fbe"
+  },
+  "RNG_after": {
+    "cpu": "04466032617408b8d2e3e55db28c985b84e3ba9b1817f2c161af1de629a4eee3",
+    "cuda": "a3e85589feb4c7edc2434e8b4429c602df597929c52de186e3ea57e3e87b8fbe"
+  },
+  "device": {
+    "GPU_UUID": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+    "CUDA_context_UUID": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+    "PCI_bus": "0000:84:00.0",
+    "logical_device": 0,
+    "PID": 3780705,
+    "MPS_servers": [],
+    "NVML_direct_client_visible": true,
+    "mapping_verification": "current CUDA context UUID",
+    "name": "NVIDIA A800 80GB PCIe",
+    "total_bytes": 84974239744
+  },
+  "scope": "8 fixed FIT locations per site; current positive Gaussian weights at lambda1 endpoint",
+  "unconstrained_projection_note": "FIT-only representation diagnostic, not model predictions or deployable scores. Free Gaussian coefficients may violate the native decoder constraints. Never used to replace emitted H.",
+  "conclusion_limit": "Weight rank excludes a singular spatial summation basis only; it does not certify the nonlinear contribution decoder, optimization or generalization."
+}

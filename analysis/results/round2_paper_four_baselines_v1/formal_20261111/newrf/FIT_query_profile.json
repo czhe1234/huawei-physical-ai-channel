@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "source_identity": {
+    "code/round2/baseline_formal_20261111/newrf.py": "8da7d760d2d056adab8824d48bfc763d9aae0d55012bd4bfb72166ed67844272",
+    "analysis/results/round2_paper_four_baselines_v1/formal_20261111/newrf/config.json": "3582f1108c001814e506753785adb38478b821929d9e57b5647fdf987255beb3",
+    "code/round2/paper_baseline_training_v1/common.py": "5ad45eb0b8d16f4a9af9462ba747f582d28946caef84747a8c21e1ccd3d1205d",
+    "code/round2/paper_baseline_training_v1/selection.py": "d0e963aca50770424fc2f79ca5d5bf5add1cc14bd371db8d6aec812e3109ae33",
+    "artifacts/round2/simulation_recovery_v1/geometry/full_outer0_all_train/manifest.json": "dddb7f9e826adc7bd8713a8fb9433ced90d52cf6cf443f0292a8932d039b3ead",
+    "code/round2/paper_baseline_adapters_v1/contract.py": "0da0617438cd3ca72d536da566f35305d78c16b3fabeb4d3877e92486bf34b5f",
+    "code/round2/paper_baseline_adapters_v1/newrf.py": "8f1d714b8aeebc4549666dcfc8ef5685898ce2f29cd56192f0770fb98b91036a",
+    "code/round2/simulation_recovery_v1/qualified_newrf.py": "fff2e831073e957e15ccb530c6fca231b3d1ff082e9a2087f738d88468c019ad",
+    "code/round2/simulation_recovery_v1/ray_provider.py": "83c84e440784e87bd8b67830659d4fd673b5ba201a750cafd10a81a9c284b828",
+    "code/round2/paper_baseline_training_v1/newrf_runner.py": "0a49a92ae1c44da58856a0e7edcc3b1473df6f51de8e7dc4459700ec7f8c175b",
+    "code/round2/paper_baseline_training_v1/newrf_native_batch_v4.py": "0ad133e24dfec623dbcd8272a14061d943b50c244fbc40d39895c18a31e12a15",
+    "code/round2/paper_baseline_training_v1/newrf_runtime_cache_v4.py": "84e48f5684a61b2fa86be636e5f3c0db6469e5766b0dbfcce669a0bffc5bb74d",
+    "code/round2/paper_baseline_training_v1/newrf_query.py": "36e4929d2d67953ab8edc8bf470dd526309770710e90a41818f49a957f8ec0f5",
+    "code/round2/paper_baseline_training_v1/newrf_conditioned_v3.py": "967b77635c27c13f12004b6a48985f73060b0e1b852e9cc32dcfc553b4d6730f",
+    "code/round2/paper_baseline_training_v1/newrf_latefreq.py": "121d04c5af426a7f12e6d87890782da7fdd83b0dc49370a0577f042863b63452",
+    "plus-pro/code/third_party/paper_baselines/newrf/models.py": "4557df4726a3c71033ceddd3e90432e0113af5a4f048df8cfb35b5ac1e5bb476",
+    "plus-pro/code/third_party/paper_baselines/newrf/synthesizers.py": "8482dbb4be0f5aa9c1f03b03953b5270c3233dae20a64ab38b4db9d83f478ae5"
+  },
+  "GPU": {
+    "GPU_UUID": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "CUDA_context_UUID": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "PCI_bus": "0000:32:00.0",
+    "logical_device": 0,
+    "PID": 44625,
+    "MPS_servers": [],
+    "NVML_direct_client_visible": true,
+    "mapping_verification": "current CUDA context UUID",
+    "name": "NVIDIA H100 80GB HBM3",
+    "total_bytes": 84929347584
+  },
+  "shape": [
+    256,
+    4,
+    192
+  ],
+  "dtype": "complex64",
+  "cold_geometry_build_seconds": 25.079771887045354,
+  "new_query_seconds": 17.896946439985186,
+  "original_query_block_seconds": 21.913011361961253,
+  "complete_query_relative_L2": 0.0,
+  "FIT_row": 0,
+  "peak_cuda_bytes": 645140992,
+  "optimizer_updates": 0,
+  "CSI_labels_read": 0,
+  "outer_truth_reads": 0,
+  "quality_scored": false
+}

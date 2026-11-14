@@ -1,0 +1,326 @@
+{
+  "status": "verified_complete",
+  "scope": {
+    "all5folds": true,
+    "no_training": true,
+    "no_optimizer_created": true,
+    "no_model_or_result_replacement": true,
+    "no_outer_truth_read": true,
+    "no_phase_delay_or_scale_alignment": true,
+    "point_grid": "BS[0,127,128,255] x UE[0,1,2,3] x12 fixed frequency indices",
+    "FIT_panel": "12 positive whole-snapshot-energy quantiles/site + up to2 zero/site, usually28 rows",
+    "validation": "existing public-geometry16point panel; same screen weights for FIT vs validation",
+    "actual_training": "RNG-exact replay of final32update draws; final refit weights; includes repeated labels",
+    "recent_metric_note": "Pooled fine-H NMSE, not mean historical .9fine+.1coarse training loss; per_position in recent metrics is a pooled vector placeholder, not a point estimate",
+    "no_new_official_PAS_PDP_score": true
+  },
+  "summary": {
+    "nerf2": {
+      "screen_FIT_energy_ratio": [
+        2.4171931574199195e-06,
+        1.0358402347195325e-05
+      ],
+      "screen_validation_energy_ratio": [
+        6.384058313155275e-06,
+        2.267974960298739e-05
+      ],
+      "screen_FIT_nmse": [
+        0.9999578356320101,
+        1.000119128274661
+      ],
+      "screen_validation_nmse": [
+        0.999552055116058,
+        0.999988553485301
+      ],
+      "recent_training_energy_ratio": [
+        9.272979579988516e-06,
+        2.995772869926666e-05
+      ],
+      "recent_training_nmse": [
+        0.999196384162124,
+        1.0000767542380238
+      ],
+      "recent_training_complex_scalar_draws_per_fold": 4096,
+      "seconds": 76.1533522317186,
+      "max_saved_replay_relative_L2": 3.903658978288149e-07,
+      "max_normalized_raw_nmse_difference": 7.709388682997087e-12,
+      "checkpoint_preserved_count": 10,
+      "never_sampled_position_pol_pair_fraction": [
+        0.5234395068070896,
+        0.37662337662337664,
+        0.19517934367845333,
+        0.26378155589902114,
+        0.13359822824387702
+      ],
+      "final_gain_to_initial_ratio": [
+        0.9439323423430324,
+        0.822748102247715,
+        0.7866440434008837,
+        0.8458410669118166,
+        0.7519544307142496
+      ]
+    },
+    "newrf": {
+      "screen_FIT_energy_ratio": [
+        9.837906836747286e-09,
+        4.8984581459902574e-08
+      ],
+      "screen_validation_energy_ratio": [
+        7.441383973662746e-09,
+        2.9259312971577897e-07
+      ],
+      "screen_FIT_nmse": [
+        0.9999996006145012,
+        1.0000021132219306
+      ],
+      "screen_validation_nmse": [
+        0.999998705150222,
+        1.0000067227931257
+      ],
+      "recent_training_energy_ratio": [
+        7.271013516032964e-09,
+        5.616182438522622e-08
+      ],
+      "recent_training_nmse": [
+        0.9999619314105201,
+        1.0000034428441278
+      ],
+      "recent_training_complex_scalar_draws_per_fold": 1024,
+      "seconds": 455.0196914887056,
+      "max_saved_replay_relative_L2": 0.0,
+      "max_normalized_raw_nmse_difference": 2.34035013590983e-13,
+      "checkpoint_preserved_count": 10,
+      "fine_probe_mean_optical_depth_range": [
+        3.0247358151695616e-06,
+        0.0011060559448778963
+      ],
+      "fine_probe_mean_volume_weight_sum_range": [
+        3.0243961388517437e-06,
+        0.0011035172743634942
+      ]
+    }
+  },
+  "numerical_checks": [
+    {
+      "method": "nerf2",
+      "outer": 0,
+      "role": "screen",
+      "normalization_nmse_diff": 3.3306690738754696e-14,
+      "normalization_energy_ratio_diff": 8.996375167855163e-13,
+      "normalization_target_relative_L2": 0.0,
+      "replay_relative_L2": null,
+      "native_subset_relative_L2": 2.4708640466997167e-07,
+      "checkpoint_preserved": true
+    },
+    {
+      "method": "nerf2",
+      "outer": 0,
+      "role": "refit",
+      "normalization_nmse_diff": 2.3092638912203256e-14,
+      "normalization_energy_ratio_diff": 6.333353607453508e-14,
+      "normalization_target_relative_L2": 0.0,
+      "replay_relative_L2": 3.7275745512488356e-07,
+      "native_subset_relative_L2": 2.875026439141948e-07,
+      "checkpoint_preserved": true
+    },
+    {
+      "method": "nerf2",
+      "outer": 1,
+      "role": "screen",
+      "normalization_nmse_diff": 1.900479773553343e-12,
+      "normalization_energy_ratio_diff": 6.731899210982422e-14,
+      "normalization_target_relative_L2": 0.0,
+      "replay_relative_L2": null,
+      "native_subset_relative_L2": 2.870551725209225e-07,
+      "checkpoint_preserved": true
+    },
+    {
+      "method": "nerf2",
+      "outer": 1,
+      "role": "refit",
+      "normalization_nmse_diff": 7.709388682997087e-12,
+      "normalization_energy_ratio_diff": 8.016422303801316e-13,
+      "normalization_target_relative_L2": 0.0,
+      "replay_relative_L2": 3.903658978288149e-07,
+      "native_subset_relative_L2": 3.0117709570731677e-07,
+      "checkpoint_preserved": true
+    },
+    {
+      "method": "nerf2",
+      "outer": 2,
+      "role": "screen",
+      "normalization_nmse_diff": 2.1951329642888595e-12,
+      "normalization_energy_ratio_diff": 5.377016462426243e-13,
+      "normalization_target_relative_L2": 0.0,
+      "replay_relative_L2": null,
+      "native_subset_relative_L2": 2.8084625114388473e-07,
+      "checkpoint_preserved": true
+    },
+    {
+      "method": "nerf2",
+      "outer": 2,
+      "role": "refit",
+      "normalization_nmse_diff": 2.703393064962256e-12,
+      "normalization_energy_ratio_diff": 2.2877029555391695e-13,
+      "normalization_target_relative_L2": 0.0,
+      "replay_relative_L2": 3.511877650907991e-07,
+      "native_subset_relative_L2": 3.2954409334706725e-07,
+      "checkpoint_preserved": true
+    },
+    {
+      "method": "nerf2",
+      "outer": 3,
+      "role": "screen",
+      "normalization_nmse_diff": 3.0074831514070866e-12,
+      "normalization_energy_ratio_diff": 9.635272053758561e-14,
+      "normalization_target_relative_L2": 0.0,
+      "replay_relative_L2": null,
+      "native_subset_relative_L2": 3.3395821219528443e-07,
+      "checkpoint_preserved": true
+    },
+    {
+      "method": "nerf2",
+      "outer": 3,
+      "role": "refit",
+      "normalization_nmse_diff": 2.1660451210436804e-12,
+      "normalization_energy_ratio_diff": 4.783903375976846e-13,
+      "normalization_target_relative_L2": 0.0,
+      "replay_relative_L2": 3.467274609647575e-07,
+      "native_subset_relative_L2": 4.165292750712979e-07,
+      "checkpoint_preserved": true
+    },
+    {
+      "method": "nerf2",
+      "outer": 4,
+      "role": "screen",
+      "normalization_nmse_diff": 1.049826892085548e-12,
+      "normalization_energy_ratio_diff": 1.0985076272283876e-14,
+      "normalization_target_relative_L2": 0.0,
+      "replay_relative_L2": null,
+      "native_subset_relative_L2": 3.8087628695393505e-07,
+      "checkpoint_preserved": true
+    },
+    {
+      "method": "nerf2",
+      "outer": 4,
+      "role": "refit",
+      "normalization_nmse_diff": 6.488143355909415e-13,
+      "normalization_energy_ratio_diff": 3.3446908572843173e-15,
+      "normalization_target_relative_L2": 0.0,
+      "replay_relative_L2": 2.886255288103712e-07,
+      "native_subset_relative_L2": 3.3085393624787685e-07,
+      "checkpoint_preserved": true
+    },
+    {
+      "method": "newrf",
+      "outer": 0,
+      "role": "screen",
+      "normalization_nmse_diff": 6.59472476627343e-14,
+      "normalization_energy_ratio_diff": 7.310295021093333e-17,
+      "normalization_target_relative_L2": 0.0,
+      "replay_relative_L2": null,
+      "native_subset_relative_L2": null,
+      "checkpoint_preserved": true
+    },
+    {
+      "method": "newrf",
+      "outer": 0,
+      "role": "refit",
+      "normalization_nmse_diff": 2.204902926905561e-13,
+      "normalization_energy_ratio_diff": 7.594054036273728e-18,
+      "normalization_target_relative_L2": 0.0,
+      "replay_relative_L2": 0.0,
+      "native_subset_relative_L2": null,
+      "checkpoint_preserved": true
+    },
+    {
+      "method": "newrf",
+      "outer": 1,
+      "role": "screen",
+      "normalization_nmse_diff": 2.34035013590983e-13,
+      "normalization_energy_ratio_diff": 5.389405945583096e-18,
+      "normalization_target_relative_L2": 0.0,
+      "replay_relative_L2": null,
+      "native_subset_relative_L2": null,
+      "checkpoint_preserved": true
+    },
+    {
+      "method": "newrf",
+      "outer": 1,
+      "role": "refit",
+      "normalization_nmse_diff": 7.682743330406083e-14,
+      "normalization_energy_ratio_diff": 5.130117910772224e-17,
+      "normalization_target_relative_L2": 0.0,
+      "replay_relative_L2": 0.0,
+      "native_subset_relative_L2": null,
+      "checkpoint_preserved": true
+    },
+    {
+      "method": "newrf",
+      "outer": 2,
+      "role": "screen",
+      "normalization_nmse_diff": 3.863576125695545e-14,
+      "normalization_energy_ratio_diff": 2.3595738909020166e-17,
+      "normalization_target_relative_L2": 0.0,
+      "replay_relative_L2": null,
+      "native_subset_relative_L2": null,
+      "checkpoint_preserved": true
+    },
+    {
+      "method": "newrf",
+      "outer": 2,
+      "role": "refit",
+      "normalization_nmse_diff": 1.417754802446325e-13,
+      "normalization_energy_ratio_diff": 7.028700572139866e-17,
+      "normalization_target_relative_L2": 0.0,
+      "replay_relative_L2": 0.0,
+      "native_subset_relative_L2": null,
+      "checkpoint_preserved": true
+    },
+    {
+      "method": "newrf",
+      "outer": 3,
+      "role": "screen",
+      "normalization_nmse_diff": 4.884981308350689e-14,
+      "normalization_energy_ratio_diff": 8.301742784515306e-17,
+      "normalization_target_relative_L2": 0.0,
+      "replay_relative_L2": null,
+      "native_subset_relative_L2": null,
+      "checkpoint_preserved": true
+    },
+    {
+      "method": "newrf",
+      "outer": 3,
+      "role": "refit",
+      "normalization_nmse_diff": 3.219646771412954e-14,
+      "normalization_energy_ratio_diff": 5.234304948517973e-17,
+      "normalization_target_relative_L2": 0.0,
+      "replay_relative_L2": 0.0,
+      "native_subset_relative_L2": null,
+      "checkpoint_preserved": true
+    },
+    {
+      "method": "newrf",
+      "outer": 4,
+      "role": "screen",
+      "normalization_nmse_diff": 5.917488721252084e-14,
+      "normalization_energy_ratio_diff": 1.65747572554844e-16,
+      "normalization_target_relative_L2": 0.0,
+      "replay_relative_L2": null,
+      "native_subset_relative_L2": null,
+      "checkpoint_preserved": true
+    },
+    {
+      "method": "newrf",
+      "outer": 4,
+      "role": "refit",
+      "normalization_nmse_diff": 1.8984813721090177e-14,
+      "normalization_energy_ratio_diff": 1.960753159160433e-16,
+      "normalization_target_relative_L2": 0.0,
+      "replay_relative_L2": 0.0,
+      "native_subset_relative_L2": null,
+      "checkpoint_preserved": true
+    }
+  ],
+  "interpretation": "Both current adaptations fail to fit the inspected FIT supervision; not solely spatial generalization or output export scaling. Exact optimization/representation root cause is not uniquely identifiable from saved weights."
+}

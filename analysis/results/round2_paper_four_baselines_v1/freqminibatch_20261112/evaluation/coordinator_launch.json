@@ -1,0 +1,17 @@
+{
+  "pid": 2519061,
+  "argv": [
+    "/home/chenzhe/work/hw/code/tools/run_in_env.sh",
+    "python",
+    "-u",
+    "-m",
+    "round2.baseline_freqminibatch_20261112.coordinate",
+    "--mode",
+    "watch",
+    "--wall-hours",
+    "72"
+  ],
+  "CUDA_VISIBLE_DEVICES": "",
+  "log": "analysis/results/round2_paper_four_baselines_v1/freqminibatch_20261112/evaluation/coordinator.log",
+  "source_sha256": "871fc8a6214d864fc0b14dd0d52b32f444a3a682022373949fa2b9550f548d09"
+}

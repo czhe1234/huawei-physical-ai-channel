@@ -1,0 +1,35 @@
+{
+  "relative_L2": 0.0,
+  "max_abs": 0.0,
+  "reference_energy": 2.1584836531036385e-07,
+  "delta_energy": 0.0,
+  "per_position": [
+    {
+      "relative_L2": 0.0,
+      "max_abs": 0.0,
+      "reference_energy": 1.904816752411907e-07,
+      "delta_energy": 0.0
+    },
+    {
+      "relative_L2": 0.0,
+      "max_abs": 0.0,
+      "reference_energy": 2.5366690069173136e-08,
+      "delta_energy": 0.0
+    }
+  ],
+  "tolerance": 1e-05,
+  "passed": true,
+  "batch_shape": "original per-row blocks of8BS x192tones",
+  "device": {
+    "GPU_UUID": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "CUDA_context_UUID": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "PCI_bus": "0000:32:00.0",
+    "logical_device": 0,
+    "PID": 3663806,
+    "MPS_servers": [],
+    "NVML_direct_client_visible": true,
+    "mapping_verification": "current CUDA context UUID",
+    "name": "NVIDIA H100 80GB HBM3",
+    "total_bytes": 84929347584
+  }
+}

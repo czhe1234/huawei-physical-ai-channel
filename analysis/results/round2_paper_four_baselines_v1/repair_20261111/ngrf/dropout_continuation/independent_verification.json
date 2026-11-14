@@ -1,0 +1,73 @@
+{
+  "status": "passed",
+  "matched_initial_model_Adam_RNG_schedule_and_parameter_count": true,
+  "actual_18_dropout_probabilities_verified": true,
+  "FIT_checks": [
+    {
+      "branch": "dropout_on",
+      "CPU_raw_metrics": {
+        "complex_nmse": 0.007525443929258413,
+        "magnitude_nmse": 0.003717405311351335,
+        "prediction_to_truth_energy": 1.0554865324302645
+      },
+      "delta_from_normalized_monitor": {
+        "complex_nmse": 2.564835554878797e-09,
+        "magnitude_nmse": 2.410730012749468e-09,
+        "prediction_to_truth_energy": 8.592043343469413e-08
+      }
+    },
+    {
+      "branch": "dropout_off",
+      "CPU_raw_metrics": {
+        "complex_nmse": 0.0019955478869934863,
+        "magnitude_nmse": 0.0007347363470019855,
+        "prediction_to_truth_energy": 0.9945971076734103
+      },
+      "delta_from_normalized_monitor": {
+        "complex_nmse": -1.4011286054993466e-10,
+        "magnitude_nmse": -1.9108752405926077e-10,
+        "prediction_to_truth_energy": 8.102110138352714e-08
+      }
+    }
+  ],
+  "validation_checks": [
+    {
+      "branch": "dropout_on",
+      "CPU_validation_metrics": {
+        "pas": 0.07385383643090411,
+        "pdp": 0.3604908485878866,
+        "nmse": 1.011762069437749,
+        "score": 0.2731532089710075
+      },
+      "GPU_CPU_delta": {
+        "pas": 6.35315217101251e-10,
+        "pdp": -1.2361311974018463e-09,
+        "nmse": -1.0135536854249949e-10,
+        "score": -2.3531770976248367e-10
+      }
+    },
+    {
+      "branch": "dropout_off",
+      "CPU_validation_metrics": {
+        "pas": 0.07468196578388604,
+        "pdp": 0.3634222973231038,
+        "nmse": 1.0086056292932073,
+        "score": 0.2748132672673316
+      },
+      "GPU_CPU_delta": {
+        "pas": 7.294526510603916e-10,
+        "pdp": -1.249865988484089e-09,
+        "nmse": 1.1890799456182322e-10,
+        "score": -2.1405988093192718e-10
+      }
+    }
+  ],
+  "raw_H_shape": [
+    16,
+    256,
+    4,
+    192
+  ],
+  "canonical500_scored": false,
+  "selection_based_on_FIT_only": true
+}

@@ -1,0 +1,117 @@
+{
+  "experiment": "Round2-E57-V9-point-joint-Sionna-endpoints",
+  "primary_hypothesis": "A calibrator must see each point's cross-UE, cross-frequency, cross-link, and angle-delay context to decide which same-coordinate Sionna paths are stable; independent slice calibration discards that information.",
+  "domains": [
+    "pdp"
+  ],
+  "config": {
+    "epochs": 12,
+    "steps_per_epoch": 300,
+    "pas_batch_size": 512,
+    "pdp_batch_size": 1024,
+    "validation_batch_size": 2048,
+    "hidden": 96,
+    "context_channels": 32,
+    "blocks": 6,
+    "residual_scale": 5.0,
+    "learning_rate": 0.001,
+    "weight_decay": 5e-05,
+    "hellinger_weight": 0.08,
+    "residual_weight": 0.0002,
+    "seed": 2026080609
+  },
+  "phase": "oof",
+  "status": "complete",
+  "folds": [
+    0
+  ],
+  "retrained_on_outer_fit": true,
+  "results": {
+    "pdp": {
+      "folds": [
+        {
+          "fold": 0,
+          "fit_count": 3893,
+          "nested_fit_count": 3820,
+          "validation_count": 71,
+          "held_count": 103,
+          "held_nonzero_count": 103,
+          "best_epoch": 12,
+          "validation_cosine": 0.7493094205856323,
+          "held_cosine": 0.8465291261672974,
+          "checkpoint": "artifacts/round2/e216_v16_rt_information_ablation/variants/seed42_scatter_only/v9_joint_sionna_endpoints/joint_calibrator_pdp_fold0.pt",
+          "history": [
+            {
+              "epoch": 0.0,
+              "loss": NaN,
+              "validation_cosine": 0.688552737236023
+            },
+            {
+              "epoch": 1.0,
+              "loss": 0.21464559579888978,
+              "validation_cosine": 0.7183564305305481
+            },
+            {
+              "epoch": 2.0,
+              "loss": 0.14632034085690976,
+              "validation_cosine": 0.7160857319831848
+            },
+            {
+              "epoch": 3.0,
+              "loss": 0.11879821938772996,
+              "validation_cosine": 0.7010663151741028
+            },
+            {
+              "epoch": 4.0,
+              "loss": 0.1054800636569659,
+              "validation_cosine": 0.7353378534317017
+            },
+            {
+              "epoch": 5.0,
+              "loss": 0.09818372219800948,
+              "validation_cosine": 0.7296104431152344
+            },
+            {
+              "epoch": 6.0,
+              "loss": 0.09302524621287982,
+              "validation_cosine": 0.7392207384109497
+            },
+            {
+              "epoch": 7.0,
+              "loss": 0.08911619444688161,
+              "validation_cosine": 0.7404998540878296
+            },
+            {
+              "epoch": 8.0,
+              "loss": 0.08716400220990181,
+              "validation_cosine": 0.7425942420959473
+            },
+            {
+              "epoch": 9.0,
+              "loss": 0.08431001375118892,
+              "validation_cosine": 0.7455282807350159
+            },
+            {
+              "epoch": 10.0,
+              "loss": 0.08231635955472787,
+              "validation_cosine": 0.7474441528320312
+            },
+            {
+              "epoch": 11.0,
+              "loss": 0.07910570894678434,
+              "validation_cosine": 0.7396639585494995
+            },
+            {
+              "epoch": 12.0,
+              "loss": 0.07679356664419174,
+              "validation_cosine": 0.7493094205856323
+            }
+          ]
+        }
+      ],
+      "mean_held_cosine": 0.8465291261672974,
+      "output": "artifacts/round2/e216_v16_rt_information_ablation/variants/seed42_scatter_only/v9_joint_sionna_endpoints/oof_pdp_joint_f16.npy"
+    }
+  },
+  "seconds": 366.6404917240143
+}

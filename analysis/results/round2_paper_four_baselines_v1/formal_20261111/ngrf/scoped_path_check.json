@@ -1,0 +1,17 @@
+{
+  "status": "scoped_passed",
+  "global_exit_code": 1,
+  "new_scope_hits": [],
+  "syntax_passed": true,
+  "scope": [
+    "code/round2/baseline_formal_20261111/ngrf.py",
+    "analysis/results/round2_paper_four_baselines_v1/formal_20261111/ngrf/method_config.json",
+    "analysis/results/round2_paper_four_baselines_v1/formal_20261111/ngrf/method_config_draft.json",
+    "analysis/results/round2_paper_four_baselines_v1/formal_20261111/ngrf/PLAN.md",
+    "analysis/results/round2_paper_four_baselines_v1/formal_20261111/ngrf/CHECKLIST.md",
+    "analysis/results/round2_paper_four_baselines_v1/formal_20261111/ngrf/RESULTS.md",
+    "analysis/results/round2_paper_four_baselines_v1/formal_20261111/ngrf/summary.json"
+  ],
+  "global_log": "analysis/results/round2_paper_four_baselines_v1/formal_20261111/ngrf/global_path_check.log",
+  "legacy_warnings_retained": true
+}

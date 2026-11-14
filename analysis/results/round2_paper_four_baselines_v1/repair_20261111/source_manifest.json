@@ -1,0 +1,142 @@
+{
+  "code/round2/baseline_repair_20261111/__init__.py": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "snapshot": "analysis/results/round2_paper_four_baselines_v1/repair_20261111/code_snapshot/__init__.py"
+  },
+  "code/round2/baseline_repair_20261111/compile_results.py": {
+    "sha256": "8982f79f07df1e72f2feb4fa0aa1136059e43a3daf05942e572a28c1bc1388ec",
+    "bytes": 14030,
+    "snapshot": "analysis/results/round2_paper_four_baselines_v1/repair_20261111/code_snapshot/compile_results.py"
+  },
+  "code/round2/baseline_repair_20261111/final_preservation_check.py": {
+    "sha256": "43ad436549738225defc0006b6d8e2961878bf6ed342b02c46faa3ba3e800e54",
+    "bytes": 4689,
+    "snapshot": "analysis/results/round2_paper_four_baselines_v1/repair_20261111/code_snapshot/final_preservation_check.py"
+  },
+  "code/round2/baseline_repair_20261111/nerf2_diagnose.py": {
+    "sha256": "fcef28254d51443f654b737c3fafd1c15e6ceee8207ae5c7045fdb72b8876d10",
+    "bytes": 6980,
+    "snapshot": "analysis/results/round2_paper_four_baselines_v1/repair_20261111/code_snapshot/nerf2_diagnose.py"
+  },
+  "code/round2/baseline_repair_20261111/nerf2_low_lr.py": {
+    "sha256": "0050c20b57832513869b5f928c916322b1ed6ad6cc48f6459dc2d733f7289c41",
+    "bytes": 11210,
+    "snapshot": "analysis/results/round2_paper_four_baselines_v1/repair_20261111/code_snapshot/nerf2_low_lr.py"
+  },
+  "code/round2/baseline_repair_20261111/nerf2_position_loss.py": {
+    "sha256": "0a98b95dd2e0e5c93130afbfde0556f24e79e8c99ff76a62ad865d552ae4385b",
+    "bytes": 11778,
+    "snapshot": "analysis/results/round2_paper_four_baselines_v1/repair_20261111/code_snapshot/nerf2_position_loss.py"
+  },
+  "code/round2/baseline_repair_20261111/nerf2_position_loss_v2.py": {
+    "sha256": "505bfb48631b824c694c9bf45d7260f608f1b4180bb878aff77394f9fa14b5ed",
+    "bytes": 9175,
+    "snapshot": "analysis/results/round2_paper_four_baselines_v1/repair_20261111/code_snapshot/nerf2_position_loss_v2.py"
+  },
+  "code/round2/baseline_repair_20261111/nerf2_repair.py": {
+    "sha256": "c4e2c60ad92872a17c54a19ea39f87814123c7d552a4fcaa72805946ce2b7780",
+    "bytes": 16649,
+    "snapshot": "analysis/results/round2_paper_four_baselines_v1/repair_20261111/code_snapshot/nerf2_repair.py"
+  },
+  "code/round2/baseline_repair_20261111/nerf2_stability.py": {
+    "sha256": "9fc0bcbf25a6a3d35fdc6c342c92632d10cd8c7b0d9f2bab4c83c203755b2acc",
+    "bytes": 5969,
+    "snapshot": "analysis/results/round2_paper_four_baselines_v1/repair_20261111/code_snapshot/nerf2_stability.py"
+  },
+  "code/round2/baseline_repair_20261111/newrf_direction_audit.py": {
+    "sha256": "998c8b0dfcbc4dcd3a4a444fcf2412b787be0ecaa6ca4ab6390701fdcb51db85",
+    "bytes": 4217,
+    "snapshot": "analysis/results/round2_paper_four_baselines_v1/repair_20261111/code_snapshot/newrf_direction_audit.py"
+  },
+  "code/round2/baseline_repair_20261111/newrf_low_lr.py": {
+    "sha256": "f9ae7068c23cab144ae19d1a4a79a768087854d5bc1908f19b663de9594f01e4",
+    "bytes": 11486,
+    "snapshot": "analysis/results/round2_paper_four_baselines_v1/repair_20261111/code_snapshot/newrf_low_lr.py"
+  },
+  "code/round2/baseline_repair_20261111/newrf_native_finish.py": {
+    "sha256": "994eac1e15e1e84b0da0ad0061eff43573eb861bfb7aa1504e51b81be7a7155c",
+    "bytes": 10706,
+    "snapshot": "analysis/results/round2_paper_four_baselines_v1/repair_20261111/code_snapshot/newrf_native_finish.py"
+  },
+  "code/round2/baseline_repair_20261111/newrf_repair.py": {
+    "sha256": "c7d78ea18fb66f10bad27ba7c68b10515a3cc9161440a460a64e4a064d8cc4e3",
+    "bytes": 24881,
+    "snapshot": "analysis/results/round2_paper_four_baselines_v1/repair_20261111/code_snapshot/newrf_repair.py"
+  },
+  "code/round2/baseline_repair_20261111/newrf_verify.py": {
+    "sha256": "0561ed36836b8f6b8d2425f04df1e4034e7c6f4f23659848fcdb73010070f1a2",
+    "bytes": 4133,
+    "snapshot": "analysis/results/round2_paper_four_baselines_v1/repair_20261111/code_snapshot/newrf_verify.py"
+  },
+  "code/round2/baseline_repair_20261111/ngrf_continuation_eval.py": {
+    "sha256": "c8c93d2ee22eaa45929161cf70cd19f3164b0546fbfb4c8f45c5c69eb51b8a75",
+    "bytes": 4167,
+    "snapshot": "analysis/results/round2_paper_four_baselines_v1/repair_20261111/code_snapshot/ngrf_continuation_eval.py"
+  },
+  "code/round2/baseline_repair_20261111/ngrf_continue_dropout.py": {
+    "sha256": "5dfc0fa43c45195aab4a5b75fdd8a6f232ab02cb3ccc8a83226af8361864d0a3",
+    "bytes": 13843,
+    "snapshot": "analysis/results/round2_paper_four_baselines_v1/repair_20261111/code_snapshot/ngrf_continue_dropout.py"
+  },
+  "code/round2/baseline_repair_20261111/ngrf_dropout_adam_v2.py": {
+    "sha256": "dfc0ddad07a35b89d13e0ad4645111e7926680cfe0bb6c834fa37dc33c255a4f",
+    "bytes": 15974,
+    "snapshot": "analysis/results/round2_paper_four_baselines_v1/repair_20261111/code_snapshot/ngrf_dropout_adam_v2.py"
+  },
+  "code/round2/baseline_repair_20261111/ngrf_dropout_diagnostic.py": {
+    "sha256": "4637de9aa05fd0333ccbb8f59cb2d8b8a25b76cc1a415f2addd9d17199487361",
+    "bytes": 9528,
+    "snapshot": "analysis/results/round2_paper_four_baselines_v1/repair_20261111/code_snapshot/ngrf_dropout_diagnostic.py"
+  },
+  "code/round2/baseline_repair_20261111/ngrf_dropout_eval_adam_v2.py": {
+    "sha256": "b06c5743528a9dae9227382129a31e45894d255cef9669c43a495c22876a3cef",
+    "bytes": 4777,
+    "snapshot": "analysis/results/round2_paper_four_baselines_v1/repair_20261111/code_snapshot/ngrf_dropout_eval_adam_v2.py"
+  },
+  "code/round2/baseline_repair_20261111/ngrf_gradient_diagnostic.py": {
+    "sha256": "8e03b426c09ac92b9db56ce988e599d3382378cce986af12afb098af6278423d",
+    "bytes": 8787,
+    "snapshot": "analysis/results/round2_paper_four_baselines_v1/repair_20261111/code_snapshot/ngrf_gradient_diagnostic.py"
+  },
+  "code/round2/baseline_repair_20261111/ngrf_position_adam_v2.py": {
+    "sha256": "030f2ce8936bda3b58ce92fe3386b2ee2eb13bab9e067eff7f50fdefbdde1da2",
+    "bytes": 16337,
+    "snapshot": "analysis/results/round2_paper_four_baselines_v1/repair_20261111/code_snapshot/ngrf_position_adam_v2.py"
+  },
+  "code/round2/baseline_repair_20261111/ngrf_position_eval.py": {
+    "sha256": "6e16d3cc9f3d2de8a47e0024f47086e0d4e32fe2d8f07af612aa0dfe26fa0acb",
+    "bytes": 4186,
+    "snapshot": "analysis/results/round2_paper_four_baselines_v1/repair_20261111/code_snapshot/ngrf_position_eval.py"
+  },
+  "code/round2/baseline_repair_20261111/ngrf_position_eval_adam_v2.py": {
+    "sha256": "25a9b71f6d580c059d5c8adb882426b2f0bdff7cf0d6015071cad333af262d9b",
+    "bytes": 4187,
+    "snapshot": "analysis/results/round2_paper_four_baselines_v1/repair_20261111/code_snapshot/ngrf_position_eval_adam_v2.py"
+  },
+  "code/round2/baseline_repair_20261111/ngrf_position_loss.py": {
+    "sha256": "1d89cad834a23261265ab1e04b3f6fd1fd3fcb18ff088274112d63418476d7e0",
+    "bytes": 15182,
+    "snapshot": "analysis/results/round2_paper_four_baselines_v1/repair_20261111/code_snapshot/ngrf_position_loss.py"
+  },
+  "code/round2/baseline_repair_20261111/ngrf_repair.py": {
+    "sha256": "b145213ba278e55962468db462f8faac933b317e2b041fd94d0f4b63d36bbf0c",
+    "bytes": 19154,
+    "snapshot": "analysis/results/round2_paper_four_baselines_v1/repair_20261111/code_snapshot/ngrf_repair.py"
+  },
+  "code/round2/baseline_repair_20261111/ngrf_spatial_diagnostic.py": {
+    "sha256": "99bf3a74875bfe38a782a540895689d29185c58f87d5378d9aae7a393a3009cc",
+    "bytes": 5304,
+    "snapshot": "analysis/results/round2_paper_four_baselines_v1/repair_20261111/code_snapshot/ngrf_spatial_diagnostic.py"
+  },
+  "code/round2/baseline_repair_20261111/ngrf_verify_adam_v2.py": {
+    "sha256": "15b4a70b897422a887faf6c5d1f301fd4b79e2f50a871571fcd57ebfbef43bef",
+    "bytes": 14060,
+    "snapshot": "analysis/results/round2_paper_four_baselines_v1/repair_20261111/code_snapshot/ngrf_verify_adam_v2.py"
+  },
+  "code/round2/baseline_repair_20261111/optimizer_copy_guard.py": {
+    "sha256": "d5cbe8fdb055f825fe24854f65af4c7f94dc34f5f66f3e128d16d56c95a8a68c",
+    "bytes": 3492,
+    "snapshot": "analysis/results/round2_paper_four_baselines_v1/repair_20261111/code_snapshot/optimizer_copy_guard.py"
+  }
+}

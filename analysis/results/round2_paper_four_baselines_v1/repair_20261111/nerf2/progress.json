@@ -1,0 +1,13 @@
+{
+  "stage": "training",
+  "step": 7679,
+  "loss": 0.00031873967236606404,
+  "gradient_norm": 0.005764364264905453,
+  "position_losses": [
+    5.505419539986178e-05,
+    0.00026368547696620226
+  ],
+  "elapsed_seconds": 1132.9431991010206,
+  "ceiling": 10000,
+  "wall_ceiling": 1200
+}

@@ -1,0 +1,41 @@
+{
+  "method": "ngrf",
+  "status": "launched",
+  "wrapper_PID": 33412,
+  "detached_SID": 33412,
+  "epoch": 1794348651.513228,
+  "log": "analysis/results/round2_paper_four_baselines_v1/formal_20261111/ngrf/formal_train.log",
+  "command": [
+    "code/tools/run_in_env.sh",
+    "python",
+    "-m",
+    "round2.baseline_formal_20261111.ngrf",
+    "--mode",
+    "train",
+    "--gpu-uuid",
+    "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+    "--config",
+    "analysis/results/round2_paper_four_baselines_v1/formal_20261111/ngrf/method_config.json",
+    "--contract",
+    "analysis/results/round2_paper_four_baselines_v1/formal_20261111/contract.json",
+    "--contract-sha256",
+    "9216b0004a6193d1af7e9e0f78d2cd44ec23f77a152deaec6e36857b679b8176"
+  ],
+  "environment": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONUNBUFFERED": "1",
+    "OMP_NUM_THREADS": "4",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "4",
+    "HW_SKIP_ENV_CHECK": "1",
+    "CUDA_VISIBLE_DEVICES": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160"
+  },
+  "verified_base_prefix": true,
+  "source_hashes": {
+    "code/round2/baseline_formal_20261111/ngrf.py": "d7e01060ad1a45111a3088af7bc1f9b6653d37199bf2d2df18ce556c7290fbc4",
+    "analysis/results/round2_paper_four_baselines_v1/formal_20261111/ngrf/method_config.json": "9561d64e9576ad69c9ea302b10e64330153503a9820d684ed5e9b815ced48921",
+    "analysis/results/round2_paper_four_baselines_v1/formal_20261111/contract.json": "9216b0004a6193d1af7e9e0f78d2cd44ec23f77a152deaec6e36857b679b8176"
+  },
+  "A800_free_MiB_at_launch": 79796,
+  "scope": "five folds; screen refit predictions, no outer truth or scoring"
+}

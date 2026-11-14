@@ -1,0 +1,17 @@
+{
+  "reason": "Measured full-size training memory is stable; remaining two independent folds may overlap on distinct allowed UUIDs. Each launch requires >=48GiB free. No foreign process or ongoing training is stopped.",
+  "adopted_active": {
+    "1": {
+      "pid": 1719833,
+      "uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+      "adopted": false
+    }
+  },
+  "pending": [
+    3,
+    4
+  ],
+  "maximum_parallel_folds": 3,
+  "minimum_free_mib_before_launch": 49152,
+  "source_sha256": "1f5b6da9940c806ffe5496a153328c97280806a05c479df1ca02c0bfc6e86708"
+}

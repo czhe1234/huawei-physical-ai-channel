@@ -1,0 +1,21 @@
+{
+  "step": 20500,
+  "objective_phase": "relative",
+  "validation": {
+    "count": 110,
+    "pas": 0.08955712491869317,
+    "pdp": 0.007872699107788294,
+    "nmse": 1.0008320649723452,
+    "nmse_score": 0.4997920702624394,
+    "score": 0.13893034366308046
+  },
+  "eligible": true,
+  "best_score": 0.14117223462633588,
+  "best_step": 16500,
+  "stale": 8,
+  "batch_objective": 1.7082686719703628,
+  "gradient_norm": 158.3208770751953,
+  "all_FIT_sampled": true,
+  "minimum_position_visits": 171,
+  "wall_seconds": 1276.4045832339907
+}

@@ -1,0 +1,85 @@
+{
+  "status": "passed",
+  "source_and_model_hashes_match": true,
+  "initial_state_RNG_and_schedule_identical": true,
+  "schedule_all_points_each_step": true,
+  "raw_H_shape": [
+    16,
+    256,
+    4,
+    192
+  ],
+  "FIT_independent_raw_truth_checks": [
+    {
+      "weight": 0.1,
+      "raw_truth_cpu_metrics": {
+        "complex_nmse": 0.49950710002497783,
+        "magnitude_nmse": 0.019591469186004493,
+        "prediction_to_truth_energy": 1.008713217969376
+      },
+      "difference_from_normalized_training_monitor": {
+        "complex_nmse": 2.073549804082475e-08,
+        "magnitude_nmse": 1.1598303602256e-09,
+        "prediction_to_truth_energy": 8.217446989533528e-08
+      },
+      "clean_reload_relative_L2": 0.0
+    },
+    {
+      "weight": 1.0,
+      "raw_truth_cpu_metrics": {
+        "complex_nmse": 0.030206316525932527,
+        "magnitude_nmse": 0.011095466142635445,
+        "prediction_to_truth_energy": 1.1033586157891813
+      },
+      "difference_from_normalized_training_monitor": {
+        "complex_nmse": 5.431385750875872e-09,
+        "magnitude_nmse": 4.65629324854222e-09,
+        "prediction_to_truth_energy": 8.970344111958184e-08
+      },
+      "clean_reload_relative_L2": 0.0
+    }
+  ],
+  "fixed_validation_independent_CPU_checks": [
+    {
+      "weight": 0.1,
+      "metrics": {
+        "count": 16,
+        "pas": 0.08064516055486592,
+        "pdp": 0.3333997626571428,
+        "nmse": 1.0152103423276828,
+        "nmse_score": 0.4962261154559891,
+        "score": 0.2648631923760013
+      },
+      "GPU_vs_CPU_delta": {
+        "count": 0,
+        "pas": -1.4190011665693447e-10,
+        "pdp": -1.6976819949832134e-09,
+        "nmse": -4.026445843408055e-11,
+        "nmse_score": 9.914680187961267e-12,
+        "score": -7.338499252718123e-10
+      }
+    },
+    {
+      "weight": 1.0,
+      "metrics": {
+        "count": 16,
+        "pas": 0.07059351644857277,
+        "pdp": 0.35851205303555034,
+        "nmse": 1.0104419410758017,
+        "nmse_score": 0.49740307320931293,
+        "score": 0.2711228424355118
+      },
+      "GPU_vs_CPU_delta": {
+        "count": 0,
+        "pas": 7.999266388170057e-10,
+        "pdp": -1.031253304972779e-09,
+        "nmse": -2.1656454407548154e-11,
+        "nmse_score": 5.358047339143468e-12,
+        "score": -9.145906254559577e-11
+      }
+    }
+  ],
+  "validation_selects_neither_weight_nor_checkpoint": true,
+  "canonical500_scored": false,
+  "all_point_health_claim": false
+}

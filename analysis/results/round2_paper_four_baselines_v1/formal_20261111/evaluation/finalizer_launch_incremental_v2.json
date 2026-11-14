@@ -1,0 +1,22 @@
+{
+  "PID": 1734774,
+  "argv": [
+    "code/tools/run_in_env.sh",
+    "python",
+    "-m",
+    "round2.baseline_formal_20261111.finalize_when_ready",
+    "--wall-hours",
+    "120"
+  ],
+  "cpu_only": true,
+  "log": "analysis/results/round2_paper_four_baselines_v1/formal_20261111/evaluation/finalization.log",
+  "source_hashes": {
+    "score.py": "7943df93dbd24543f8d4b0381154313010860a0c46ebce9ba6b32a848d8e94c3",
+    "score_ready.py": "75c2021d285f57a7038e91bdde973860e6a4c2ba06b223bdb309d5e4e8360dc4",
+    "verify.py": "e0dd042eee9ec97ee37012c1087fabb982a1dd16f2aaab81f4c91a25c808e89d",
+    "finalize_when_ready.py": "08f7502a3c0acfd9f888ed7db4de695cab3281efcf52054e956d9682ee85460a"
+  },
+  "start_unix_seconds": 1794407136.081064,
+  "trigger": "each method scores after its own five folds seal; full verification follows all methods",
+  "reason": "accurate per-method scoring provenance"
+}

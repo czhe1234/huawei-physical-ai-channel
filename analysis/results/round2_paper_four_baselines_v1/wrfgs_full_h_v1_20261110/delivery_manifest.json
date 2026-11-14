@@ -1,0 +1,34 @@
+{
+  "files": {
+    "RESULTS.md": {
+      "source": "analysis/results/round2_paper_four_baselines_v1/wrfgs_full_h_v1_20261110/RESULTS.md",
+      "sha256": "8d2397751152a9be7f7d5976f21b34c26b4c2dd101585e1eb84324239a8c2b82",
+      "bytes": 5025
+    },
+    "comparison.csv": {
+      "source": "analysis/results/round2_paper_four_baselines_v1/wrfgs_full_h_v1_20261110/evaluation/comparison.csv",
+      "sha256": "9b8c82da7042164d6995c11d0f8c89c387ee1fefc5c6e52c0bea056e959cfbb9",
+      "bytes": 774
+    },
+    "comparison.json": {
+      "source": "analysis/results/round2_paper_four_baselines_v1/wrfgs_full_h_v1_20261110/evaluation/comparison.json",
+      "sha256": "4d8d7ef6e2841c80723404e3761320012419d8ae969521c0e9ab702ee97829fb",
+      "bytes": 4241
+    },
+    "training_summary.json": {
+      "source": "analysis/results/round2_paper_four_baselines_v1/wrfgs_full_h_v1_20261110/training_summary.json",
+      "sha256": "944e69e1e9e6e41122504fdfd0b3d2cccc36d78b5d4bb6e2562527debf206a0b",
+      "bytes": 6249
+    },
+    "completed_verification.json": {
+      "source": "analysis/results/round2_paper_four_baselines_v1/wrfgs_full_h_v1_20261110/completed_verification.json",
+      "sha256": "2a27bc61df07b88137d056b75c2dca4abd13c072b802414ad5bee8d067dc8096",
+      "bytes": 9439
+    },
+    "config.json": {
+      "source": "analysis/results/round2_paper_four_baselines_v1/wrfgs_full_h_v1_20261110/config.json",
+      "sha256": "ce8740273f7908f93c44e95f687991df406ca043bd7eaa63014c85ca7da672c0",
+      "bytes": 862
+    }
+  }
+}

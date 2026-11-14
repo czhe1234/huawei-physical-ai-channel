@@ -1,0 +1,109 @@
+{
+  "utc": "2026-11-11T20:16:34.655506+00:00",
+  "reason": "User authorized frequency-minibatch continuation; prevent obsolete launch/scoring automation",
+  "processes": [
+    {
+      "pid": 1734774,
+      "pgid": 1734774,
+      "args": [
+        "bash",
+        "code/tools/run_in_env.sh",
+        "python",
+        "-m",
+        "round2.baseline_formal_20261111.finalize_when_ready",
+        "--wall-hours",
+        "120"
+      ]
+    },
+    {
+      "pid": 1734779,
+      "pgid": 1734774,
+      "args": [
+        "/opt/anaconda3/bin/python",
+        "/opt/anaconda3/bin/conda",
+        "run",
+        "--no-capture-output",
+        "-n",
+        "base",
+        "python",
+        "-m",
+        "round2.baseline_formal_20261111.finalize_when_ready",
+        "--wall-hours",
+        "120"
+      ]
+    },
+    {
+      "pid": 1734901,
+      "pgid": 1734774,
+      "args": [
+        "python",
+        "-m",
+        "round2.baseline_formal_20261111.finalize_when_ready",
+        "--wall-hours",
+        "120"
+      ]
+    },
+    {
+      "pid": 2400500,
+      "pgid": 2400500,
+      "args": [
+        "bash",
+        "code/tools/run_in_env.sh",
+        "python",
+        "-u",
+        "-m",
+        "round2.baseline_formal_20261111.dispatch_fold4",
+        "--runtime-config",
+        "analysis/results/round2_paper_four_baselines_v1/formal_20261111/nerf2/portable_4/runtime_config.json",
+        "--portable-sha256",
+        "833a986b9212f496fd656c19a4cee2dc7c3e34a013dd8d0e518f255b8485ba40",
+        "--runtime-sha256",
+        "a25b85c20725dc6454ba502f97ba905ddb58de1f7ea7c3f2de48397c1a15cbd9",
+        "--wait-hours",
+        "24"
+      ]
+    },
+    {
+      "pid": 2400504,
+      "pgid": 2400500,
+      "args": [
+        "/opt/anaconda3/bin/python",
+        "/opt/anaconda3/bin/conda",
+        "run",
+        "--no-capture-output",
+        "-n",
+        "base",
+        "python",
+        "-u",
+        "-m",
+        "round2.baseline_formal_20261111.dispatch_fold4",
+        "--runtime-config",
+        "analysis/results/round2_paper_four_baselines_v1/formal_20261111/nerf2/portable_4/runtime_config.json",
+        "--portable-sha256",
+        "833a986b9212f496fd656c19a4cee2dc7c3e34a013dd8d0e518f255b8485ba40",
+        "--runtime-sha256",
+        "a25b85c20725dc6454ba502f97ba905ddb58de1f7ea7c3f2de48397c1a15cbd9",
+        "--wait-hours",
+        "24"
+      ]
+    },
+    {
+      "pid": 2400551,
+      "pgid": 2400500,
+      "args": [
+        "python",
+        "-u",
+        "-m",
+        "round2.baseline_formal_20261111.dispatch_fold4",
+        "--runtime-config",
+        "analysis/results/round2_paper_four_baselines_v1/formal_20261111/nerf2/portable_4/runtime_config.json",
+        "--portable-sha256",
+        "833a986b9212f496fd656c19a4cee2dc7c3e34a013dd8d0e518f255b8485ba40",
+        "--runtime-sha256",
+        "a25b85c20725dc6454ba502f97ba905ddb58de1f7ea7c3f2de48397c1a15cbd9",
+        "--wait-hours",
+        "24"
+      ]
+    }
+  ]
+}

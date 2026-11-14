@@ -1,0 +1,145 @@
+{
+  "schema": "ngrf-full-h-adaptation-source-note-v1",
+  "repository": "muhd-umer/n-grf",
+  "commit": "3765d6f1e46a223914908e38430b1ab9d2a5f4fb",
+  "source_snapshot": "code/measured/full_h_adapters_v1/ngrf_source_3765d6f",
+  "source_files": [
+    {
+      "path": "LICENSE",
+      "url": "https://api.github.com/repos/muhd-umer/n-grf/contents/LICENSE?ref=3765d6f1e46a223914908e38430b1ab9d2a5f4fb",
+      "bytes": 1070,
+      "git_blob_sha": "ed5ac702d7ece5ebffaaa982eb854dfc92957822",
+      "sha256": "7e18418c5f3f1ae81bd1707b38d88b3d29fbb4c579184642d7f7380624af6478"
+    },
+    {
+      "path": "models/networks.py",
+      "url": "https://api.github.com/repos/muhd-umer/n-grf/contents/models/networks.py?ref=3765d6f1e46a223914908e38430b1ab9d2a5f4fb",
+      "bytes": 4275,
+      "git_blob_sha": "8927859d864c5e1b153a84faea005c5174b21318",
+      "sha256": "000374ea49b8b5b522acada5dd723554d63079dfcb19157f023b0b6b2f8b1730"
+    },
+    {
+      "path": "models/ngrf_model.py",
+      "url": "https://api.github.com/repos/muhd-umer/n-grf/contents/models/ngrf_model.py?ref=3765d6f1e46a223914908e38430b1ab9d2a5f4fb",
+      "bytes": 19536,
+      "git_blob_sha": "19ae8d204556c1f48c5e261c306bdcee7740dd19",
+      "sha256": "475016eda3add7dba39fa83c730079e830bf03c63a8db3137eb49d01a4ae47dd"
+    },
+    {
+      "path": "utils/pos_encoder.py",
+      "url": "https://api.github.com/repos/muhd-umer/n-grf/contents/utils/pos_encoder.py?ref=3765d6f1e46a223914908e38430b1ab9d2a5f4fb",
+      "bytes": 1727,
+      "git_blob_sha": "36812fefcde6c8f69c98e697bdfc596cb324604b",
+      "sha256": "4b722861a53aff9409bb30f5878babd85499a34177f78cd86bf7261b74f9e484"
+    },
+    {
+      "path": "utils/transform_utils.py",
+      "url": "https://api.github.com/repos/muhd-umer/n-grf/contents/utils/transform_utils.py?ref=3765d6f1e46a223914908e38430b1ab9d2a5f4fb",
+      "bytes": 2614,
+      "git_blob_sha": "9add493317c362700a19423e65a099554c875e94",
+      "sha256": "71b888e5580bb19a8c200d110d75a3049d3752df0d9763edbead9ef6ea6494c1"
+    },
+    {
+      "path": "render/_wrapper.py",
+      "url": "https://api.github.com/repos/muhd-umer/n-grf/contents/render/_wrapper.py?ref=3765d6f1e46a223914908e38430b1ab9d2a5f4fb",
+      "bytes": 15159,
+      "git_blob_sha": "a57f930895487717f35c2d3255d0306cf6351bf3",
+      "sha256": "36b8feece5c61fb85d10d9a7bdde88e61974e9321eb77fe048bea975f76aaf3c"
+    },
+    {
+      "path": "render/_torch_impl/__init__.py",
+      "url": "https://api.github.com/repos/muhd-umer/n-grf/contents/render/_torch_impl/__init__.py?ref=3765d6f1e46a223914908e38430b1ab9d2a5f4fb",
+      "bytes": 3790,
+      "git_blob_sha": "961cbab0cd6c11cc9235d577abe51e7d6b4022a5",
+      "sha256": "d0ab806ed8ba143f5f4b7cc161e9934858dcff29715a51a91db4dc58787ccbed"
+    }
+  ],
+  "adapter_path": "code/measured/full_h_adapters_v1/ngrf.py",
+  "adapter_sha256": "756fdd8fa3ab1d73d7f4f8c024d1ba0aa8833bd8e3ea529b88ae2eea86cfe876",
+  "source_reuse": {
+    "actual_official_network_classes": true,
+    "executed_unchanged_function_bodies": true,
+    "import_adaptation": "AST removes only utils.pos_encoder and models.ngrf_model imports; isolated pinned pure-Torch dependencies supplied in their namespace",
+    "official_torch_spatial_weight_reused": true,
+    "official_reference_render_channel_used_for_check": true,
+    "compiled_CUDA_not_imported": true,
+    "original_ngrf_model_not_imported": true,
+    "source_bytes_preserved": true
+  },
+  "retained": [
+    "AttributeNetwork positional encoders and latent/activation heads",
+    "ContributionDecoderNetwork per-port real/imag tanh heads",
+    "anisotropic Gaussian covariance with learned three scales and quaternion orientation",
+    "sigmoid activation times exp(-0.5*clamp(Mahalanobis, max=50))",
+    "coherent complex weighted sum rather than opacity/rasterization or magnitude sum"
+  ],
+  "adaptations": [
+    "moving TX per query batch",
+    "shared physical-frequency-conditioned decoder; frequency encodings computed in FP64 Hz then FP32",
+    "one fixed-array decoder per physical panel, using bound RX port order",
+    "Gaussian spatial query at each bound panel centre",
+    "strict rejection of changed physical RX layout",
+    "FIT-only amplitude restoration intentionally delegated to external wrapper"
+  ],
+  "integration_defaults": {
+    "num_gaussians": 32,
+    "latent_dim": 32,
+    "hidden_dim": 64,
+    "initial_scale_m": 1.0,
+    "pos_encoding_freqs": 10,
+    "attribute_num_layers": 3,
+    "decoder_num_layers": 4,
+    "frequency_encoding_levels": 4,
+    "frequency_chunk_size": 32,
+    "decoder_dropout_p": 0.0,
+    "frequency_center_hz": 3438000000.0,
+    "frequency_scale_hz": 50000000.0,
+    "paper_capacity_equivalence_claimed": false,
+    "official_original_default_gaussians": 30000,
+    "official_original_initial_scale": 0.02,
+    "official_original_decoder_dropout_p": 0.1
+  },
+  "synthetic_cpu_self_check": {
+    "status": "passed",
+    "torch": "2.5.1+cu121",
+    "device": "cpu",
+    "num_gaussians": 4,
+    "latent_dim": 8,
+    "hidden_dim": 16,
+    "pos_encoding_freqs": 2,
+    "frequency_encoding_levels": 2,
+    "frequency_chunk_size": 2,
+    "shape": [
+      2,
+      2,
+      32,
+      5
+    ],
+    "dtype": "complex64",
+    "parameters": 4673,
+    "anisotropic_nonidentity_covariances_checked": true,
+    "official_reference_max_abs_error": 0.0,
+    "finite_tx_frequency_and_all_parameter_gradients": true,
+    "nonconstant_frequency_output": true,
+    "query_chunk_consistency": true,
+    "frequency_chunk_consistency": true,
+    "frequency_permutation_consistency": true,
+    "rejected": [
+      "port reversal",
+      "panel reversal",
+      "receiver coordinate drift 1mm",
+      "FP32 physical Hz"
+    ],
+    "optimizer_steps": 0,
+    "real_CSI_predictions": 0,
+    "quality_metrics": 0
+  },
+  "limits": [
+    "wideband fixed-array task adaptation, not unchanged native-paper reproduction",
+    "CPU reference parity only; CUDA kernel forward/backward parity not tested",
+    "capacity and initialization remain unselected integration defaults",
+    "does not establish absolute phase, delay or inter-panel coherence identifiability",
+    "no data loading, donor or query CSI, training, optimizer or prediction scoring in model module"
+  ],
+  "writes": "only adapter, its pinned source snapshot and this note; no shared contract/third-party source/raw data/model/result replacement"
+}

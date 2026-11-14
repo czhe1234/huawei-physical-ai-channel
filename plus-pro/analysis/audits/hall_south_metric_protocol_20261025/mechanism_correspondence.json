@@ -1,0 +1,22 @@
+{
+  "original": "per-path 8-port distribution",
+  "measured": "shared32-element receive gain",
+  "equivalence": false,
+  "evidence": "static source plus synthetic current shared-gain invariance check",
+  "protected_sources": {
+    "code/common/official_metrics.py": {
+      "sha256": "15aa0cca3b7df17f8c93bd26d22b44f4a49b48d6b13fd8cc7b52325fb74729c3"
+    },
+    "final_code/V16_reorganized_submission/code/round2/physical_ai_submission/component_state/model.py": {
+      "sha256": "66fdf005128b51f02e8abf4c2031f16f972c2dd3a4e5b88a7d73fd2765ab4425"
+    },
+    "code/measured/hall_structured_v2/model.py": {
+      "sha256": "c530b46772202e9a454453804150b2892d046eb95254fb7d7de69c5f00b6b5ae"
+    },
+    "code/measured/hall_structured_v2/synthesis.py": {
+      "sha256": "ef67464d875ee5bd6db29e6b32271347bd49dde55b9fb201f95472f9a23dd85b"
+    }
+  },
+  "original_multichannel_simulation_claim_retained": true,
+  "no_model_modification": true
+}

@@ -1,0 +1,76 @@
+{
+  "rows": [
+    {
+      "key": "v16",
+      "method": "V16（历史版本）",
+      "metrics": {
+        "count": 500,
+        "pas": 0.6769415758539015,
+        "pdp": 0.7803473980573273,
+        "nmse": 0.9331251955178452,
+        "nmse_score": 0.5172970702149067,
+        "score": 0.6863750036074728
+      },
+      "status": "retained"
+    },
+    {
+      "key": "nerf2",
+      "method": "NeRF²（修复版）",
+      "metrics": null,
+      "status": "training_or_prediction_in_progress",
+      "prediction_count": 174
+    },
+    {
+      "key": "newrf",
+      "method": "NeWRF（修复版）",
+      "metrics": null,
+      "status": "training_or_prediction_in_progress",
+      "prediction_count": 237
+    },
+    {
+      "key": "ngrf",
+      "method": "nGRF（修复版）",
+      "metrics": {
+        "count": 500,
+        "pas": 0.11842334382966814,
+        "pdp": 0.026203649457232418,
+        "nmse": 1.0165804024271432,
+        "nmse_score": 0.4958889805714696,
+        "score": 0.15702859342905415
+      },
+      "status": "verified500",
+      "prediction_count": 500
+    },
+    {
+      "key": "wrfgs_full_h_v1",
+      "method": "WRF-GS+（完整H适配）",
+      "metrics": {
+        "count": 500,
+        "pas": 0.43313136325639273,
+        "pdp": 0.6594547343705439,
+        "nmse": 1.0010891825029031,
+        "nmse_score": 0.4997278525833765,
+        "score": 0.53698000956745
+      },
+      "status": "retained"
+    }
+  ],
+  "old_baseline_deltas": {
+    "ngrf": {
+      "pas": 0.011621913649981566,
+      "pdp": 0.012253215558348794,
+      "nmse": -0.08703814785952768,
+      "score": 0.013653576859701033
+    }
+  },
+  "query_ids_sha256": "f115290de0dc5f80cfe304e1f2143696694e66eec10c418e1b086d0b179ed08b",
+  "completed_new_methods": [
+    "ngrf"
+  ],
+  "all_new_methods_formal500": false,
+  "retained_source": "analysis/results/round2_paper_four_baselines_v1/wrfgs_full_h_v1_20261110/evaluation/comparison.json",
+  "retained_source_sha256": "4d8d7ef6e2841c80723404e3761320012419d8ae969521c0e9ab702ee97829fb",
+  "scoring_rule": "score each method after its own five predictions are sealed",
+  "ongoing_training_uses_scored_outer_results": false,
+  "V16_historical_training_coverage_difference_retained": true
+}

@@ -1,0 +1,16 @@
+{
+  "experiment": "Round2-E212-V16-single-seed-ablation",
+  "stage": "spectra",
+  "status": "complete",
+  "configuration": "primary_d10_scatter015_v4lambda_1m",
+  "seed": 42,
+  "source": "/home/chenzhe/work/hw/artifacts/round2/sionna_multiseed/primary_d10_scatter015_v4lambda_1m/full/paths/train_seed42.h5",
+  "source_size": 610861645,
+  "coefficient_mode": "reference",
+  "row_count": 4000,
+  "task_count": 250,
+  "path_count_processed": 2965826,
+  "reference_expansion_identity": null,
+  "output": "/home/chenzhe/work/hw/artifacts/round2/e216_v16_rt_information_ablation/shared_seed42_spectra/primary_d10_scatter015_v4lambda_1m/full",
+  "seconds": 0.39193201065063477
+}

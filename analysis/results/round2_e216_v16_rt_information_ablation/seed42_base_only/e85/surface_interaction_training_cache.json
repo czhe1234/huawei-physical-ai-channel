@@ -1,0 +1,54 @@
+{
+  "experiment": "Round2-E85-surface-interaction-energy-model",
+  "target": {
+    "pas_shape": [
+      4000,
+      2,
+      16,
+      8,
+      4
+    ],
+    "pdp_shape": [
+      4000,
+      2,
+      4,
+      192
+    ],
+    "nonzero_points": 3738
+  },
+  "path": {
+    "coordinate_shape": [
+      4000,
+      128,
+      3
+    ],
+    "port_shape": [
+      4000,
+      128,
+      2,
+      4
+    ],
+    "sequence_geometry_shape": [
+      4000,
+      128,
+      16,
+      21
+    ],
+    "sequence_hash_shape": [
+      4000,
+      128,
+      2
+    ],
+    "geometry_center": [
+      74.41130065917969,
+      -0.9520639777183533,
+      1.5
+    ],
+    "geometry_scale": [
+      70.30071258544922,
+      154.07296752929688,
+      20.0
+    ]
+  },
+  "seconds": 18.48322057723999
+}

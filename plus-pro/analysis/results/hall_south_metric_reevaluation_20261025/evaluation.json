@@ -1,0 +1,1464 @@
+{
+  "complete": true,
+  "scope": "New-metric development exploration of fixed existing outputs.",
+  "checkpoint_selection_unchanged": true,
+  "new_training": false,
+  "checkpoint_loads": 0,
+  "optimizer_updates": 0,
+  "north": false,
+  "test": false,
+  "rows": [
+    1,
+    38,
+    537,
+    502,
+    193,
+    270,
+    219,
+    284,
+    342,
+    108,
+    523,
+    622,
+    130,
+    147,
+    398,
+    545,
+    165,
+    255,
+    566,
+    101,
+    585,
+    296,
+    522,
+    475,
+    451,
+    624,
+    463,
+    69,
+    145,
+    320,
+    335,
+    209,
+    90,
+    214,
+    228,
+    410,
+    155,
+    34,
+    391,
+    7,
+    152,
+    500,
+    278,
+    43,
+    231,
+    222,
+    240,
+    309
+  ],
+  "data_identity": {
+    "view": "hall_sw_publisher_v2",
+    "preparation_manifest_sha256": "d4958450a42bbc2b45d8dc2606a9860faa1ecc1541be3e2880bea76cc46130a7",
+    "split_sha256": "a4f8a39fa23bad68ffcbc895a65a90548e1076a254a85a1f0e6998176e3553c5",
+    "selection_sha256": "442a40c4d07be95714eb2752513ec383e5ec80ad15fe42756b13d79b195b1de2",
+    "channels_sha256": "81e7ebcd32115ca1eecff54d2ae4269dfa3eedf6d92f528e7312d6dfed675ed9"
+  },
+  "protocol_sha256": "ce338d1ee92b85b40ed8058949b4ae632c7c1c34f66d8d335e982c9cd6e76496",
+  "metric_source_sha256": "54808bcda53dc886d9ec9635aedcb1c5fb8988d3c6c4613ca479f34120253d56",
+  "reference_conditioning": {
+    "positions": 48,
+    "panels": 96,
+    "numerically_valid_anchors": 96,
+    "coherence_min": 0.9578777756846671,
+    "reference_zero_panels": 0,
+    "reference_zero_links": 0
+  },
+  "full_channel_records": [
+    {
+      "name": "nearest_FIT",
+      "label": "最近训练点",
+      "family": "full",
+      "status": "ok",
+      "scores": {
+        "pas_cosine": 0.6597374438050965,
+        "relative_pdp_cosine": 0.6002845436237201,
+        "receive_energy_TV": 0.26361445867502564,
+        "receive_delay_joint_TV": 0.5577388472168825,
+        "by_panel": {
+          "pas_cosine": [
+            0.64822068888703,
+            0.6712541987231629
+          ],
+          "relative_pdp_cosine": [
+            0.670507052939049,
+            0.5300620343083912
+          ],
+          "receive_energy_TV": [
+            0.24878065569785632,
+            0.27844826165219494
+          ],
+          "receive_delay_joint_TV": [
+            0.5070988758997009,
+            0.6083788185340642
+          ]
+        },
+        "reference_valid_pas_cells": 98304,
+        "reference_valid_pdp_links": 3072,
+        "reference_valid_energy_panels": 96,
+        "reference_valid_joint_panels": 96,
+        "invalid_reference_anchors": 0,
+        "failed_prediction_pdp_links": 0,
+        "failed_prediction_energy_panels": 0,
+        "prediction_oracle_alignment": false,
+        "combined_score": null
+      },
+      "auxiliary": {
+        "reference_panels_total": 96,
+        "reference_panels_valid": 96,
+        "zero_prediction_panels": 0,
+        "undefined_reference_panels": 0,
+        "mean_direction_cosine": 0.7694870692202208,
+        "mean_beam_loss_db": 2.3070046120475762,
+        "infinite_mean_beam_loss": false,
+        "p90_beam_loss_db": 6.2127293748726355,
+        "beam_loss_over3_fraction": 0.34375,
+        "reference_mask_depends_on_prediction": false
+      },
+      "prediction_file": "artifacts/measured/hall_sw_metric_reevaluation_v1/nearest_channel.npz",
+      "prediction_sha256": "f77d4c15fdf5b1d3541e0aae4a397eadcf187eedd3b8dbf453fd492194ba8ae5",
+      "explicit_row_ids": true,
+      "row_provenance": "explicit NPZ IDs",
+      "old_metric_parity": {
+        "direction_cosine_difference": 1.3738000625984625e-08,
+        "beam_loss_difference": 7.812271185514419e-08
+      },
+      "best_epoch": null,
+      "checkpoint_selection": "unchanged old metric selection; no new epoch search",
+      "regenerated": true
+    },
+    {
+      "name": "uniform_frequency_experts",
+      "label": "固定专家平均融合",
+      "family": "full",
+      "status": "ok",
+      "scores": {
+        "pas_cosine": 0.7296617497070945,
+        "relative_pdp_cosine": 0.5994628759972579,
+        "receive_energy_TV": 0.26306245726920163,
+        "receive_delay_joint_TV": 0.5687738405961338,
+        "by_panel": {
+          "pas_cosine": [
+            0.739330390647718,
+            0.719993108766471
+          ],
+          "relative_pdp_cosine": [
+            0.670476697151177,
+            0.5284490548433388
+          ],
+          "receive_energy_TV": [
+            0.25691500295003217,
+            0.26920991158837104
+          ],
+          "receive_delay_joint_TV": [
+            0.5261244772289478,
+            0.6114232039633198
+          ]
+        },
+        "reference_valid_pas_cells": 98304,
+        "reference_valid_pdp_links": 3072,
+        "reference_valid_energy_panels": 96,
+        "reference_valid_joint_panels": 96,
+        "invalid_reference_anchors": 0,
+        "failed_prediction_pdp_links": 0,
+        "failed_prediction_energy_panels": 0,
+        "prediction_oracle_alignment": false,
+        "combined_score": null
+      },
+      "auxiliary": {
+        "reference_panels_total": 96,
+        "reference_panels_valid": 96,
+        "zero_prediction_panels": 0,
+        "undefined_reference_panels": 0,
+        "mean_direction_cosine": 0.8476890656423807,
+        "mean_beam_loss_db": 2.181835558007524,
+        "infinite_mean_beam_loss": false,
+        "p90_beam_loss_db": 6.094830899684966,
+        "beam_loss_over3_fraction": 0.3541666666666667,
+        "reference_mask_depends_on_prediction": false
+      },
+      "prediction_file": "artifacts/measured/hall_sw_metric_reevaluation_v1/uniform_experts_channel.npz",
+      "prediction_sha256": "b52fb40923f67f5bf96a599c0f8bb5f8b2d1ef5bc7e917eaabf3087b664eb3f7",
+      "explicit_row_ids": true,
+      "row_provenance": "explicit NPZ IDs",
+      "old_metric_parity": {
+        "direction_cosine_difference": 2.6516890572203522e-08,
+        "beam_loss_difference": 1.450283981796474e-07
+      },
+      "best_epoch": null,
+      "checkpoint_selection": "unchanged old metric selection; no new epoch search",
+      "regenerated": true
+    },
+    {
+      "name": "frequency_RBF",
+      "label": "频率核插值",
+      "family": "full",
+      "status": "ok",
+      "scores": {
+        "pas_cosine": 0.7606800689408739,
+        "relative_pdp_cosine": 0.582604730570199,
+        "receive_energy_TV": 0.26313187779733016,
+        "receive_delay_joint_TV": 0.5854869444105321,
+        "by_panel": {
+          "pas_cosine": [
+            0.7856151723187837,
+            0.7357449655629642
+          ],
+          "relative_pdp_cosine": [
+            0.6420817061096102,
+            0.5231277550307878
+          ],
+          "receive_energy_TV": [
+            0.26005675036940057,
+            0.2662070052252598
+          ],
+          "receive_delay_joint_TV": [
+            0.5556007109625354,
+            0.6153731778585287
+          ]
+        },
+        "reference_valid_pas_cells": 98304,
+        "reference_valid_pdp_links": 3072,
+        "reference_valid_energy_panels": 96,
+        "reference_valid_joint_panels": 96,
+        "invalid_reference_anchors": 0,
+        "failed_prediction_pdp_links": 0,
+        "failed_prediction_energy_panels": 0,
+        "prediction_oracle_alignment": false,
+        "combined_score": null
+      },
+      "auxiliary": {
+        "reference_panels_total": 96,
+        "reference_panels_valid": 96,
+        "zero_prediction_panels": 0,
+        "undefined_reference_panels": 0,
+        "mean_direction_cosine": 0.8901572562904753,
+        "mean_beam_loss_db": 0.9701781058763709,
+        "infinite_mean_beam_loss": false,
+        "p90_beam_loss_db": 3.8717077105700097,
+        "beam_loss_over3_fraction": 0.125,
+        "reference_mask_depends_on_prediction": false
+      },
+      "prediction_file": "artifacts/measured/hall_sw_structured_development_v2/baselines/rbf_best_channel.npz",
+      "prediction_sha256": "c4f2e1c9f697f37f705eb120a73dac52fccffcf65f7f96fde8d9580d9b24a094",
+      "explicit_row_ids": true,
+      "row_provenance": "explicit NPZ IDs",
+      "old_metric_parity": {
+        "direction_cosine_difference": 3.354267252841936e-08,
+        "beam_loss_difference": 3.8192197293618335e-08
+      },
+      "best_epoch": null,
+      "checkpoint_selection": "unchanged old metric selection; no new epoch search",
+      "regenerated": false
+    },
+    {
+      "name": "ours_default",
+      "label": "新版含几何：原默认检查点",
+      "family": "structured",
+      "status": "ok",
+      "scores": {
+        "pas_cosine": 0.7306545462293375,
+        "relative_pdp_cosine": 0.564503418289454,
+        "receive_energy_TV": 0.2283050971885652,
+        "receive_delay_joint_TV": 0.5868964332065059,
+        "by_panel": {
+          "pas_cosine": [
+            0.7620415462175872,
+            0.6992675462410877
+          ],
+          "relative_pdp_cosine": [
+            0.5975301476202021,
+            0.531476688958706
+          ],
+          "receive_energy_TV": [
+            0.21200475900714624,
+            0.24460543536998416
+          ],
+          "receive_delay_joint_TV": [
+            0.5614558197129026,
+            0.6123370467001091
+          ]
+        },
+        "reference_valid_pas_cells": 98304,
+        "reference_valid_pdp_links": 3072,
+        "reference_valid_energy_panels": 96,
+        "reference_valid_joint_panels": 96,
+        "invalid_reference_anchors": 0,
+        "failed_prediction_pdp_links": 0,
+        "failed_prediction_energy_panels": 0,
+        "prediction_oracle_alignment": false,
+        "combined_score": null
+      },
+      "auxiliary": {
+        "reference_panels_total": 96,
+        "reference_panels_valid": 96,
+        "zero_prediction_panels": 0,
+        "undefined_reference_panels": 0,
+        "mean_direction_cosine": 0.8662635000861397,
+        "mean_beam_loss_db": 1.6779796230967146,
+        "infinite_mean_beam_loss": false,
+        "p90_beam_loss_db": 5.190340047100465,
+        "beam_loss_over3_fraction": 0.23958333333333334,
+        "reference_mask_depends_on_prediction": false
+      },
+      "prediction_file": "artifacts/measured/hall_sw_structured_development_v2/models/ours_default/best_channel.npz",
+      "prediction_sha256": "e97fa654a9cdb64f823d2078bc53bcda126dd39677981b054bb2d6fd999013d4",
+      "explicit_row_ids": true,
+      "row_provenance": "explicit NPZ IDs",
+      "old_metric_parity": {
+        "direction_cosine_difference": 6.831519694383559e-08,
+        "beam_loss_difference": 3.458810859946482e-08
+      },
+      "best_epoch": 25,
+      "checkpoint_selection": "unchanged old metric selection; no new epoch search",
+      "regenerated": false
+    },
+    {
+      "name": "ours_delay",
+      "label": "新版含几何：宽修正范围",
+      "family": "structured",
+      "status": "ok",
+      "scores": {
+        "pas_cosine": 0.708869596244347,
+        "relative_pdp_cosine": 0.479551053241834,
+        "receive_energy_TV": 0.24095913679365172,
+        "receive_delay_joint_TV": 0.6374304307374019,
+        "by_panel": {
+          "pas_cosine": [
+            0.7435113566942789,
+            0.674227835794415
+          ],
+          "relative_pdp_cosine": [
+            0.5639713732683739,
+            0.3951307332152942
+          ],
+          "receive_energy_TV": [
+            0.22661950507007303,
+            0.2552987685172304
+          ],
+          "receive_delay_joint_TV": [
+            0.5821522248323344,
+            0.6927086366424695
+          ]
+        },
+        "reference_valid_pas_cells": 98304,
+        "reference_valid_pdp_links": 3072,
+        "reference_valid_energy_panels": 96,
+        "reference_valid_joint_panels": 96,
+        "invalid_reference_anchors": 0,
+        "failed_prediction_pdp_links": 0,
+        "failed_prediction_energy_panels": 0,
+        "prediction_oracle_alignment": false,
+        "combined_score": null
+      },
+      "auxiliary": {
+        "reference_panels_total": 96,
+        "reference_panels_valid": 96,
+        "zero_prediction_panels": 0,
+        "undefined_reference_panels": 0,
+        "mean_direction_cosine": 0.869428393940019,
+        "mean_beam_loss_db": 1.9960943227390395,
+        "infinite_mean_beam_loss": false,
+        "p90_beam_loss_db": 6.094830899684966,
+        "beam_loss_over3_fraction": 0.28125,
+        "reference_mask_depends_on_prediction": false
+      },
+      "prediction_file": "artifacts/measured/hall_sw_structured_development_v2/models/ours_delay/best_channel.npz",
+      "prediction_sha256": "6d096e80acbb19351bec3fc5d3b2498eb24ee3a0cd6620b3316fa6c006563bc0",
+      "explicit_row_ids": true,
+      "row_provenance": "explicit NPZ IDs",
+      "old_metric_parity": {
+        "direction_cosine_difference": 5.7319688218093745e-08,
+        "beam_loss_difference": 2.330740822564792e-08
+      },
+      "best_epoch": 20,
+      "checkpoint_selection": "unchanged old metric selection; no new epoch search",
+      "regenerated": false
+    },
+    {
+      "name": "ours_trust",
+      "label": "新版含几何：较低几何权重",
+      "family": "structured",
+      "status": "ok",
+      "scores": {
+        "pas_cosine": 0.7097945770970184,
+        "relative_pdp_cosine": 0.5578293334208926,
+        "receive_energy_TV": 0.24676544176760185,
+        "receive_delay_joint_TV": 0.5907772978700003,
+        "by_panel": {
+          "pas_cosine": [
+            0.7369951032828204,
+            0.6825940509112164
+          ],
+          "relative_pdp_cosine": [
+            0.5979070304592585,
+            0.5177516363825267
+          ],
+          "receive_energy_TV": [
+            0.23781050689623076,
+            0.2557203766389729
+          ],
+          "receive_delay_joint_TV": [
+            0.5671095122959534,
+            0.6144450834440474
+          ]
+        },
+        "reference_valid_pas_cells": 98304,
+        "reference_valid_pdp_links": 3072,
+        "reference_valid_energy_panels": 96,
+        "reference_valid_joint_panels": 96,
+        "invalid_reference_anchors": 0,
+        "failed_prediction_pdp_links": 0,
+        "failed_prediction_energy_panels": 0,
+        "prediction_oracle_alignment": false,
+        "combined_score": null
+      },
+      "auxiliary": {
+        "reference_panels_total": 96,
+        "reference_panels_valid": 96,
+        "zero_prediction_panels": 0,
+        "undefined_reference_panels": 0,
+        "mean_direction_cosine": 0.8662023043303866,
+        "mean_beam_loss_db": 1.600374366651221,
+        "infinite_mean_beam_loss": false,
+        "p90_beam_loss_db": 5.190340047100465,
+        "beam_loss_over3_fraction": 0.23958333333333334,
+        "reference_mask_depends_on_prediction": false
+      },
+      "prediction_file": "artifacts/measured/hall_sw_structured_development_v2/models/ours_trust/best_channel.npz",
+      "prediction_sha256": "52a54ba3acd0e21fb46fbcf52320e51b5ec44207a0317b693ac244e94a179361",
+      "explicit_row_ids": true,
+      "row_provenance": "explicit NPZ IDs",
+      "old_metric_parity": {
+        "direction_cosine_difference": 5.010076575828748e-08,
+        "beam_loss_difference": 1.4484946309067936e-07
+      },
+      "best_epoch": 20,
+      "checkpoint_selection": "unchanged old metric selection; no new epoch search",
+      "regenerated": false
+    },
+    {
+      "name": "ours_frequency",
+      "label": "新版含几何：强化频率监督",
+      "family": "structured",
+      "status": "ok",
+      "scores": {
+        "pas_cosine": 0.7072335706142534,
+        "relative_pdp_cosine": 0.5640098559867284,
+        "receive_energy_TV": 0.2481775693960775,
+        "receive_delay_joint_TV": 0.5863484518228481,
+        "by_panel": {
+          "pas_cosine": [
+            0.7410886722764412,
+            0.6733784689520658
+          ],
+          "relative_pdp_cosine": [
+            0.6243765518232212,
+            0.5036431601502355
+          ],
+          "receive_energy_TV": [
+            0.23469047947581587,
+            0.2616646593163391
+          ],
+          "receive_delay_joint_TV": [
+            0.5509864003870756,
+            0.6217105032586208
+          ]
+        },
+        "reference_valid_pas_cells": 98304,
+        "reference_valid_pdp_links": 3072,
+        "reference_valid_energy_panels": 96,
+        "reference_valid_joint_panels": 96,
+        "invalid_reference_anchors": 0,
+        "failed_prediction_pdp_links": 0,
+        "failed_prediction_energy_panels": 0,
+        "prediction_oracle_alignment": false,
+        "combined_score": null
+      },
+      "auxiliary": {
+        "reference_panels_total": 96,
+        "reference_panels_valid": 96,
+        "zero_prediction_panels": 0,
+        "undefined_reference_panels": 0,
+        "mean_direction_cosine": 0.8626168328029046,
+        "mean_beam_loss_db": 1.9015469947179688,
+        "infinite_mean_beam_loss": false,
+        "p90_beam_loss_db": 6.0357116888542395,
+        "beam_loss_over3_fraction": 0.25,
+        "reference_mask_depends_on_prediction": false
+      },
+      "prediction_file": "artifacts/measured/hall_sw_structured_development_v2/models/ours_frequency/best_channel.npz",
+      "prediction_sha256": "f57f8da4eccd3953d2bde9cb3ddcaa064fa8977ab5dd11eeef9648e7b459f066",
+      "explicit_row_ids": true,
+      "row_provenance": "explicit NPZ IDs",
+      "old_metric_parity": {
+        "direction_cosine_difference": 4.221784144498031e-09,
+        "beam_loss_difference": 1.5881861581412693e-07
+      },
+      "best_epoch": 35,
+      "checkpoint_selection": "unchanged old metric selection; no new epoch search",
+      "regenerated": false
+    },
+    {
+      "name": "no_geometry_default",
+      "label": "新版：去掉几何",
+      "family": "full",
+      "status": "ok",
+      "scores": {
+        "pas_cosine": 0.7287927787683912,
+        "relative_pdp_cosine": 0.5634903343369422,
+        "receive_energy_TV": 0.22410716430063646,
+        "receive_delay_joint_TV": 0.5870468206699829,
+        "by_panel": {
+          "pas_cosine": [
+            0.7575136932689933,
+            0.7000718642677891
+          ],
+          "relative_pdp_cosine": [
+            0.6093198724519754,
+            0.517660796221909
+          ],
+          "receive_energy_TV": [
+            0.21018096414256446,
+            0.23803336445870846
+          ],
+          "receive_delay_joint_TV": [
+            0.5572058021057528,
+            0.6168878392342131
+          ]
+        },
+        "reference_valid_pas_cells": 98304,
+        "reference_valid_pdp_links": 3072,
+        "reference_valid_energy_panels": 96,
+        "reference_valid_joint_panels": 96,
+        "invalid_reference_anchors": 0,
+        "failed_prediction_pdp_links": 0,
+        "failed_prediction_energy_panels": 0,
+        "prediction_oracle_alignment": false,
+        "combined_score": null
+      },
+      "auxiliary": {
+        "reference_panels_total": 96,
+        "reference_panels_valid": 96,
+        "zero_prediction_panels": 0,
+        "undefined_reference_panels": 0,
+        "mean_direction_cosine": 0.8686166088886482,
+        "mean_beam_loss_db": 1.6110880642434715,
+        "infinite_mean_beam_loss": false,
+        "p90_beam_loss_db": 5.274402378587615,
+        "beam_loss_over3_fraction": 0.2708333333333333,
+        "reference_mask_depends_on_prediction": false
+      },
+      "prediction_file": "artifacts/measured/hall_sw_structured_development_v2/models/no_geometry_default/best_channel.npz",
+      "prediction_sha256": "27287140cc13b98a8f926a6baeb1f4f9af87542c61bf1066d574247f03bf3b5c",
+      "explicit_row_ids": true,
+      "row_provenance": "explicit NPZ IDs",
+      "old_metric_parity": {
+        "direction_cosine_difference": 2.7925513457205398e-08,
+        "beam_loss_difference": 1.459619163313164e-07
+      },
+      "best_epoch": 30,
+      "checkpoint_selection": "unchanged old metric selection; no new epoch search",
+      "regenerated": false
+    },
+    {
+      "name": "spectral_mlp_w1",
+      "label": "位置MLP：标准损失",
+      "family": "full",
+      "status": "ok",
+      "scores": {
+        "pas_cosine": 0.6109479905488617,
+        "relative_pdp_cosine": 0.5029559278091259,
+        "receive_energy_TV": 0.23647078451296127,
+        "receive_delay_joint_TV": 0.6416691359763766,
+        "by_panel": {
+          "pas_cosine": [
+            0.595344846235224,
+            0.6265511348624996
+          ],
+          "relative_pdp_cosine": [
+            0.557363967307108,
+            0.4485478883111438
+          ],
+          "receive_energy_TV": [
+            0.23054081838562843,
+            0.2424007506402941
+          ],
+          "receive_delay_joint_TV": [
+            0.6206205075592082,
+            0.662717764393545
+          ]
+        },
+        "reference_valid_pas_cells": 98304,
+        "reference_valid_pdp_links": 3072,
+        "reference_valid_energy_panels": 96,
+        "reference_valid_joint_panels": 96,
+        "invalid_reference_anchors": 0,
+        "failed_prediction_pdp_links": 0,
+        "failed_prediction_energy_panels": 0,
+        "prediction_oracle_alignment": false,
+        "combined_score": null
+      },
+      "auxiliary": {
+        "reference_panels_total": 96,
+        "reference_panels_valid": 96,
+        "zero_prediction_panels": 0,
+        "undefined_reference_panels": 0,
+        "mean_direction_cosine": 0.8434308431456342,
+        "mean_beam_loss_db": 2.172635350918745,
+        "infinite_mean_beam_loss": false,
+        "p90_beam_loss_db": 6.087079948228622,
+        "beam_loss_over3_fraction": 0.3645833333333333,
+        "reference_mask_depends_on_prediction": false
+      },
+      "prediction_file": "artifacts/measured/hall_sw_structured_development_v2/models/spectral_mlp_w1/best_channel.npz",
+      "prediction_sha256": "f8b35467010948a4cd2704ab917d8d2fdd90604aa2eb6e6f5fa886c4556aff09",
+      "explicit_row_ids": true,
+      "row_provenance": "explicit NPZ IDs",
+      "old_metric_parity": {
+        "direction_cosine_difference": 8.562305120474178e-08,
+        "beam_loss_difference": 3.4069989940377354e-08
+      },
+      "best_epoch": 25,
+      "checkpoint_selection": "unchanged old metric selection; no new epoch search",
+      "regenerated": false
+    },
+    {
+      "name": "spectral_mlp_w4",
+      "label": "位置MLP：强化频率监督",
+      "family": "full",
+      "status": "ok",
+      "scores": {
+        "pas_cosine": 0.6138799387513869,
+        "relative_pdp_cosine": 0.5264395044114272,
+        "receive_energy_TV": 0.24291141598233212,
+        "receive_delay_joint_TV": 0.6180538381947799,
+        "by_panel": {
+          "pas_cosine": [
+            0.5962937640203373,
+            0.6314661134824365
+          ],
+          "relative_pdp_cosine": [
+            0.6006483128419974,
+            0.4522306959808569
+          ],
+          "receive_energy_TV": [
+            0.2429317828214218,
+            0.24289104914324247
+          ],
+          "receive_delay_joint_TV": [
+            0.5799436193418314,
+            0.6561640570477284
+          ]
+        },
+        "reference_valid_pas_cells": 98304,
+        "reference_valid_pdp_links": 3072,
+        "reference_valid_energy_panels": 96,
+        "reference_valid_joint_panels": 96,
+        "invalid_reference_anchors": 0,
+        "failed_prediction_pdp_links": 0,
+        "failed_prediction_energy_panels": 0,
+        "prediction_oracle_alignment": false,
+        "combined_score": null
+      },
+      "auxiliary": {
+        "reference_panels_total": 96,
+        "reference_panels_valid": 96,
+        "zero_prediction_panels": 0,
+        "undefined_reference_panels": 0,
+        "mean_direction_cosine": 0.832591692041321,
+        "mean_beam_loss_db": 2.1906543834804784,
+        "infinite_mean_beam_loss": false,
+        "p90_beam_loss_db": 6.087079948228622,
+        "beam_loss_over3_fraction": 0.3333333333333333,
+        "reference_mask_depends_on_prediction": false
+      },
+      "prediction_file": "artifacts/measured/hall_sw_structured_development_v2/models/spectral_mlp_w4/best_channel.npz",
+      "prediction_sha256": "0728aaf9084612314b6e999a0c9d8ab31243c6d1b6a369478e163f60745b6e86",
+      "explicit_row_ids": true,
+      "row_provenance": "explicit NPZ IDs",
+      "old_metric_parity": {
+        "direction_cosine_difference": 8.003814677692844e-08,
+        "beam_loss_difference": 1.3273961441129245e-07
+      },
+      "best_epoch": 30,
+      "checkpoint_selection": "unchanged old metric selection; no new epoch search",
+      "regenerated": false
+    },
+    {
+      "name": "ours_phase_safe",
+      "label": "旧版：功率融合底座",
+      "family": "historical",
+      "status": "ok",
+      "scores": {
+        "pas_cosine": 0.7118655730122132,
+        "relative_pdp_cosine": 0.6075840893625062,
+        "receive_energy_TV": 0.2644734590438146,
+        "receive_delay_joint_TV": 0.5569393526724805,
+        "by_panel": {
+          "pas_cosine": [
+            0.7294383529849459,
+            0.6942927930394805
+          ],
+          "relative_pdp_cosine": [
+            0.6688472655027334,
+            0.5463209132222789
+          ],
+          "receive_energy_TV": [
+            0.2566860463634851,
+            0.27226087172414404
+          ],
+          "receive_delay_joint_TV": [
+            0.5193415927241096,
+            0.5945371126208514
+          ]
+        },
+        "reference_valid_pas_cells": 98304,
+        "reference_valid_pdp_links": 3072,
+        "reference_valid_energy_panels": 96,
+        "reference_valid_joint_panels": 96,
+        "invalid_reference_anchors": 0,
+        "failed_prediction_pdp_links": 0,
+        "failed_prediction_energy_panels": 0,
+        "prediction_oracle_alignment": false,
+        "combined_score": null
+      },
+      "auxiliary": {
+        "reference_panels_total": 96,
+        "reference_panels_valid": 96,
+        "zero_prediction_panels": 0,
+        "undefined_reference_panels": 0,
+        "mean_direction_cosine": 0.874230444027481,
+        "mean_beam_loss_db": 1.803003064898722,
+        "infinite_mean_beam_loss": false,
+        "p90_beam_loss_db": 6.087079948228622,
+        "beam_loss_over3_fraction": 0.3020833333333333,
+        "reference_mask_depends_on_prediction": false
+      },
+      "prediction_file": "artifacts/measured/hall_sw_development_v1/models/ours_phase_safe/best_channel.npz",
+      "prediction_sha256": "0a5eafb73a8ab3b9af2b8cb87828fad4ec97f4c5f773cad0243f51a4d4a6901b",
+      "explicit_row_ids": false,
+      "row_provenance": "old fixed48-row contract plus reproduced original direction/beam scores",
+      "old_metric_parity": {
+        "direction_cosine_difference": 1.4616643451148548e-09,
+        "beam_loss_difference": 2.798148823757174e-09
+      },
+      "best_epoch": 5,
+      "checkpoint_selection": "unchanged old metric selection; no new epoch search",
+      "regenerated": false
+    },
+    {
+      "name": "ours_config0_v2",
+      "label": "旧版：复数底座设置1",
+      "family": "historical",
+      "status": "ok",
+      "scores": {
+        "pas_cosine": 0.7008917474362315,
+        "relative_pdp_cosine": 0.595683888535957,
+        "receive_energy_TV": 0.3081721896387445,
+        "receive_delay_joint_TV": 0.590510986197506,
+        "by_panel": {
+          "pas_cosine": [
+            0.7060375389951327,
+            0.6957459558773303
+          ],
+          "relative_pdp_cosine": [
+            0.6790372552811069,
+            0.512330521790807
+          ],
+          "receive_energy_TV": [
+            0.3413183973179969,
+            0.27502598195949207
+          ],
+          "receive_delay_joint_TV": [
+            0.5541515560770626,
+            0.6268704163179494
+          ]
+        },
+        "reference_valid_pas_cells": 98304,
+        "reference_valid_pdp_links": 3072,
+        "reference_valid_energy_panels": 96,
+        "reference_valid_joint_panels": 96,
+        "invalid_reference_anchors": 0,
+        "failed_prediction_pdp_links": 0,
+        "failed_prediction_energy_panels": 0,
+        "prediction_oracle_alignment": false,
+        "combined_score": null
+      },
+      "auxiliary": {
+        "reference_panels_total": 96,
+        "reference_panels_valid": 96,
+        "zero_prediction_panels": 0,
+        "undefined_reference_panels": 0,
+        "mean_direction_cosine": 0.8572239644539335,
+        "mean_beam_loss_db": 1.8095187800624266,
+        "infinite_mean_beam_loss": false,
+        "p90_beam_loss_db": 6.070781487942327,
+        "beam_loss_over3_fraction": 0.28125,
+        "reference_mask_depends_on_prediction": false
+      },
+      "prediction_file": "artifacts/measured/hall_sw_development_v1/models/ours_config0_v2/best_channel.npz",
+      "prediction_sha256": "d01eee804909f37c3c7609941809291f90fcefe3049ea317996d01332868e988",
+      "explicit_row_ids": false,
+      "row_provenance": "old fixed48-row contract plus reproduced original direction/beam scores",
+      "old_metric_parity": {
+        "direction_cosine_difference": 9.617118212901232e-11,
+        "beam_loss_difference": 5.950221204642503e-09
+      },
+      "best_epoch": 5,
+      "checkpoint_selection": "unchanged old metric selection; no new epoch search",
+      "regenerated": false
+    },
+    {
+      "name": "ours_config1_v2",
+      "label": "旧版：复数底座设置2",
+      "family": "historical",
+      "status": "ok",
+      "scores": {
+        "pas_cosine": 0.7002295451353978,
+        "relative_pdp_cosine": 0.596321820014146,
+        "receive_energy_TV": 0.3089901924901658,
+        "receive_delay_joint_TV": 0.5904306285429883,
+        "by_panel": {
+          "pas_cosine": [
+            0.7039512160766538,
+            0.6965078741941418
+          ],
+          "relative_pdp_cosine": [
+            0.6794894440955742,
+            0.5131541959327177
+          ],
+          "receive_energy_TV": [
+            0.34186915470928775,
+            0.27611123027104384
+          ],
+          "receive_delay_joint_TV": [
+            0.5540591799755629,
+            0.6268020771104137
+          ]
+        },
+        "reference_valid_pas_cells": 98304,
+        "reference_valid_pdp_links": 3072,
+        "reference_valid_energy_panels": 96,
+        "reference_valid_joint_panels": 96,
+        "invalid_reference_anchors": 0,
+        "failed_prediction_pdp_links": 0,
+        "failed_prediction_energy_panels": 0,
+        "prediction_oracle_alignment": false,
+        "combined_score": null
+      },
+      "auxiliary": {
+        "reference_panels_total": 96,
+        "reference_panels_valid": 96,
+        "zero_prediction_panels": 0,
+        "undefined_reference_panels": 0,
+        "mean_direction_cosine": 0.8531637077611514,
+        "mean_beam_loss_db": 2.048000458697063,
+        "infinite_mean_beam_loss": false,
+        "p90_beam_loss_db": 6.070781487942327,
+        "beam_loss_over3_fraction": 0.3125,
+        "reference_mask_depends_on_prediction": false
+      },
+      "prediction_file": "artifacts/measured/hall_sw_development_v1/models/ours_config1_v2/best_channel.npz",
+      "prediction_sha256": "8a7388bc77519429ee2826c50424da317a6c95918cf36d9ba55deefa8b6dab2b",
+      "explicit_row_ids": false,
+      "row_provenance": "old fixed48-row contract plus reproduced original direction/beam scores",
+      "old_metric_parity": {
+        "direction_cosine_difference": 2.8204318880398205e-09,
+        "beam_loss_difference": 9.297223435567048e-09
+      },
+      "best_epoch": 25,
+      "checkpoint_selection": "unchanged old metric selection; no new epoch search",
+      "regenerated": false
+    }
+  ],
+  "broadband_only_records": [
+    {
+      "name": "wrf_g64",
+      "label": "WRF-GS+：64基元",
+      "status": "primary_not_applicable",
+      "scores": {
+        "pas_cosine": null,
+        "relative_pdp_cosine": null,
+        "receive_energy_TV": null,
+        "receive_delay_joint_TV": null
+      },
+      "auxiliary": {
+        "reference_panels_total": 96,
+        "reference_panels_valid": 96,
+        "zero_prediction_panels": 0,
+        "undefined_reference_panels": 0,
+        "mean_direction_cosine": 0.88007111551953,
+        "mean_beam_loss_db": 1.6779283178550468,
+        "infinite_mean_beam_loss": false,
+        "p90_beam_loss_db": 5.190340047100465,
+        "beam_loss_over3_fraction": 0.2604166666666667,
+        "reference_mask_depends_on_prediction": false
+      },
+      "prediction_file": "artifacts/measured/hall_sw_development_v1/models/wrf_g64/best_power.npz",
+      "prediction_sha256": "61e9b7ef1574d761660292651118df0d896a474deb83c5c2b330f425c4367dce",
+      "reason": "Broadband directional beam power is not a frequency-resolved complex channel or physical receive-element power."
+    },
+    {
+      "name": "wrf_g128",
+      "label": "WRF-GS+：128基元",
+      "status": "primary_not_applicable",
+      "scores": {
+        "pas_cosine": null,
+        "relative_pdp_cosine": null,
+        "receive_energy_TV": null,
+        "receive_delay_joint_TV": null
+      },
+      "auxiliary": {
+        "reference_panels_total": 96,
+        "reference_panels_valid": 96,
+        "zero_prediction_panels": 0,
+        "undefined_reference_panels": 0,
+        "mean_direction_cosine": 0.880284678050109,
+        "mean_beam_loss_db": 1.1109296064249725,
+        "infinite_mean_beam_loss": false,
+        "p90_beam_loss_db": 3.923552513686361,
+        "beam_loss_over3_fraction": 0.15625,
+        "reference_mask_depends_on_prediction": false
+      },
+      "prediction_file": "artifacts/measured/hall_sw_development_v1/models/wrf_g128/best_power.npz",
+      "prediction_sha256": "a88930e2c5aead092830c36fe8fc30c8b0c211cdbea1fc3ab97e06606c0f2526",
+      "reason": "Broadband directional beam power is not a frequency-resolved complex channel or physical receive-element power."
+    },
+    {
+      "name": "mlp_levels3",
+      "label": "原宽带功率MLP：设置1",
+      "status": "primary_not_applicable",
+      "scores": {
+        "pas_cosine": null,
+        "relative_pdp_cosine": null,
+        "receive_energy_TV": null,
+        "receive_delay_joint_TV": null
+      },
+      "auxiliary": {
+        "reference_panels_total": 96,
+        "reference_panels_valid": 96,
+        "zero_prediction_panels": 0,
+        "undefined_reference_panels": 0,
+        "mean_direction_cosine": 0.8755682575352965,
+        "mean_beam_loss_db": 1.519675706947482,
+        "infinite_mean_beam_loss": false,
+        "p90_beam_loss_db": 4.924957286714483,
+        "beam_loss_over3_fraction": 0.20833333333333334,
+        "reference_mask_depends_on_prediction": false
+      },
+      "prediction_file": "artifacts/measured/hall_sw_development_v1/models/mlp_levels3/best_power.npz",
+      "prediction_sha256": "0393e17e6f7de972501c460f82085acbf63b1ac8a1508bacdc16965c5dc83846",
+      "reason": "Broadband directional beam power is not a frequency-resolved complex channel or physical receive-element power."
+    },
+    {
+      "name": "mlp_levels6",
+      "label": "原宽带功率MLP：设置2",
+      "status": "primary_not_applicable",
+      "scores": {
+        "pas_cosine": null,
+        "relative_pdp_cosine": null,
+        "receive_energy_TV": null,
+        "receive_delay_joint_TV": null
+      },
+      "auxiliary": {
+        "reference_panels_total": 96,
+        "reference_panels_valid": 96,
+        "zero_prediction_panels": 0,
+        "undefined_reference_panels": 0,
+        "mean_direction_cosine": 0.8749953687483326,
+        "mean_beam_loss_db": 1.2112695514189273,
+        "infinite_mean_beam_loss": false,
+        "p90_beam_loss_db": 4.144528434759418,
+        "beam_loss_over3_fraction": 0.17708333333333334,
+        "reference_mask_depends_on_prediction": false
+      },
+      "prediction_file": "artifacts/measured/hall_sw_development_v1/models/mlp_levels6/best_power.npz",
+      "prediction_sha256": "f336e0310c8c8e6483a5a6a9a543b89a1215e1dbc7a92fe7e073673a1c4e4073",
+      "reason": "Broadband directional beam power is not a frequency-resolved complex channel or physical receive-element power."
+    }
+  ],
+  "receive_energy_controls": [
+    {
+      "name": "uniform_receive_allocation",
+      "receive_energy_TV": 0.2203332332064955,
+      "by_panel": [
+        0.21306996375320308,
+        0.2275965026597879
+      ],
+      "primary_not_applicable": true,
+      "joint_not_applicable": true,
+      "scope": "Allocation-only fixed statistical reference; no complex signal invented."
+    },
+    {
+      "name": "FIT_mean_receive_allocation",
+      "receive_energy_TV": 0.21566727216977138,
+      "by_panel": [
+        0.208917745115621,
+        0.2224167992239218
+      ],
+      "primary_not_applicable": true,
+      "joint_not_applicable": true,
+      "scope": "Allocation-only fixed statistical reference; no complex signal invented."
+    }
+  ],
+  "paired_position_comparisons": [
+    {
+      "ours": "ours_default",
+      "other": "frequency_RBF",
+      "metrics": {
+        "pas_cosine": {
+          "positions": 48,
+          "ours_better": 12,
+          "ties": 0,
+          "ours_worse": 36,
+          "mean_ours_minus_other": -0.03002552271153643
+        },
+        "relative_pdp_cosine": {
+          "positions": 48,
+          "ours_better": 17,
+          "ties": 0,
+          "ours_worse": 31,
+          "mean_ours_minus_other": -0.018101312280744995
+        },
+        "receive_energy_TV": {
+          "positions": 48,
+          "ours_better": 39,
+          "ties": 0,
+          "ours_worse": 9,
+          "mean_ours_minus_other": -0.03482678060876498
+        },
+        "receive_delay_joint_TV": {
+          "positions": 48,
+          "ours_better": 24,
+          "ties": 0,
+          "ours_worse": 24,
+          "mean_ours_minus_other": 0.001409488795973896
+        }
+      },
+      "scope": "Descriptive48-position counts in one reused block; no p-value or confirmatory CI."
+    },
+    {
+      "ours": "ours_default",
+      "other": "no_geometry_default",
+      "metrics": {
+        "pas_cosine": {
+          "positions": 48,
+          "ours_better": 28,
+          "ties": 0,
+          "ours_worse": 20,
+          "mean_ours_minus_other": 0.0018617674609463831
+        },
+        "relative_pdp_cosine": {
+          "positions": 48,
+          "ours_better": 22,
+          "ties": 0,
+          "ours_worse": 26,
+          "mean_ours_minus_other": 0.0010130839525118302
+        },
+        "receive_energy_TV": {
+          "positions": 48,
+          "ours_better": 17,
+          "ties": 0,
+          "ours_worse": 31,
+          "mean_ours_minus_other": 0.004197932887928761
+        },
+        "receive_delay_joint_TV": {
+          "positions": 48,
+          "ours_better": 17,
+          "ties": 0,
+          "ours_worse": 31,
+          "mean_ours_minus_other": -0.00015038746347697737
+        }
+      },
+      "scope": "Descriptive48-position counts in one reused block; no p-value or confirmatory CI."
+    },
+    {
+      "ours": "ours_default",
+      "other": "ours_phase_safe",
+      "metrics": {
+        "pas_cosine": {
+          "positions": 48,
+          "ours_better": 32,
+          "ties": 0,
+          "ours_worse": 16,
+          "mean_ours_minus_other": 0.018788973217124295
+        },
+        "relative_pdp_cosine": {
+          "positions": 48,
+          "ours_better": 12,
+          "ties": 0,
+          "ours_worse": 36,
+          "mean_ours_minus_other": -0.04308067107305217
+        },
+        "receive_energy_TV": {
+          "positions": 48,
+          "ours_better": 43,
+          "ties": 0,
+          "ours_worse": 5,
+          "mean_ours_minus_other": -0.03616836185524936
+        },
+        "receive_delay_joint_TV": {
+          "positions": 48,
+          "ours_better": 16,
+          "ties": 0,
+          "ours_worse": 32,
+          "mean_ours_minus_other": 0.029957080534025446
+        }
+      },
+      "scope": "Descriptive48-position counts in one reused block; no p-value or confirmatory CI."
+    },
+    {
+      "ours": "ours_default",
+      "other": "spectral_mlp_w1",
+      "metrics": {
+        "pas_cosine": {
+          "positions": 48,
+          "ours_better": 47,
+          "ties": 0,
+          "ours_worse": 1,
+          "mean_ours_minus_other": 0.11970655568047577
+        },
+        "relative_pdp_cosine": {
+          "positions": 48,
+          "ours_better": 39,
+          "ties": 0,
+          "ours_worse": 9,
+          "mean_ours_minus_other": 0.061547490480328086
+        },
+        "receive_energy_TV": {
+          "positions": 48,
+          "ours_better": 29,
+          "ties": 0,
+          "ours_worse": 19,
+          "mean_ours_minus_other": -0.008165687324396043
+        },
+        "receive_delay_joint_TV": {
+          "positions": 48,
+          "ours_better": 41,
+          "ties": 0,
+          "ours_worse": 7,
+          "mean_ours_minus_other": -0.05477270276987068
+        }
+      },
+      "scope": "Descriptive48-position counts in one reused block; no p-value or confirmatory CI."
+    }
+  ],
+  "independent_arithmetic": [
+    {
+      "name": "frequency_RBF",
+      "rows": [
+        1,
+        38,
+        537
+      ],
+      "independent_differences": [
+        {
+          "pas_cosine": 0.0,
+          "relative_pdp_cosine": 0.0,
+          "receive_energy_TV": 0.0,
+          "receive_delay_joint_TV": 0.0
+        },
+        {
+          "pas_cosine": 1.1102230246251565e-16,
+          "relative_pdp_cosine": 1.1102230246251565e-16,
+          "receive_energy_TV": 0.0,
+          "receive_delay_joint_TV": 0.0
+        },
+        {
+          "pas_cosine": 0.0,
+          "relative_pdp_cosine": 3.3306690738754696e-16,
+          "receive_energy_TV": 0.0,
+          "receive_delay_joint_TV": 3.3306690738754696e-16
+        }
+      ]
+    },
+    {
+      "name": "ours_default",
+      "rows": [
+        1,
+        38,
+        537
+      ],
+      "independent_differences": [
+        {
+          "pas_cosine": 1.1102230246251565e-16,
+          "relative_pdp_cosine": 3.885780586188048e-16,
+          "receive_energy_TV": 0.0,
+          "receive_delay_joint_TV": 2.220446049250313e-16
+        },
+        {
+          "pas_cosine": 1.1102230246251565e-16,
+          "relative_pdp_cosine": 4.440892098500626e-16,
+          "receive_energy_TV": 0.0,
+          "receive_delay_joint_TV": 2.220446049250313e-16
+        },
+        {
+          "pas_cosine": 1.1102230246251565e-16,
+          "relative_pdp_cosine": 0.0,
+          "receive_energy_TV": 0.0,
+          "receive_delay_joint_TV": 5.551115123125783e-17
+        }
+      ]
+    },
+    {
+      "name": "no_geometry_default",
+      "rows": [
+        1,
+        38,
+        537
+      ],
+      "independent_differences": [
+        {
+          "pas_cosine": 0.0,
+          "relative_pdp_cosine": 3.3306690738754696e-16,
+          "receive_energy_TV": 0.0,
+          "receive_delay_joint_TV": 1.1102230246251565e-16
+        },
+        {
+          "pas_cosine": 0.0,
+          "relative_pdp_cosine": 1.1102230246251565e-16,
+          "receive_energy_TV": 0.0,
+          "receive_delay_joint_TV": 1.1102230246251565e-16
+        },
+        {
+          "pas_cosine": 0.0,
+          "relative_pdp_cosine": 4.440892098500626e-16,
+          "receive_energy_TV": 0.0,
+          "receive_delay_joint_TV": 2.220446049250313e-16
+        }
+      ]
+    },
+    {
+      "name": "spectral_mlp_w1",
+      "rows": [
+        1,
+        38,
+        537
+      ],
+      "independent_differences": [
+        {
+          "pas_cosine": 0.0,
+          "relative_pdp_cosine": 1.1102230246251565e-16,
+          "receive_energy_TV": 0.0,
+          "receive_delay_joint_TV": 0.0
+        },
+        {
+          "pas_cosine": 0.0,
+          "relative_pdp_cosine": 1.1102230246251565e-16,
+          "receive_energy_TV": 0.0,
+          "receive_delay_joint_TV": 1.1102230246251565e-16
+        },
+        {
+          "pas_cosine": 0.0,
+          "relative_pdp_cosine": 4.440892098500626e-16,
+          "receive_energy_TV": 0.0,
+          "receive_delay_joint_TV": 3.3306690738754696e-16
+        }
+      ]
+    },
+    {
+      "name": "ours_phase_safe",
+      "rows": [
+        1,
+        38,
+        537
+      ],
+      "independent_differences": [
+        {
+          "pas_cosine": 0.0,
+          "relative_pdp_cosine": 1.1102230246251565e-16,
+          "receive_energy_TV": 0.0,
+          "receive_delay_joint_TV": 0.0
+        },
+        {
+          "pas_cosine": 0.0,
+          "relative_pdp_cosine": 1.1102230246251565e-16,
+          "receive_energy_TV": 0.0,
+          "receive_delay_joint_TV": 1.1102230246251565e-16
+        },
+        {
+          "pas_cosine": 1.1102230246251565e-16,
+          "relative_pdp_cosine": 0.0,
+          "receive_energy_TV": 0.0,
+          "receive_delay_joint_TV": 5.551115123125783e-17
+        }
+      ]
+    }
+  ],
+  "data_access": [
+    {
+      "fold": 0,
+      "role": "fit",
+      "rows": [
+        0,
+        148,
+        524,
+        419,
+        604,
+        508,
+        118,
+        294,
+        418,
+        569,
+        372,
+        623,
+        169,
+        136,
+        212,
+        422,
+        371,
+        544,
+        446,
+        338,
+        602,
+        23,
+        63,
+        380,
+        488,
+        547,
+        358,
+        199,
+        62,
+        573,
+        15,
+        588,
+        406,
+        400,
+        534,
+        269,
+        65,
+        540,
+        32,
+        413,
+        407,
+        149,
+        221,
+        553,
+        376,
+        369,
+        444,
+        404,
+        389,
+        92,
+        160,
+        129,
+        264,
+        172,
+        337,
+        557,
+        285,
+        482,
+        460,
+        511,
+        232,
+        181,
+        543,
+        373,
+        57,
+        415,
+        88,
+        46,
+        168,
+        151,
+        263,
+        131,
+        51,
+        138,
+        243,
+        336,
+        554,
+        47,
+        61,
+        200,
+        257,
+        251,
+        141,
+        99,
+        254,
+        77,
+        390,
+        217,
+        529,
+        613,
+        506,
+        190,
+        364,
+        218,
+        279,
+        293
+      ]
+    },
+    {
+      "fold": 0,
+      "role": "validation",
+      "rows": [
+        1,
+        38,
+        537,
+        502,
+        193,
+        270,
+        219,
+        284,
+        342,
+        108,
+        523,
+        622,
+        130,
+        147,
+        398,
+        545,
+        165,
+        255,
+        566,
+        101,
+        585,
+        296,
+        522,
+        475,
+        451,
+        624,
+        463,
+        69,
+        145,
+        320,
+        335,
+        209,
+        90,
+        214,
+        228,
+        410,
+        155,
+        34,
+        391,
+        7,
+        152,
+        500,
+        278,
+        43,
+        231,
+        222,
+        240,
+        309
+      ],
+      "purpose": "explicit development evaluator"
+    }
+  ],
+  "excluded": [
+    "8-point tiny/health outputs: not the48-position validation role",
+    "uncorrected historical first-attempt power-only outputs: superseded implementation/evaluation error; preserved, not mixed into valid models"
+  ],
+  "seconds": 39.079804670996964,
+  "peak_RSS_MiB": 1054.640625
+}
