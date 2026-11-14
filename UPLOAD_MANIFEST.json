@@ -12,8 +12,8 @@
     },
     {
       "path": "HANDOFF.md",
-      "bytes": 2604,
-      "sha256": "adc6d9f86e299b22fef4913cecac5eafe7ff6c1c9cd05d16a65ef7714e2d270d",
+      "bytes": 2853,
+      "sha256": "99541f70fb06657bcef87f9572e5f053de1b755add439fd327e9f0e7d6f2602e",
       "kind": "source"
     },
     {
@@ -15800,7 +15800,7 @@
   "counts": {
     "source_files": 2629,
     "generated_files": 3,
-    "bytes": 68319730
+    "bytes": 68319979
   },
   "derivation": {
     "prediction_snr_source": "analysis/results/round2_paper_four_baselines_v1/freqminibatch_20261112/evaluation/comparison.json",
@@ -15820,5 +15820,12 @@
     "preservation-before inventories",
     "official task documents",
     "unrelated projects"
-  ]
+  ],
+  "upload_verification": {
+    "source_snapshot_commit": "63a8da0b63fb84348ed43c938ab1213be9bd045e",
+    "branch": "main",
+    "verified_files": 2633,
+    "remote_blob_hashes_matched": true,
+    "date": "2026-11-14"
+  }
 }
